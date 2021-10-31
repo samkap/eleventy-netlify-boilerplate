@@ -4,14 +4,14 @@ const UglifyJS = require("uglify-js");
 const htmlmin = require("html-minifier");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 
-module.exports = function(eleventyConfig) {
+module.exports = function (eleventyConfig) {
 
   // Eleventy Navigation https://www.11ty.dev/docs/plugins/navigation/
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
 
   // Configuration API: use eleventyConfig.addLayoutAlias(from, to) to add
   // layout aliases! Say you have a bunch of existing content using
-  // layout: post. If you don’t want to rewrite all of those values, just map
+  // . If you don’t want to rewrite all of those values, just map
   // post to a new file like this:
   // eleventyConfig.addLayoutAlias("post", "layouts/my_new_post_layout.njk");
 
@@ -48,12 +48,12 @@ module.exports = function(eleventyConfig) {
   });
 
   // Minify CSS
-  eleventyConfig.addFilter("cssmin", function(code) {
+  eleventyConfig.addFilter("cssmin", function (code) {
     return new CleanCSS({}).minify(code).styles;
   });
 
   // Minify JS
-  eleventyConfig.addFilter("jsmin", function(code) {
+  eleventyConfig.addFilter("jsmin", function (code) {
     let minified = UglifyJS.minify(code);
     if (minified.error) {
       console.log("UglifyJS error: ", minified.error);
@@ -63,7 +63,7 @@ module.exports = function(eleventyConfig) {
   });
 
   // Minify HTML output
-  eleventyConfig.addTransform("htmlmin", function(content, outputPath) {
+  eleventyConfig.addTransform("htmlmin", function (content, outputPath) {
     if (outputPath.indexOf(".html") > -1) {
       let minified = htmlmin.minify(content, {
         useShortDoctype: true,
