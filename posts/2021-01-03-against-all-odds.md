@@ -1,13 +1,14 @@
 ---
 title: Against all odds
 date: 2021-01-03 12:20:00 -6
+author: sk
+summary: A post about grief.
 tags:
   - health
   - interviews
   - psychology
   - quotes
   - writing
-
 ---
 
 I heard an episode of [Marketplace](https://www.marketplace.org/) the other day, and it was [about grief](https://www.marketplace.org/2020/12/29/how-grief-manifests-economy/), something that has been the theme of 2020 for myself and so many other people, and the definition for a phrase I had never heard struck me. The term was “resilience porn”. At first, my mind struggled to comprehend these two words together. When I thought of the word “resilience,” I thought of the Within Leadership Retreat I attended in 2019. At the retreat, we talked about resilience in ourselves as design managers and how we could support our teams and help them build resilience. I was in the car when I heard this, returning home from driving my one-year-old dog around, so she’d tire out a bit more, even though we had just walked. My dog seems resilient. I try to be resilient. What possibly could “resilience porn” mean? Was it some version of self-help that put the word up on a pedestal or a new thing people might be into—I wasn’t sure.
