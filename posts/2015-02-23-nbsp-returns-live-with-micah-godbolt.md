@@ -17,6 +17,6 @@ This past Friday, [Chris](http://www.twitter.com/teleject) and I went live with 
 
 Check out the [audio](http://goodstuff.fm/nbsp/48) and subscribe to our feed, or for those more visually-inclined, check out my sketchnotes or watch the live broadcast unedited below.
 
-![]({{base.url}}/img/posts/sketchnotes.jpg)
+![]({{base.url}}/static/img/posts/sketchnotes.jpg)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/n9Necok5lwI" frameborder="0" allowfullscreen></iframe>

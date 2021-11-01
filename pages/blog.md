@@ -1,9 +1,9 @@
 ---
 layout: layouts/blog.njk
 title: Writing
-metaDescription: A sample Blog page listing various posts and authors.
+metaDescription: Long-form writing
 date: 2017-01-01
-permalink: /blog/index.html
+permalink: /writing/index.html
 eleventyNavigation:
   key: Writing
   order: 2

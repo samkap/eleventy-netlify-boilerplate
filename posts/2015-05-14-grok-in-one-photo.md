@@ -12,5 +12,5 @@ cover-image: img/posts/draplin.gif
 
 Hugs with Draplin!
 
-![Hugs with Draplin](/img/posts/draplin.gif)
+![Hugs with Draplin](/static/img/posts/draplin.gif)
 (Photos by Nathan Spainhour)

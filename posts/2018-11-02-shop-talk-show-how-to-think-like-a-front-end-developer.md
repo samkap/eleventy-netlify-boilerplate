@@ -15,4 +15,4 @@ Recently, [Shop Talk Show](https://shoptalkshow.com/) came out with a mini serie
 
 Check out the [episode](https://shoptalkshow.com/episodes/335/), and other great episodes of people I admire, like [Mina](https://shoptalkshow.com/episodes/332-how-to-think-like-a-front-end-developer-with-mina-markham/), [Brad](https://shoptalkshow.com/episodes/334/), and [Trent](https://shoptalkshow.com/episodes/333-how-to-think-like-a-front-end-developer-with-trent-walton/).
 
-[![logo of Shop Talk show podcast](/img/posts.shoptalk_logo.png)](https://shoptalkshow.com/episodes/335/)
+[![logo of Shop Talk show podcast](/static/img/posts.shoptalk_logo.png)](https://shoptalkshow.com/episodes/335/)

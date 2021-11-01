@@ -13,7 +13,7 @@ cover-image: img/posts/margotsketches.jpg
 ---
 
 Check out [audio](http://goodstuff.fm/nbsp) and sketchnotes (below) from an NBSP chat with content strategist, Margot Bloomstein!
-![Margotsketchnotes](/img/posts/margotsketches.jpg)
+![Margotsketchnotes](/static/img/posts/margotsketches.jpg)
 
 And the live show below!
 

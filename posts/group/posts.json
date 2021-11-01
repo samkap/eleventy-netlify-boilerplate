@@ -1,0 +1,8 @@
+{
+  "layout": "layouts/post.njk",
+  "permalink": "posts-two/{{ page.date | date: '%Y/%m/%d' }}/{{ title | slug}}/index.html",
+  "author": "Anonymous",
+  "tags": [
+    "post"
+  ]
+}

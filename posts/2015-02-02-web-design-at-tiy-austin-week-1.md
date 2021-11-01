@@ -17,14 +17,14 @@ The students have learned HTML, CSS, Git, Github, file naming and folder structu
 
 Here are some of those moments:
 
-![Welcome sign in class]({{site.url}}/img/posts/welcome.jpg)
-![Introduction lunch at St. Philip]({{site.url}}/img/posts/welcome.jpg)
-![Visitors and open garage doors!]({{site.url}}/img/posts/vistors.jpg)
-![Helvetica posters and couches]({{site.url}}/img/posts/helvetica.jpg)
-![Our big yellow couch in our hang out room]({{site.url}}/img/posts/common-room.jpg)
-![Our new fish]({{site.url}}/img/posts/fish.jpg)
-![Great weather]({{site.url}}/img/posts/outside.jpg)
-![Goodnight]({{site.url}}/img/posts/atnight.jpg)
+![Welcome sign in class]({{site.url}}/static/img/posts/welcome.jpg)
+![Introduction lunch at St. Philip]({{site.url}}/static/img/posts/welcome.jpg)
+![Visitors and open garage doors!]({{site.url}}/static/img/posts/vistors.jpg)
+![Helvetica posters and couches]({{site.url}}/static/img/posts/helvetica.jpg)
+![Our big yellow couch in our hang out room]({{site.url}}/static/img/posts/common-room.jpg)
+![Our new fish]({{site.url}}/static/img/posts/fish.jpg)
+![Great weather]({{site.url}}/static/img/posts/outside.jpg)
+![Goodnight]({{site.url}}/static/img/posts/atnight.jpg)
 
 
 

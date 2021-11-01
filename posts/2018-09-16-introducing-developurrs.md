@@ -18,4 +18,4 @@ Ink and Leela were more than happy to be a the subject of any interview. Andy as
 
 Andy and I emailed questions and answers back and forth for a few days over email. This was my favorite part. It made emails actually fun to use again. It felt like we were catching up at pub.
 
-[![Logo for developurrs with a cat. ](/img/posts/developurrs.png)](https://developur.rs/)
+[![Logo for developurrs with a cat. ](/static/img/posts/developurrs.png)](https://developur.rs/)

@@ -14,5 +14,5 @@ My favorite national soccer team, the [Koninklijke Nederlandse Voetbalbond](http
 
 One of the best things about the team this year is that Nike worked with Wim Crouwel, the godfather of Dutch design, to create the typeface on the Dutch jerseys, says [Design Boom](http://www.designboom.com/design/nike-world-cup-fonts-07-01-2014/). One of my favorite parts is how gorgeous the 'ij' Dutch ligature is in ‘Case Crouwel’, the name of the typeface design.
 
-![The letters of Case Crouwel](/img/posts/dutch_home.gif "The letters of case Crowel")
+![The letters of Case Crouwel](/static/img/posts/dutch_home.gif "The letters of case Crowel")
 Image from [Design Boom](http://www.designboom.com/design/nike-world-cup-fonts-07-01-2014/).

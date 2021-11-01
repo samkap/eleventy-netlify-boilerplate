@@ -14,4 +14,4 @@ My amazing [thoughtbot](http://www.thoughtbot.com) coworker and former Iron Yard
 
 [Take a listen, subscribe, and let us know what you think](http://tentative.fm/56 "Tentative Episode 56")
 
-![tentative podcast logo](/img/posts/tentative.jpg)
+![tentative podcast logo](/static/img/posts/tentative.jpg)

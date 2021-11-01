@@ -12,8 +12,9 @@ tags:
 cover-image: img/posts/tech-opportunity-fund.jpg
 ---
 
-![Meghan Smith, CTO for the US, Jessica, and Sam](/img/posts/tech-opportunity-fund.jpg)
-{: .full}
+![Meghan Smith, CTO for the US, Jessica, and Sam](/static/img/posts/tech-opportunity-fund.jpg)
+
+
 
 We're back at The White House to rep The Iron Yard and join in on the announcement of [The Tech Opportunity Fund](http://techopportunityfund.org) that we are so excited and passionate about:
 

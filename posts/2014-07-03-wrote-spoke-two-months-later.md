@@ -15,7 +15,7 @@ It seems appropriate to release a few unfinished drafts on Independence Day; the
 
 ### net Magazine
 I wrote an article for the June 2014 printed issue of [net Magazine](http://www.creativebloq.com/net-magazine) called “Thinking In Systems”. The article is about how branding and systems-based thinking can apply to the web. I was nervous about writing this but I’m glad I did. I love that we’re changing the way we’re approaching web design with smarter thinking. Get the issue [here](http://www.creativebloq.com/career/learn-how-be-your-own-boss-new-net-magazine-41411416).
-![net magazine cover on my ipad](/img/posts/netmag1.jpg)
+![net magazine cover on my ipad](/static/img/posts/netmag1.jpg)
 <br>
 
 ### ConvergeSE
@@ -29,5 +29,5 @@ There were a ton of great talks at [Artifact](http://www.artifactconf.com). I go
 - Clients don't have lunchtime discussions about web font kerning. That's our job. ([@webmeadow](http://www.twitter.com/webmeadow))
 - “Photoshop. That’s where you make a picture of exactly what the website will never look like.”([@stephenhay](http://www.twitter.com/stephenhay))
 - Austin’s design and web community is filled with great people who all help, support, and genuinely care for each other. Here’s a shot by [Annie Ray](http://www.annieray.net/photobooth_viewer.php?id=39026464&key=67Xvzd) of so many Austinites that make living in this town so much fun!
-![Austin Web Design community]({{site.url}}/img/posts/artifact.jpg)
+![Austin Web Design community]({{site.url}}/static/img/posts/artifact.jpg)
 All over this was over a 2-week span! I’m looking forward to the craziness the rest of the year will bring, and I hope I do a better job writing about it.

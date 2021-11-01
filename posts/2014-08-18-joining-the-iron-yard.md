@@ -19,6 +19,6 @@ I'm ecstatic about the [Web Design course](http://theironyard.com/academy/web-de
 I can't wait to join the team and get started!
 <br>
 <div>
-    <img src="{{site.url}}/img/posts/laptop.jpg" style="max-height: 400px;">
+    <img src="{{site.url}}/static/img/posts/laptop.jpg" style="max-height: 400px;">
     <small style="text-align:center;"> My laptop sticker arrangement, currently!</small>
 </div>
