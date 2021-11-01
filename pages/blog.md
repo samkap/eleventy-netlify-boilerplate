@@ -6,5 +6,5 @@ date: 2017-01-01
 permalink: /writing/index.html
 eleventyNavigation:
   key: Writing
-  order: 2
+  order: 1
 ---

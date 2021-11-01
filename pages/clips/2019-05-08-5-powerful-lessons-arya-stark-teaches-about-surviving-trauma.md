@@ -1,0 +1,12 @@
+---
+layout: layouts/clip.njk
+title: 'Link: 5 Powerful Lessons Arya Stark Teaches about Surviving Trauma'
+date: 2019-05-08 
+tags:
+- GoT
+- tv
+- clips
+images: []
+
+---
+[5 Powerful Lessons Arya Stark Teaches about Surviving Trauma](https://www.bitchmedia.org/article/arya-stark-lessons-about-trauma) by Bitch Media

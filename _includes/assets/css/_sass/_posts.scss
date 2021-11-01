@@ -1,0 +1,66 @@
+a.read-more {
+  background-image: none;
+  border: 0;
+  color: $color2;
+  display: inline;
+  font-size: 1.2em;
+  font-weight: 600;
+
+  &:hover {
+    color: $color1;
+  }
+}
+
+.pagination {
+  color: $color2;
+  font-family: $serif;
+
+  a {
+    background-image: none;
+    text-decoration: none;
+  }
+
+ .left {
+    float: left;
+  }
+
+  .right {
+    float: right;
+  }
+}
+
+#disqus_thread {
+  margin-bottom: 50px;
+  margin-top: 50px;
+  max-width: $max-w-base;
+}
+
+.posts,
+.pages {
+
+  h1,
+  h2,
+  h3,
+  blockquote,
+  p,
+  span,
+  ul,
+  ol,
+  .pagination,
+  .tags {
+    max-width: $max-w-base;
+  }
+
+h2, h3 {
+  font-family: $serif-bold;
+}
+
+  p {
+    font-weight: 400;
+  }
+}
+
+  .tags {
+    display: block;
+    margin-top: 2em;
+  }

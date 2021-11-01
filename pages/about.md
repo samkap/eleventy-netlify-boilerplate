@@ -1,33 +1,24 @@
 ---
-title: About us
-metaDescription: This is a sample meta description. If one is not present in your page/post's front matter, the default metadata.desciption will be used instead.
-date: 2017-01-01T00:00:00.000Z
-permalink: /about/index.html
+title: About
+permalink: "/about/"
 eleventyNavigation:
   key: About
-  order: 1
+  order: 3
 ---
-Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
 
-Add a few line breaks in here to test:-
-Capitalize  
-on  
-low  
-hanging  
-fruit  
+## Hi, I'm Sameera.
 
-## Our services
+ I am a Design Director at [thoughtbot](http://www.thoughtbot.com), a writer and conference speaker. I serve on multiple Design advisory boards in Austin for organizations and educational institutions. I call Bombay, Curaçao, and Austin "home". I make [playlists](https://open.spotify.com/user/hamtequila) and travel a lot. I cook and I [photograph](http://www.instagram.com/the_tableaux) the process.
 
-Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+I am also a designer and an educator. I formerly served as Instructional Director, Academic Operations Director, and Diversity Director, managing instructors and curriculum across 21 locations, a nationwide scholarship, and  helped start or run two diversity councils as ERGs (employee resource groups).
 
-### Blue-sky thinking
+I taught design at the university-level for over six years, teaching courses from freshman year to seniors, and serving on multiple graduate thesis committees. I wrote the first university course on the topic of Responsive Web Design in 2011 and have presented at conferences across the US.
 
-Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+I write and speak about web and product design, diversity, inclusion, and equity, tech education involving emerging tech, and design research and process. I share my thoughts on the web in the documentary, [What Comes Next Is The Future](http://www.futureisnext.com/). I wrote for [The Pastry Box Project](https://the-pastry-box-project.net/baker/sameera-kapila) (2015, 2018), a monthly column for [net magazine](http://www.creativebloq.com/author/sam-kapila) print and online for over two years, and for other publications, as well as served on [design competition juries](http://samkapila.com/writing-and-community/). I've spoken at events such as Creative Mornings, SXSW's HBCU track, and more.
 
-#### Management frameworks
-
-Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
-
-##### Regulatory convergence
-
-Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+### Elsewhere on the web
+- [Spotify playlists](https://open.spotify.com/user/hamtequila)
+- [Experimenting on Codepen](http://codepen.io/samkap)
+- [Sketching on Dribbble](http://www.dribbble.com/samkap)
+- [Reading on Goodreads](http://www.goodreads.com/samkap)
+- [RSS](http://samkapila.com/feed.xml)

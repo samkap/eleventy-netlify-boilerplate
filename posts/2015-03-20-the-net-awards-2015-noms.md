@@ -1,7 +1,6 @@
 ---
 title: The net awards nominations are now open
-date: 2015-03-20 19:00:00 -05:00
-
+date: 2015-03-20 19:00:00 -5
 desc:
 tags:
 - design
