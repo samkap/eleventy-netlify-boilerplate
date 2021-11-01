@@ -1,10 +1,9 @@
 ---
 title: New year site tweaks
-date: 2021-01-01 15:15:00 -6
+date: 2021-01-01T21:15:00.000Z
 tags:
   - writing
   - code
-
 ---
 
 Happy new year!
