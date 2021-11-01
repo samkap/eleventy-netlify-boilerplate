@@ -1,6 +1,6 @@
 ---
 title: Against all odds
-date: 2021-01-03 12:20:00 -6
+date: 2021-01-03T18:20:00.000Z
 author: sk
 summary: A post about grief.
 tags:
