@@ -1,6 +1,6 @@
 ---
 title: The Communal Cycle of Sharing, now on CSS-Tricks
-date: 2019-11-19 00:00:00 -6
+date: 2019-11-19T06:00:00.000Z
 cover-image: ""
 tags:
   - writing
@@ -8,7 +8,6 @@ tags:
   - development
   - design
   - community
-
 ---
 
 This week, [CSS-Tricks](http://www.css-tricks.com) rolled out a new series of posts about what web builders are excited about this year (2019/2020). I crossed a career bucket list item off my list by contributing a short read on what I'm excited about. And, as you may be able to guess by the title, it's about how we share on the web. In the piece, I talk about how opportune it is of a time to build on the web; the web is fairly young and its one of few mediums that we can say really say is collaborative.
