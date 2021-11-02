@@ -5,27 +5,28 @@ section: post
 
 <article>
   <h1>{{ title }}</h1>
-  <p>
+  <span>
     <small>
       <time datetime="{{ page.date | machineDate }}">{{ page.date | readableDate }}</time>
     </small>
-  </p>
+  </span>
 
   {{ layoutContent | safe }}
 
   {% if tags %}
-    <p>
+   <span><small>tags:</small></span>
+    <span>
     {% for tag in tags %}
       {%- if tag != "post" -%}
         {% set tagUrl %}/tags/{{ tag }}/{% endset %}
         <a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
       {%- endif -%}
     {% endfor %}
-    </p>
+    </span>
   {% endif %}
 
 </article>
 
 <nav>
-  <a href="{{ '/blog/' | url }}">← Blog index</a>
+  <a href="{{ '/blog/' | url }}" rel="tag">← Writing</a>
 </nav>

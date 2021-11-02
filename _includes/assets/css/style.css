@@ -184,21 +184,12 @@ hr {
   height: 3px;
 }
 
-nav {
-  color: #6da43c;
-}
-nav:hover {
-  color: #004a55;
-}
-nav hr {
-  display: none;
-}
 nav li {
   display: inline;
 }
 nav a {
   border-radius: 4px;
-  color: #6da43c;
+  color: #004a55;
   font-size: 0.7em;
   font-weight: 900;
   letter-spacing: 1px;
@@ -210,10 +201,12 @@ nav a {
   text-transform: uppercase;
 }
 nav a:hover {
-  color: #004a55;
+  color: #f87d09;
+  text-decoration: underline #f87d09 2px;
 }
 nav a[data-current="current item"] {
-  color: #f87d09;
+  color: #004a55;
+  text-decoration: underline #f87d09 2px;
 }
 
 footer {
@@ -694,6 +687,39 @@ a.read-more:hover {
 .tags {
   display: block;
   margin-top: 2em;
+}
+
+/* Post Tags */
+a[rel=tag],
+a[rel=tag]:visited {
+  display: inline-block;
+  vertical-align: text-top;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 0.625em;
+  padding: 0 0.5em;
+  line-height: 2em;
+  height: 2em;
+  border: 1px solid var(--secondary);
+  background-color: rgba(109, 164, 60, 0.2);
+  color: var(--primary);
+  border-radius: 0.25em;
+  text-decoration: none;
+  margin: 0 0.5em 0.5em 0;
+}
+
+a[rel=tag]:hover {
+  border: 1px solid var(--primary);
+  background-color: var(--primary);
+  color: var(--secondary);
+}
+
+a[rel=tag]:last-child {
+  margin-right: 0;
+}
+
+article {
+  max-width: 45rem;
 }
 
 .about-grid {
