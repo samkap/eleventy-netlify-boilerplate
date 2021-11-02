@@ -1,6 +1,3 @@
----
----
-
 /* ********************global********************* */
 
 $color1: #004a55;
@@ -25,19 +22,18 @@ $base-font-size: 1.2em;
 $base-spacing: 1rem;
 $base-line-height: 1.8;
 $base-spacing: $base-line-height * 1rem;
-$x-small-spacing: $base-spacing / 3;
-$small-spacing: $base-spacing / 2;
+$x-small-spacing: .4rem;
+$small-spacing: .6rem;
 $medium-spacing: $base-spacing * 1.25;
 $large-spacing: $base-spacing * 2;
 $x-large-spacing: $base-spacing * 3;
 $xx-large-spacing: $base-spacing * 4;
-@import "../_sass/reset";
-@import "../bourbon/bourbon";
-@import "../_sass/global";
-@import "../_sass/type";
-@import "../_sass/img_videos";
-@import "../_sass/posts";
-@import "../_sass/about";
-@import "../_sass/home";
-@import "../_sass/fonts";
-@import "../_sass/inclusion_books"; 
+@import "reset";
+@import "global";
+@import "type";
+@import "img_videos";
+@import "posts";
+@import "about";
+@import "home";
+@import "fonts";
+@import "inclusion_books"; 

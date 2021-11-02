@@ -7,6 +7,10 @@ const pluginRss = require("@11ty/eleventy-plugin-rss");
 
 
 module.exports = function (eleventyConfig) {
+  // Watch CSS files for changes
+  eleventyConfig.setBrowserSyncConfig({
+    files: './assets/css/*.css'
+  });
 
   eleventyConfig.addPlugin(pluginRss, {
     posthtmlRenderOptions: {
@@ -86,7 +90,10 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("favicon.ico");
   eleventyConfig.addPassthroughCopy("static/img");
   eleventyConfig.addPassthroughCopy("admin");
-  eleventyConfig.addPassthroughCopy("_includes/assets/css/inline.css");
+  eleventyConfig.addWatchTarget("./src/sass");
+  eleventyConfig.addPassthroughCopy("./assets/css");
+  eleventyConfig.addPassthroughCopy("static/webfonts");
+
 
   /* Markdown Plugins */
   let markdownIt = require("markdown-it");

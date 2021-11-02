@@ -129,20 +129,30 @@ nav {
     display: none;
   }
 
+  li {
+    display: inline;
+  }
+
   a {
     border-radius: 4px;
     color: $color2;
-    font-size: 0.9em;
-    font-weight: 500;
+    font-size: 0.7em;
+    font-weight: 900;
+    letter-spacing: 1px;
     overflow: hidden;
     padding: 5px;
     position: relative;
     text-align: center;
     text-decoration: none;
+    text-transform: uppercase;
 
     &:hover {
       color: $color1;
     }
+
+    &[data-current="current item"] {
+	color:$color3;
+}
   }
 }
 

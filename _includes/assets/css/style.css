@@ -1,0 +1,899 @@
+@charset "UTF-8";
+/* ********************global********************* */
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url("//hello.myfonts.net/count/3ada1c");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  background: #004a55;
+  background: -moz-linear-gradient(107deg, #004a55 0%, #00788a 50%, rgba(0, 74, 85, 0.7) 100%);
+  background: -webkit-linear-gradient(107deg, #004a55 0%, #00788a 50%, rgba(0, 74, 85, 0.7) 100%);
+  background: linear-gradient(107deg, #004a55 0%, #00788a 50%, rgba(0, 74, 85, 0.7) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#004a55",endColorstr="#004a55",GradientType=1);
+  background-size: 400% 400%;
+  animation: gradient 8s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+/* Content */
+body {
+  -webkit-font-smoothing: antialiased;
+  color: #004a55;
+  font-display: auto;
+  font-family: RozanovaHUM-Light;
+  font-size: 1.2em;
+  font-weight: 400;
+  height: 100%;
+  line-height: 1.8;
+  margin: 10px;
+  word-wrap: break-word;
+}
+@media screen and (min-width: 680px) {
+  body {
+    margin: 15px;
+  }
+}
+
+main {
+  background-color: #ffffff;
+  min-height: 60vh;
+  padding: 2em 5%;
+}
+
+section {
+  display: block;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 30px auto;
+}
+
+td,
+th {
+  padding: 0.6rem;
+}
+
+th {
+  background-color: #f2f3f3;
+}
+
+tr {
+  border-bottom: 1px solid #f2f3f3;
+}
+
+tr:last-child {
+  border: none;
+}
+
+/* Structure */
+.inline-container {
+  overflow: hidden;
+}
+
+.inline {
+  display: inline !important;
+  vertical-align: middle;
+  margin-right: 40px;
+}
+
+.inline:first-of-type {
+  min-height: 50px;
+}
+
+header {
+  background: #ffffff;
+  position: relative;
+  padding: 1.8rem 2%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header img {
+  width: 45px;
+  margin-right: 20px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+header a {
+  border-bottom: 0;
+}
+
+hr {
+  border: none;
+  background-color: #6da43c;
+  width: 30%;
+  height: 3px;
+}
+
+nav {
+  color: #6da43c;
+}
+nav:hover {
+  color: #004a55;
+}
+nav hr {
+  display: none;
+}
+nav li {
+  display: inline;
+}
+nav a {
+  border-radius: 4px;
+  color: #6da43c;
+  font-size: 0.7em;
+  font-weight: 900;
+  letter-spacing: 1px;
+  overflow: hidden;
+  padding: 5px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+nav a:hover {
+  color: #004a55;
+}
+nav a[data-current="current item"] {
+  color: #f87d09;
+}
+
+footer {
+  background: #ffffff;
+  font-size: 0.6rem;
+  padding: 30px 0;
+  text-align: center;
+}
+footer .inner {
+  margin: 0 auto;
+  max-width: 700px;
+  padding: 0 15px;
+}
+footer .copy {
+  font-family: RecoletaAlt-Regular;
+  font-size: 1.2em;
+}
+
+@media all and (min-width: 680px) {
+  table {
+    margin: 40px auto;
+  }
+}
+/* 650 ends*/
+::-moz-selection,
+::selection {
+  background: #ffda09;
+  opacity: 0.5;
+}
+
+.bold,
+strong {
+  font-family: RozanovaHUM-Bold;
+}
+blockquote .bold,
+blockquote strong {
+  font-family: RecoletaAlt-Bold;
+}
+
+em,
+i {
+  font-family: RozanovaHUM-LightIt;
+}
+
+sub,
+sup {
+  font-family: RecoletaAlt-Regular;
+  position: relative;
+  top: -0.4em;
+  vertical-align: baseline;
+}
+
+sub {
+  top: 0.4em;
+}
+
+main a,
+main a:visited {
+  color: inherit;
+  font-weight: 500;
+  text-decoration-skip: auto;
+  -webkit-text-decoration-skip: auto;
+}
+main a:focus, main a:hover,
+main a:visited:focus,
+main a:visited:hover {
+  color: #6da43c;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-display: auto;
+  font-family: RecoletaAlt-Regular;
+  font-weight: 500;
+  letter-spacing: normal;
+  word-spacing: normal;
+  word-wrap: break-word;
+}
+
+h1 {
+  font-size: 1.5em;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 1em;
+}
+article h1 {
+  margin-bottom: 0.5em;
+}
+
+h2 {
+  font-size: 1em;
+}
+h2 a {
+  border-bottom: 0;
+}
+
+.meta {
+  display: block;
+  font-family: RozanovaHUM-Bold;
+  font-size: 0.75em;
+}
+
+ol,
+ul {
+  margin: 30px auto;
+  padding-left: 15px;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+ol {
+  list-style-type: decimal;
+}
+
+li {
+  margin: 20px 0;
+}
+
+blockquote {
+  background-color: white;
+  border: 1px solid #6da43c;
+  border-radius: 4px;
+  font-family: RecoletaAlt-Regular;
+  font-weight: 500;
+  margin: 20px 0 20px 15px;
+  overflow: hidden;
+  padding: 50px;
+}
+blockquote p {
+  margin: 0;
+}
+blockquote p:first-of-type::before {
+  content: "“";
+  font-size: 1em;
+  margin-left: -15px;
+  margin-right: 10px;
+}
+blockquote p:first-of-type::after {
+  content: "”";
+  font-size: 1em;
+  margin-right: -15px;
+}
+
+code {
+  font-family: "Source Code Pro", monospace;
+  font-display: auto;
+}
+
+p code {
+  font-size: 1em;
+  display: inline-block;
+  border-radius: 2px;
+  background-color: #f2f3f3;
+  border-radius: 4px;
+  box-shadow: 0 1px 1px rgba(122, 130, 136, 0.25);
+  padding: 0 3px;
+}
+
+pre {
+  display: block;
+  background-color: rgba(0, 0, 0, 0.8);
+  overflow-y: hidden;
+  overflow-x: auto;
+  font-size: 14px;
+  padding: 15px;
+  border-radius: 4px;
+  color: #f8f8f2;
+  line-height: 1.4;
+  margin: 30px auto;
+}
+
+pre code {
+  font-size: 14px;
+}
+
+small {
+  font-size: 0.7em;
+}
+
+small a {
+  color: inherit;
+}
+
+.listing-posts ul {
+  padding-left: 0;
+}
+.listing-posts li {
+  list-style-type: none;
+  margin-bottom: 3em;
+  max-width: 700px;
+}
+.listing-posts article {
+  margin-bottom: 1em;
+}
+.listing-posts p {
+  font-size: 0.9em;
+  margin: 0;
+}
+
+@media all and (min-width: 680px) {
+  .subtitle,
+form,
+ol,
+p,
+pre,
+ul {
+    margin: 20px 0;
+  }
+
+  .Posts p {
+    margin-top: 0;
+  }
+
+  li {
+    padding-left: 10px;
+    margin: 20px 0;
+  }
+
+  article::after,
+header::after {
+    margin: 70px;
+  }
+
+  h1 {
+    font-size: 2.5em;
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
+
+  h3,
+h4,
+h5,
+h6 {
+    font-size: 1.2em;
+  }
+
+  blockquote {
+    font-size: 1.3em;
+  }
+  blockquote p {
+    margin: 0;
+  }
+
+  hr {
+    margin: 1em auto;
+  }
+}
+h4 a {
+  border: 0;
+}
+
+.Speaking a,
+.inclusion-list a {
+  border-bottom: 0;
+}
+.Speaking .pages ul,
+.Speaking ul,
+.inclusion-list .pages ul,
+.inclusion-list ul {
+  margin-bottom: 60px;
+}
+.listing-posts {
+  justify-items: stretch;
+  display: grid;
+  grid-column-gap: 80px;
+  grid-row-gap: 80px;
+  grid-template-columns: 1fr;
+}
+.listing-posts h2 {
+  font-family: RecoletaAlt-Regular;
+  font-size: 1.2em;
+  line-height: 1.3;
+  margin: 10px 0;
+}
+.listing-posts li {
+  font-size: 0.9em;
+}
+.listing-posts p,
+.listing-posts small {
+  font-size: 0.9em;
+  line-height: 1.4;
+  margin: 0;
+}
+.listing-posts a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  border: 0;
+}
+.listing-posts .post-container {
+  background: #ffffff;
+  max-width: 700px;
+}
+@media screen and (min-width: 1080px) {
+  .listing-posts .post-container {
+    grid-template-columns: 1fr 3fr;
+  }
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.img-only {
+  margin: 0 -15px;
+}
+.img-only img {
+  border: solid #f2f3f3 2px;
+}
+
+.img-only-source {
+  margin: 0 -15px;
+  text-align: center;
+}
+
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+embed,
+iframe,
+object {
+  max-width: 100%;
+}
+
+/***********************Image GRid***********************/
+.img-grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 25%;
+  grid-column-gap: 1%;
+  grid-row-gap: 10px;
+  background: pink;
+}
+.img-grid img {
+  max-width: 100%;
+}
+
+@media screen and (min-width: 350px) {
+  .img-grid {
+    grid-template-columns: 49.5% 49.5%;
+    grid-template-rows: 50%;
+  }
+}
+@media all and (min-width: 680px) {
+  .img-only {
+    margin: 0 -30px;
+  }
+
+  .img-only-source {
+    margin: 0 -30px;
+  }
+}
+@media screen and (min-width: 650px) {
+  .img-grid {
+    grid-template-columns: 32.677% 32.677% 32.677%;
+  }
+}
+.cover-image-container img {
+  max-height: 100px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.Speaking .cover-image-container {
+  background-image: url("/img/speaking.jpg");
+  background-size: cover;
+  -webkit-filter: grayscale(1) brightness(0.75) contrast(1.05);
+  filter: grayscale(1) brightness(0.75) contrast(1.05);
+}
+
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.embed-container iframe, .embed-container object, .embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.full {
+  max-width: 100%;
+}
+
+.medium {
+  max-width: 900px;
+}
+
+.limit {
+  max-width: 700px;
+  margin: 3.6rem 0;
+}
+
+a.read-more {
+  background-image: none;
+  border: 0;
+  color: #6da43c;
+  display: inline;
+  font-size: 1.2em;
+  font-weight: 600;
+}
+a.read-more:hover {
+  color: #004a55;
+}
+
+.pagination {
+  color: #6da43c;
+  font-family: RecoletaAlt-Regular;
+}
+.pagination a {
+  background-image: none;
+  text-decoration: none;
+}
+.pagination .left {
+  float: left;
+}
+.pagination .right {
+  float: right;
+}
+
+#disqus_thread {
+  margin-bottom: 50px;
+  margin-top: 50px;
+  max-width: 700px;
+}
+
+.posts h1,
+.posts h2,
+.posts h3,
+.posts blockquote,
+.posts p,
+.posts span,
+.posts ul,
+.posts ol,
+.posts .pagination,
+.posts .tags,
+.pages h1,
+.pages h2,
+.pages h3,
+.pages blockquote,
+.pages p,
+.pages span,
+.pages ul,
+.pages ol,
+.pages .pagination,
+.pages .tags {
+  max-width: 700px;
+}
+.posts h2, .posts h3,
+.pages h2,
+.pages h3 {
+  font-family: RecoletaAlt-Bold;
+}
+.posts p,
+.pages p {
+  font-weight: 400;
+}
+
+.tags {
+  display: block;
+  margin-top: 2em;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr) 3fr repeat(2, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-column-gap: 40px;
+  grid-row-gap: 40px;
+}
+.about-grid article {
+  grid-area: 1/3/4/4;
+}
+.about-grid .photo-1 {
+  grid-area: 1/2/2/2;
+}
+.about-grid .photo-2 {
+  grid-area: 3/1/3/3;
+}
+.about-grid .photo-3 {
+  grid-area: 2/1/4/3;
+}
+.about-grid .photo-4 {
+  grid-area: 3/4/4/6;
+}
+.about-grid .photo-5 {
+  grid-area: 1/4/2/6;
+}
+.about-grid .photo-6 {
+  grid-area: 4/3/5/5;
+}
+.about-grid .photo-7 {
+  grid-area: 5/4/5/5;
+}
+
+.clips-group,
+.recent {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-row-gap: 40px;
+}
+.clips-group h1,
+.recent h1 {
+  font-size: 1.2em;
+  line-height: 1.4;
+  margin-top: 0;
+}
+.clips-group h2,
+.recent h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.clips-group a,
+.recent a {
+  display: block;
+  width: 100%;
+  text-decoration: none;
+  border: 0;
+}
+.clips-group__clip-column h4,
+.recent__clip-column h4 {
+  font-size: 0.9em;
+  line-height: 1.3;
+}
+.clips-group__clip-column article,
+.recent__clip-column article {
+  margin-bottom: 40px;
+}
+.clips-group .post-container,
+.recent .post-container {
+  margin-bottom: 80px;
+}
+.clips-group .post-container h3,
+.recent .post-container h3 {
+  font-size: 1.2em;
+  line-height: 1.5;
+  margin: 0;
+}
+.clips-group .post-container p,
+.recent .post-container p {
+  font-size: 88%;
+  font-weight: 400;
+  hyphens: 5;
+  line-height: 1.5;
+  margin: 0;
+}
+@media screen and (min-width: 760px) {
+  .clips-group,
+.recent {
+    grid-column-gap: 3em;
+    grid-template-columns: 3fr 6fr 3fr;
+  }
+}
+
+.greeting h1 {
+  font-size: 1em;
+  font-weight: 400;
+  padding: 1.2em 5%;
+}
+
+.recent {
+  margin: 2em 0;
+}
+.recent__header {
+  font-family: RecoletaAlt-Regular;
+  font-style: normal;
+  font-size: 0.8em;
+  font-weight: 700;
+  letter-spacing: 2px;
+  line-height: 1;
+  text-transform: uppercase;
+}
+.recent .post-container {
+  max-width: 700px;
+}
+
+/**
+ * @license
+ * MyFonts Webfont Build ID 3856924, 2020-01-15T20:01:16-5
+ *
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are
+ * explicitly restricted from using the Licensed Webfonts(s).
+ *
+ * You may obtain a valid license at the URLs below.
+ *
+ * Webfont: RecoletaAlt-Bold by Latinotype
+ * URL: https://www.myfonts.com/fonts/latinotype/recoleta/alt-bold/
+ * Copyright: Copyright &#x00A9; 2018 by Jorge Cisterna. All rights reserved.
+ *
+ * Webfont: RecoletaAlt-Regular by Latinotype
+ * URL: https://www.myfonts.com/fonts/latinotype/recoleta/alt-regular/
+ * Copyright: Copyright &#x00A9; 2018 by Jorge Cisterna. All rights reserved.
+ *
+ * Webfont: RozanovaHUM-Light by Variable Type Foundry
+ * URL: https://www.myfonts.com/fonts/variable-type-foundry/rozanova/hum-light/
+ * Copyright: Copyright © 2019 by Variable Type Foundry. All rights reserved.
+ *
+ * Webfont: RozanovaHUM-LightIt by Variable Type Foundry
+ * URL: https://www.myfonts.com/fonts/variable-type-foundry/rozanova/hum-light-italic/
+ * Copyright: Copyright © 2019 by Variable Type Foundry. All rights reserved.
+ *
+ * Webfont: RozanovaHUM-Bold by Variable Type Foundry
+ * URL: https://www.myfonts.com/fonts/variable-type-foundry/rozanova/hum-bold/
+ * Copyright: Copyright © 2019 by Variable Type Foundry. All rights reserved.
+ *
+/* @import must be at top of file, otherwise CSS will not work */
+@font-face {
+  font-family: "RecoletaAlt-Bold";
+  src: url("/static/webfonts/3ADA1C_5_0.eot");
+  src: url("/static/webfonts/3ADA1C_5_0.eot?#iefix") format("embedded-opentype"), url("/static/webfonts/3ADA1C_5_0.woff2") format("woff2"), url("/static/webfonts/3ADA1C_5_0.woff") format("woff");
+}
+@font-face {
+  font-family: "RecoletaAlt-Regular";
+  src: url("/static/webfonts/3ADA1C_E_0.eot");
+  src: url("/static/webfonts/3ADA1C_E_0.eot?#iefix") format("embedded-opentype"), url("/static/webfonts/3ADA1C_E_0.woff2") format("woff2"), url("/static/webfonts/3ADA1C_E_0.woff") format("woff");
+}
+@font-face {
+  font-family: "RozanovaHUM-Light";
+  src: url("/static/webfonts/3ADA1C_15_0.eot");
+  src: url("/static/webfonts/3ADA1C_15_0.eot?#iefix") format("embedded-opentype"), url("/static/webfonts/3ADA1C_15_0.woff2") format("woff2"), url("/static/webfonts/3ADA1C_15_0.woff") format("woff");
+}
+@font-face {
+  font-family: "RozanovaHUM-LightIt";
+  src: url("/static/webfonts/3ADA1C_16_0.eot");
+  src: url("/static/webfonts/3ADA1C_16_0.eot?#iefix") format("embedded-opentype"), url("/static/webfonts/3ADA1C_16_0.woff2") format("woff2"), url("/static/webfonts/3ADA1C_16_0.woff") format("woff");
+}
+@font-face {
+  font-family: "RozanovaHUM-Bold";
+  src: url("/static/webfonts/3ADA1C_1B_0.eot");
+  src: url("/static/webfonts/3ADA1C_1B_0.eot?#iefix") format("embedded-opentype"), url("/static/webfonts/3ADA1C_1B_0.woff2") format("woff2"), url("/static/webfonts/3ADA1C_1B_0.woff") format("woff");
+}
+.gr_grid_container {
+  display: grid;
+  width: 100%;
+  padding: 1.8rem 0;
+  margin: 0 auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 1.8rem;
+  grid-row-gap: 1.8rem;
+  align-items: end;
+}
+
+.gr_grid_book_container img {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.shell {
+  padding: 3.6rem 5%;
+  background: #004a55;
+}
+
+.inclusion h3 {
+  color: #6da43c;
+}
+
+@media screen and (min-width: 50em) {
+  .gr_grid_container {
+    grid-template-columns: repeat(9, 1fr);
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
