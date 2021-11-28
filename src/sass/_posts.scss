@@ -97,3 +97,18 @@ a[rel="tag"]:last-child {
 article {
   max-width: 45rem;
 }
+
+.post-list {
+  article {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    column-gap: 10px;
+    align-items: flex-start;
+    justify-content:flex-start;
+  }
+
+  & > span {
+      justify-self: end;
+  }
+}

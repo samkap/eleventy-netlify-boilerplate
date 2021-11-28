@@ -8,3 +8,6 @@ eleventyNavigation:
   order: 0
 ---
 Hi, I'm Sameera. I'm based in Austin where I'm a design director, plant and food hobbyist, and former executive and educator. I speak and write about design and inclusion and serve on multiple advisory boards.
+
+
+
