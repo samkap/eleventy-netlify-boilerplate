@@ -33,8 +33,9 @@ sub {
 main {
   a,
   a:visited {
-    color: inherit;
+    color: currentColor;
     font-weight: 500;
+
     text-decoration-skip: auto;
     -webkit-text-decoration-skip: auto;
 
@@ -99,10 +100,6 @@ ol {
   list-style-type: decimal;
 }
 
-li {
-  margin: 20px 0;
-}
-
 blockquote {
   background-color: white;
   border: 1px solid $color2;
@@ -164,7 +161,7 @@ pre code {
 }
 
 small {
-  font-size: 0.7em;
+  font-size: 0.9rem;
 }
 
 small a {
@@ -178,7 +175,6 @@ small a {
 
   li {
     list-style-type: none;
-    margin-bottom: 3em;
     max-width: $max-w-base;
   }
 
@@ -204,11 +200,6 @@ small a {
 
   .Posts p {
     margin-top: 0;
-  }
-
-  li {
-    padding-left: 10px;
-    margin: 20px 0;
   }
 
   article::after,
@@ -248,15 +239,25 @@ h4 a {
   border: 0;
 }
 
+li {
+  line-height: 1.4;
+  margin-bottom: 10px;
+}
+
 .Speaking,
 .inclusion-list {
   a {
     border-bottom: 0;
   }
 
+  h2 {
+    line-height: 1;
+  }
+
   .pages ul,
   ul {
-    margin-bottom: 60px;
+    margin-top: .5rem;
+    margin-bottom: 2rem;
 
     @media screen and (max-width: 1080px) {
     }

@@ -5,10 +5,10 @@
 }
 
 html {
-  background: rgb(0,74,85);
-  background: -moz-linear-gradient(107deg, rgba(0,74,85,1) 0%, rgba(0,120,138,1) 50%, rgba(0,74,85,0.7) 100%);
-  background: -webkit-linear-gradient(107deg, rgba(0,74,85,1) 0%, rgba(0,120,138,1) 50%, rgba(0,74,85,0.7) 100%);
-  background: linear-gradient(107deg, rgba(0,74,85,1) 0%, rgba(0,120,138,1) 50%, rgba(0,74,85,0.7) 100%);
+  background:$color1; 
+  background: -moz-linear-gradient(107deg, $color1 0%, rgba(0,120,138,1) 50%, rgba(0,74,85,0.7) 100%);
+  background: -webkit-linear-gradient(107deg, $color1 0%, rgba(0,120,138,1) 50%, rgba(0,74,85,0.7) 100%);
+  background: linear-gradient(107deg, $color1 0%, rgba(0,120,138,1) 50%, rgba(0,74,85,0.7) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#004a55",endColorstr="#004a55",GradientType=1);
   background-size: 400% 400%;
   animation: gradient 8s ease infinite;
@@ -32,9 +32,6 @@ body {
   line-height: $base-line-height;
   margin: 10px;
   word-wrap: break-word;
-  @media screen and (min-width: 680px) {
-    margin: 15px;
-  }
 }
 
 main {
@@ -136,22 +133,23 @@ nav {
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
+    text-decoration-skip-ink: auto;
 
     &:hover {
-      color: $color3;
-      text-decoration: underline $color3 2px;
+      color: $color5;
+      text-decoration: wavy underline $color5 2px;
     }
 
     &[data-current="current item"] {
-      color:$color1;
-      text-decoration: underline $color3 2px;
+      color: $color5;
+      text-decoration: wavy underline $color5 2px;
     }
   }
 }
 
 footer {
   background: $white;
-  font-size: $small-spacing;
+  font-size: 1rem;
   padding: 30px 0;
   text-align: center;
 
@@ -159,11 +157,6 @@ footer {
     margin: 0 auto;
     max-width: $max-w-base;
     padding: 0 15px;
-  }
-
-  .copy {
-    font-family: $serif;
-    font-size: 1.2em;
   }
 }
 
