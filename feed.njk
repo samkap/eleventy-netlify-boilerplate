@@ -5,8 +5,8 @@
   "metadata": {
     "title": "Sam Kapila",
     "subtitle": "Long writing posts from Sam Kapila.",
-    "url": "https://samkapila.com/",
-    "feedUrl": "https://samkapila.com/feed.xml",
+    "url": "{{ site.url }}",
+    "feedUrl": "{{ site.url }}/feed.xml",
     "author": {
       "name": "Sam Kapila"
     }
@@ -24,10 +24,10 @@
   <author>
     <name>{{ metadata.author.name }}</name>
   </author>
-  {%- for post in collections.posts limit:10 %}
+  {%- for post in collections.posts | reverse -%}
   {% set absolutePostUrl %}{{ post.url | url | absoluteUrl(metadata.url) }}{% endset %}
   <entry>
-    <title>{{ post.data.title }}</title>
+    <title>{{ post.data | rssDate }}</title>
     <link href="{{ absolutePostUrl }}"/>
     <updated>{{ post.date | dateToRfc3339 }}</updated>
     <id>{{ absolutePostUrl }}</id>
