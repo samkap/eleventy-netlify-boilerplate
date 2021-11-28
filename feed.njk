@@ -23,9 +23,8 @@
   <id>{{ metadata.url }}</id>
   <author>
     <name>{{ metadata.author.name }}</name>
-    <email>{{ metadata.author.email }}</email>
   </author>
-  {%- for post in collections.posts %}
+  {%- for post in collections.posts limit:10 %}
   {% set absolutePostUrl %}{{ post.url | url | absoluteUrl(metadata.url) }}{% endset %}
   <entry>
     <title>{{ post.data.title }}</title>
