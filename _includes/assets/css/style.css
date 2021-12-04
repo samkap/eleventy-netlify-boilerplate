@@ -88,7 +88,7 @@ body {
   color: #0b352c;
   font-display: auto;
   font-family: RozanovaHUM-Light;
-  font-size: 1.2em;
+  font-size: 1.3rem;
   font-weight: 400;
   height: 100%;
   line-height: 1.8;
@@ -576,7 +576,7 @@ object {
 }
 
 .Speaking .cover-image-container {
-  background-image: url("/img/speaking.jpg");
+  background-image: url("/static/img/speaking.jpg");
   background-size: cover;
   -webkit-filter: grayscale(1) brightness(0.75) contrast(1.05);
   filter: grayscale(1) brightness(0.75) contrast(1.05);
