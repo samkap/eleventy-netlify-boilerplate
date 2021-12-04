@@ -74,7 +74,7 @@ object {
 }
 
 .Speaking .cover-image-container {
-  background-image: url("/img/speaking.jpg");
+  background-image: url("/static/img/speaking.jpg");
   background-size: cover;
   -webkit-filter: grayscale(1) brightness(0.75) contrast(1.05);
   filter: grayscale(1) brightness(0.75) contrast(1.05);
