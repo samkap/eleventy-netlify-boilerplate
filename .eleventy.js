@@ -28,11 +28,25 @@ module.exports = function (eleventyConfig) {
 
   // Merge data instead of overriding
   // https://www.11ty.dev/docs/data-deep-merge/
+
   eleventyConfig.setDataDeepMerge(true);
 
   // Add support for maintenance-free post authors
   // Adds an authors collection using the author key in our post frontmatter
   // Thanks to @pdehaan: https://github.com/pdehaan
+
+  // Creates custom collection "myPosts"
+  eleventyConfig.addCollection("clips",
+    collection => collection
+      .getAllSorted()
+      .filter(item => item.url
+        && !item.inputPath.includes('index.njk')
+        && item.inputPath.startsWith('/clips/')));
+
+  // eleventyConfig.addCollection("clips", function (collection) {
+  //   return collectionApi.getFilteredByGlob("/clips/*.md");
+  // });
+
   eleventyConfig.addCollection("authors", collection => {
     const blogs = collection.getFilteredByGlob("posts/*.md");
     return blogs.reduce((coll, post) => {
