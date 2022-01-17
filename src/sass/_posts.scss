@@ -51,9 +51,9 @@ a.read-more {
     max-width: $max-w-base;
   }
 
-h2, h3 {
-  font-family: $serif-bold;
-}
+  h2, h3 {
+    font-family: $serif-bold;
+  }
 
   p {
     font-weight: 400;
@@ -110,5 +110,9 @@ article {
 
   & > span {
       justify-self: end;
+  }
+
+  a {
+    text-decoration-thickness: 1px;
   }
 }
