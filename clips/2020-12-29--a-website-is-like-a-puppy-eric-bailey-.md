@@ -2,7 +2,7 @@
 layout: layouts/clip.njk 
 tags: clips 
 published: true 
-title: "      A website is like a puppy – Eric Bailey  " 
+title: "A website is like a puppy – Eric Bailey" 
 date: 2020-12-29T18:34:59.060Z 
 link: https://ericwbailey.design/writing/a-website-is-like-a-puppy/ 
 ogtype: article 

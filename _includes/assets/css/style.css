@@ -670,6 +670,7 @@ a.read-more:hover {
 .pages h2,
 .pages h3 {
   font-family: RecoletaAlt-Bold;
+  line-height: 1.2;
 }
 .posts p,
 .pages p {
@@ -727,6 +728,10 @@ article {
 }
 .post-list a {
   text-decoration-thickness: 1px;
+}
+
+.lh-short {
+  line-height: 1.2;
 }
 
 .about-grid {

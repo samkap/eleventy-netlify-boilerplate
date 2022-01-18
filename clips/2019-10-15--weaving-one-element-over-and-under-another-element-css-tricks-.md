@@ -2,7 +2,7 @@
 layout: layouts/clip.njk 
 tags: clips 
 published: true 
-title: "    Weaving One Element Over and Under Another Element | CSS-Tricks  " 
+title: "Weaving One Element Over and Under Another Element | CSS-Tricks  " 
 date: 2019-10-15T15:15:53.483Z 
 link: https://css-tricks.com/weaving-one-element-over-and-under-another-element/ 
 ogtype: article 
