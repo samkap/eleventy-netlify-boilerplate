@@ -1,6 +1,6 @@
 {
   "layout": "layouts/clip.njk",
-  "permalink": "clips/{{ title | slug}}",
+  "permalink": "clips/{{ page.date | date: '%Y/%m/%d' }}/{{ title | slug}}/index.html",
   "author": "Sameera Kapila",
   "tags": [
     "clip"

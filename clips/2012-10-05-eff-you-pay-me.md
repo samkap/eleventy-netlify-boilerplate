@@ -1,5 +1,5 @@
 ---
-title: F*** You, Pay Me, Mike Monteiro on Clients
+title: Eff You, Pay Me, Mike Monteiro on Clients
 date: 2012-10-05 17:05:00 -05:00
 tags:
 - clips
