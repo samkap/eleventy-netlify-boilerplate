@@ -53,6 +53,7 @@ a.read-more {
 
   h2, h3 {
     font-family: $serif-bold;
+    line-height: 1.2;
   }
 
   p {
@@ -115,4 +116,8 @@ article {
   a {
     text-decoration-thickness: 1px;
   }
+}
+
+.lh-short {
+  line-height: 1.2;
 }

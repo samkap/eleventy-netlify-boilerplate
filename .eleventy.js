@@ -7,6 +7,18 @@ const pluginRss = require("@11ty/eleventy-plugin-rss");
 
 
 module.exports = function (eleventyConfig) {
+  // Filter source file names using a glob
+  eleventyConfig.addCollection("posts", function (collectionApi) {
+    // Also accepts an array of globs!
+    return collectionApi.getFilteredByGlob(["posts/*.md", "clips/*.md"]);
+  });
+
+  // Filter source file names using a glob
+  eleventyConfig.addCollection("clips", function (collectionApi) {
+    // Also accepts an array of globs!
+    return collectionApi.getFilteredByGlob("clips/*.md");
+  });
+
   // Watch CSS files for changes
   eleventyConfig.setBrowserSyncConfig({
     files: './assets/css/*.css'

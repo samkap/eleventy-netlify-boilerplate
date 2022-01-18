@@ -1,0 +1,22 @@
+<section class="post-list">
+	{% for clip in clipslist | reverse %}
+		<article{% if clip.url == url %} data-current="current item"{% endif %} >
+						<span>
+				<time datetime="{{ clip.date | machineDate }}">
+					<small>{{ clip.date | readableDate }}</small>
+				</time>
+			</span>
+			<div>
+			<h3 class="lh-short">
+				<a href="{{ clip.url | url }}">
+					{% if clip.data.title %}
+						{{ clip.data.title }}
+					{% else %}
+						Untitled
+					{% endif %}
+				</a>
+			</h3>
+			</div>
+		</article>
+	{% endfor %}
+</section>
