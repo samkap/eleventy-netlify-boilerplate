@@ -2,10 +2,12 @@ backend:
   name: git-gateway
   branch: main
 
-site:
-  github:
-    repo: samkap/eleventy-netlify-boilerplate
-    branch: main
+
+github:
+  repo: http://www.github.io/samkap/eleventy-netlify-boilerplate
+  branch: main
+
+title: Sam Kapila
 
 # Uncomment below to enable drafts
 # publish_mode: editorial_workflow

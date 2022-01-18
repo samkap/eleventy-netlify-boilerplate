@@ -12,11 +12,11 @@
 </head>
 <body>
 	<div class="container" id="container1" >
-		<h5>Create new post at {{ site.title }}</h5>
-		{% if site.github.repo == none %}
+		<h5>Create new post at {{ title }}</h5>
+		{% if github.repo == none %}
 			<div class="alert alert-danger" role="alert"><code>github.repo</code> is not set.</div>
 		{% endif %}
-		{% if site.github.branch == none %}
+		{% if github.branch == none %}
 			<div class="alert alert-danger" role="alert"><code>github.branch</code> is not set.</div>
 		{% endif %}
 		<div id="messages"></div>
@@ -62,7 +62,7 @@
 		selection = document.selection.createRange().text;
 		}
 		selection = encodeURIComponent(selection);
-		new_window=window.open('{{ "https://samkap-eleventy.netlify.app/add/" }}?title='+title+'&amp;selection='+selection+'&amp;url='+encodeURIComponent(document.location.href),'JekyllPopup','resizable,scrollbars,status=0,toolbar=0,menubar=0,titlebar=0,width=640,height=600,location=0');
+		new_window=window.open('{{ "https://add-bookmarklet--samkap-eleventy.netlify.app/" }}?title='+title+'&amp;selection='+selection+'&amp;url='+encodeURIComponent(document.location.href),'JekyllPopup','resizable,scrollbars,status=0,toolbar=0,menubar=0,titlebar=0,width=640,height=600,location=0');
 		})();">post to GitHub</a></p>
 	</div>
 	<script>
@@ -106,7 +106,7 @@
 			return d.toISOString()
 		}
 
-		var API_NEW_POST = 'https://api.github.com/repos/{{ site.github.repo }}/contents/_clips/' ;
+		var API_NEW_POST = 'https://api.github.com/repos/http://www.github.io/samkap/eleventy-netlify-boilerplate/clips/' ;
 		$("#go").click(function() {
 			var user = $('#username').val() ;
 			var password = $('#password').val() ;
