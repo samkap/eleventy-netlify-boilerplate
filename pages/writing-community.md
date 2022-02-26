@@ -1,10 +1,10 @@
 ---
 layout: layouts/base.njk
-title: Writing & Speaking
+title: Community
 metaDescription: Writing and Speaking history
 permalink: /writing-speaking/index.html
 eleventyNavigation:
-  key: Writing & Speaking
+  key: Community
   order: 2
 ---
 
