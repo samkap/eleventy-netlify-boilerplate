@@ -30,6 +30,9 @@ collections:
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Body", name: "body", widget: "markdown" }
       - { label: "layout", name: "layout", widget: "markdown", default: layouts/clip.njk }
+      - {label: "ogtype", name: "ogtype", widget: "markdown", default: article}
+      - { label: "Tags", name: "tags", widget: "list", default: ["clips"] } 
+    
 
   # Our pages e.g. About
   - name: "pages"
