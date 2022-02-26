@@ -1,5 +1,5 @@
 ---
-layout: layouts/clips.njk 
+layout: layouts/clip.njk 
 tags: clips 
 published: true 
 title: "	Why Are All the Black Kids Sitting Together in the Cafeteria?: And Other Conversations about Race: Beverly Daniel Tatum: Trade Paperback: 9780465060689: Powell's Books" 

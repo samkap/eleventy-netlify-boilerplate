@@ -1,5 +1,5 @@
 ---
-layout: layouts/clips.njk 
+layout: layouts/clip.njk 
 tags: clips 
 published: true 
 title: "'Mother Tree' Ecologist Suzanne Simard Shares Secrets Of Tree Communication : Shots - Health News : NPR" 

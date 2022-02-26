@@ -1,5 +1,5 @@
 ---
-layout: layouts/clips.njk 
+layout: layouts/clip.njk 
 tags: clips 
 published: true 
 title: "Why Do Grocery Stores Still Have Ethnic Aisles? Priya Krishna for NYT Cooking - YouTube" 

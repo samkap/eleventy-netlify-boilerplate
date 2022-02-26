@@ -1,5 +1,5 @@
 ---
-layout: layouts/clips.njk 
+layout: layouts/clip.njk 
 tags: clips 
 published: true 
 title: "Sotomayor says Supreme Court adjusted argument format partly over interruptions of female justices - CBS News    " 

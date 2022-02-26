@@ -1,9 +1,9 @@
 ---
-layout: layouts/clips.njk
+layout: layouts/bookmarks.njk
 title: Bookmarks
 metaDescription: Links I saved
 permalink: /clips/index.html
 eleventyNavigation:
-  key: Clips
+  key: Bookmarks
   order: 2
 ---

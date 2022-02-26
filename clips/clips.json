@@ -1,8 +1,9 @@
 {
   "layout": "layouts/clip.njk",
-  "permalink": "clips/{{ page.date | date: '%Y/%m/%d' }}/{{ title | slug}}/index.html",
+  "permalink": "clips/{{ page.date | date: '%Y' }}/{{ title | slug}}/index.html",
   "author": "Sameera Kapila",
   "tags": [
     "clip"
-  ]
+  ],
+  "ogtype": "article" 
 }

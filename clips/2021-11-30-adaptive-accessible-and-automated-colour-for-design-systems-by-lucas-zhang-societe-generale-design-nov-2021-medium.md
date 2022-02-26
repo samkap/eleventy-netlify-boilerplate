@@ -1,5 +1,5 @@
 ---
-layout: layouts/clips.njk 
+layout: layouts/clip.njk 
 tags: clips 
 published: true 
 title: "Adaptive, accessible and automated colour for Design Systems | by Lucas Zhang | Societe Generale Design | Nov, 2021 | Medium" 

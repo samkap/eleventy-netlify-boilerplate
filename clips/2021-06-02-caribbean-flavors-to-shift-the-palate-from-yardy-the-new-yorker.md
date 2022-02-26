@@ -1,5 +1,5 @@
 ---
-layout: layouts/clips.njk 
+layout: layouts/clip.njk 
 tags: clips 
 published: true 
 title: "Caribbean Flavors to Shift the Palate, from Yardy - The New Yorker" 

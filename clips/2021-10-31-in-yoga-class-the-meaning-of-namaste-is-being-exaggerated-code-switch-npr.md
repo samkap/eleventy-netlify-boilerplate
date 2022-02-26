@@ -1,5 +1,5 @@
 ---
-layout: layouts/clips.njk 
+layout: layouts/clip.njk 
 tags: clips 
 published: true 
 title: "In Yoga Class, The Meaning Of 'Namaste' Is Being Exaggerated : Code Switch : NPR" 
