@@ -11,6 +11,7 @@ eleventyNavigation:
 
 # Speaking
 
+- **[Clarity 2020](https://youtu.be/hcqed7cIhj4)**, Oct 2020, remote, "Designing for Happiness"
 - **[Ladies Lounge](https://generalassemb.ly/education/ladies-lounge-kickass-women-slaying-the-creative-world)**, Oct 20th, 2018, Austin
 - **[Women Talk: Conferences](https://www.eventbrite.com/e/women-talk-conferences-austin-tickets-44351675054)**, Apr 10th, 2018, Austin
 - **[Peers Conference](http://www.peersconf.com/)**, Apr 25–7, 2018, Austin
@@ -88,6 +89,8 @@ I write and participate in the design and development community. Along with bein
 -   ["5 Lessons from the RWD Classroom"](http://www.creativebloq.com/netmag/5-lessons-responsive-web-design-classroom-7135527), net Magazine, online
 
 ## Interviews
+
+- [Leading inclusively, with Sameera Kapila - Things worth learning](https://youtu.be/eiV6_3pZFc0), Sept 2021
 
 -   [NPR (KUT): Coding Boot Camps Aim To Help Solve Diversity Problem In Tech Sector](http://kut.org/post/coding-boot-camps-aim-help-solve-diversity-problem-tech-sector), Mar 2017
 
