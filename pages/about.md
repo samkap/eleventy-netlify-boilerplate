@@ -5,7 +5,7 @@ date: 2016-01-01T00:00:00.000Z
 permalink: "/about/"
 eleventyNavigation:
   key: About
-  order: 4
+  order: 5
 ---
 
 ## Hi, I'm Sameera.

@@ -5,7 +5,7 @@ metaDescription: Writing and Speaking history
 permalink: /writing-speaking/index.html
 eleventyNavigation:
   key: Writing & Speaking
-  order: 3
+  order: 2
 ---
 
 

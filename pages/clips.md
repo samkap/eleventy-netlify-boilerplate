@@ -5,5 +5,5 @@ metaDescription: Links I saved
 permalink: /clips/index.html
 eleventyNavigation:
   key: Bookmarks
-  order: 2
+  order: 4
 ---
