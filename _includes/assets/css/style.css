@@ -730,6 +730,30 @@ article {
   text-decoration-thickness: 1px;
 }
 
+.clip-list article {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  column-gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.clip-list h3 {
+  font-family: RozanovaHUM-Light;
+  font-size: 1.2em;
+}
+.clip-list > span {
+  justify-self: end;
+}
+.clip-list a {
+  text-decoration-thickness: 1px;
+}
+
+.clips-header {
+  font-family: RozanovaHUM-Bold;
+  font-size: 1.2em;
+}
+
 .lh-short {
   line-height: 1.2;
 }
@@ -772,12 +796,6 @@ article {
   grid-template-rows: 1fr;
   grid-row-gap: 40px;
 }
-.clips-group h1 p,
-.recent h1 p {
-  font-size: 1.2rem;
-  line-height: 1.4;
-  margin-top: 0;
-}
 .clips-group h2,
 .recent h2 {
   margin-top: 0;
@@ -807,6 +825,8 @@ article {
 .recent ul,
 .recent ol {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 .clips-group__clip-column h4,
 .recent__clip-column h4 {
@@ -839,14 +859,13 @@ article {
   .clips-group,
 .recent {
     grid-column-gap: 3em;
-    grid-template-columns: 3fr 6fr 3fr;
+    grid-template-columns: 1fr 1fr;
   }
 }
 
-.greeting h1 {
-  font-size: 1em;
+.greeting h1 p {
+  font-size: 2.1rem;
   font-weight: 400;
-  padding: 1.2em 5%;
 }
 
 .recent {

@@ -1,5 +1,5 @@
 ---
-layout: layouts/clips.njk 
+layout: layouts/clip.njk 
 tags: clips 
 published: true 
 title: "Custom properties with defaults: 3+1 strategies – Lea Verou" 

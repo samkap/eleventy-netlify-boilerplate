@@ -1,5 +1,5 @@
 ---
-layout: layouts/clips.njk 
+layout: layouts/clip.njk 
 tags: clips 
 published: true 
 title: "How TikTok’s @Bondenavant Amy Chang Keeps Her Melasma at Bay" 

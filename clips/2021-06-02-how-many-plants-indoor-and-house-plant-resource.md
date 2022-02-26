@@ -1,5 +1,5 @@
 ---
-layout: layouts/clips.njk 
+layout: layouts/clip.njk 
 tags: clips 
 published: true 
 title: "How Many Plants - Indoor and House Plant Resource" 

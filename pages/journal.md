@@ -1,9 +1,9 @@
 ---
-layout: layouts/writing.njk
-title: Writing
+layout: layouts/journal.njk
+title: Journal
 metaDescription: Long-form writing
 permalink: /writing/index.html
 eleventyNavigation:
-  key: Writing
+  key: Journal
   order: 1
 ---

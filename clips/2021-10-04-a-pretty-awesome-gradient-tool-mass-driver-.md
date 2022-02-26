@@ -1,5 +1,5 @@
 ---
-layout: layouts/clips.njk 
+layout: layouts/clip.njk 
 tags: clips 
 published: true 
 title: "A pretty awesome gradient tool (Mass-Driver)" 

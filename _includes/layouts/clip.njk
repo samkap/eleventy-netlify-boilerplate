@@ -1,10 +1,10 @@
 ---
 layout: layouts/base.njk
-section: clip
+section: bookmarks
 ---
 
 <article>
-  <h1>{{ title }}</h1>
+  <h1 class="clips-header">{{ title }}</h1>
 
   <span>
     <small>
@@ -13,5 +13,9 @@ section: clip
   </span>
 
   {{ layoutContent | safe }}
+
+  <nav>
+  <a href="{{ '/clips/' | url }}">← Clips</a>
+</nav>
 </article>
 

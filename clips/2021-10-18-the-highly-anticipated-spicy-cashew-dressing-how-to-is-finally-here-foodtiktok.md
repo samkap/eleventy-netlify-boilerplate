@@ -1,5 +1,5 @@
 ---
-layout: layouts/clips.njk 
+layout: layouts/clip.njk 
 tags: clips 
 published: true 
 title: "The highly anticipated Spicy Cashew dressing how-to is finally here. #foodtiktok" 

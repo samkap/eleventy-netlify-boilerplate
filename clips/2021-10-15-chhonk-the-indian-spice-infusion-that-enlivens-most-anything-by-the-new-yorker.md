@@ -1,5 +1,5 @@
 ---
-layout: layouts/clips.njk 
+layout: layouts/clip.njk 
 tags: clips 
 published: true 
 title: "Chhonk, the Indian Spice Infusion That Enlivens Most Anything by The New Yorker" 

@@ -118,6 +118,35 @@ article {
   }
 }
 
+.clip-list {
+  article {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    column-gap: 10px;
+    align-items: flex-start;
+    justify-content:flex-start;
+  }
+
+  h3 {
+    font-family: $sans;
+    font-size: $base-font-size;
+  }
+
+  & > span {
+      justify-self: end;
+  }
+
+  a {
+    text-decoration-thickness: 1px;
+  }
+}
+
+.clips-header {
+  font-family: $sans-bold;
+  font-size: $base-font-size;
+}
+
 .lh-short {
   line-height: 1.2;
 }
