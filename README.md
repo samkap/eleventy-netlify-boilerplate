@@ -12,8 +12,9 @@ npm start
 
 # Wishlist to-dos
 
-[ ] Update typography system
-[ ] Add dark mode
+- [ ] Update typography system
+- [ ] Add dark mode
+- [ ] Clean up CSS that may have left over Jekyll pieces
 
 # Template: Eleventy Netlify Boilerplate
 
