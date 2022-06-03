@@ -24,10 +24,11 @@ This page is a growing resource of thoughts and resources around Equity and Incl
 
 ## Resources for leaders and managers
 
-* [Gender Decoder](http://gender-decoder.katmatfield.com/) : Job posting gender decoding test
+* [Gender Decoder](http://gender-decoder.katmatfield.com/) allows anyone to copy and paste in a job posting to have scored for its language. It was built using finding from a study focused on gendered language in job postings. The study found that words like “aggressive” or “champion” made people think of males and that words like “collaboration” or “responsive” made people think the role was female-leaning. Some organizations lean a bit more towards female-leaning words to counter the gender divide in technical roles like design or development.
 * [Imbalance of Culture Fits](https://alistapart.com/article/the-imbalance-of-culture-fit) by my friend, Matt Griffin
 * [Textio](https://textio.com/) : Job posting gender leaning test
 * Bookshop’s [Key Books for the Inclusive Leader](https://bookshop.org/lists/key-books-for-the-inclusive-leader)
+* Harvard Business Review has a wide and selection of articles with actions to take related to the workplace, covering topics like assigning work fairly to marginalized team members (https://hbr.org/2018/03/for-women-and-minorities-to-get-ahead-managers-must-assign-work-fairly) and explaining how women of color get assigned more housework (https://hbr.org/2018/04/women-of-color-get-asked-to-do-more-office-housework-heres-how-they-can-say-no) and how to avoid it.
 
 ## Job boards for inclusive hiring
 
