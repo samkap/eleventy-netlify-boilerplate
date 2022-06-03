@@ -1,23 +1,25 @@
 ---
 title: Equity & Inclusion
-permalink: "/inclusion/"
+date: 2022-06-03T00:25:36.464Z
+permalink: /inclusion/
 eleventyNavigation:
   key: Inclusion
   order: 3
 ---
 <section class="inclusion-list pages">
 
-This page is a growing resource of thoughts and resources around Equity and Inclusion. Last Updated: **April 3nd, 2019**.
+This page is a growing resource of thoughts and resources around Equity and Inclusion. Last Updated: **June 2nd, 2022**.
 
-## Organizations committed to Inclusion
+## Organizations committed to Inclusion training
 
-* [Collective](https://hello-collective.com/) (formerly DEI Collective)
-* [Disability:IN](https://disabilityin.org/ "https://disabilityin.org/")
+* [Collective](https://hello-collective.com/) (formerly DEI Collective). I worked with Collective in 2018-19 helping form a DEI council within a previous role. 
+* [Nova Collective](https://www.thenovacollective.com/). Worked them to when I was a co-chair for the DEI council in a previous role, specifically on custom training for our company.
+* [Disability:IN](https://disabilityin.org/)
 
-## Inclusive Training
+## My thoughts on Inclusion
 
-* [Project Implicit from Harvard](https://implicit.harvard.edu/implicit/)
 * [Creative Morning's Equality talk](https://youtu.be/5pj8E-XbRzE) : From when I spoke in July 2017.
+* 
 
 ## Resources for leaders and managers
 
@@ -25,10 +27,22 @@ This page is a growing resource of thoughts and resources around Equity and Incl
 * [Imbalance of Culture Fits](https://alistapart.com/article/the-imbalance-of-culture-fit) by my friend, Matt Griffin
 * [Textio](https://textio.com/) : Job posting gender leaning test
 
-## Inclusivity-themed conferences
+## Job boards for inclusive hiring
+
+* [Project Include](https://projectinclude.org/)
+* [Circa](https://jobs.localjobnetwork.com/disability)
+* [People of Color In Tech](https://www.pocitjobs.com/)
+* [AbilityJOBS](https://abilityjobs.com/) 
+* [Black Tech Pipeline](https://blacktechpipeline.com/) 
+* [Disability Job Exchange](https://jobs.localjobnetwork.com/disability) 
+* [Career Contessa(https://www.careercontessa.com/)
+
+
+## Conferences
 
 * [Access U](https://www.knowbility.org/education/accessu/)
-* [AlterConf](http://alterconf.com)
+* [AlterConf](http://alterconf.com) (not active)
+* Clarity Conference
 * [DesignPlusDiversity](http://designplusdiversity.org/)
 * [WeSpeakToo](http://wespeaktoo.org/)
 
@@ -46,11 +60,6 @@ This page is a growing resource of thoughts and resources around Equity and Incl
 * [Wave](http://wave.webaim.org/) : Chrome plug-in
 * [WCAG 2.0 Checklist](http://webaim.org/standards/wcag/checklist)
 * [WebAIM](http://webaim.org/) 
-</section>
-</main>
-<section class="shell">
-<h3>Books Related to Diversity, Inclusion, and Equity</h3>
-
 
 <div id="gr_grid_widget_1552156979">
   <!-- Show static html as a placeholder in case js is not enabled - javascript include will override this if things work -->
