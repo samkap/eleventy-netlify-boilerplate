@@ -62,10 +62,10 @@ table {
 }
 
 html {
-  background: #0b352c;
-  background: -moz-linear-gradient(107deg, #0b352c 0%, #00788a 50%, rgba(0, 74, 85, 0.7) 100%);
-  background: -webkit-linear-gradient(107deg, #0b352c 0%, #00788a 50%, rgba(0, 74, 85, 0.7) 100%);
-  background: linear-gradient(107deg, #0b352c 0%, #00788a 50%, rgba(0, 74, 85, 0.7) 100%);
+  background: rgb(11, 53, 44);
+  background: -moz-linear-gradient(107deg, rgb(11, 53, 44) 0%, rgb(0, 120, 138) 50%, rgba(0, 74, 85, 0.7) 100%);
+  background: -webkit-linear-gradient(107deg, rgb(11, 53, 44) 0%, rgb(0, 120, 138) 50%, rgba(0, 74, 85, 0.7) 100%);
+  background: linear-gradient(107deg, rgb(11, 53, 44) 0%, rgb(0, 120, 138) 50%, rgba(0, 74, 85, 0.7) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#004a55",endColorstr="#004a55",GradientType=1);
   background-size: 400% 400%;
   animation: gradient 8s ease infinite;
@@ -85,7 +85,7 @@ html {
 /* Content */
 body {
   -webkit-font-smoothing: antialiased;
-  color: #0b352c;
+  color: rgb(11, 53, 44);
   font-display: auto;
   font-family: RozanovaHUM-Light;
   font-size: 1.2em;
@@ -174,7 +174,7 @@ header a {
 
 hr {
   border: none;
-  background-color: #4a7d1f;
+  background-color: rgb(74, 125, 31);
   width: 30%;
   height: 3px;
 }
@@ -184,7 +184,7 @@ nav li {
 }
 nav a {
   border-radius: 4px;
-  color: #0b352c;
+  color: rgb(11, 53, 44);
   font-size: 0.7em;
   font-weight: 900;
   letter-spacing: 1px;
@@ -197,12 +197,12 @@ nav a {
   text-decoration-skip-ink: auto;
 }
 nav a:hover {
-  color: #873163;
-  text-decoration: wavy underline #873163 2px;
+  color: rgb(135, 49, 99);
+  text-decoration: wavy underline rgb(135, 49, 99) 2px;
 }
 nav a[data-current="current item"] {
-  color: #873163;
-  text-decoration: wavy underline #873163 2px;
+  color: rgb(135, 49, 99);
+  text-decoration: wavy underline rgb(135, 49, 99) 2px;
 }
 
 footer {
@@ -265,7 +265,7 @@ main a:visited {
 main a:focus, main a:hover,
 main a:visited:focus,
 main a:visited:hover {
-  color: #4a7d1f;
+  color: rgb(74, 125, 31);
 }
 
 h1,
@@ -321,7 +321,7 @@ ol {
 
 blockquote {
   background-color: white;
-  border: 1px solid #4a7d1f;
+  border: 1px solid rgb(74, 125, 31);
   border-radius: 4px;
   font-family: RecoletaAlt-Regular;
   font-weight: 500;
@@ -614,17 +614,17 @@ object {
 a.read-more {
   background-image: none;
   border: 0;
-  color: #4a7d1f;
+  color: rgb(74, 125, 31);
   display: inline;
   font-size: 1.2em;
   font-weight: 600;
 }
 a.read-more:hover {
-  color: #0b352c;
+  color: rgb(11, 53, 44);
 }
 
 .pagination {
-  color: #4a7d1f;
+  color: rgb(74, 125, 31);
   font-family: RecoletaAlt-Regular;
 }
 .pagination a {
@@ -958,7 +958,7 @@ article {
 
 .shell {
   padding: 3.6rem 5%;
-  background: #0b352c;
+  background: rgb(11, 53, 44);
 }
 .shell h3 {
   color: white;

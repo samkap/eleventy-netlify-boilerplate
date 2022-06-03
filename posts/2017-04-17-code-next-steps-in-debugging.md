@@ -1,9 +1,8 @@
 ---
-title: 'CODE: Next Steps in Debugging'
-date: 2017-04-17 23:42:00 -05:00
+title: "CODE: Next Steps in Debugging"
+date: 2017-04-17 23:42:00 -05
 tags:
-- diversity
-
+- diversity 
 ---
 
 Originally posted on [The Iron Yard Blog](http://blog.theironyard.com/2017/04/17/code-next-steps-debugging/).
