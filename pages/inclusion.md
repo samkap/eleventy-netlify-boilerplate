@@ -16,16 +16,18 @@ This page is a growing resource of thoughts and resources around Equity and Incl
 * [Nova Collective](https://www.thenovacollective.com/). Worked them to when I was a co-chair for the DEI council in a previous role, specifically on custom training for our company.
 * [Disability:IN](https://disabilityin.org/)
 
-## My thoughts on Inclusion
+## Inclusion, in my words
 
 * [Creative Morning's Equality talk](https://youtu.be/5pj8E-XbRzE) : From when I spoke in July 2017.
-* 
+* [My experiences with starting and running diversity councils, part 1](https://samkapila.com/2018/02/07/creating-an-internal-diversity-council), and [part 2](https://samkapila.com/2018/02/26/the-year-of-the-diversity-council), http://creativemornings.com/talks/sam-kapila.
+* [Leading Inclusively](https://thingsworthlearning.show/episodes/leading-inclusively-with-sameera-kapila/transcript) on Things Worth Learning.
 
 ## Resources for leaders and managers
 
 * [Gender Decoder](http://gender-decoder.katmatfield.com/) : Job posting gender decoding test
 * [Imbalance of Culture Fits](https://alistapart.com/article/the-imbalance-of-culture-fit) by my friend, Matt Griffin
 * [Textio](https://textio.com/) : Job posting gender leaning test
+* Bookshop’s [Key Books for the Inclusive Leader](https://bookshop.org/lists/key-books-for-the-inclusive-leader)
 
 ## Job boards for inclusive hiring
 
@@ -42,7 +44,7 @@ This page is a growing resource of thoughts and resources around Equity and Incl
 
 * [Access U](https://www.knowbility.org/education/accessu/)
 * [AlterConf](http://alterconf.com) (not active)
-* Clarity Conference
+* [Clarity Conference](https://www.clarityconf.com/)
 * [DesignPlusDiversity](http://designplusdiversity.org/)
 * [WeSpeakToo](http://wespeaktoo.org/)
 
@@ -60,6 +62,8 @@ This page is a growing resource of thoughts and resources around Equity and Incl
 * [Wave](http://wave.webaim.org/) : Chrome plug-in
 * [WCAG 2.0 Checklist](http://webaim.org/standards/wcag/checklist)
 * [WebAIM](http://webaim.org/) 
+
+## Recommended Books
 
 <div id="gr_grid_widget_1552156979">
   <!-- Show static html as a placeholder in case js is not enabled - javascript include will override this if things work -->
