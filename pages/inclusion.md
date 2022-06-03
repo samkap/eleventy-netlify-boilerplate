@@ -35,7 +35,7 @@ This page is a growing resource of thoughts and resources around Equity and Incl
 * [AbilityJOBS](https://abilityjobs.com/) 
 * [Black Tech Pipeline](https://blacktechpipeline.com/) 
 * [Disability Job Exchange](https://jobs.localjobnetwork.com/disability) 
-* [Career Contessa(https://www.careercontessa.com/)
+* [Career Contessa](https://www.careercontessa.com/)
 
 
 ## Conferences
