@@ -1,6 +1,6 @@
 ---
 title: Join Tech Ladies
-date: 2017-07-29 11:39:00 -05:00
+date: 2017-07-29 11:39:00 -05
 tags:
 - women
 - tech
