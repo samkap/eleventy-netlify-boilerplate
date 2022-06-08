@@ -5,9 +5,7 @@ permalink: /about/index.html
 ---
 
 <section class="pages about-grid">
-  <article>
-    {{ layoutContent | safe }}
-  </article>
+  {% include "components/about.njk" %}
   <div class="photo-1">
     <picture>
       <img
@@ -19,21 +17,18 @@ permalink: /about/index.html
       alt="It's me, Sam!">
     </picture>
   </div>
-  <div class="photo-2">
-  </div>
   <div class="photo-3">
-    <div class="full">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/5pj8E-XbRzE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-  </div>
-  <div class="photo-4">
-  <img src="/static/img/about/speaking.jpg" alt="Speaking at a conference">
-  <small>Speaking at ConvergeSE 2017</small>
+    <img src="/static/img/about/speaking.jpg" alt="Speaking at a conference">
+    <small>Speaking at ConvergeSE 2017</small>
   </div>
   <div class="photo-5">
     <img src="/static/img/about/offscreen-spread.jpg" alt="Spread in Offscreen Magazine issue 16 featuring a day in my life">
     <small>A spread from a "Day in the life" feature from Offscreen Magazine.</small>
    </div>
   <div class="photo-6">
+      <iframe width="672" height="377" src="https://www.youtube.com/embed/5pj8E-XbRzE?start=40" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
 </section>
+<div>
+    {{ layoutContent | safe }}
+</div>
