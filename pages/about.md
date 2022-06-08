@@ -5,22 +5,41 @@ date: 2016-01-01T00:00:00.000Z
 permalink: "/about/"
 eleventyNavigation:
   key: About
-  order: 5
+  order: 2
 ---
 
-## Hi, I'm Sameera.
+# Select works 
 
- I am a Design Director at [thoughtbot](http://www.thoughtbot.com), a writer and conference speaker. I serve on multiple Design advisory boards in Austin for organizations and educational institutions. I call Bombay, Curaçao, and Austin "home". I make [playlists](https://open.spotify.com/user/hamtequila) and travel a lot. I cook and I [photograph](http://www.instagram.com/the_tableaux) the process.
+## Speaking
 
-I am also a designer and an educator. I formerly served as Instructional Director, Academic Operations Director, and Diversity Director, managing instructors and curriculum across 21 locations, a nationwide scholarship, and  helped start or run two diversity councils as ERGs (employee resource groups).
+  * [Clarity 2020](https://youtu.be/hcqed7cIhj4), Oct 2020, remote, “Designing for Happiness”
+* [Austin Design Week](https://austindesignweek.org/schedule/making-design-for-good-a-part-of-your-career), Nov 2017, Moderator, Austin, TX “Making Design for Good a Part of Your Career”
+* [FusionConf](http://fusionconf.io/), Sept 2017, Speaker, Charlotte, NC, “Diversity in Design”
+* [Creative Mornings / Austin](https://creativemornings.com/talks/sam-kapila/), July 2017, Speaker, Austin, TX, “Equality”
+* [SXSW Interactive](http://opportunityhub.co/2017hbcusxsw/), March 2017, Austin, TX, Panelist, “Announcing The #YesWeCode Fund”
+* [Design/Content](http://www.designcontentconf.com/), July 2016, Vancouver, BC, Canada, Speaker, “Design Responsive Systems”
+* [Front End Design Conference](http://www.frontenddesignconference.com/), June 2016, St Pete, Florida, “Design Research”
 
-I taught design at the university-level for over six years, teaching courses from freshman year to seniors, and serving on multiple graduate thesis committees. I wrote the first university course on the topic of Responsive Web Design in 2011 and have presented at conferences across the US.
 
-I write and speak about web and product design, diversity, inclusion, and equity, tech education involving emerging tech, and design research and process. I share my thoughts on the web in the documentary, [What Comes Next Is The Future](http://www.futureisnext.com/). I wrote for [The Pastry Box Project](https://the-pastry-box-project.net/baker/sameera-kapila) (2015, 2018), a monthly column for [net magazine](http://www.creativebloq.com/author/sam-kapila) print and online for over two years, and for other publications, as well as served on [design competition juries](http://samkapila.com/writing-and-community/). I've spoken at events such as Creative Mornings, SXSW's HBCU track, and more.
+## Interviews
 
-### Elsewhere on the web
-- [Spotify playlists](https://open.spotify.com/user/hamtequila)
-- [Experimenting on Codepen](http://codepen.io/samkap)
-- [Sketching on Dribbble](http://www.dribbble.com/samkap)
-- [Reading on Goodreads](http://www.goodreads.com/samkap)
-- [RSS](http://samkapila.com/feed.xml)
+* [Leading inclusively, with Sameera Kapila * Things worth learning](https://youtu.be/eiV6_3pZFc0), Sept 2021
+* [How to think like a front end developer](https://shoptalkshow.com/335/), Shop Talk Show #335
+* [NPR (KUT): Coding Boot Camps Aim To Help Solve Diversity Problem In Tech Sector](http://kut.org/post/coding-boot-camps-aim-help-solve-diversity-problem-tech-sector), Mar 2017
+* [What Comes Next Is The Future](http://www.futureisnext.com/), documentary about makers of the web.
+* [Web Design Fundamentals: A Life of Learning](https://www.lynda.com/Web-Design-tutorials/Web-Design-Fundamentals/177837-2.html), Lynda.com course, Nov 2014
+* [ShopTalk Show](http://www.shoptalkshow.com/episodes/121-sam-kapila/), June 2014
+
+## Writing
+
+* [The Communal Cycle of Sharing](https://css-tricks.com/the-communal-cycle-of-sharing/), CSS Tricks, December 2019
+* [Get up to speed with CSS Grid](http://www.creativebloq.com/features/get-up-to-speed-with-css-grid), net Magazine, January 2017 issue and online
+* [3 top tools for testing web performance](http://www.creativebloq.com/features/3-top-tools-for-testing-web-performance), net Magazine, November 2016 issue and online
+* [Creating web icons that break the language barrier](http://www.creativebloq.com/features/creating-web-icons-that-break-the-language-barrier), net Magazine, November 2016 issue and online
+* ["You've got this"](https://the-pastry-box-project.net/sameera-kapila/2015-december-10), The Pastry Box Project, December 2015
+* ["Choosing Nothing: Be Kind, Please Unwind"](https://the-pastry-box-project.net/sameera-kapila/2015-october-7), The Pastry Box Project, October 2015
+* ["Design, Dinner, and A Show"](https://the-pastry-box-project.net/sameera-kapila/2015-august-14), The Pastry Box Project, August 2015
+* ["Like fruit flies to a ripe mango"](https://the-pastry-box-project.net/sameera-kapila/2015-june-11), The Pastry Box Project, June 2015
+* ["The World Wide Vulnerability"](https://the-pastry-box-project.net/sameera-kapila/2015-april-15), The Pastry Box Project, April 2015
+* ["Thinking in Systems"](http://www.creativebloq.com/netmag/why-you-should-think-web-building-part-larger-system-71412395), net Magazine, June 2014
+* ["5 Lessons from the RWD Classroom"](http://www.creativebloq.com/netmag/5-lessons-responsive-web-design-classroom-7135527), net Magazine, online

@@ -4,7 +4,8 @@ title: Home
 date: 2016-01-01T00:00:00.000Z
 permalink: /
 ---
-Hi, I'm Sameera. I'm based in Austin where I'm a design director, plant and food hobbyist, and former executive and educator. I speak and write about design and inclusion and serve on multiple advisory boards.
+# Hi, I'm Sameera. <br> I'm a Senior Product Designer at Netlify, speaker, and writer based in Austin, TX.
+[Learn more](/about/).
 
 
 
