@@ -156,9 +156,15 @@ header {
   background: #ffffff;
   position: relative;
   padding: 1.8rem 2%;
-  display: flex;
-  justify-content: space-between;
   align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 48em) {
+  header {
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }
 
 header img {
@@ -179,6 +185,9 @@ hr {
   height: 3px;
 }
 
+nav ul {
+  padding: 0;
+}
 nav li {
   display: inline;
 }

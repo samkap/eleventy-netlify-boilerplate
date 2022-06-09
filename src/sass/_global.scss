@@ -93,9 +93,15 @@ header {
   background: $white;
   position: relative;
   padding: $base-spacing 2%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+     align-items: center; 
+     display: flex;
+     flex-direction: column;
+
+   @media screen and (min-width:48em) {
+     flex-direction: row;
+
+    justify-content: space-between;
+  }
 }
 
 header img {
@@ -117,6 +123,10 @@ hr {
 }
 
 nav {
+  ul {
+    padding: 0;
+  }
+
   li {
     display: inline;
   }
