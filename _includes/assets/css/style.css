@@ -153,17 +153,18 @@ tr:last-child {
 }
 
 header {
-  background: #ffffff;
-  position: relative;
-  padding: 1.8rem 2%;
   align-items: center;
+  background: #ffffff;
   display: flex;
   flex-direction: column;
+  padding: 1.8rem 2% 0 2%;
+  position: relative;
 }
 @media screen and (min-width: 48em) {
   header {
     flex-direction: row;
     justify-content: space-between;
+    padding: 1.8rem 2%;
   }
 }
 

@@ -90,17 +90,19 @@ tr:last-child {
 }
 
 header {
+  align-items: center; 
   background: $white;
+  display: flex;
+  flex-direction: column;
+  padding: $base-spacing 2% 0 2%;
   position: relative;
-  padding: $base-spacing 2%;
-     align-items: center; 
-     display: flex;
-     flex-direction: column;
+
 
    @media screen and (min-width:48em) {
-     flex-direction: row;
+      flex-direction: row;
+      justify-content: space-between;
+      padding: $base-spacing 2%;
 
-    justify-content: space-between;
   }
 }
 
