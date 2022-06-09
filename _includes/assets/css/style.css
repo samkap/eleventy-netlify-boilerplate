@@ -153,12 +153,19 @@ tr:last-child {
 }
 
 header {
-  background: #ffffff;
-  position: relative;
-  padding: 1.8rem 2%;
-  display: flex;
-  justify-content: space-between;
   align-items: center;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  padding: 1.8rem 2% 0 2%;
+  position: relative;
+}
+@media screen and (min-width: 48em) {
+  header {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1.8rem 2%;
+  }
 }
 
 header img {
@@ -179,6 +186,9 @@ hr {
   height: 3px;
 }
 
+nav ul {
+  padding: 0;
+}
 nav li {
   display: inline;
 }
@@ -866,6 +876,7 @@ article {
 .greeting h1 {
   font-size: 1.8rem;
   font-weight: 400;
+  margin: 0;
 }
 
 .recent {

@@ -90,12 +90,20 @@ tr:last-child {
 }
 
 header {
+  align-items: center; 
   background: $white;
-  position: relative;
-  padding: $base-spacing 2%;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column;
+  padding: $base-spacing 2% 0 2%;
+  position: relative;
+
+
+   @media screen and (min-width:48em) {
+      flex-direction: row;
+      justify-content: space-between;
+      padding: $base-spacing 2%;
+
+  }
 }
 
 header img {
@@ -117,6 +125,10 @@ hr {
 }
 
 nav {
+  ul {
+    padding: 0;
+  }
+
   li {
     display: inline;
   }

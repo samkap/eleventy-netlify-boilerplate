@@ -10,4 +10,4 @@ cover-image:
 
 From [MetaFissy's blog](http://metafizzy.co/blog/rgb-schemes-logo/)
 
-![](http://i.imgur.com/1tRedUl.png)
+![Ideas for red-green0-blue logos](https://i.imgur.com/1tRedUl.png)
