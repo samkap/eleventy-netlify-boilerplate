@@ -1,15 +1,22 @@
- build:
-  command: eleventy
-  commandOrigin: config
-  environment:
-    - ONEGRAPH_AUTHLIFY_TOKEN
-    - REVIEW_ID
-  publish: /opt/build/repo/_site
-  publishOrigin: ui
-plugins:
-  - inputs: {}
-    origin: config
-   package: '@netlify/plugin-lighthouse'
+[build]
+  command = "eleventy"
+
+
+[[plugins]]
+  package = "@netlify/plugin-lighthouse"
+
+  # optional, fails build when a category is below a threshold
+  [plugins.inputs.thresholds]
+    performance = 0.9
+    accessibility = 0.9
+    best-practices = 0.9
+    seo = 0.9
+    pwa = 0.9
+
+  # optional, deploy the lighthouse report to a path under your site
+  [plugins.inputs]
+    output_path = "reports/lighthouse.html"
+    
 
 # REDIRECT and HEADERS examples
 
