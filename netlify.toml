@@ -1,5 +1,15 @@
-[build]
-  command = "eleventy"
+ build:
+  command: eleventy
+  commandOrigin: config
+  environment:
+    - ONEGRAPH_AUTHLIFY_TOKEN
+    - REVIEW_ID
+  publish: /opt/build/repo/_site
+  publishOrigin: ui
+plugins:
+  - inputs: {}
+    origin: config
+   package: '@netlify/plugin-lighthouse'
 
 # REDIRECT and HEADERS examples
 
