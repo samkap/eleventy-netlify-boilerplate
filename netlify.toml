@@ -1,8 +1,8 @@
 [build]
   command = "eleventy"
-  publish = /opt/build/repo/_site 
-  publishOrigin = ui
-  environment = ONEGRAPH_AUTHLIFY_TOKEN     
+  publish = "/opt/build/repo/_site" 
+  publishOrigin = "ui"
+  environment = "ONEGRAPH_AUTHLIFY_TOKEN"     
 
 [[plugins]]
   package = "@netlify/plugin-lighthouse"
