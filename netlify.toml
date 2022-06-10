@@ -1,5 +1,5 @@
 [build]
-  publish = "_site"
+  publish = "/opt/build/repo/_site"
   command = "npm build"
 
 [[plugins]]
