@@ -2,7 +2,14 @@
 title: Changelog v36.7.0
 date: 2022-07-17T05:36:42.160Z
 tags:
-  - post
+  - changelog
+  - speaking
+  - 11ty
+  - yoga
+  - conferences
+  - design
+  - dogs
+  - food
 ---
 Howdy! It's been a while since I've written much on here, and lately I've wanted to but delayed writing anything down. Part of the reason is that it takes a lot of work for me to write because I have insecurities about my writing and the state of the world. The other part is that I have been busy.
 
