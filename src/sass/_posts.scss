@@ -13,7 +13,7 @@ a.read-more {
 
 .pagination {
   color: $color2;
-  font-family: $serif;
+  font-family: $display;
 
   a {
     background-image: none;
@@ -52,7 +52,7 @@ a.read-more {
   }
 
   h2, h3 {
-    font-family: $serif-bold;
+    font-family: $display-bold;
     line-height: 1.2;
   }
 
@@ -78,7 +78,7 @@ a[rel="tag"]:visited {
 	line-height: 2em;
 	height: 2em;
   border: 1px solid var(--secondary);
-	background-color: $color7;
+	background-color: $color1;
 	color: var(--primary);
   border-radius: .25em;
   text-decoration: none;
@@ -129,7 +129,7 @@ article {
   }
 
   h3 {
-    font-family: $sans;
+    font-family: $text;
     font-size: $base-font-size;
   }
 
@@ -143,7 +143,7 @@ article {
 }
 
 .clips-header {
-  font-family: $sans-bold;
+  font-family: $text-bold;
   font-size: $base-font-size;
 }
 

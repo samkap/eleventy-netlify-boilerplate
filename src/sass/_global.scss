@@ -5,32 +5,31 @@
 }
 
 html {
-  background:$color1; 
-  background: -moz-linear-gradient(107deg, $color1 0%, rgba(0,120,138,1) 50%, rgba(0,74,85,0.7) 100%);
-  background: -webkit-linear-gradient(107deg, $color1 0%, rgba(0,120,138,1) 50%, rgba(0,74,85,0.7) 100%);
-  background: linear-gradient(107deg, $color1 0%, rgba(0,120,138,1) 50%, rgba(0,74,85,0.7) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#004a55",endColorstr="#004a55",GradientType=1);
-  background-size: 400% 400%;
-  animation: gradient 8s ease infinite;
+  // background:$color1; 
+  // background: -moz-linear-gradient(107deg, $color1 0%, rgba(0,120,138,1) 50%, rgba(0,74,85,0.7) 100%);
+  // background: -webkit-linear-gradient(107deg, $color1 0%, rgba(0,120,138,1) 50%, rgba(0,74,85,0.7) 100%);
+  // background: linear-gradient(107deg, $color1 0%, rgba(0,120,138,1) 50%, rgba(0,74,85,0.7) 100%);
+  // filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#004a55",endColorstr="#004a55",GradientType=1);
+  // background-size: 400% 400%;
+  // animation: gradient 8s ease infinite;
 }
 
-@keyframes gradient {
-	0% {background-position: 0% 50%;}
-	50% { background-position: 100% 50%;}
-	100% {background-position: 0% 50%;}
-}
+// @keyframes gradient {
+// 	0% {background-position: 0% 50%;}
+// 	50% { background-position: 100% 50%;}
+// 	100% {background-position: 0% 50%;}
+// }
 
 /* Content */
 body {
   -webkit-font-smoothing: antialiased;
   color: $color1;
   font-display: auto;
-  font-family: $sans;
+  font-family: $text;
   font-size: $base-font-size;
   font-weight: 400;
   height: 100%;
   line-height: $base-line-height;
-  margin: 10px;
   word-wrap: break-word;
 }
 
@@ -94,6 +93,7 @@ header {
   background: $white;
   display: flex;
   flex-direction: column;
+  font-family: $sans;
   padding: $base-spacing 2% 0 2%;
   position: relative;
 
@@ -101,8 +101,14 @@ header {
    @media screen and (min-width:48em) {
       flex-direction: row;
       justify-content: space-between;
-      padding: $base-spacing 2%;
+      padding: $base-spacing;
+  }
 
+  .home & {
+    background: $color1;
+    a{
+      color: $white;
+    }
   }
 }
 
@@ -160,9 +166,9 @@ nav {
 }
 
 footer {
-  background: $white;
+  background: $color3;
   font-size: 1rem;
-  padding: 30px 0;
+  padding: $large-spacing;
   text-align: center;
 
   .inner {

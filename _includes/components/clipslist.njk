@@ -4,7 +4,7 @@
 		<article{% if clip.url == url %} data-current="current item"{% endif %} >
 						<span>
 				<time datetime="{{ clip.date | machineDate }}">
-					<small>{{ clip.date | readableDate }}</small>
+					{{ clip.date | readableDate }}
 				</time>
 			</span>
 			<div>

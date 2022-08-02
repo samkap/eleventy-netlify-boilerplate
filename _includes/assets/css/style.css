@@ -1,6 +1,5 @@
 @charset "UTF-8";
-/* ********************global********************* */
-/* http://meyerweb.com/eric/tools/css/reset/
+/* ********************global********************* */ /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -61,38 +60,16 @@ table {
   box-sizing: border-box;
 }
 
-html {
-  background: rgb(11, 53, 44);
-  background: -moz-linear-gradient(107deg, rgb(11, 53, 44) 0%, rgb(0, 120, 138) 50%, rgba(0, 74, 85, 0.7) 100%);
-  background: -webkit-linear-gradient(107deg, rgb(11, 53, 44) 0%, rgb(0, 120, 138) 50%, rgba(0, 74, 85, 0.7) 100%);
-  background: linear-gradient(107deg, rgb(11, 53, 44) 0%, rgb(0, 120, 138) 50%, rgba(0, 74, 85, 0.7) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#004a55",endColorstr="#004a55",GradientType=1);
-  background-size: 400% 400%;
-  animation: gradient 8s ease infinite;
-}
-
-@keyframes gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
 /* Content */
 body {
   -webkit-font-smoothing: antialiased;
   color: rgb(11, 53, 44);
   font-display: auto;
-  font-family: RozanovaHUM-Light;
+  font-family: SilvaText-Book;
   font-size: 1.2em;
   font-weight: 400;
   height: 100%;
   line-height: 1.8;
-  margin: 10px;
   word-wrap: break-word;
 }
 
@@ -157,6 +134,7 @@ header {
   background: #ffffff;
   display: flex;
   flex-direction: column;
+  font-family: RozanovaHUM-Light;
   padding: 1.8rem 2% 0 2%;
   position: relative;
 }
@@ -164,8 +142,14 @@ header {
   header {
     flex-direction: row;
     justify-content: space-between;
-    padding: 1.8rem 2%;
+    padding: 1.8rem;
   }
+}
+.home header {
+  background: rgb(11, 53, 44);
+}
+.home header a {
+  color: #ffffff;
 }
 
 header img {
@@ -207,18 +191,18 @@ nav a {
   text-decoration-skip-ink: auto;
 }
 nav a:hover {
-  color: rgb(135, 49, 99);
-  text-decoration: wavy underline rgb(135, 49, 99) 2px;
+  color: rgb(255, 177, 233);
+  text-decoration: wavy underline rgb(255, 177, 233) 2px;
 }
 nav a[data-current="current item"] {
-  color: rgb(135, 49, 99);
-  text-decoration: wavy underline rgb(135, 49, 99) 2px;
+  color: rgb(255, 177, 233);
+  text-decoration: wavy underline rgb(255, 177, 233) 2px;
 }
 
 footer {
-  background: #ffffff;
+  background: rgb(219, 232, 232);
   font-size: 1rem;
-  padding: 30px 0;
+  padding: 3.6rem;
   text-align: center;
 }
 footer .inner {
@@ -241,21 +225,21 @@ footer .inner {
 
 .bold,
 strong {
-  font-family: RozanovaHUM-Bold;
+  font-family: SilvaText-Bold;
 }
 blockquote .bold,
 blockquote strong {
-  font-family: RecoletaAlt-Bold;
+  font-family: SilvaDisplay-Bold;
 }
 
 em,
 i {
-  font-family: RozanovaHUM-LightIt;
+  font-family: SilvaText-BookItalic;
 }
 
 sub,
 sup {
-  font-family: RecoletaAlt-Regular;
+  font-family: SilvaText-Book;
   position: relative;
   top: -0.4em;
   vertical-align: baseline;
@@ -263,6 +247,16 @@ sup {
 
 sub {
   top: 0.4em;
+}
+
+a {
+  color: rgb(11, 53, 44);
+}
+
+time {
+  font-family: RozanovaHUM-Light;
+  font-size: 1rem;
+  font-weight: 900;
 }
 
 main a,
@@ -285,7 +279,7 @@ h4,
 h5,
 h6 {
   font-display: auto;
-  font-family: RecoletaAlt-Regular;
+  font-family: SilvaDisplay-Bold;
   font-weight: 500;
   letter-spacing: normal;
   word-spacing: normal;
@@ -311,7 +305,7 @@ h2 a {
 
 .meta {
   display: block;
-  font-family: RozanovaHUM-Bold;
+  font-family: SilvaText-Bold;
   font-size: 0.75em;
 }
 
@@ -333,7 +327,7 @@ blockquote {
   background-color: white;
   border: 1px solid rgb(74, 125, 31);
   border-radius: 4px;
-  font-family: RecoletaAlt-Regular;
+  font-family: SilvaText-BookItalic;
   font-weight: 500;
   margin: 20px 0 20px 15px;
   overflow: hidden;
@@ -418,38 +412,19 @@ pre,
 ul {
     margin: 20px 0;
   }
-
   .Posts p {
     margin-top: 0;
   }
-
   article::after,
 header::after {
     margin: 70px;
   }
-
-  h1 {
-    font-size: 2.5em;
-  }
-
-  h2 {
-    font-size: 1.5em;
-  }
-
-  h3,
-h4,
-h5,
-h6 {
-    font-size: 1.2em;
-  }
-
   blockquote {
     font-size: 1.3em;
   }
   blockquote p {
     margin: 0;
   }
-
   hr {
     margin: 1em auto;
   }
@@ -486,7 +461,7 @@ li {
   grid-template-columns: 1fr;
 }
 .listing-posts h2 {
-  font-family: RecoletaAlt-Regular;
+  font-family: SilvaDisplay-Bold;
   font-size: 1.2em;
   line-height: 1.3;
   margin: 10px 0;
@@ -517,382 +492,109 @@ li {
   }
 }
 
-img {
-  max-width: 100%;
-  display: block;
+.home header img {
+  fill: currentColor;
+  color: #ffffff;
 }
-
-.img-only {
-  margin: 0 -15px;
+.home main {
+  background-color: rgb(11, 53, 44);
+  padding: 0;
 }
-.img-only img {
-  border: solid #f2f3f3 2px;
+.home .greeting {
+  color: rgb(219, 232, 232);
+  font-family: SilvaText-BookItalic;
+  font-size: 1.8rem;
+  line-height: 1.3;
+  margin-bottom: 7.2rem;
+  padding: 7.2rem 1.8rem;
+  max-width: 860px;
 }
-
-.img-only-source {
-  margin: 0 -15px;
-  text-align: center;
-}
-
-video {
-  max-width: 100%;
-  height: auto;
-}
-
-embed,
-iframe,
-object {
-  max-width: 100%;
-}
-
-/***********************Image GRid***********************/
-.img-grid {
-  width: 100%;
-  display: grid;
-  grid-template-columns: 100%;
-  grid-template-rows: 25%;
-  grid-column-gap: 1%;
-  grid-row-gap: 10px;
-  background: pink;
-}
-.img-grid img {
-  max-width: 100%;
-}
-
-@media screen and (min-width: 350px) {
-  .img-grid {
-    grid-template-columns: 49.5% 49.5%;
-    grid-template-rows: 50%;
+@media screen and (min-width: 1060px) {
+  .home .greeting {
+    font-size: 1.8rem;
   }
 }
-@media all and (min-width: 680px) {
-  .img-only {
-    margin: 0 -30px;
+
+.recent-container {
+  background-color: rgb(219, 232, 232);
+  display: grid;
+  column-gap: 1.8rem;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr;
+  grid-template-areas: "posts" "other";
+}
+.recent-container .recent-posts {
+  background-color: rgb(219, 232, 232);
+  grid-area: posts;
+  margin-top: -7.2rem;
+  padding: 1.8rem;
+}
+@media screen and (min-width: 1060px) {
+  .recent-container .recent-posts {
+    padding: 1.8rem 7.2rem;
   }
-
-  .img-only-source {
-    margin: 0 -30px;
-  }
 }
-@media screen and (min-width: 650px) {
-  .img-grid {
-    grid-template-columns: 32.677% 32.677% 32.677%;
-  }
-}
-.cover-image-container img {
-  max-height: 100px;
-  max-width: 100%;
-  margin: 0 auto;
-}
-
-.Speaking .cover-image-container {
-  background-image: url("/static/img/speaking.jpg");
-  background-size: cover;
-  -webkit-filter: grayscale(1) brightness(0.75) contrast(1.05);
-  filter: grayscale(1) brightness(0.75) contrast(1.05);
-}
-
-.embed-container {
-  position: relative;
-  padding-bottom: 56.25%;
-  height: 0;
-  overflow: hidden;
-  max-width: 100%;
-}
-
-.embed-container iframe, .embed-container object, .embed-container embed {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-.full {
-  max-width: 100%;
-}
-
-.medium {
-  max-width: 900px;
-}
-
-.limit {
-  max-width: 700px;
-  margin: 3.6rem 0;
-}
-
-a.read-more {
-  background-image: none;
-  border: 0;
-  color: rgb(74, 125, 31);
-  display: inline;
-  font-size: 1.2em;
-  font-weight: 600;
-}
-a.read-more:hover {
-  color: rgb(11, 53, 44);
-}
-
-.pagination {
-  color: rgb(74, 125, 31);
-  font-family: RecoletaAlt-Regular;
-}
-.pagination a {
-  background-image: none;
-  text-decoration: none;
-}
-.pagination .left {
-  float: left;
-}
-.pagination .right {
-  float: right;
-}
-
-#disqus_thread {
-  margin-bottom: 50px;
-  margin-top: 50px;
-  max-width: 700px;
-}
-
-.posts h1,
-.posts h2,
-.posts h3,
-.posts blockquote,
-.posts p,
-.posts span,
-.posts ul,
-.posts ol,
-.posts .pagination,
-.posts .tags,
-.pages h1,
-.pages h2,
-.pages h3,
-.pages blockquote,
-.pages p,
-.pages span,
-.pages ul,
-.pages ol,
-.pages .pagination,
-.pages .tags {
-  max-width: 700px;
-}
-.posts h2, .posts h3,
-.pages h2,
-.pages h3 {
-  font-family: RecoletaAlt-Bold;
-  line-height: 1.2;
-}
-.posts p,
-.pages p {
-  font-weight: 400;
-}
-
-.tags {
-  display: block;
-  margin-top: 2em;
-}
-
-/* Post Tags */
-a[rel=tag],
-a[rel=tag]:visited {
-  display: inline-block;
-  vertical-align: text-top;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  font-size: 0.625em;
-  padding: 0 0.5em;
-  line-height: 2em;
-  height: 2em;
-  border: 1px solid var(--secondary);
-  background-color: rgba(109, 164, 60, 0.2);
-  color: var(--primary);
-  border-radius: 0.25em;
-  text-decoration: none;
-  margin: 0 0.5em 0.5em 0;
-}
-
-a[rel=tag]:hover {
-  border: 1px solid var(--primary);
-  background-color: var(--primary);
-  color: var(--secondary);
-}
-
-a[rel=tag]:last-child {
-  margin-right: 0;
-}
-
-article {
-  max-width: 45rem;
-}
-
-.post-list article {
-  margin-top: 2rem;
-  display: grid;
-  grid-template-columns: 1fr 5fr;
-  column-gap: 10px;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-.post-list > span {
-  justify-self: end;
-}
-.post-list a {
-  text-decoration-thickness: 1px;
-}
-
-.clip-list article {
-  margin-top: 2rem;
-  display: grid;
-  grid-template-columns: 1fr 5fr;
-  column-gap: 10px;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-.clip-list h3 {
-  font-family: RozanovaHUM-Light;
-  font-size: 1.2em;
-}
-.clip-list > span {
-  justify-self: end;
-}
-.clip-list a {
-  text-decoration-thickness: 1px;
-}
-
-.clips-header {
-  font-family: RozanovaHUM-Bold;
-  font-size: 1.2em;
-}
-
-.lh-short {
-  line-height: 1.2;
-}
-
-.about-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr) 3fr repeat(2, 1fr);
-  grid-template-rows: repeat(3, 1fr) 0.25fr;
-  grid-column-gap: 40px;
-  grid-row-gap: 40px;
-}
-.about-grid article {
-  grid-area: 1/3/4/4;
-}
-.about-grid .photo-1 {
-  grid-area: 1/2/2/2;
-}
-.about-grid .photo-2 {
-  grid-area: 3/1/3/3;
-}
-.about-grid .photo-3 {
-  grid-area: 2/1/4/3;
-}
-.about-grid .photo-4 {
-  grid-area: 3/4/4/6;
-}
-.about-grid .photo-5 {
-  grid-area: 1/4/2/6;
-}
-.about-grid .photo-6 {
-  grid-area: 3/3/4/5;
-}
-.about-grid .photo-7 {
-  grid-area: 5/4/5/5;
-}
-
-.clips-group,
-.recent {
-  display: grid;
-  grid-template-rows: 1fr;
-  grid-row-gap: 40px;
-}
-.clips-group h2,
-.recent h2 {
-  margin-top: 0;
-  margin-bottom: 20px;
-}
-.clips-group > a,
-.recent > a {
-  display: block;
-  width: 100%;
-  text-decoration: none;
-  border: 0;
-}
-.clips-group h3,
-.recent h3 {
-  line-height: 1.2;
-}
-.clips-group h3 a,
-.recent h3 a {
-  text-decoration-thickness: 1px;
-}
-.clips-group p,
-.recent p {
-  font-size: 0.9rem;
-  margin-top: 0;
-}
-.clips-group ul, .clips-group ol,
-.recent ul,
-.recent ol {
+.recent-container .recent-posts ul, .recent-container .recent-posts ol {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
-.clips-group__clip-column h4,
-.recent__clip-column h4 {
+.recent-container .recent-posts h2 {
+  font-family: RozanovaHUM-Light;
+  font-weight: 900;
   font-size: 0.9em;
   line-height: 1.3;
+  margin: 0.4rem 0 1.8rem;
 }
-.clips-group__clip-column article,
-.recent__clip-column article {
-  margin-bottom: 40px;
+.recent-container .recent-other {
+  background-color: rgb(219, 232, 232);
+  grid-area: other;
+  padding-right: 1.8rem;
 }
-.clips-group .post-container,
-.recent .post-container {
-  margin-bottom: 80px;
+.recent-container .recent-other .book-sticker {
+  background: rgb(11, 53, 44);
+  background: -moz-linear-gradient(107deg, rgb(11, 53, 44) 0%, rgb(0, 120, 138) 50%, rgba(0, 74, 85, 0.7) 100%);
+  background: -webkit-linear-gradient(107deg, rgb(11, 53, 44) 0%, rgb(0, 120, 138) 50%, rgba(0, 74, 85, 0.7) 100%);
+  background: linear-gradient(107deg, rgb(11, 53, 44) 0%, rgb(0, 120, 138) 50%, rgba(0, 74, 85, 0.7) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#004a55",endColorstr="#004a55",GradientType=1);
+  background-size: 400% 400%;
+  animation: gradient 8s ease infinite;
+  width: 300px;
+  height: 300px;
 }
-.clips-group .post-container h3,
-.recent .post-container h3 {
-  font-size: 1.2em;
-  line-height: 1.5;
-  margin: 0;
-}
-.clips-group .post-container p,
-.recent .post-container p {
-  font-size: 88%;
-  font-weight: 400;
-  hyphens: 5;
-  line-height: 1.5;
-  margin: 0;
-}
-@media screen and (min-width: 760px) {
-  .clips-group,
-.recent {
-    grid-column-gap: 3em;
-    grid-template-columns: 2fr 3fr;
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+    border-radius: 30% 70% 70% 30%/30% 30% 70% 70%;
+  }
+  50% {
+    background-position: 100% 50%;
+    border-radius: 5% 95% 22% 78%/69% 19% 81% 31%;
+  }
+  100% {
+    background-position: 0% 50%;
+    border-radius: 30% 70% 70% 30%/30% 30% 70% 70%;
   }
 }
-
-.greeting h1 {
-  font-size: 1.8rem;
-  font-weight: 400;
+@media screen and (min-width: 1160px) {
+  .recent-container {
+    grid-template-areas: "posts posts other" "posts posts other" "posts posts other" "posts posts other";
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+  }
+}
+.recent-container article {
+  margin-bottom: 3.6rem;
+}
+.recent-container article h3 {
+  font-family: SilvaDisplay-BoldItalic;
+  font-size: 1.4em;
+  line-height: 1.3;
+  word-spacing: 2px;
+}
+.recent-container article p {
+  font-family: SilvaText-Book;
   margin: 0;
-}
-
-.recent {
-  margin: 2em 0;
-}
-.recent__header {
-  font-family: RecoletaAlt-Regular;
-  font-style: normal;
-  font-size: 0.8em;
-  font-weight: 700;
-  letter-spacing: 2px;
-  line-height: 1;
-  text-transform: uppercase;
-}
-.recent .post-container {
-  max-width: 700px;
 }
 
 /**
@@ -927,58 +629,34 @@ article {
  *
 /* @import must be at top of file, otherwise CSS will not work */
 @font-face {
-  font-family: "RecoletaAlt-Bold";
-  src: url("/static/webfonts/3ADA1C_5_0.eot");
-  src: url("/static/webfonts/3ADA1C_5_0.eot?#iefix") format("embedded-opentype"), url("/static/webfonts/3ADA1C_5_0.woff2") format("woff2"), url("/static/webfonts/3ADA1C_5_0.woff") format("woff");
-}
-@font-face {
-  font-family: "RecoletaAlt-Regular";
-  src: url("/static/webfonts/3ADA1C_E_0.eot");
-  src: url("/static/webfonts/3ADA1C_E_0.eot?#iefix") format("embedded-opentype"), url("/static/webfonts/3ADA1C_E_0.woff2") format("woff2"), url("/static/webfonts/3ADA1C_E_0.woff") format("woff");
-}
-@font-face {
   font-family: "RozanovaHUM-Light";
   src: url("/static/webfonts/3ADA1C_15_0.eot");
   src: url("/static/webfonts/3ADA1C_15_0.eot?#iefix") format("embedded-opentype"), url("/static/webfonts/3ADA1C_15_0.woff2") format("woff2"), url("/static/webfonts/3ADA1C_15_0.woff") format("woff");
 }
 @font-face {
-  font-family: "RozanovaHUM-LightIt";
-  src: url("/static/webfonts/3ADA1C_16_0.eot");
-  src: url("/static/webfonts/3ADA1C_16_0.eot?#iefix") format("embedded-opentype"), url("/static/webfonts/3ADA1C_16_0.woff2") format("woff2"), url("/static/webfonts/3ADA1C_16_0.woff") format("woff");
+  font-family: "SilvaText-Book";
+  src: url("/static/webfonts/SilvaText-Book.eot");
+  src: url("/static/webfonts/SilvaText-Book.eot?#iefix") format("embedded-opentype"), url("/static/webfonts/SilvaText-Book.woff2") format("woff2"), url("/static/webfonts/SilvaText-Book.woff") format("woff");
 }
 @font-face {
-  font-family: "RozanovaHUM-Bold";
-  src: url("/static/webfonts/3ADA1C_1B_0.eot");
-  src: url("/static/webfonts/3ADA1C_1B_0.eot?#iefix") format("embedded-opentype"), url("/static/webfonts/3ADA1C_1B_0.woff2") format("woff2"), url("/static/webfonts/3ADA1C_1B_0.woff") format("woff");
+  font-family: "SilvaText-BookItalic";
+  src: url("/static/webfonts/SilvaText-BookItalic.eot");
+  src: url("/static/webfonts/SilvaText-BookItalic.eot?#iefix") format("embedded-opentype"), url("/static/webfonts/SilvaText-BookItalic.woff2") format("woff2"), url("/static/webfonts/SilvaText-BookItalic.woff") format("woff");
 }
-.gr_grid_container {
-  display: grid;
-  width: 100%;
-  padding: 1.8rem 0;
-  margin: 0 auto;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-column-gap: 1.8rem;
-  grid-row-gap: 1.8rem;
-  align-items: end;
+@font-face {
+  font-family: "SilvaText-MediumItalic";
+  src: url("/static/webfonts/SilvaText-MediumItalic.eot");
+  src: url("/static/webfonts/SilvaText-MediumItalic.eot?#iefix") format("embedded-opentype"), url("/static/webfonts/SilvaText-MediumItalic.woff2") format("woff2"), url("/static/webfonts/SilvaText-MediumItalic.woff") format("woff");
 }
-
-.gr_grid_book_container img {
-  box-sizing: border-box;
-  width: 100%;
+@font-face {
+  font-family: "SilvaDisplay-Bold";
+  src: url("/static/webfonts/SilvaDisplay-Bold.eot");
+  src: url("/static/webfonts/SilvaDisplay-Bold.eot?#iefix") format("embedded-opentype"), url("/static/webfonts/SilvaDisplay-Bold.woff2") format("woff2"), url("/static/webfonts/SilvaDisplay-Bold.woff") format("woff");
 }
-
-.shell {
-  padding: 3.6rem 5%;
-  background: rgb(11, 53, 44);
-}
-.shell h3 {
-  color: white;
-}
-
-@media screen and (min-width: 50em) {
-  .gr_grid_container {
-    grid-template-columns: repeat(9, 1fr);
-  }
+@font-face {
+  font-family: "SilvaDisplay-BoldItalic";
+  src: url("/static/webfonts/SilvaDisplay-BoldItalic.eot");
+  src: url("/static/webfonts/SilvaDisplay-BoldItalic.eot?#iefix") format("embedded-opentype"), url("/static/webfonts/SilvaDisplay-BoldItalic.woff2") format("woff2"), url("/static/webfonts/SilvaDisplay-BoldItalic.woff") format("woff");
 }
 
 /*# sourceMappingURL=style.css.map */
