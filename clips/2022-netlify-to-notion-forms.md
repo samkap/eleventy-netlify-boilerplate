@@ -7,4 +7,4 @@ tags:
   - clips
   - development
 ---
-\[Creating Netlify to Notion forms](https://daverupert.com/2022/07/netlify-to-notion-form/)
+[Creating Netlify to Notion forms](https://daverupert.com/2022/07/netlify-to-notion-form/)
