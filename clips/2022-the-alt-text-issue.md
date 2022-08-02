@@ -9,4 +9,4 @@ tags:
   - a11y
   - development
 ---
-\[#24: The Alt Text Issue](https://accessiblesocial.substack.com/p/june-28-2022)
+[#24: The Alt Text Issue](https://accessiblesocial.substack.com/p/june-28-2022)
