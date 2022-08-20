@@ -1,21 +1,24 @@
 .home {
-
-  header img {
-    fill: currentColor;
-    color: $white; 
-  }
-  main {
     background-color: $color1;
+
+  main {
     padding: 0;
   }
+
   .greeting {
     color: $color3;
     font-family: $text-italic;
     font-size: $base-spacing;
     line-height: 1.3;
     margin-bottom: $xx-large-spacing;
-    padding: $xx-large-spacing $base-spacing;
-    max-width: 860px;
+    padding: $base-spacing;
+    max-width: 960px;
+    margin: 0 auto;
+
+    @media screen and (min-width: 800px) {
+      font-size: $base-spacing;
+      padding: $xx-large-spacing $base-spacing;
+    }
     @media screen and (min-width: 1060px) {
       font-size: $base-spacing;
     }
@@ -28,8 +31,7 @@
     grid-area: posts;
     margin-top: -$xx-large-spacing;
     padding: $base-spacing;
-//     border-top: 4px dashed $color1;
-// border-radius: 0px 120px 0px 0px;
+
     @media screen and (min-width: 1060px) {
       padding: $base-spacing $xx-large-spacing;
     }
