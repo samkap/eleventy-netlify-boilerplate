@@ -34,12 +34,12 @@ It's all exhausting, but I have good news! If you'd like to be an active ally fo
 
 **Want more?** See videos and links below 
 
-- [Video 1: How to be an ally](http://samkapila.com/2014/12/09/five-tips-on-how-to-be-an-ally-video.html)
+- [Video 1: How to be an ally](https://samkapila.com/2014/12/09/five-tips-on-how-to-be-an-ally-video.html)
 
 - [Video 2: Getting Called out: How to Apologize](https://www.youtube.com/watch?v=C8xJXKYL8pU)
 
-- [Guide to Allyship](http://www.guidetoallyship.com/)
+- [Guide to Allyship](https://www.guidetoallyship.com/)
 
-- [10 ways to be an ally](http://everydayfeminism.com/2013/11/things-allies-need-to-know/)
+- [10 ways to be an ally](https://everydayfeminism.com/2013/11/things-allies-need-to-know/)
 
 - [GLAAD's 10 ways to be an ally](https://www.glaad.org/resources/ally/2)

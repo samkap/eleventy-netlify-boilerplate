@@ -7,4 +7,4 @@ tags:
 - scholarship
 ---
 
-[TechPoint: $100 million fund launched for code school diversity scholarships](http://techpoint.org/2016/09/code-school-diversity-scholarships/)
+[TechPoint: $100 million fund launched for code school diversity scholarships](https://techpoint.org/2016/09/code-school-diversity-scholarships/)

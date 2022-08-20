@@ -7,4 +7,4 @@ layout: layouts/clip.njk
 crosspost_to_medium: false
 ---
 
-[Little Kids and their Big Dogs](http://ift.tt/2ibA03m)
+[Little Kids and their Big Dogs](https://ift.tt/2ibA03m)

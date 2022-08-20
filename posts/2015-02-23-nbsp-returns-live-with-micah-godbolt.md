@@ -11,11 +11,11 @@ tags:
   - education
 ---
 
-Good news, y’all! [NBSP](http://goodstuff.fm/nbsp) is back on GoodStuff.fm and recording live using Google Hangouts Air with Youtube.
+Good news, y’all! [NBSP](https://goodstuff.fm/nbsp) is back on GoodStuff.fm and recording live using Google Hangouts Air with Youtube.
 
-This past Friday, [Chris](http://www.twitter.com/teleject) and I went live with [Micah Godbolt](https://twitter.com/micahgodbolt). We spoke about Sass and Front End Architecture, and it a lot of what FE Architect is about blew my mind.
+This past Friday, [Chris](https://www.twitter.com/teleject) and I went live with [Micah Godbolt](https://twitter.com/micahgodbolt). We spoke about Sass and Front End Architecture, and it a lot of what FE Architect is about blew my mind.
 
-Check out the [audio](http://goodstuff.fm/nbsp/48) and subscribe to our feed, or for those more visually-inclined, check out my sketchnotes or watch the live broadcast unedited below.
+Check out the [audio](https://goodstuff.fm/nbsp/48) and subscribe to our feed, or for those more visually-inclined, check out my sketchnotes or watch the live broadcast unedited below.
 
 ![]({{base.url}}/static/img/posts/sketchnotes.jpg)
 

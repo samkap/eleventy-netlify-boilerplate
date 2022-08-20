@@ -8,4 +8,4 @@ crosspost_to_medium: false
 ---
 
 Pass — Neue — New, relevant &amp; remarkable
-from: [http://ift.tt/2jHoVrw](http://ift.tt/2jHoVrw)
+from: [https://ift.tt/2jHoVrw](https://ift.tt/2jHoVrw)

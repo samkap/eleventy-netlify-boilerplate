@@ -8,4 +8,4 @@ layout: layouts/clip.njk
 crosspost_to_medium: false
 
 ---
-[&#39;Hidden Figures&#39; Is The First Movie With Multiple Female Leads To Remain No. 1 Since 2011](http://ift.tt/2iB5kHx)
+[&#39;Hidden Figures&#39; Is The First Movie With Multiple Female Leads To Remain No. 1 Since 2011](https://ift.tt/2iB5kHx)

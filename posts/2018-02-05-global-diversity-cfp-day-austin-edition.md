@@ -47,4 +47,4 @@ Organizer, Cecy Correa, who also organizes <abbr title="Girl Develop It">GDI</ab
 
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-If you're looking for speaking resources, there are a few in my [first post about public speaking](http://samkapila.com/2014/08/03/speaking-up.html).
+If you're looking for speaking resources, there are a few in my [first post about public speaking](https://samkapila.com/2014/08/03/speaking-up.html).

@@ -8,4 +8,4 @@ crosspost_to_medium: false
 ---
 
 The Golden State Warriors coach draws from the assassination of his father to make sense of a complicated world.
-from: [NYTimes](http://ift.tt/2itjjn3)
+from: [NYTimes](https://ift.tt/2itjjn3)

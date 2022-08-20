@@ -10,4 +10,4 @@ layout: layouts/clip.njk
 
 ― Albert Schweitzer
 
-via [Swiss-Miss](http://www.swiss-miss.com/2016/06/things-fall-into-place.html)
+via [Swiss-Miss](https://www.swiss-miss.com/2016/06/things-fall-into-place.html)

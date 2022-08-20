@@ -9,4 +9,4 @@ tags:
 layout: layouts/clip.njk
 ---
 
-Two of my favorite things together: [CSS grids and gardens](http://cssgridgarden.com/)
+Two of my favorite things together: [CSS grids and gardens](https://cssgridgarden.com/)

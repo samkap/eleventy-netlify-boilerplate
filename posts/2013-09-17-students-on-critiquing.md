@@ -22,4 +22,4 @@ After reading this article I feel as if I have a better understanding of how to 
 
 <p class="caption">
 It makes me really happy to see thoughtful and well-written reflection on critiquing. It helps me be a better teacher.</p>
-[1]: http://alistapart.com/article/design-criticism-creative-process
+[1]: https://alistapart.com/article/design-criticism-creative-process

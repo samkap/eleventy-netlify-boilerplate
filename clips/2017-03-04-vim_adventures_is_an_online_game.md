@@ -7,4 +7,4 @@ crosspost_to_medium: false
 layout: layouts/clip.njk
 ---
 
-[VIM Adventures](http://ift.tt/2m8N2SP) is an online game based on VIM&#39;s keyboard shortcuts. It&#39;s the &quot;Zelda meets text editing&quot; game. So come have some fun and learn some VIM!
+[VIM Adventures](https://ift.tt/2m8N2SP) is an online game based on VIM&#39;s keyboard shortcuts. It&#39;s the &quot;Zelda meets text editing&quot; game. So come have some fun and learn some VIM!

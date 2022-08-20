@@ -18,23 +18,23 @@ For some reason, this morning I decided to wake up an hour before my alarm clock
 *  **[Silverbird][7]** : A Google Chrome Extension for Twitter notifications. It's nice to log out of the Twitter site and ignore/stop checking the timeline every 15 minutes.
 *  **[Fantastical][8]** : Desktop and iOS app recommended by *[Andy Clarke][9]* along with some other great apps. It's exactly what it sounds like, a fantastic calendar. I use the desktop app, I have yet to use the iOS version. I specifically love that if I get an email, I can highlight the important stuff, right click, and "send to Fantastical", and it builds an event based on the info saved.
 *  **[Any.Do][10]**: iOS, Chrome Extension for Any.Do, plus iOS sister app *[Cal][11]* together, for task management. It's encouraging when things are crossed of the list, intuitive, and beautiful. It's zen-like design is a lot less daunting than Apple's current notebook paper Reminders app, and they had syncing options before Reminders existed. Like Fantastical, it shows tasks within your schedule and you can use the Gmail or desktop plug-in that lets you right click and add to the App. My other favorite feature, when the app displays how much free time you have between events, so you can gauge what to do with that time, if anything. It's still new, so there are some kinks, specifically in specifying event location.
-*  **[Alfred][12]** : Desktop App. Thanks, to my [ATX Web Show co-host][13], [Travis][14], this is my new favorite desktop app. Alfred has replaced Apple's Spotlight, which I used religiously until I met Alfred. It does everything spotlight does (search, open programs, calculate, etc), but also can search Google, Wikipedia, and Amazon, and <a href="http://www.alfredapp.com/#features" target="_blank">a LOT of other wonderful things</a>. And that's just the free version.
+*  **[Alfred][12]** : Desktop App. Thanks, to my [ATX Web Show co-host][13], [Travis][14], this is my new favorite desktop app. Alfred has replaced Apple's Spotlight, which I used religiously until I met Alfred. It does everything spotlight does (search, open programs, calculate, etc), but also can search Google, Wikipedia, and Amazon, and <a href="https://www.alfredapp.com/#features" target="_blank">a LOT of other wonderful things</a>. And that's just the free version.
 What apps or services do you use? Let me know on [twitter][15]!
 <p class="caption">
 As I collected links for this post, I looked up Erin's Medium page, and found she has a lot more articles related to happiness, productivity, and more. <a href="https://medium.com/@erinfrey" target="_blank">Check it out</a>.
 </p>
-[1]: http://cuveecoffee.com/shop/kenya-kumurembe-sl28-2/
+[1]: https://cuveecoffee.com/shop/kenya-kumurembe-sl28-2/
 [2]: https://medium.com/
 [3]: https://medium.com/@erinfrey
-[4]: http://www.liftapp.com
+[4]: https://www.liftapp.com
 [5]: https://medium.com/lift-research/2d713430397a
 [6]: https://www.google.com/intl/en/chrome/browser/
 [7]: https://chrome.google.com/webstore/detail/silver-bird/encaiiljifbdbjlphpgpiimidegddhic
-[8]: http://flexibits.com/fantastical
+[8]: https://flexibits.com/fantastical
 [9]: https://twitter.com/Malarkey/status/249139894839021568
-[10]: http://www.any.do/anydo
-[11]: http://www.any.do/cal
-[12]: http://www.alfredapp.com/
-[13]: http://www.atxwebshow.com
-[14]: http://www.twitter.com/tswicegood
-[15]: http://www.twitter.com/samkap
+[10]: https://www.any.do/anydo
+[11]: https://www.any.do/cal
+[12]: https://www.alfredapp.com/
+[13]: https://www.atxwebshow.com
+[14]: https://www.twitter.com/tswicegood
+[15]: https://www.twitter.com/samkap
