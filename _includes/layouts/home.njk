@@ -9,13 +9,17 @@ section: home
 <section class="recent-container">
 
 	<div class="recent-other">
-		<div class="book-sticker">
-			<p>Soon<p>
+		<div class="book-container">
+			<div class="book-sticker">
+				<p>Soon<p>
+			</div>
+			<div class="book-cover">
+			</div>
 		</div>
 	</div>
 
 	<div class="recent-posts">
-		<h2>Recent posts</h2>
+		<h2>Recent writing</h2>
 		<ul>
 		{%- for post in collections.post | reverse -%}
 			{% if loop.index0 < 5 %}

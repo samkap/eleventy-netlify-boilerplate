@@ -1,75 +1,63 @@
-a.read-more {
-  background-image: none;
-  border: 0;
-  color: $color2;
-  display: inline;
-  font-size: 1.2em;
-  font-weight: 600;
-
-  &:hover {
-    color: $color1;
-  }
+.lh-short {
+  line-height: 1.2;
 }
 
-.pagination {
-  color: $color2;
-  font-family: $sans;
-  margin-top: $base-spacing;
+body.writing {
+  background: $color1;
 
+  article a {
+    color: $color3;
+    text-decoration-color: $white;
+    text-decoration-thickness: 1px;
+  }
 
-  a {
-    background-image: none;
-    text-decoration: none;
-    text-transform: none;
+  h1, span, nav a {
+    color: $white;
+  }
+
+  .post-list {
+  article {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    column-gap: $medium-spacing;
+    align-items: center;
+    justify-content:flex-start;
+
+    & > span {
+      justify-self: end;
+      line-height: 1;
+    }
+
+    h2 {
+      font-size: 1.75rem;
+      line-height: 1.2;
+    }
+
+    a {
+      text-decoration-thickness: 2px;
+      text-decoration-color: $color3;
+   }
   }
 }
-
-#disqus_thread {
-  margin-bottom: 50px;
-  margin-top: 50px;
-  max-width: $max-w-base;
 }
 
-.posts,
-.pages {
-
-  h1,
-  h2,
-  h3,
-  blockquote,
-  p,
-  span,
-  ul,
-  ol,
-  .pagination,
-  .tags {
-    max-width: $max-w-base;
-  }
-
-  h1 {
-    font-size: 2.5em;
-  }
-
-  h2 {
-    font-size: 1.5em;
-  }
-
-  h2, h3 {
-    font-family: $display-bold;
-    line-height: 1.2;
-  }
-
-  p {
-    font-weight: 400;
-  }
+// Post
+.post {
+  background-color: $white;
 }
 
-  .tags {
-    display: block;
-    margin-top: 2em;
-  }
+article {
+  max-width: 45rem;
+}
 
-  /* Post Tags */
+
+// Post meta
+.tags {
+  display: block;
+  margin-top: $medium-spacing;
+}
+
 a[rel="tag"],
 a[rel="tag"]:visited {
 	display: inline-block;
@@ -96,28 +84,25 @@ a[rel="tag"]:last-child {
 	margin-right: 0;
 }
 
-article {
-  max-width: 45rem;
-}
+.pagination {
+  color: $color2;
+  font-family: $sans;
+  margin-top: $base-spacing;
 
-.post-list {
-  article {
-    margin-top: 2rem;
-    display: grid;
-    grid-template-columns: 1fr 5fr;
-    column-gap: 10px;
-    align-items: flex-start;
-    justify-content:flex-start;
-  }
-
-  & > span {
-      justify-self: end;
-  }
 
   a {
-    text-decoration-thickness: 1px;
+    background-image: none;
+    text-transform: none;
   }
 }
+
+#disqus_thread {
+  margin-bottom: 50px;
+  margin-top: 50px;
+  max-width: $max-w-base;
+}
+
+// Clips
 
 .clip-list {
   article {
@@ -144,10 +129,6 @@ article {
 }
 
 .clips-header {
-  font-family: $text-bold;
+  font-family: $display-bold;
   font-size: $base-font-size;
-}
-
-.lh-short {
-  line-height: 1.2;
 }

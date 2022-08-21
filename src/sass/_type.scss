@@ -1,15 +1,15 @@
 ::-moz-selection,
 ::selection {
-  background: #ffda09;
+  background: $color15;
   opacity: 0.5;
 }
 
 .bold,
 strong {
-  font-family: $text-bold;
+  font-family: $display-bold;
 
   blockquote & {
-    font-family: $display-bold;
+    font-family: $display-bold-italic;
   }
 }
 
@@ -71,7 +71,7 @@ h6 {
 }
 
 h1 {
-  font-size: 1.5rem;
+  font-size: 3rem;
   font-weight: 700;
   line-height: 1.2;
   margin-bottom: 1em;
@@ -89,9 +89,40 @@ h2 {
   }
 }
 
+.posts,
+.pages {
+
+  h1,
+  h2,
+  h3,
+  blockquote,
+  p,
+  span,
+  ul,
+  ol,
+  .pagination,
+  .tags {
+    max-width: $max-w-base;
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
+
+  h2, h3 {
+    font-family: $display-bold;
+    line-height: 1.2;
+  }
+
+  p {
+    font-weight: 400;
+  }
+}
+
+
 .meta {
   display: block;
-  font-family: $text-bold;
+  font-family: $display-bold;
   font-size: 0.75em;
   // text-transform: uppercase;
 }
@@ -147,7 +178,7 @@ p code {
   font-size: 1em;
   display: inline-block;
   border-radius: 2px;
-  background-color: $gray;
+  background-color: $color3;
   border-radius: 4px;
   box-shadow: 0 1px 1px rgba(122, 130, 136, 0.25);
   padding: 0 3px;
@@ -233,7 +264,7 @@ small a {
   // }
 
   blockquote {
-    font-size: 1.3em;
+    font-size: 1.3rem;
 
     p {
       margin: 0;

@@ -68,7 +68,7 @@ header {
   vertical-align: middle;
   fill: $color1;
 
-  .home & {
+  .home &, .writing & {
     fill: white;
   }
 }

@@ -13,7 +13,4 @@ tags:
 
 The band Pomplamoose just released a creative, single shot music video in which they mash-up Pharell's “Happy” and “Get Lucky”. As the video explains, they use a lot of white foam boards, a projector, and a simple video editor to make the whole video. It's just a smooth version of the two songs, and the video shows just how much care and out-of-the-box thinking Pomplamoose puts into their work. Check it out!
 
-<iframe width="853" height="480" src="//www.youtube.com/embed/i7X8ZnmLfM0" frameborder="0" allowfullscreen></iframe>
-
-
-
+<iframe width="853" height="480" src="https://www.youtube.com/embed/VHtV3N8Otcs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

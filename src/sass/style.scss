@@ -3,41 +3,34 @@
 $color1: rgb(11, 53, 44);
 $color2: rgb(74, 125, 31);
 $color3: rgb(219, 232, 232);
-$gray: #f2f3f3;
-$white: #ffffff;
-
-
-
-$aqua: rgb(59,117,124);
-$aqua-light: rgb(121,165,158);
-
 $color4: rgb(184,138,71);
-$teracotta: rgb(171,72,47);
-
-
-
-
-$color15: rgb(255, 201, 236);
-$color14: rgb(233, 253, 249);
 $color5: rgb(255, 177, 233);
-$color4: rgb(209, 251, 242);
+$white: #ffffff;
+$teracotta: rgb(171,72,47);
+$color15: rgb(255, 201, 236);
 
 
+// $aqua: rgb(59,117,124);
+// $aqua-light: rgb(121,165,158);
+// $color14: rgb(233, 253, 249);
+// $color4: rgb(209, 251, 242);
 
 $shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+
 $display-bold: SilvaDisplay-Bold;
 $display-bold-italic: SilvaDisplay-BoldItalic;
-$text: SilvaText-Book;
-$text-bold: SilvaText-Bold;
-$text-italic: SilvaText-BookItalic;
-$text-display: SilvaText-MediumItalic;
+$text: SilvaText-Light;
+$text-italic: SilvaText-LightItalic;
 $sans: RozanovaHUM-Light;
 
-$max-w-base: 700px;
-$s-font-size: .9rem;
-$base-font-size: 1.2em;
-$base-spacing: 1rem;
-$base-line-height: 1.8;
+$max-w-base: 50rem;
+$xs-font-size: .9rem;
+$s-font-size: 1rem;
+$base-font-size: 1.45rem;
+$medium-font-size: 1.9rem;
+$large-font-size: 2.5rem;
+
+$base-line-height: 1.6;
 $display-line-height: 1.3;
 $base-spacing: $base-line-height * 1rem;
 $x-small-spacing: .4rem;
