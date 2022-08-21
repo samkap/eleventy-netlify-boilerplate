@@ -76,7 +76,7 @@
   .recent-other {
     background-color: $white;
     grid-area: book;
-    padding-right: $base-spacing;
+    padding: 0 $base-spacing;
     @media screen and (min-width: 1060px) {
       margin-top: -$xx-large-spacing;
     }
@@ -105,21 +105,35 @@
   width: 323px;
   margin: 5em auto;
 
+  .sticker-container {
+    position: absolute;
+    z-index: 3;
+    width:105px;
+    height:105px;
+    left: -35px;
+    top: -40px;
+
+  }
   .book-sticker {
-      background:$color1; 
-      color: $color3;
-      background-size: 400% 400%;
-      animation: sticker 8s ease infinite;
-      width: 6rem;
-      height: 6rem;
-      position: absolute;
-      z-index: 3;
-      left: -20px;
-      top: -20px;
+    background: url(./static/img/sticker.svg) no-repeat;
+    background-position: center;
+    animation: sticker 12s linear infinite;
+    position: absolute;
+    width:105px;
+    height:105px;
+
     }
-
+    
+  .book-sticker__text {
+    position: absolute;
+    color: $white;
+    text-align: center;
+    font-family: $display-bold;
+    width:105px;
+    padding-top: 13.5px;
+  }
   @keyframes sticker {
-
+  100% {transform: rotate(1turn); }
   }
 
   .book-cover {

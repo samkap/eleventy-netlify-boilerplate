@@ -673,7 +673,7 @@ object {
 .recent-container .recent-other {
   background-color: #ffffff;
   grid-area: book;
-  padding-right: 1.6rem;
+  padding: 0 1.6rem;
 }
 @media screen and (min-width: 1060px) {
   .recent-container .recent-other {
@@ -700,19 +700,35 @@ object {
   width: 323px;
   margin: 5em auto;
 }
-.book-container .book-sticker {
-  background: rgb(11, 53, 44);
-  color: rgb(219, 232, 232);
-  background-size: 400% 400%;
-  animation: sticker 8s ease infinite;
-  width: 6rem;
-  height: 6rem;
+.book-container .sticker-container {
   position: absolute;
   z-index: 3;
-  left: -20px;
-  top: -20px;
+  width: 105px;
+  height: 105px;
+  left: -35px;
+  top: -40px;
 }
-@keyframes sticker {}
+.book-container .book-sticker {
+  background: url(./static/img/sticker.svg) no-repeat;
+  background-position: center;
+  animation: sticker 12s linear infinite;
+  position: absolute;
+  width: 105px;
+  height: 105px;
+}
+.book-container .book-sticker__text {
+  position: absolute;
+  color: #ffffff;
+  text-align: center;
+  font-family: SilvaDisplay-Bold;
+  width: 105px;
+  padding-top: 13.5px;
+}
+@keyframes sticker {
+  100% {
+    transform: rotate(1turn);
+  }
+}
 .book-container .book-cover {
   background: rgb(255, 177, 233);
   width: 323px;
