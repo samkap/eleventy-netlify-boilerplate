@@ -158,7 +158,7 @@ nav li {
 nav a {
   border-radius: 4px;
   color: rgb(11, 53, 44);
-  font-size: 0.8rem;
+  font-size: 1rem;
   font-weight: 900;
   letter-spacing: 1px;
   overflow: hidden;
@@ -166,15 +166,14 @@ nav a {
   position: relative;
   text-decoration: none;
   text-transform: uppercase;
-  text-decoration-skip-ink: auto;
 }
 nav a:hover {
-  color: rgb(255, 177, 233);
-  text-decoration: solid underline rgb(255, 177, 233) 2px;
+  color: rgb(184, 138, 71);
+  text-decoration: solid underline rgb(184, 138, 71) 1px;
 }
 nav a[data-current="current item"] {
-  color: rgb(255, 177, 233);
-  text-decoration: solid underline rgb(255, 177, 233) 2px;
+  color: rgb(11, 53, 44);
+  text-decoration: solid underline rgb(184, 138, 71) 1px;
 }
 
 footer {
@@ -223,25 +222,25 @@ sub {
 
 a {
   color: rgb(11, 53, 44);
+  text-decoration-color: rgb(184, 138, 71);
+  text-decoration-skip: auto;
+  -webkit-text-decoration-skip: auto;
 }
 
 time {
   font-family: RozanovaHUM-Light;
   font-size: 1rem;
-  font-weight: 900;
 }
 
 main a,
 main a:visited {
   color: currentColor;
   font-weight: 500;
-  text-decoration-skip: auto;
-  -webkit-text-decoration-skip: auto;
 }
 main a:focus, main a:hover,
 main a:visited:focus,
 main a:visited:hover {
-  color: rgb(74, 125, 31);
+  color: rgb(184, 138, 71);
 }
 
 h1,
@@ -253,6 +252,7 @@ h6 {
   font-display: auto;
   font-family: SilvaDisplay-Bold;
   font-weight: 500;
+  line-height: 1.2;
   letter-spacing: normal;
   word-spacing: normal;
   word-wrap: break-word;
@@ -260,31 +260,29 @@ h6 {
 
 h1 {
   font-size: 3rem;
-  font-weight: 700;
-  line-height: 1.2;
-  margin-bottom: 1em;
 }
 article h1 {
   margin-bottom: 0.5em;
 }
 
 h2 {
-  font-size: 1em;
-}
-h2 a {
-  border-bottom: 0;
+  font-size: 1.9rem;
 }
 
-.posts h1,
-.posts h2,
-.posts h3,
-.posts blockquote,
-.posts p,
-.posts span,
-.posts ul,
-.posts ol,
-.posts .pagination,
-.posts .tags,
+h3 {
+  font-size: 1.45rem;
+}
+
+.post h1,
+.post h2,
+.post h3,
+.post blockquote,
+.post p,
+.post span,
+.post ul,
+.post ol,
+.post .pagination,
+.post .tags,
 .pages h1,
 .pages h2,
 .pages h3,
@@ -296,20 +294,6 @@ h2 a {
 .pages .pagination,
 .pages .tags {
   max-width: 50rem;
-}
-.posts h2,
-.pages h2 {
-  font-size: 1.5em;
-}
-.posts h2, .posts h3,
-.pages h2,
-.pages h3 {
-  font-family: SilvaDisplay-Bold;
-  line-height: 1.2;
-}
-.posts p,
-.pages p {
-  font-weight: 400;
 }
 
 .meta {
@@ -632,7 +616,7 @@ object {
 }
 
 .recent-container {
-  background-color: #ffffff;
+  background-color: rgb(219, 232, 232);
   display: grid;
   column-gap: 1.6rem;
   grid-template-rows: auto;
@@ -647,7 +631,7 @@ object {
   }
 }
 .recent-container .recent-posts {
-  background-color: #ffffff;
+  background-color: rgb(219, 232, 232);
   grid-area: posts;
   padding: 1.6rem;
   max-width: 50rem;
@@ -671,7 +655,7 @@ object {
   margin: 0.4rem 0 1.6rem;
 }
 .recent-container .recent-other {
-  background-color: #ffffff;
+  background-color: rgb(219, 232, 232);
   grid-area: book;
   padding: 0 1.6rem;
 }
@@ -705,16 +689,21 @@ object {
   z-index: 3;
   width: 105px;
   height: 105px;
-  left: -35px;
-  top: -40px;
+  left: -20px;
+  top: -65px;
 }
 .book-container .book-sticker {
   background: url(./static/img/sticker.svg) no-repeat;
   background-position: center;
-  animation: sticker 12s linear infinite;
+  animation: sticker 20s linear infinite;
   position: absolute;
   width: 105px;
   height: 105px;
+}
+@keyframes sticker {
+  100% {
+    transform: rotate(1turn);
+  }
 }
 .book-container .book-sticker__text {
   position: absolute;
@@ -722,22 +711,19 @@ object {
   text-align: center;
   font-family: SilvaDisplay-Bold;
   width: 105px;
-  padding-top: 13.5px;
+  padding: 30% 0;
 }
-@keyframes sticker {
-  100% {
-    transform: rotate(1turn);
+@media screen and (min-width: 678px) {
+  .book-container .book-sticker__text {
+    padding: 13.5px 0;
   }
 }
 .book-container .book-cover {
-  background: rgb(255, 177, 233);
+  background: rgb(255, 201, 236);
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
   width: 323px;
   height: 500px;
   max-width: 100%;
-}
-
-.lh-short {
-  line-height: 1.2;
 }
 
 body.writing {
@@ -748,28 +734,46 @@ body.writing article a {
   text-decoration-color: #ffffff;
   text-decoration-thickness: 1px;
 }
-body.writing h1, body.writing span, body.writing nav a {
+body.writing h1, body.writing span {
   color: #ffffff;
+}
+body.writing nav a {
+  color: #ffffff;
+}
+body.writing nav a:hover {
+  color: rgb(184, 138, 71);
+  text-decoration: solid underline rgb(184, 138, 71) 1px;
+}
+body.writing nav a[data-current="current item"] {
+  color: #ffffff;
+  text-decoration: solid underline rgb(184, 138, 71) 1px;
 }
 body.writing .post-list article {
   margin-top: 2rem;
-  display: grid;
-  grid-template-columns: 1fr 5fr;
-  column-gap: 2rem;
-  align-items: center;
-  justify-content: flex-start;
+}
+@media screen and (min-width: 50rem) {
+  body.writing .post-list article {
+    align-items: center;
+    display: grid;
+    column-gap: 1.6rem;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 1fr;
+  }
 }
 body.writing .post-list article > span {
+  color: rgb(219, 232, 232);
+  font-size: 1rem;
   justify-self: end;
   line-height: 1;
 }
-body.writing .post-list article h2 {
-  font-size: 1.75rem;
-  line-height: 1.2;
+@media screen and (min-width: 50rem) {
+  body.writing .post-list article > span {
+    justify-self: start;
+  }
 }
 body.writing .post-list article a {
-  text-decoration-thickness: 2px;
-  text-decoration-color: rgb(219, 232, 232);
+  text-decoration-color: #ffffff;
+  text-decoration: solid underline rgb(184, 138, 71) 1px;
 }
 
 .post {
@@ -777,7 +781,7 @@ body.writing .post-list article a {
 }
 
 article {
-  max-width: 45rem;
+  max-width: 50rem;
 }
 
 .tags {
@@ -851,36 +855,17 @@ a[rel=tag]:last-child {
   font-size: 1.45rem;
 }
 
-.about-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr) 3fr repeat(2, 1fr);
-  grid-template-rows: repeat(3, 1fr) 0.25fr;
-  grid-column-gap: 40px;
-  grid-row-gap: 40px;
+.about {
+  background-color: rgb(219, 232, 232);
 }
-.about-grid article {
-  grid-area: 1/3/4/4;
-}
-.about-grid .photo-1 {
-  grid-area: 1/2/2/2;
-}
-.about-grid .photo-2 {
-  grid-area: 3/1/3/3;
-}
-.about-grid .photo-3 {
-  grid-area: 2/1/4/3;
-}
-.about-grid .photo-4 {
-  grid-area: 3/4/4/6;
-}
-.about-grid .photo-5 {
-  grid-area: 1/4/2/6;
-}
-.about-grid .photo-6 {
-  grid-area: 3/3/4/5;
-}
-.about-grid .photo-7 {
-  grid-area: 5/4/5/5;
+
+@media screen and (min-width: 50rem) {
+  .about-container {
+    display: flex;
+    align-items: center;
+    gap: 3.2rem;
+    flex-direction: row;
+  }
 }
 
 /**

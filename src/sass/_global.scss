@@ -108,7 +108,7 @@ nav {
   a {
     border-radius: 4px;
     color: $color1;
-    font-size: 0.8rem;
+    font-size: $s-font-size;
     font-weight: 900;
     letter-spacing: 1px;
     overflow: hidden;
@@ -116,16 +116,15 @@ nav {
     position: relative;
     text-decoration: none;
     text-transform: uppercase;
-    text-decoration-skip-ink: auto;
 
     &:hover {
-      color: $color5;
-      text-decoration: solid underline $color5 2px;
+      color: $color4;
+      text-decoration: solid underline $color4 1px;
     }
 
     &[data-current="current item"] {
-      color: $color5;
-      text-decoration: solid underline $color5 2px;
+      color: $color1;
+      text-decoration: solid underline $color4 1px;
     }
   }
 }

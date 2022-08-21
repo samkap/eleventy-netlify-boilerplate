@@ -1,7 +1,3 @@
-.lh-short {
-  line-height: 1.2;
-}
-
 body.writing {
   background: $color1;
 
@@ -11,35 +7,53 @@ body.writing {
     text-decoration-thickness: 1px;
   }
 
-  h1, span, nav a {
+  h1, span {
     color: $white;
   }
 
-  .post-list {
-  article {
-    margin-top: 2rem;
-    display: grid;
-    grid-template-columns: 1fr 5fr;
-    column-gap: $medium-spacing;
-    align-items: center;
-    justify-content:flex-start;
-
-    & > span {
-      justify-self: end;
-      line-height: 1;
-    }
-
-    h2 {
-      font-size: 1.75rem;
-      line-height: 1.2;
-    }
-
+  nav {
     a {
-      text-decoration-thickness: 2px;
-      text-decoration-color: $color3;
-   }
+      color: $white;
+
+      &:hover {
+        color: $color4;
+        text-decoration: solid underline $color4 1px;
+      }
+
+      &[data-current="current item"] {
+        color: $white;
+        text-decoration: solid underline $color4 1px;
+      }
+    }
   }
-}
+
+  .post-list {
+    article {
+      margin-top: 2rem;
+      @media screen and (min-width: $max-w-base) {
+        align-items: center;
+        display: grid;
+        column-gap: $base-spacing;
+        grid-template-columns: 1fr 5fr;
+        grid-template-rows: 1fr;
+      } 
+
+      & > span {
+        color: $color3;
+        font-size: $s-font-size;
+        justify-self: end;
+        line-height: 1;
+        @media screen and (min-width: $max-w-base) {
+          justify-self: start;
+        } 
+      }
+
+      a {
+        text-decoration-color: $white;
+        text-decoration: solid underline $color4 1px;
+      }
+    }
+  }
 }
 
 // Post
@@ -48,7 +62,7 @@ body.writing {
 }
 
 article {
-  max-width: 45rem;
+  max-width: 50rem;
 }
 
 

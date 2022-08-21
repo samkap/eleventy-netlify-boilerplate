@@ -59,14 +59,14 @@ permalink: /speaking-writing
 * [Tips for choosing vibrant colours for web projects](https://www.creativebloq.com/web-design/tips-choosing-vibrant-colours-web-projects-61620832), net Magazine, June 2016 issue and online
 * [Learn how to animate Scalable Vector Graphics](https://www.creativebloq.com/web-design/learn-how-animate-scalable-vector-graphics-51620196), net Magazine, May 2016 issue and online
 * [Focus On Portfolio Design](https://www.creativebloq.com/portfolios/how-make-cohesive-online-design-portfolio-111517909), net Magazine, December 2015 issue and online.
-* ["You've got this"](https://the-pastry-box-project.net/sameera-kapila/2015-december-10), The Pastry Box Project, December 2015
-* ["Choosing Nothing: Be Kind, Please Unwind"](https://the-pastry-box-project.net/sameera-kapila/2015-october-7), The Pastry Box Project, October 2015
+* [“You've got this”](https://the-pastry-box-project.net/sameera-kapila/2015-december-10), The Pastry Box Project, December 2015
+* [“Choosing Nothing: Be Kind, Please Unwind”](https://the-pastry-box-project.net/sameera-kapila/2015-october-7), The Pastry Box Project, October 2015
 * [25 Hottest Web Design Techniques](https://www.creativebloq.com/netmag/25-hottest-web-design-techniques-81516153), The Iron Yard Design student work featured in article
-* ["Design, Dinner, and A Show"](https://the-pastry-box-project.net/sameera-kapila/2015-august-14), The Pastry Box Project, August 2015
-* ["Like fruit flies to a ripe mango"](https://the-pastry-box-project.net/sameera-kapila/2015-june-11), The Pastry Box Project, June 2015
-* ["The World Wide Vulnerability"](https://the-pastry-box-project.net/sameera-kapila/2015-april-15), The Pastry Box Project, April 2015
-* ["Thinking in Systems"](https://www.creativebloq.com/netmag/why-you-should-think-web-building-part-larger-system-71412395), net Magazine, June 2014
-* ["5 Lessons from the RWD Classroom"](https://www.creativebloq.com/netmag/5-lessons-responsive-web-design-classroom-7135527), net Magazine, online
+* [“Design, Dinner, and A Show”](https://the-pastry-box-project.net/sameera-kapila/2015-august-14), The Pastry Box Project, August 2015
+* [“Like fruit flies to a ripe mango”](https://the-pastry-box-project.net/sameera-kapila/2015-june-11), The Pastry Box Project, June 2015
+* [“The World Wide Vulnerability”](https://the-pastry-box-project.net/sameera-kapila/2015-april-15), The Pastry Box Project, April 2015
+* [“Thinking in Systems”](https://www.creativebloq.com/netmag/why-you-should-think-web-building-part-larger-system-71412395), net Magazine, June 2014
+* [“5 Lessons from the RWD Classroom”](https://www.creativebloq.com/netmag/5-lessons-responsive-web-design-classroom-7135527), net Magazine, online
 
 ### Community & Review
 

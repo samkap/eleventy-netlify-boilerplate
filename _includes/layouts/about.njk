@@ -4,31 +4,24 @@ section: about
 permalink: /about/index.html
 ---
 
-<section class="pages about-grid">
-  {% include "components/about.njk" %}
-  <div class="photo-1">
+<section class="about-container">
+  <div>
     <picture>
       <img
-      sizes="(max-width: 400px) 100vw, 400px"
-      srcset="/static/img/samkap,w_190.jpg 190w,
-      /static//img/samkap,w_317.jpg 317w,
-      /static//img/samkap,w_416.jpg 416w"
-      src="/static/img/samkap,w_416.jpg"
+      sizes="(max-width: 678px) 100vw, 687px"
+      srcset="/static/img/samkap,w_200.png 190w,
+      /static/img/samkap,w_377.png 377w,
+      /static/img/samkap,w_506.png 506w,
+      /static/img/samkap,w_687.png 687w"
+      src="/static/img/samkap,w_687.png"
       alt="It's me, Sam!">
     </picture>
-  </div>
-  <div class="photo-3">
-    <img src="/static/img/about/speaking.jpg" alt="Speaking at a conference">
-    <small>Speaking at ConvergeSE 2017</small>
-  </div>
-  <div class="photo-5">
-    <img src="/static/img/about/offscreen-spread.jpg" alt="Spread in Offscreen Magazine issue 16 featuring a day in my life">
-    <small>A spread from a "Day in the life" feature from Offscreen Magazine.</small>
-   </div>
-  <div class="photo-6">
-      <iframe width="672" height="377" src="https://www.youtube.com/embed/5pj8E-XbRzE?start=40" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  </div>
+</div>
+<div>
+ {% include "components/about.njk" %}
+</div>
 </section>
+
 <div>
     {{ layoutContent | safe }}
 </div>
