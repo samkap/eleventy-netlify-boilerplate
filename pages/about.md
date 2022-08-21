@@ -12,7 +12,7 @@ eleventyNavigation:
 
 ## Speaking
 
-  * [Clarity 2020](https://youtu.be/hcqed7cIhj4), Oct 2020, remote, “Designing for Happiness”
+* [Clarity 2020](https://youtu.be/hcqed7cIhj4), Oct 2020, remote, “Designing for Happiness”
 * [Austin Design Week](https://austindesignweek.org/schedule/making-design-for-good-a-part-of-your-career), Nov 2017, Moderator, Austin, TX “Making Design for Good a Part of Your Career”
 * [FusionConf](https://fusionconf.io/), Sept 2017, Speaker, Charlotte, NC, “Diversity in Design”
 * [Creative Mornings / Austin](https://creativemornings.com/talks/sam-kapila/), July 2017, Speaker, Austin, TX, “Equality”

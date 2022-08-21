@@ -14,7 +14,7 @@ section: post
   {{ layoutContent | safe }}
 
   {% if tags %}
-   <span><small>tags:</small></span>
+   <span><small>Filed under:</small></span>
     <span>
     {% for tag in tags %}
       {%- if tag != "post" -%}
@@ -27,6 +27,6 @@ section: post
 
 </article>
 
-<nav>
-  <a href="{{ '/writing/' | url }}">← Writing</a>
+<nav class="pagination">
+  <a href="{{ '/writing/' | url }}">← Back to writing</a>
 </nav>

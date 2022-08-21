@@ -13,19 +13,14 @@ a.read-more {
 
 .pagination {
   color: $color2;
-  font-family: $display;
+  font-family: $sans;
+  margin-top: $base-spacing;
+
 
   a {
     background-image: none;
     text-decoration: none;
-  }
-
- .left {
-    float: left;
-  }
-
-  .right {
-    float: right;
+    text-transform: none;
   }
 }
 
@@ -51,6 +46,14 @@ a.read-more {
     max-width: $max-w-base;
   }
 
+  h1 {
+    font-size: 2.5em;
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
+
   h2, h3 {
     font-family: $display-bold;
     line-height: 1.2;
@@ -70,25 +73,23 @@ a.read-more {
 a[rel="tag"],
 a[rel="tag"]:visited {
 	display: inline-block;
-  vertical-align: text-top;
   text-transform: uppercase;
 	letter-spacing: .1em;
-  font-size: .625em;
-  padding: 0 .5em;
-	line-height: 2em;
-	height: 2em;
-  border: 1px solid var(--secondary);
-	background-color: $color1;
+  font-family: $sans;
+  font-size: .7rem;
+  padding: .3rem .5rem;
+	line-height: 1.2;
+	background-color: $color3;
 	color: var(--primary);
-  border-radius: .25em;
+  border-radius: .5em;
   text-decoration: none;
 	margin: 0 .5em .5em 0;
 }
 
 a[rel="tag"]:hover {
 	border: 1px solid var(--primary);
-	background-color: var(--primary);
-	color: var(--secondary);
+	background-color: $color2;
+	color: $white;
 }
 
 a[rel="tag"]:last-child {

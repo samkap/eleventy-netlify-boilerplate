@@ -34,17 +34,16 @@ header {
 
   align-content: space-between;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   font-family: $sans;
-  justify-content: center;
+  justify-content: space-between;
   padding: $base-spacing 2% 0 2%;
   position: relative;
   margin: 0 auto;
 
    @media screen and (min-width:48em) {
-    flex-direction: row;
-    justify-content: space-between;
     padding: $base-spacing;
+
   }
 
   .home & {
@@ -109,7 +108,7 @@ nav {
   a {
     border-radius: 4px;
     color: $color1;
-    font-size: 0.7em;
+    font-size: 0.8rem;
     font-weight: 900;
     letter-spacing: 1px;
     overflow: hidden;

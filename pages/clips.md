@@ -4,4 +4,3 @@ title: Clips
 metaDescription: Links I saved
 permalink: /clips/index.html
 ---
-
