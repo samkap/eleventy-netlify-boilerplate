@@ -212,8 +212,8 @@ footer a {
 
 ::-moz-selection,
 ::selection {
-  background: rgb(255, 201, 236);
-  opacity: 0.5;
+  background: rgba(59, 117, 124, 0.9);
+  color: #ffffff;
 }
 
 .bold,
