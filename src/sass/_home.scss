@@ -3,6 +3,7 @@
 
   main {
     padding: 0;
+    max-width: 100%;
   }
 
   .greeting h1 {
@@ -43,7 +44,7 @@
       display: block;
       height: 7px;
       width: 100%;
-      
+
       background: $color1;
       background: repeating-linear-gradient(
         -45deg,

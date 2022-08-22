@@ -1,16 +1,6 @@
 body.writing {
   background: $color1;
 
-  article a {
-    color: $color3;
-    text-decoration-color: $white;
-    text-decoration-thickness: 1px;
-  }
-
-  h1, span {
-    color: $white;
-  }
-
   nav {
     a {
       color: $white;
@@ -27,6 +17,20 @@ body.writing {
     }
   }
 
+  article a {
+    color: $color3;
+    text-decoration-color: $white;
+    text-decoration-thickness: 1px;
+
+    span {
+      color: $color3;
+    }
+  }
+
+  h1 {
+    color: $color3;
+  }
+  
   .post-list {
     article {
       margin-top: 2rem;
@@ -40,10 +44,10 @@ body.writing {
 
       & > span {
         color: $color3;
-        font-size: $s-font-size;
+        font-size: $xs-font-size;
         justify-self: end;
         line-height: 1;
-        @media screen and (min-width: $max-w-base) {
+        @media screen and (max-width: $max-w-base) {
           justify-self: start;
         } 
       }

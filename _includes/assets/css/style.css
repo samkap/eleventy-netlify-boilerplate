@@ -178,7 +178,7 @@ nav a[data-current="current item"] {
 }
 
 footer {
-  background: rgb(121, 165, 158);
+  background: rgb(157, 208, 199);
   color: rgb(11, 53, 44);
   font-size: 1rem;
   text-align: center;
@@ -191,14 +191,14 @@ footer::after {
   height: 7px;
   width: 100%;
   margin: 0 auto;
-  background: rgb(121, 165, 158);
-  background: repeating-linear-gradient(-45deg, rgb(121, 165, 158), rgb(121, 165, 158) 4px, transparent 2px, transparent 7px);
+  background: rgb(157, 208, 199);
+  background: repeating-linear-gradient(-45deg, rgb(157, 208, 199), rgb(157, 208, 199) 4px, transparent 2px, transparent 7px);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   border-bottom: 0;
 }
 footer .inner {
-  margin: 20px auto 0;
+  margin: 0 auto;
   max-width: 50rem;
   padding: 3.2rem;
 }
@@ -248,7 +248,6 @@ a {
 
 time {
   font-family: RozanovaHUM-Light;
-  font-size: 1rem;
 }
 
 main a,
@@ -612,6 +611,7 @@ object {
 }
 .home main {
   padding: 0;
+  max-width: 100%;
 }
 .home .greeting h1 {
   color: rgb(219, 232, 232);
@@ -776,14 +776,6 @@ object {
 body.writing {
   background: rgb(11, 53, 44);
 }
-body.writing article a {
-  color: rgb(219, 232, 232);
-  text-decoration-color: #ffffff;
-  text-decoration-thickness: 1px;
-}
-body.writing h1, body.writing span {
-  color: #ffffff;
-}
 body.writing nav a {
   color: #ffffff;
 }
@@ -794,6 +786,17 @@ body.writing nav a:hover {
 body.writing nav a[data-current="current item"] {
   color: #ffffff;
   text-decoration: solid underline rgb(184, 138, 71) 1px;
+}
+body.writing article a {
+  color: rgb(219, 232, 232);
+  text-decoration-color: #ffffff;
+  text-decoration-thickness: 1px;
+}
+body.writing article a span {
+  color: rgb(219, 232, 232);
+}
+body.writing h1 {
+  color: rgb(219, 232, 232);
 }
 body.writing .post-list article {
   margin-top: 2rem;
@@ -809,11 +812,11 @@ body.writing .post-list article {
 }
 body.writing .post-list article > span {
   color: rgb(219, 232, 232);
-  font-size: 1rem;
+  font-size: 0.9rem;
   justify-self: end;
   line-height: 1;
 }
-@media screen and (min-width: 50rem) {
+@media screen and (max-width: 50rem) {
   body.writing .post-list article > span {
     justify-self: start;
   }
