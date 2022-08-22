@@ -41,12 +41,12 @@ eleventyNavigation:
 * [Get up to speed with CSS Grid](https://www.creativebloq.com/features/get-up-to-speed-with-css-grid), net Magazine, January 2017 issue and online
 * [3 top tools for testing web performance](https://www.creativebloq.com/features/3-top-tools-for-testing-web-performance), net Magazine, November 2016 issue and online
 * [Creating web icons that break the language barrier](https://www.creativebloq.com/features/creating-web-icons-that-break-the-language-barrier), net Magazine, November 2016 issue and online
-* [“You've got this”](https://the-pastry-box-project.net/sameera-kapila/2015-december-10), The Pastry Box Project, December 2015
-* [“Choosing Nothing: Be Kind, Please Unwind”](https://the-pastry-box-project.net/sameera-kapila/2015-october-7), The Pastry Box Project, October 2015
-* [“Design, Dinner, and A Show”](https://the-pastry-box-project.net/sameera-kapila/2015-august-14), The Pastry Box Project, August 2015
-* [“Like fruit flies to a ripe mango”](https://the-pastry-box-project.net/sameera-kapila/2015-june-11), The Pastry Box Project, June 2015
-* [“The World Wide Vulnerability”](https://the-pastry-box-project.net/sameera-kapila/2015-april-15), The Pastry Box Project, April 2015
-* [“Thinking in Systems”](https://www.creativebloq.com/netmag/why-you-should-think-web-building-part-larger-system-71412395), net Magazine, June 2014
-* [“5 Lessons from the RWD Classroom”](https://www.creativebloq.com/netmag/5-lessons-responsive-web-design-classroom-7135527), net Magazine, online
+* [You've got this](https://the-pastry-box-project.net/sameera-kapila/2015-december-10), The Pastry Box Project, December 2015
+* [Choosing Nothing: Be Kind, Please Unwind](https://the-pastry-box-project.net/sameera-kapila/2015-october-7), The Pastry Box Project, October 2015
+* [Design, Dinner, and A Show](https://the-pastry-box-project.net/sameera-kapila/2015-august-14), The Pastry Box Project, August 2015
+* [Like fruit flies to a ripe mango](https://the-pastry-box-project.net/sameera-kapila/2015-june-11), The Pastry Box Project, June 2015
+* [The World Wide Vulnerability](https://the-pastry-box-project.net/sameera-kapila/2015-april-15), The Pastry Box Project, April 2015
+* [Thinking in Systems](https://www.creativebloq.com/netmag/why-you-should-think-web-building-part-larger-system-71412395), net Magazine, June 2014
+* [5 Lessons from the RWD Classroom](https://www.creativebloq.com/netmag/5-lessons-responsive-web-design-classroom-7135527), net Magazine, online
 </div>
 </section>

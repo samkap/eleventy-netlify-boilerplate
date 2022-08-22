@@ -37,6 +37,25 @@
   grid-template-columns: 1fr;
   grid-template-rows: auto;
 
+  &::before {
+    content: '';
+      position: absolute;
+      display: block;
+      height: 7px;
+      width: 100%;
+      background: $color1;
+      background: repeating-linear-gradient(
+        -45deg,
+        $color1,
+        $color1 6px,
+        transparent 4px,
+        transparent 11px
+      );
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden;
+      border-bottom: 0;
+  }
+
     @media screen and (min-width: $max-w-base) {
       grid-template-areas: 
         "book posts"
@@ -76,9 +95,12 @@
     background-color: $color3;
     grid-area: book;
     padding: 0 $base-spacing;
+    position: relative;
+    z-index: 2;
     @media screen and (min-width: 1060px) {
       margin-top: -$xx-large-spacing;
     }
+
   }
 
   article {
@@ -102,7 +124,7 @@
 .book-container {
   margin: $x-large-spacing auto $medium-spacing auto;
   position: relative;
-  width: 323px;
+  width: 300px;
 
   @media screen and (min-width: $max-w-base) {
     margin: 5em auto;
@@ -145,8 +167,8 @@
   .book-cover {
     background: $color15;
     box-shadow: $shadow;
-    height: 500px;
+    height: 464.4px;
     max-width: 100%;
-    width: 323px;
+    width: 300px;
   }
 }

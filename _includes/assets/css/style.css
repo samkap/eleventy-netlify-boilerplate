@@ -623,6 +623,18 @@ object {
   grid-template-columns: 1fr;
   grid-template-rows: auto;
 }
+.recent-container::before {
+  content: "";
+  position: absolute;
+  display: block;
+  height: 7px;
+  width: 100%;
+  background: rgb(11, 53, 44);
+  background: repeating-linear-gradient(-45deg, rgb(11, 53, 44), rgb(11, 53, 44) 6px, transparent 4px, transparent 11px);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-bottom: 0;
+}
 @media screen and (min-width: 50rem) {
   .recent-container {
     grid-template-areas: "book posts" "book posts" "book posts" "book posts";
@@ -657,6 +669,8 @@ object {
   background-color: rgb(219, 232, 232);
   grid-area: book;
   padding: 0 1.6rem;
+  position: relative;
+  z-index: 2;
 }
 @media screen and (min-width: 1060px) {
   .recent-container .recent-other {
@@ -681,7 +695,7 @@ object {
 .book-container {
   margin: 4.8rem auto 2rem auto;
   position: relative;
-  width: 323px;
+  width: 300px;
 }
 @media screen and (min-width: 50rem) {
   .book-container {
@@ -725,9 +739,9 @@ object {
 .book-container .book-cover {
   background: rgb(255, 201, 236);
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
-  height: 500px;
+  height: 464.4px;
   max-width: 100%;
-  width: 323px;
+  width: 300px;
 }
 
 body.writing {
@@ -862,6 +876,9 @@ a[rel=tag]:last-child {
 .about {
   background-color: rgb(219, 232, 232);
 }
+.about h2 {
+  font-family: SilvaDisplay-BoldItalic;
+}
 
 .about-container {
   margin-bottom: 1.6rem;
@@ -884,15 +901,32 @@ a[rel=tag]:last-child {
   }
 }
 
+.select-container::before {
+  content: "";
+  position: absolute;
+  display: block;
+  height: 7px;
+  width: 68%;
+  margin: 0 auto;
+  background: rgb(11, 53, 44);
+  background: repeating-linear-gradient(-45deg, rgb(11, 53, 44), rgb(11, 53, 44) 6px, transparent 4px, transparent 11px);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-bottom: 0;
+}
+
 #select-works {
   color: rgb(184, 138, 71);
   margin-bottom: 1.6rem;
+  padding-top: 1.6rem;
 }
 
 .about-select ul {
-  margin-top: 0;
+  margin-top: 1rem;
+  padding-left: 0;
 }
 .about-select li {
+  list-style-type: none;
   font-size: 1rem;
 }
 .about-select a {
@@ -901,9 +935,12 @@ a[rel=tag]:last-child {
 @media screen and (min-width: 50rem) {
   .about-select {
     display: grid;
-    gap: 20px;
-    grid-template-columns: repeat(3, 1fr);
+    gap: 1.6rem;
+    grid-template-columns: repeat(4, 1fr);
   }
+}
+.about-select div {
+  max-width: 25rem;
 }
 
 /**

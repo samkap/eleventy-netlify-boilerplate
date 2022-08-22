@@ -1,5 +1,9 @@
 .about {
   background-color: $color3;
+
+  h2 {
+    font-family: $display-bold-italic;
+  }
 }
 
 .about-container {
@@ -23,21 +27,43 @@
   }
 }
 
+.select-container {
+  &::before {
+    content: '';
+    position: absolute;
+    display: block;
+    height: 7px;
+    width: 68%;
+    margin: 0 auto;
+    background: $color1;
+    background: repeating-linear-gradient(
+      -45deg,
+      $color1,
+      $color1 6px,
+      transparent 4px,
+      transparent 11px
+    );
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-bottom: 0;
+  }
+}
 #select-works {
   color: $color4;
   margin-bottom: $base-spacing;
+  padding-top: $base-spacing;
+
 }
 .about-select{
-
-
   ul {
-    margin-top: 0;
+    margin-top: $s-font-size;
+    padding-left: 0;
   }
 
   li {
+    list-style-type: none;
     font-size: $s-font-size;
   }
-
 
   a {
     font-family: $display-bold;
@@ -45,7 +71,11 @@
 
   @media screen and (min-width: $max-w-base) {
     display: grid;
-    gap: 20px;
-    grid-template-columns: repeat(3, 1fr);
+    gap: $base-spacing;
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  div {
+    max-width: 25rem;
   }
 }
