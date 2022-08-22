@@ -7,7 +7,7 @@
 }
 
 .about-container {
-  margin-bottom: $base-spacing;
+  margin-bottom: $alt-base-font-size;
   @media screen and (min-width: $max-w-base) {
     align-items: center;
     display: flex;
@@ -35,13 +35,13 @@
     height: 7px;
     width: 68%;
     margin: 0 auto;
-    background: $color1;
+    background: $aqua;
     background: repeating-linear-gradient(
       -45deg,
-      $color1,
-      $color1 6px,
-      transparent 4px,
-      transparent 11px
+      $aqua,
+      $aqua 4px,
+      transparent 2px,
+      transparent 7px
     );
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;

@@ -43,13 +43,14 @@
       display: block;
       height: 7px;
       width: 100%;
+      
       background: $color1;
       background: repeating-linear-gradient(
         -45deg,
         $color1,
-        $color1 6px,
-        transparent 4px,
-        transparent 11px
+        $color1 4px,
+        transparent 2px,
+        transparent 7px
       );
       -webkit-backface-visibility: hidden;
       backface-visibility: hidden;
@@ -165,10 +166,22 @@
   }
 
   .book-cover {
-    background: $color15;
+    background: $white;
     box-shadow: $shadow;
     height: 464.4px;
     max-width: 100%;
     width: 300px;
+
+    span {
+      color: $white;
+      display: block;
+      font-size: $alt-base-font-size;
+      padding-top: 55%;
+      text-align: center;
+    }
+
+        &:hover {
+      background-color: $aqua;
+    }
   }
 }

@@ -18,28 +18,28 @@ body {
 
 main {
   min-height: 60vh;
+  max-width: 110rem;
   padding: 2em 5%;
 }
 
 .clearfix:after {
-  visibility: hidden;
+  clear: both;
+  content: " ";
   display: block;
   font-size: 0;
-  content: " ";
-  clear: both;
   height: 0;
+  visibility: hidden;
 }
 
 header {
-
   align-content: space-between;
   display: flex;
   flex-direction: row;
   font-family: $sans;
   justify-content: space-between;
+  margin: 0 auto;
   padding: $base-spacing 2% 0 2%;
   position: relative;
-  margin: 0 auto;
 
    @media screen and (min-width:48em) {
     padding: $base-spacing;
@@ -60,8 +60,8 @@ header {
 
 
 .ampersam {
-  width: 45px;
-  height: 47px;
+  width: 50px;
+  height: 52.222px;
   max-width: 100%;
   margin-right: 20px;
   display: inline-block;
@@ -108,7 +108,7 @@ nav {
   a {
     border-radius: 4px;
     color: $color1;
-    font-size: $s-font-size;
+    font-size: $xs-font-size;
     font-weight: 900;
     letter-spacing: 1px;
     overflow: hidden;
@@ -130,14 +130,40 @@ nav {
 }
 
 footer {
-  background: $color3;
+  background: $aqualight;
+  color: $color1;
   font-size: 1rem;
-  padding: $large-spacing;
   text-align: center;
+  position: relative;
+
+  &::after {
+    content: '';
+    position: absolute;
+    display: block;
+    height: 7px;
+    width: 100%;
+    margin: 0 auto;
+    background: $aqualight;
+    background: repeating-linear-gradient(
+      -45deg,
+      $aqualight,
+      $aqualight 4px,
+      transparent 2px,
+      transparent 7px
+    );
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-bottom: 0;
+  }
 
   .inner {
-    margin: 0 auto;
+    margin: 20px auto 0;
     max-width: $max-w-base;
-    padding: 0 15px;
+    padding: $large-spacing;
+  }
+
+  a {
+    color: $color1;
+    text-decoration-color: $color1;
   }
 }
