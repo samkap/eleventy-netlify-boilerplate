@@ -13,7 +13,7 @@ cover-image: img/posts/codedaydudes.jpg
 
 <img src="/static/img/posts/codedayaustin.jpg" alt="awards at codeday">
 
-This past weekend I stopped [Code Day Austin](http://feb.2014.austin.codeday.org/) at HubAustin. My friend and bro-host, [Andy](http://www.twitter.com/alwaysunday) joined two other Austin folks to judge the work that about 20 middle and high school students created on over the weekend.
+This past weekend I stopped [Code Day Austin](https://feb.2014.austin.codeday.org/) at HubAustin. My friend and bro-host, [Andy](https://www.twitter.com/alwaysunday) joined two other Austin folks to judge the work that about 20 middle and high school students created on over the weekend.
 
 When we walked, the coders had been awake for 24 hours straight and the room was filled empty pizza boxes, half eaten donuts, and empty energy drink cans. All the coders were in high spirits though!
 
@@ -23,4 +23,4 @@ There were 5 awards in total: Top overall, top app, top game, most promising, an
 
 <img src="/static/img/posts/codedaydudes.jpg" alt="awards at codeday">
 
-A huge thanks to [Luke Wright](http://simplyluke.com/) and [Casey Sandberg](http://casesandberg.com/) for putting together such a successful event.
+A huge thanks to [Luke Wright](https://simplyluke.com/) and [Casey Sandberg](https://casesandberg.com/) for putting together such a successful event.

@@ -2,9 +2,6 @@
 title: Equity & Inclusion
 date: 2022-06-03T00:25:36.464Z
 permalink: /inclusion/
-eleventyNavigation:
-  key: Inclusion
-  order: 3
 ---
 <section class="inclusion-list pages">
 
@@ -19,12 +16,12 @@ This page is a growing resource of thoughts and resources around Equity and Incl
 ## Inclusion, in my words
 
 * [Creative Morning's Equality talk](https://youtu.be/5pj8E-XbRzE) : From when I spoke in July 2017.
-* [My experiences with starting and running diversity councils, part 1](https://samkapila.com/2018/02/07/creating-an-internal-diversity-council), and [part 2](https://samkapila.com/2018/02/26/the-year-of-the-diversity-council), http://creativemornings.com/talks/sam-kapila.
+* [My experiences with starting and running diversity councils, part 1](https://samkapila.com/2018/02/07/creating-an-internal-diversity-council), and [part 2](https://samkapila.com/2018/02/26/the-year-of-the-diversity-council), https://creativemornings.com/talks/sam-kapila.
 * [Leading Inclusively](https://thingsworthlearning.show/episodes/leading-inclusively-with-sameera-kapila/transcript) on Things Worth Learning.
 
 ## Resources for leaders and managers
 
-* [Gender Decoder](http://gender-decoder.katmatfield.com/) allows anyone to copy and paste in a job posting to have scored for its language. It was built using finding from a study focused on gendered language in job postings. The study found that words like “aggressive” or “champion” made people think of males and that words like “collaboration” or “responsive” made people think the role was female-leaning. Some organizations lean a bit more towards female-leaning words to counter the gender divide in technical roles like design or development.
+* [Gender Decoder](https://gender-decoder.katmatfield.com/) allows anyone to copy and paste in a job posting to have scored for its language. It was built using finding from a study focused on gendered language in job postings. The study found that words like “aggressive” or “champion” made people think of males and that words like “collaboration” or “responsive” made people think the role was female-leaning. Some organizations lean a bit more towards female-leaning words to counter the gender divide in technical roles like design or development.
 * [Imbalance of Culture Fits](https://alistapart.com/article/the-imbalance-of-culture-fit) by my friend, Matt Griffin
 * [Textio](https://textio.com/) : Job posting gender leaning test
 * Bookshop’s [Key Books for the Inclusive Leader](https://bookshop.org/lists/key-books-for-the-inclusive-leader)
@@ -44,25 +41,25 @@ This page is a growing resource of thoughts and resources around Equity and Incl
 ## Conferences
 
 * [Access U](https://www.knowbility.org/education/accessu/)
-* [AlterConf](http://alterconf.com) (not active)
+* [AlterConf](https://alterconf.com) (not active)
 * [Clarity Conference](https://www.clarityconf.com/)
-* [DesignPlusDiversity](http://designplusdiversity.org/)
-* [WeSpeakToo](http://wespeaktoo.org/)
+* [DesignPlusDiversity](https://designplusdiversity.org/)
+* [WeSpeakToo](https://wespeaktoo.org/)
 
 ## Accessibility organizations, checklists, and tools for web design and development
 
-* [Accessibility at Trivago](http://tech.trivago.com/2017/09/26/accessibility-at-trivago/)
-* [A11yProject.com](http://a11yproject.com/checklist.html)
+* [Accessibility at Trivago](https://tech.trivago.com/2017/09/26/accessibility-at-trivago/)
+* [A11yProject.com](https://a11yproject.com/checklist.html)
 * [Color Accessibility Workflows from A List Apart](https://alistapart.com/article/color-accessibility-workflows)
 * [Knowbility](https://www.knowbility.org/)
 * [MDN checklist](https://developer.mozilla.org/en-US/docs/Web/Accessibility/Mobile_accessibility_checklist) Mozilla Accessibility Checklists
 * [MDN Semantic HTML](https://developer.mozilla.org/en-US/docs/Web/HTML/Element) : Writing HTML that supports
-* [NPR](http://thin.npr.org/) has a text only version of their site. How cool. How browser and user-friendly.
+* [NPR](https://thin.npr.org/) has a text only version of their site. How cool. How browser and user-friendly.
 * [Microsoft's Inclusive Toolkit](https://www.microsoft.com/en-us/design/inclusive)
 * [Pa11y](https://github.com/pa11y/pa11y) : Command line tool
-* [Wave](http://wave.webaim.org/) : Chrome plug-in
-* [WCAG 2.0 Checklist](http://webaim.org/standards/wcag/checklist)
-* [WebAIM](http://webaim.org/) 
+* [Wave](https://wave.webaim.org/) : Chrome plug-in
+* [WCAG 2.0 Checklist](https://webaim.org/standards/wcag/checklist)
+* [WebAIM](https://webaim.org/) 
 
 ## Recommended Books
 

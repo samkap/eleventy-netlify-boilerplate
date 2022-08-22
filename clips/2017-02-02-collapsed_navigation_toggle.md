@@ -8,4 +8,4 @@ crosspost_to_medium: false
 ---
 
 "Collapsed Navigation toggle"
-from: [http://ift.tt/2jC7NHb](http://ift.tt/2jC7NHb)
+from: [https://ift.tt/2jC7NHb](https://ift.tt/2jC7NHb)

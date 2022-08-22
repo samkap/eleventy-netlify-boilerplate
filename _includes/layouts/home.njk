@@ -2,35 +2,47 @@
 layout: layouts/base.njk
 section: home
 ---
+<div class="greeting">
+	{{ layoutContent | safe }}
+</div>
 
-<section class="recent">
-  <div class="greeting">
-    {{ layoutContent | safe }}
-  </div>
+<section class="recent-container">
 
-<ul>
-{%- for post in collections.post | reverse -%}
-  {% if loop.index0 < 5 %}
-  <li>
-    <article{% if post.url == url %} data-current="current item"{% endif %} >
-			<span>
-				<time datetime="{{ post.date | machineDate }}">
-					<small>{{ post.date | readableDate }}</small>
-				</time>
-			</span>
-			<h3>
-				<a href="{{ post.url | url }}">
-					{% if post.data.title %}
-						{{ post.data.title }}
-					{% else %}
-						Untitled
-					{% endif %}
-				</a>
-			</h3>
-    <p>{{ post.data.content | excerpt }}&nbsp;</p>
+	<div class="recent-other">
+		<div class="book-container">
+			<div class="sticker-container">
+				<div class="book-sticker">
+				</div>
+				<div class="book-sticker__text">
+				<p>Soon!</p>
+				</div>
 			</div>
-		</article>
-    </li>
-  {% endif %}
-{%- endfor -%}
-</ul>
+			<div class="book-cover">
+				<span>This page intentionally left blank. Check back on August 23rd.</span>
+			</div>
+			<p class="book-caption">I'm writing a book that comes out <strong>Fall 2022<strong>.</p>
+		</div>
+	</div>
+
+	<div class="recent-posts">
+		<h2>Recent writing</h2>
+		<ul>
+		{%- for post in collections.post | reverse -%}
+			{% if loop.index0 < 5 %}
+			<li>
+				<article{% if post.url == url %} data-current="current item"{% endif %} >
+					<h3>
+						<a href="{{ post.url | url }}">{{ post.data.title }}</a>&nbsp;
+						<time datetime="{{ post.date | machineDate }}">
+							<small>{{ post.date | readableDate }}</small>
+						</time>
+					</h3>
+					<p>{{ post.data.content | excerpt }}&nbsp;</p>
+				</article>
+				</li>
+			{% endif %}
+		{%- endfor -%}
+		</ul>
+	</div>
+
+<section>

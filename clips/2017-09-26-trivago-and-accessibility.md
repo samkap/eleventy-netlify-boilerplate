@@ -9,4 +9,4 @@ tags:
 layout: layouts/clip.njk
 ---
 
-Today, Trivago shared a [blog post about their thoughts on accessibility](http://tech.trivago.com/2017/09/26/accessibility-at-trivago/).
+Today, Trivago shared a [blog post about their thoughts on accessibility](https://tech.trivago.com/2017/09/26/accessibility-at-trivago/).

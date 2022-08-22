@@ -4,19 +4,19 @@ textarea {
   display: block;
   border-radius: 4px;
   margin-bottom: 30px;
-  border: 1px solid $gray;
+  border: 1px solid $color3;
   padding: 8px 15px;
   width: 100%;
   box-sizing: border-box;
 }
 
 input[type="submit"] {
-  font-family: $serif;
+  font-family: $display;
   font-size: inherit;
   font-weight: 600;
   border-radius: 4px;
   padding: 8px 15px;
   width: 100%;
-  border: 1px solid $gray;
+  border: 1px solid $color3;
   cursor: pointer;
 }

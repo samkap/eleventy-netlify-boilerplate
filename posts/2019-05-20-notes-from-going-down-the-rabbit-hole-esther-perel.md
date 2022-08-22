@@ -24,7 +24,7 @@ I didn't take notes for all of this, as I was also [making dinner](https://www.i
 </div>
 
 
-### Notes
+## Notes
 
 * What you did is what your \[parent\] did
 * We have unprecedented freedom yet we have to negotiate **everything.** Who's picking up the baby? Who should I date?

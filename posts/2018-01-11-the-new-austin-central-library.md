@@ -18,4 +18,4 @@ My friends and I spend a lot of time at the new Austin Central Library, one of t
 
 This Grid plays with a one- to three-column system. I'm getting used to the syntax, but I do like the column gap features, and think that could be handy in so many scenarios. Still CSS Grid feels like a bit of a mystery I yet have to do a deep dive.
 
-One mystery I can say has been solve in the mysterious roof-top door that goes to nowhere. You can see this in the top left of the second photo. Last week, KUT got to the bottom of this mysterious door. [Check out the reveal](http://kut.org/post/whats-deal-doors-nowhere-new-austin-central-library) of why door goes to nowhere, and what it's for.
+One mystery I can say has been solve in the mysterious roof-top door that goes to nowhere. You can see this in the top left of the second photo. Last week, KUT got to the bottom of this mysterious door. [Check out the reveal](https://kut.org/post/whats-deal-doors-nowhere-new-austin-central-library) of why door goes to nowhere, and what it's for.

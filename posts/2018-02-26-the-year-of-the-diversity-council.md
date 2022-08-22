@@ -11,7 +11,7 @@ tags:
 cover-image: img/posts/yeswecodeannouncement.jpg
 ---
 
-*This is the second part in a series about the experience of starting and running a diversity council. If you missed the first post, it can be found [here](http://samkapila.com/2018/02/07/creating-an-internal-diversity-council.html). In the second post, I share the importance of creating structure and communication, the importance of achievable tasks, and what we achieved in one year. In the next post, I’ll share lessons learned along the way.*
+*This is the second part in a series about the experience of starting and running a diversity council. If you missed the first post, it can be found [here](https://samkapila.com/2018/02/07/creating-an-internal-diversity-council.html). In the second post, I share the importance of creating structure and communication, the importance of achievable tasks, and what we achieved in one year. In the next post, I’ll share lessons learned along the way.*
 
 ## Starting the Council with a Communication Strategy
 
@@ -50,13 +50,13 @@ In July 2017, we announced a company closure slated for November 2017. Our counc
 
 * November 2016: Operations Team **adds D&I training to onboarding**
 
-* December 2016: Event at DC campus where **Meghan Smith, CTO for the US, announces 20 new [TechHire](http://techhire.com) cities**.
+* December 2016: Event at DC campus where **Meghan Smith, CTO for the US, announces 20 new [TechHire](https://techhire.com) cities**.
 
 ![Code: Debugging the Gender Gap](/static/img/codemovie.jpg)
 
-* February — March 2017: All campuses host a **[licensed screenings of CODE: Debugging the Gender Gap](http://codedoc.co)**, some followed by a panelists of speakers and with local partnerships including AllState, Women Who Code, Girl Develop It.
+* February — March 2017: All campuses host a **[licensed screenings of CODE: Debugging the Gender Gap](https://codedoc.co)**, some followed by a panelists of speakers and with local partnerships including AllState, Women Who Code, Girl Develop It.
 
-* February 2017: Indianapolis campus **enrolls a [50/50 female-to-male ratio](http://techpoint.org/2017/02/prioritizing-diversity-inclusion)** Front End Engineering class.
+* February 2017: Indianapolis campus **enrolls a [50/50 female-to-male ratio](https://techpoint.org/2017/02/prioritizing-diversity-inclusion)** Front End Engineering class.
 
 * March 2017: Requirements for **1k Diversity Scholarship reviewed**, leading to removal of addition steps for applicants from discriminated groups.
 
@@ -81,4 +81,4 @@ In July 2017, we announced a company closure slated for November 2017. Our counc
 
 As a council and as a company, we were extremely committed to improving the state of diversity and inclusion. Hopefully, by sharing this, it can help you, the reader, take something our year, and bring change to your workplace and our industry. This isn't easy work, but the much needed impact it can make is worth it.
 
-*Stay tuned for the next post about lessons learned. For more D&I resources, stop by [here](http://samkapila.com/inclusion), or [watch my Creative Mornings talk](https://creativemornings.com/talks/sam-kapila/).*
+*Stay tuned for the next post about lessons learned. For more D&I resources, stop by [here](https://samkapila.com/inclusion), or [watch my Creative Mornings talk](https://creativemornings.com/talks/sam-kapila/).*

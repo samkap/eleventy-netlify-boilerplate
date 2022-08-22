@@ -12,4 +12,4 @@ National Geographic’s “Deadly Beauty” feature on Portuguese Man-of-War jel
 
 > Once a man-of-war captures a meal, the tentacle brings its prey to one of several feeding bodies (the brown speckled structures across the center of the image above). Since the “individuals” within the colony are all connected, after a stomach digests the meal, the nutrients get spread throughout the colony.
 
-<iframe style="display: block; margin: 0 auto;" width="609" height="375" src="http://player.d.nationalgeographic.com/players/ngsvideo/share/?feed=http://feed.theplatform.com/f/ngs/dCCn2isYZ9N9&guid=4803f47a-a093-4a28-a19f-a957531cb07a&link=http://video.nationalgeographic.com/video/" frameborder="0" allowfullscreen seamless></iframe>
+<iframe style="display: block; margin: 0 auto;" width="609" height="375" src="https://player.d.nationalgeographic.com/players/ngsvideo/share/?feed=https://feed.theplatform.com/f/ngs/dCCn2isYZ9N9&guid=4803f47a-a093-4a28-a19f-a957531cb07a&link=https://video.nationalgeographic.com/video/" frameborder="0" allowfullscreen seamless></iframe>

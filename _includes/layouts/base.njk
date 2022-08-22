@@ -3,12 +3,14 @@
 
 	{% include "components/head.njk" %}
 
-	<body>
+	<body class="{{ section }}">
 
 		<header>
+		<div class="logo-container">
 			<div class="logo">
-					<a href="{{ '/' | url }}"><img src="/static/img/ampersam.svg" alt="{{ metadata.title }}" /></a><span> Sameera Kapila</span>
+					<a href="{{ '/' | url }}" aria-label="A logo for Sam Kapila, which is an altered ampersand made to look like the letters S and K.">{% include "components/logo.njk" %} </a>
 			</div>
+		</div>
 			{% include "components/nav.njk" %}
 		</header>
 

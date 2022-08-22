@@ -12,7 +12,7 @@ I'm sitting at home, with a sore throat and an almost-gone fever. I loathe feeli
 
 ## 1. First, re-read Dave's posts on RWD Bloats.
 
-Dave's posts are [one](daverupert.com/2014/07/rwd-bloat/) and [two](http://daverupert.com/2014/07/rwd-bloat-part-ii/) on RWD bloat. I don't fully suspect RWD being the main culprit, but let's see. Based on Dave's advice, check my grades with quick tests from [Google PageSpeed](https://developers.google.com/speed/pagespeed/insights/) and [WebPageTest](https://www.webpagetest.org/).
+Dave's posts are [one](daverupert.com/2014/07/rwd-bloat/) and [two](https://daverupert.com/2014/07/rwd-bloat-part-ii/) on RWD bloat. I don't fully suspect RWD being the main culprit, but let's see. Based on Dave's advice, check my grades with quick tests from [Google PageSpeed](https://developers.google.com/speed/pagespeed/insights/) and [WebPageTest](https://www.webpagetest.org/).
 
 ### Google PageSpeed
 

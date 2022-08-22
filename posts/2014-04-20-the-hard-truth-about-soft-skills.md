@@ -32,4 +32,4 @@ I can say or hope, though, that if we all did a bit to solve the problem, we act
 
 At the end of the day, it comes down to effort from students, faculty, and professionals. I’d love to see this industry grow and nurture itself. If we all put in a bit of work we can get there.
 
-Further reading: [20 tips for preparing for a career in design](http://www.studentguidewebdesign.com/20-tips-on-preparing-for-a-career-in-design/)
+Further reading: [20 tips for preparing for a career in design](https://www.studentguidewebdesign.com/20-tips-on-preparing-for-a-career-in-design/)

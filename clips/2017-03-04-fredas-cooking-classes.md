@@ -7,4 +7,4 @@ crosspost_to_medium: false
 layout: layouts/clip.njk
 ---
 
-[Freda's](http://ift.tt/2mQWGbe)
+[Freda's](https://ift.tt/2mQWGbe)

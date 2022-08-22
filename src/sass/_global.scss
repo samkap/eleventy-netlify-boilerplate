@@ -4,117 +4,87 @@
   box-sizing: border-box;
 }
 
-html {
-  background:$color1; 
-  background: -moz-linear-gradient(107deg, $color1 0%, rgba(0,120,138,1) 50%, rgba(0,74,85,0.7) 100%);
-  background: -webkit-linear-gradient(107deg, $color1 0%, rgba(0,120,138,1) 50%, rgba(0,74,85,0.7) 100%);
-  background: linear-gradient(107deg, $color1 0%, rgba(0,120,138,1) 50%, rgba(0,74,85,0.7) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#004a55",endColorstr="#004a55",GradientType=1);
-  background-size: 400% 400%;
-  animation: gradient 8s ease infinite;
-}
-
-@keyframes gradient {
-	0% {background-position: 0% 50%;}
-	50% { background-position: 100% 50%;}
-	100% {background-position: 0% 50%;}
-}
-
-/* Content */
 body {
   -webkit-font-smoothing: antialiased;
   color: $color1;
   font-display: auto;
-  font-family: $sans;
+  font-family: $text;
   font-size: $base-font-size;
   font-weight: 400;
   height: 100%;
   line-height: $base-line-height;
-  margin: 10px;
   word-wrap: break-word;
 }
 
 main {
-  background-color: $white;
   min-height: 60vh;
+  max-width: 110rem;
   padding: 2em 5%;
 }
 
-section {
-  display: block;
-}
-
 .clearfix:after {
-  visibility: hidden;
+  clear: both;
+  content: " ";
   display: block;
   font-size: 0;
-  content: " ";
-  clear: both;
   height: 0;
-}
-
-table {
-  border-collapse: collapse;
-  margin: 30px auto;
-}
-
-td,
-th {
-  padding: $small-spacing;
-}
-
-th {
-  background-color: $gray;
-}
-
-tr {
-  border-bottom: 1px solid $gray;
-}
-
-tr:last-child {
-  border: none;
-}
-/* Structure */
-.inline-container {
-  overflow: hidden;
-}
-
-.inline {
-  display: inline !important;
-  vertical-align: middle;
-  margin-right: 40px;
-}
-
-.inline:first-of-type {
-  min-height: 50px;
+  visibility: hidden;
 }
 
 header {
-  align-items: center; 
-  background: $white;
+  align-content: space-between;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  font-family: $sans;
+  justify-content: space-between;
+  margin: 0 auto;
   padding: $base-spacing 2% 0 2%;
   position: relative;
 
-
    @media screen and (min-width:48em) {
-      flex-direction: row;
-      justify-content: space-between;
-      padding: $base-spacing 2%;
+    padding: $base-spacing;
 
+  }
+
+  .home & {
+    background: $color1;
+    a {
+      color: $white;
+    }
+
+    span {
+      display: none;
+    }
   }
 }
 
-header img {
-  width: 45px;
+
+.ampersam {
+  width: 50px;
+  height: 52.222px;
+  max-width: 100%;
   margin-right: 20px;
   display: inline-block;
   vertical-align: middle;
+  fill: $color1;
+
+  .home &, .writing & {
+    fill: white;
+  }
+
+  &:hover {
+    fill: $color4;
+  }
 }
 
-header a {
-  border-bottom: 0;
+.logo-container {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: $base-spacing;
+
+  @media screen and (min-width:48em) {
+    margin-bottom: 0;
+  }
 }
 
 hr {
@@ -126,56 +96,78 @@ hr {
 
 nav {
   ul {
+    align-items: flex-start;
     padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 0;
   }
 
   li {
     display: inline;
+    line-height: 1;
+    margin: 0;
   }
-
   a {
     border-radius: 4px;
     color: $color1;
-    font-size: 0.7em;
+    font-size: $xs-font-size;
     font-weight: 900;
     letter-spacing: 1px;
     overflow: hidden;
     padding: 5px;
     position: relative;
-    text-align: center;
     text-decoration: none;
     text-transform: uppercase;
-    text-decoration-skip-ink: auto;
 
     &:hover {
-      color: $color5;
-      text-decoration: wavy underline $color5 2px;
+      color: $color4;
+      text-decoration: solid underline $color4 1px;
     }
 
     &[data-current="current item"] {
-      color: $color5;
-      text-decoration: wavy underline $color5 2px;
+      color: $color1;
+      text-decoration: solid underline $color4 1px;
     }
   }
 }
 
 footer {
-  background: $white;
+  background: $aqualight;
+  color: $color1;
   font-size: 1rem;
-  padding: 30px 0;
   text-align: center;
+  position: relative;
+
+  &::after {
+    content: '';
+    position: absolute;
+    display: block;
+    height: 7px;
+    width: 100%;
+    margin: 0 auto;
+    background: $aqualight;
+    background: repeating-linear-gradient(
+      -45deg,
+      $aqualight,
+      $aqualight 4px,
+      transparent 2px,
+      transparent 7px
+    );
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-bottom: 0;
+  }
 
   .inner {
     margin: 0 auto;
     max-width: $max-w-base;
-    padding: 0 15px;
+    padding: $large-spacing;
+  }
+
+  a {
+    color: $color1;
+    text-decoration-color: $color1;
   }
 }
-
-@media all and (min-width: 680px) {
-  table {
-    margin: 40px auto;
-  }
-}
-
-/* 650 ends*/

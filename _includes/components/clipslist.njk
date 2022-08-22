@@ -4,11 +4,11 @@
 		<article{% if clip.url == url %} data-current="current item"{% endif %} >
 						<span>
 				<time datetime="{{ clip.date | machineDate }}">
-					<small>{{ clip.date | readableDate }}</small>
+					{{ clip.date | readableDate }}
 				</time>
 			</span>
 			<div>
-			<h3 class="lh-short">
+			<h3>
 				<a href="{{ clip.url | url }}">
 					{% if clip.data.title %}
 						{{ clip.data.title }}

@@ -7,4 +7,4 @@ layout: layouts/clip.njk
 ---
 
 Resilient Web Design
-from: [http://ift.tt/2kVWqG6](http://ift.tt/2kVWqG6)
+from: [https://ift.tt/2kVWqG6](https://ift.tt/2kVWqG6)

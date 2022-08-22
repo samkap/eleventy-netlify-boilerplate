@@ -8,4 +8,4 @@ crosspost_to_medium: false
 ---
 
 28 Days of Black Designers
-from: http://ift.tt/2k4ONgn
+from: https://ift.tt/2k4ONgn

@@ -6,7 +6,7 @@ tags:
 layout: layouts/clip.njk
 ---
 
-[Lara Hogan](https://twitter.com/lara_hogan)'s post on [managering during difficult times](http://larahogan.me/blog/being-a-manager-in-terrible-times/) and [Eileen Webb](https://twitter.com/webmeadow)'s [post on productivity](https://thehumaninthemachine.com/eileen-webb/2017-january-5) are both worth reading after a year like 2017.
+[Lara Hogan](https://twitter.com/lara_hogan)'s post on [managering during difficult times](https://larahogan.me/blog/being-a-manager-in-terrible-times/) and [Eileen Webb](https://twitter.com/webmeadow)'s [post on productivity](https://thehumaninthemachine.com/eileen-webb/2017-january-5) are both worth reading after a year like 2017.
 
 Here are some parts that I clipped and think about quite a bit.
 

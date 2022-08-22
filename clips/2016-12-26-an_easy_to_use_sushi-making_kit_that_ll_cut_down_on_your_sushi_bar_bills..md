@@ -7,4 +7,4 @@ layout: layouts/clip.njk
 crosspost_to_medium: false
 ---
 
-An easy to use [sushi-making kit](http://ift.tt/2hhdoMT) that'll cut down on your sushi bar bills.
+An easy to use [sushi-making kit](https://ift.tt/2hhdoMT) that'll cut down on your sushi bar bills.

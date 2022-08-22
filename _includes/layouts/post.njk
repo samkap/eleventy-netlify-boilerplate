@@ -13,20 +13,21 @@ section: post
 
   {{ layoutContent | safe }}
 
+<div class="tags">
   {% if tags %}
-   <span><small>tags:</small></span>
-    <span>
+   <span><small>Filed under:</small></span>
+
     {% for tag in tags %}
       {%- if tag != "post" -%}
         {% set tagUrl %}/tags/{{ tag }}/{% endset %}
-        <a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
+          <a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
       {%- endif -%}
     {% endfor %}
     </span>
   {% endif %}
-
+</div>
 </article>
 
-<nav>
-  <a href="{{ '/writing/' | url }}">← Writing</a>
+<nav class="pagination">
+  <a href="{{ '/writing/' | url }}">← Back to writing</a>
 </nav>
