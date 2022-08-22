@@ -788,7 +788,7 @@ body.writing nav a[data-current="current item"] {
   text-decoration: solid underline rgb(184, 138, 71) 1px;
 }
 body.writing article a {
-  color: rgb(219, 232, 232);
+  color: #ffffff !important;
   text-decoration-color: #ffffff;
   text-decoration-thickness: 1px;
 }

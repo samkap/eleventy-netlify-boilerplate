@@ -18,7 +18,7 @@ body.writing {
   }
 
   article a {
-    color: $color3;
+    color: $white !important;
     text-decoration-color: $white;
     text-decoration-thickness: 1px;
 
@@ -30,7 +30,7 @@ body.writing {
   h1 {
     color: $color3;
   }
-  
+
   .post-list {
     article {
       margin-top: 2rem;
