@@ -719,6 +719,10 @@ object {
   position: relative;
   width: 300px;
 }
+.book-container p {
+  line-height: 1.2;
+  font-size: 1.2rem;
+}
 @media screen and (min-width: 50rem) {
   .book-container {
     margin: 5em auto;
