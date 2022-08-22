@@ -71,6 +71,10 @@ header {
   .home &, .writing & {
     fill: white;
   }
+
+  &:hover {
+    fill: $color4;
+  }
 }
 
 .logo-container {

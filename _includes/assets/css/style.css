@@ -124,6 +124,9 @@ header {
 .home .ampersam, .writing .ampersam {
   fill: white;
 }
+.ampersam:hover {
+  fill: rgb(184, 138, 71);
+}
 
 .logo-container {
   display: flex;
