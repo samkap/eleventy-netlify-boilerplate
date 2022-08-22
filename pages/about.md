@@ -22,17 +22,7 @@ eleventyNavigation:
 * [Design/Content](https://www.designcontentconf.com/), July 2016, Vancouver, BC, Canada, Speaker, “Design Responsive Systems”
 * [Front End Design Conference](https://www.frontenddesignconference.com/), June 2016, St Pete, Florida, “Design Research”
 </div>
-<div>
 
-### Interviews
-
-* [Leading inclusively, with Sameera Kapila » Things Worth Learning](https://youtu.be/eiV6_3pZFc0), Sept 2021
-* [How to think like a front end developer](https://shoptalkshow.com/335/), Shop Talk Show #335
-* [NPR (KUT): Coding Boot Camps Aim To Help Solve Diversity Problem In Tech Sector](https://kut.org/post/coding-boot-camps-aim-help-solve-diversity-problem-tech-sector), Mar 2017
-* [What Comes Next Is The Future](https://www.futureisnext.com/), documentary about makers of the web.
-* [Web Design Fundamentals: A Life of Learning](https://www.lynda.com/Web-Design-tutorials/Web-Design-Fundamentals/177837-2.html), Lynda.com course, Nov 2014
-* [ShopTalk Show](https://www.shoptalkshow.com/episodes/121-sam-kapila/), June 2014
-</div>
 <div>
 
 ### Writing
@@ -49,4 +39,17 @@ eleventyNavigation:
 * [Thinking in Systems](https://www.creativebloq.com/netmag/why-you-should-think-web-building-part-larger-system-71412395), net Magazine, June 2014
 * [5 Lessons from the RWD Classroom](https://www.creativebloq.com/netmag/5-lessons-responsive-web-design-classroom-7135527), net Magazine, online
 </div>
+
+<div>
+
+### Interviews
+
+* [Leading inclusively, with Sameera Kapila » Things Worth Learning](https://youtu.be/eiV6_3pZFc0), Sept 2021
+* [How to think like a front end developer](https://shoptalkshow.com/335/), Shop Talk Show #335
+* [NPR (KUT): Coding Boot Camps Aim To Help Solve Diversity Problem In Tech Sector](https://kut.org/post/coding-boot-camps-aim-help-solve-diversity-problem-tech-sector), Mar 2017
+* [What Comes Next Is The Future](https://www.futureisnext.com/), documentary about makers of the web.
+* [Web Design Fundamentals: A Life of Learning](https://www.lynda.com/Web-Design-tutorials/Web-Design-Fundamentals/177837-2.html), Lynda.com course, Nov 2014
+* [ShopTalk Show](https://www.shoptalkshow.com/episodes/121-sam-kapila/), June 2014
+</div>
+
 </section>
