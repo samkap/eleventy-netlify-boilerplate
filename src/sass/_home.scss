@@ -128,9 +128,10 @@
   position: relative;
   width: 300px;
 
-  p {
-    line-height: 1.2;
+  .book-caption {
+    line-height: 1;
     font-size: $alt-base-font-size;
+    margin-top: $x-small-spacing;
   }
 
   @media screen and (min-width: $max-w-base) {

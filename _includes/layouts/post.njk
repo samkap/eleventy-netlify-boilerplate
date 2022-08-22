@@ -16,11 +16,11 @@ section: post
 <div class="tags">
   {% if tags %}
    <span><small>Filed under:</small></span>
-    <span>
+
     {% for tag in tags %}
       {%- if tag != "post" -%}
         {% set tagUrl %}/tags/{{ tag }}/{% endset %}
-        <a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
+          <a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
       {%- endif -%}
     {% endfor %}
     </span>

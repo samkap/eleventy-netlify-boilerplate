@@ -719,9 +719,10 @@ object {
   position: relative;
   width: 300px;
 }
-.book-container p {
-  line-height: 1.2;
+.book-container .book-caption {
+  line-height: 1;
   font-size: 1.2rem;
+  margin-top: 0.4rem;
 }
 @media screen and (min-width: 50rem) {
   .book-container {
@@ -836,9 +837,11 @@ body.writing .post-list article a {
 .post {
   background-color: #ffffff;
 }
-
-article {
+.post article {
   max-width: 50rem;
+}
+.post h1 {
+  color: rgb(184, 138, 71);
 }
 
 .tags {
@@ -853,8 +856,8 @@ a[rel=tag]:visited {
   letter-spacing: 0.1em;
   font-family: RozanovaHUM-Light;
   font-size: 0.7rem;
-  padding: 0.3rem 0.5rem;
-  line-height: 1.2;
+  padding: 0.3rem 0.5rem 0.2rem 0.5rem;
+  line-height: 0.9;
   background-color: rgb(219, 232, 232);
   color: var(--primary);
   border-radius: 0.5em;
@@ -864,7 +867,7 @@ a[rel=tag]:visited {
 
 a[rel=tag]:hover {
   border: 1px solid var(--primary);
-  background-color: rgb(74, 125, 31);
+  background-color: rgb(184, 138, 71);
   color: #ffffff;
 }
 
@@ -873,7 +876,7 @@ a[rel=tag]:last-child {
 }
 
 .pagination {
-  color: rgb(74, 125, 31);
+  color: rgb(184, 138, 71);
   font-family: RozanovaHUM-Light;
   margin-top: 1.6rem;
 }
