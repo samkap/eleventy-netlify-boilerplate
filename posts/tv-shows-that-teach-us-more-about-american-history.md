@@ -14,6 +14,6 @@ In the years since, TV shows about food have touched on American history and par
 * High on Hog on [Netflix](https://www.netflix.com/title/81034518) details African American cuisine—something we should all learn more about.
 * And—while not a food show—W. Kamau Bell’s United Shades of America on [CNN](https://www.cnn.com/shows/united-shades-of-america), which follows racial and political conflicts around the United States. At the time of writing, this show airs every Sunday night.
 
-And on the subject of race in America, W. Kamau Bell’s new book, [Doing The Work](https://bookshop.org/books/do-the-work-an-antiracist-activity-book/9781523514281), along with Katie Schatz, is an excellent workbook for personal work on anti-racism. This is a pivotal book, and everyone should buy it. Trust me.
+And on the subject of race in America, W. Kamau Bell’s new book, [Do The Work!: An Antiracist Activity Book](https://bookshop.org/books/do-the-work-an-antiracist-activity-book/9781523514281), along with Kate Schatz, is an excellent workbook for personal work on anti-racism. This is a pivotal book, and everyone should buy it. Trust me.
 
 I hope these show you something new about the US and its history. It’s a crucial time to ensure history, in its entirety, is shared.
