@@ -23,11 +23,9 @@
 <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/static/img/samkap,w_200.png"> {% endif %}
 <meta property="og:type" content="website">
 <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
-<meta property="og:description" content="{{ site.description }}">
+<meta property="og:description" content="{{ metaDescription or renderData.metaDescription or metadata.description }}">
   <meta name="twitter:creator" content="@samkap" />
-  {% if page.cover-image %}
- <meta property="twitter:image" content="{{ site.url }}{{ site.baseurl }}/static/img/posts/{{ page.cover-image }}"> {% else %}
- <meta property="twitter:image" content="{{ site.url }}{{ site.baseurl }}/static/img/samkap,w_200.png"> {% endif %}
+ <meta property="twitter:image" content="{{ site.url }}{{ site.baseurl }}/static/img/samkap,w_200.png">
   <meta name="twitter:site" content="@samkap" />
   <meta property="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
 <meta name="twitter:card" content="summary" />
