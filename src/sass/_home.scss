@@ -173,22 +173,27 @@
   }
 
   .book-cover {
-    background: $white;
+    background: url(./static/img/idc-book-cover.jpg) no-repeat;
+    background-size: cover;
     box-shadow: $shadow;
     height: 464.4px;
     max-width: 100%;
     width: 300px;
 
     span {
-      color: $white;
-      display: block;
+      color: transparent;
+      display:block;
       font-size: $alt-base-font-size;
       padding-top: 55%;
       text-align: center;
     }
 
-        &:hover {
-      background-color: $aqua;
+    &:hover {
+      background: $aqua;
+
+      span {
+        color: $white;
+      }
     }
   }
 }
