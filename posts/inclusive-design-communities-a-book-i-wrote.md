@@ -3,7 +3,7 @@ title: Inclusive Design Communities, a book I wrote
 date: 2022-09-07T22:45:26.834Z
 tags:
   - post
-  - book
+  - books
   - idc
   - inclusive-design-communities
   - inclusion
