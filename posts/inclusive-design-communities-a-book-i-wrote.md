@@ -13,4 +13,4 @@ Today, the pre-orders opened for my new book, [Inclusive Design Communities](htt
 
 This book covers a lot of ground. My friend, [Greg, said its about a 4-hour book](https://twitter.com/Brilliantcrank/status/1567583690557128704). I’ll be sharing more in the coming weeks, but to start, here’s an interview about the book that I did with the most amazing publishers an author could ask for, [A Book Apart](https://abookapart.com/). [Check it out](https://abookapart.com/blogs/press/meet-the-book-inclusive-design-communities) to learn more about the book!
 
-![A aqua-colored cover for the book "Inclusive Design Communities by Sameera Kapila, published with A Book Apart (their 42th book), and a foreword by Danielle Barnes](/static/img/aba-cover-42_358x-2x.jpg "IDC book cover")
+![A aqua-colored cover for the book "Inclusive Design Communities by Sameera Kapila, published with A Book Apart (their 42th book), and a foreword by Danielle Barnes](/static/img/idc-book-cover.png "IDC book cover")
