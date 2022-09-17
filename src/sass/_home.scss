@@ -29,7 +29,7 @@
 }
 
 .recent-container {
-  background-color: $color3;
+  background-color: $white;
   column-gap: $base-spacing;
   display: grid;
   grid-template-areas:
@@ -68,7 +68,7 @@
   }
 
   .recent-posts {
-    background-color: $color3;
+    background-color: $white;
     grid-area: posts;
     max-width: 50rem;
     padding: $base-spacing;
@@ -94,7 +94,7 @@
   }
 
   .recent-other {
-    background-color: $color3;
+    background-color: $white;
     grid-area: book;
     padding: 0 $base-spacing;
     position: relative;
@@ -162,10 +162,11 @@
   .book-sticker__text {
     color: $white;
     font-family: $display-bold;
-    padding:30% 0;
     position: absolute;
+    top: -4px;
     text-align: center;
     width:105px;
+    line-height: 1;
 
     @media screen and (min-width: 678px) {
       padding:13.5px 0;
