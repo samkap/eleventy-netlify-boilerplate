@@ -1,5 +1,6 @@
 @charset "UTF-8";
-/* ********************global********************* */ /* https://meyerweb.com/eric/tools/css/reset/
+/* ********************global********************* */
+/* https://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -426,19 +427,23 @@ pre,
 ul {
     margin: 20px 0;
   }
+
   .Posts p {
     margin-top: 0;
   }
+
   article::after,
 header::after {
     margin: 70px;
   }
+
   blockquote {
     font-size: 1.3rem;
   }
   blockquote p {
     margin: 0;
   }
+
   hr {
     margin: 1em auto;
   }
@@ -558,6 +563,7 @@ object {
   .img-only {
     margin: 0 -30px;
   }
+
   .img-only-source {
     margin: 0 -30px;
   }
@@ -638,7 +644,7 @@ object {
 }
 
 .recent-container {
-  background-color: rgb(219, 232, 232);
+  background-color: #ffffff;
   column-gap: 1.6rem;
   display: grid;
   grid-template-areas: "book" "posts";
@@ -664,7 +670,7 @@ object {
   }
 }
 .recent-container .recent-posts {
-  background-color: rgb(219, 232, 232);
+  background-color: #ffffff;
   grid-area: posts;
   max-width: 50rem;
   padding: 1.6rem;
@@ -688,7 +694,7 @@ object {
   margin: 0.4rem 0 1.6rem;
 }
 .recent-container .recent-other {
-  background-color: rgb(219, 232, 232);
+  background-color: #ffffff;
   grid-area: book;
   padding: 0 1.6rem;
   position: relative;
@@ -753,10 +759,11 @@ object {
 .book-container .book-sticker__text {
   color: #ffffff;
   font-family: SilvaDisplay-Bold;
-  padding: 30% 0;
   position: absolute;
+  top: -4px;
   text-align: center;
   width: 105px;
+  line-height: 1;
 }
 @media screen and (min-width: 678px) {
   .book-container .book-sticker__text {
