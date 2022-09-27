@@ -1,5 +1,5 @@
 ---
-title: "# What it was like to write a book (part 1)"
+title: What it was like to write a book (part 1)
 date: 2022-09-27T17:33:05.576Z
 tags:
   - post
