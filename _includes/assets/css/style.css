@@ -288,6 +288,7 @@ article h1 {
 
 h2 {
   font-size: 1.9rem;
+  margin-top: 1.6rem;
 }
 
 h3 {
@@ -638,7 +639,7 @@ object {
 }
 
 .recent-container {
-  background-color: rgb(219, 232, 232);
+  background-color: #ffffff;
   column-gap: 1.6rem;
   display: grid;
   grid-template-areas: "book" "posts";
@@ -664,7 +665,7 @@ object {
   }
 }
 .recent-container .recent-posts {
-  background-color: rgb(219, 232, 232);
+  background-color: #ffffff;
   grid-area: posts;
   max-width: 50rem;
   padding: 1.6rem;
@@ -688,7 +689,7 @@ object {
   margin: 0.4rem 0 1.6rem;
 }
 .recent-container .recent-other {
-  background-color: rgb(219, 232, 232);
+  background-color: #ffffff;
   grid-area: book;
   padding: 0 1.6rem;
   position: relative;
@@ -753,10 +754,11 @@ object {
 .book-container .book-sticker__text {
   color: #ffffff;
   font-family: SilvaDisplay-Bold;
-  padding: 30% 0;
   position: absolute;
+  top: -4px;
   text-align: center;
   width: 105px;
+  line-height: 1;
 }
 @media screen and (min-width: 678px) {
   .book-container .book-sticker__text {
@@ -764,21 +766,25 @@ object {
   }
 }
 .book-container .book-cover {
-  background: #ffffff;
+  background: url(./static/img/idc-book-cover.jpg) no-repeat;
+  background-size: cover;
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
   height: 464.4px;
   max-width: 100%;
   width: 300px;
 }
 .book-container .book-cover span {
-  color: #ffffff;
+  color: transparent;
   display: block;
   font-size: 1.2rem;
   padding-top: 55%;
   text-align: center;
 }
 .book-container .book-cover:hover {
-  background-color: rgb(59, 117, 124);
+  background: rgb(59, 117, 124);
+}
+.book-container .book-cover:hover span {
+  color: #ffffff;
 }
 
 body.writing {
