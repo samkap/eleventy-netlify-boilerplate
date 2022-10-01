@@ -29,17 +29,18 @@ My friends, Eric and Melanie, invited me to write with their writing group, whic
 
 For the most part, I stuck to three playlists through various periods of writing. Almost all of the playlists have instrumental music. I needed this because it was so hard to let the sounds of the neighbor, notification pings, and life interrupt what I was trying to do, but because my focus has been hard to tame, probably since about 2016. Not hearing words helped me not type them. One of my editors quickly noticed that the speed of my thoughts was quicker than my typing. *Much* quicker. Words would disappear into the blank air of MS Word.
 
-The first playlist was great. It was perfect for the first phase I was in, as I crafted concepts and the general story I wanted to cover. It felt SO right to include the soundtracks to the Monument Valley games. I loved those games because they were so creative, and the music helped get me in the right mindset. I also include Tycho, which I know many designers love to design. And I included Washed Out, which did include vocals, but they were vocals that took me to the places I had dreamt of writing instead of at home, by myself in the pandemic.
 
 **Writing** ([Apple](https://music.apple.com/us/playlist/writing/pl.u-oZylDyZt9jqE3)) ([Spotify](https://open.spotify.com/playlist/77gkuNLcqZTWsH3i0ScZq7?si=e56eadcf0a1243c9))
+The first playlist was great. It was perfect for the first phase I was in, as I crafted concepts and the general story I wanted to cover. It felt SO right to include the soundtracks to the Monument Valley games. I loved those games because they were so creative, and the music helped get me in the right mindset. I also include Tycho, which I know many designers love to design. And I included Washed Out, which did include vocals, but they were vocals that took me to the places I had dreamt of writing instead of at home, by myself in the pandemic.
 
-The second playlist included recommendations from a designer with a lot of pianos or what I call desert music. That worked until I got tired of hearing the same songs. And some of them stressed me out as I wrote.
 
 **Writing #2** ([Apple](https://music.apple.com/us/playlist/writing-2/pl.u-2aoq8yesgpkB8)) ([Spotify](https://open.spotify.com/playlist/14PX4dbBpOvHxnLZ4d2OkW?si=bb93a084687846fd))
+The second playlist included recommendations from a designer with a lot of pianos or what I call desert music. That worked until I got tired of hearing the same songs. And some of them stressed me out as I wrote.
 
-The last playlist satisfied my creative flow the way the first playlist did. It had songs from things I had enjoyed creatively. Like music from TV shows such as Succession and White Lotus and games such as Donut County. There’s more jazz in here. I wasn’t writing as much as editing, rereading, cutting things, and cleaning up my passive sentences. It ended with Hermanos Gutierrez’s *El Camino de mi alma* album, which felt soft and urgent at the same time and took me over the finish line of submitting my manuscripts.
 
 **Writing #3** ([Apple](https://music.apple.com/us/playlist/writing-3/pl.u-KVXBkP3s3B1Mv)) ([Spotify](https://open.spotify.com/playlist/1cfPxwvHKJxkbGZrf9yD6I?si=3e62e84cf62249ff))
+The last playlist satisfied my creative flow the way the first playlist did. It had songs from things I had enjoyed creatively. Like music from TV shows such as Succession and White Lotus and games such as Donut County. There’s more jazz in here. I wasn’t writing as much as editing, rereading, cutting things, and cleaning up my passive sentences. It ended with Hermanos Gutierrez’s *El Camino de mi alma* album, which felt soft and urgent at the same time and took me over the finish line of submitting my manuscripts.
+
 
 ## PUPPPPPPPPPPPPPPPPPPPPPPY
 
