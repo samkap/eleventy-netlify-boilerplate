@@ -8,24 +8,8 @@
  *
  * You may obtain a valid license at the URLs below.
  *
- * Webfont: RecoletaAlt-Bold by Latinotype
- * URL: https://www.myfonts.com/fonts/latinotype/recoleta/alt-bold/
- * Copyright: Copyright &#x00A9; 2018 by Jorge Cisterna. All rights reserved.
- *
- * Webfont: RecoletaAlt-Regular by Latinotype
- * URL: https://www.myfonts.com/fonts/latinotype/recoleta/alt-regular/
- * Copyright: Copyright &#x00A9; 2018 by Jorge Cisterna. All rights reserved.
- *
  * Webfont: RozanovaHUM-Light by Variable Type Foundry
  * URL: https://www.myfonts.com/fonts/variable-type-foundry/rozanova/hum-light/
- * Copyright: Copyright © 2019 by Variable Type Foundry. All rights reserved.
- *
- * Webfont: RozanovaHUM-LightIt by Variable Type Foundry
- * URL: https://www.myfonts.com/fonts/variable-type-foundry/rozanova/hum-light-italic/
- * Copyright: Copyright © 2019 by Variable Type Foundry. All rights reserved.
- *
- * Webfont: RozanovaHUM-Bold by Variable Type Foundry
- * URL: https://www.myfonts.com/fonts/variable-type-foundry/rozanova/hum-bold/
  * Copyright: Copyright © 2019 by Variable Type Foundry. All rights reserved.
  *
 /* @import must be at top of file, otherwise CSS will not work */
@@ -33,9 +17,9 @@
 
 @font-face {font-family: 'RozanovaHUM-Light';src: url('/static/webfonts/3ADA1C_15_0.eot');src: url('/static/webfonts/3ADA1C_15_0.eot?#iefix') format('embedded-opentype'),url('/static/webfonts/3ADA1C_15_0.woff2') format('woff2'),url('/static/webfonts/3ADA1C_15_0.woff') format('woff');}
 
-@font-face {font-family: 'SilvaText-Light';src: url('/static/webfonts/SilvaText-Light.eot');src: url('/static/webfonts/SilvaText-Light.eot?#iefix') format('embedded-opentype'),url('/static/webfonts/SilvaText-Light.woff2') format('woff2'),url('/static/webfonts/SilvaText-Light.woff') format('woff');}
+@font-face {font-family: 'SilvaText-Book';src: url('/static/webfonts/SilvaText-Book.eot');src: url('/static/webfonts/SilvaText-Book.eot?#iefix') format('embedded-opentype'),url('/static/webfonts/SilvaText-Book.woff2') format('woff2'),url('/static/webfonts/SilvaText-Book.woff') format('woff');}
 
-@font-face {font-family: 'SilvaText-LightItalic';src: url('/static/webfonts/SilvaText-LightItalic.eot');src: url('/static/webfonts/SilvaText-LightItalic.eot?#iefix') format('embedded-opentype'),url('/static/webfonts/SilvaText-LightItalic.woff2') format('woff2'),url('/static/webfonts/SilvaText-LightItalic.woff') format('woff');}
+@font-face {font-family: 'SilvaText-BookItalic';src: url('/static/webfonts/SilvaText-BookItalic.eot');src: url('/static/webfonts/SilvaText-BookItalic.eot?#iefix') format('embedded-opentype'),url('/static/webfonts/SilvaText-BookItalic.woff2') format('woff2'),url('/static/webfonts/SilvaText-BookItalic.woff') format('woff');}
 
 @font-face {font-family: 'SilvaDisplay-Bold';src: url('/static/webfonts/SilvaDisplay-Bold.eot');src: url('/static/webfonts/SilvaDisplay-Bold.eot?#iefix') format('embedded-opentype'),url('/static/webfonts/SilvaDisplay-Bold.woff2') format('woff2'),url('/static/webfonts/SilvaDisplay-Bold.woff') format('woff');}
 
