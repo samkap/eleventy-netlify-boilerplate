@@ -20,7 +20,7 @@
 <meta property="og:title" content="{{ renderData.title or title or metadata.title }} » Sameera Kapila">
 <meta property="og:locale" content="en_US">  
 {% if page.cover-image %}
-<meta property="og:image" content="{{ metadata.url }}/static/img/posts/{{ page.cover-image }}"> {% else %}
+<meta property="og:image" content="{{ metadata.url }}/static/img/posts/{{ post.cover-image }}"> {% else %}
 <meta property="og:image" content="{{ metadata.url }}/static/img/samkap,w_200.jpg"> {% endif %}
 <meta property="og:type" content="website">
 <meta property="og:url" content="{{ metadata.url }}{{ page.url }}">
