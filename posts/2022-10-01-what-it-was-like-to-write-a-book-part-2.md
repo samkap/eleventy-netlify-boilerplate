@@ -14,9 +14,9 @@ I wanted to write more about the writing process and what worked for me. I’m n
 
 There are a few things that I noticed or learned while writing.
 
-## Software
+## Different tools for different needs
 
-For ideas, I wrote in Notion. I like writing in Notion generally and find the clean UI helpful in staying focused on ideas. Plus, it’s on my phone, too, so I could jot down ideas and make to-do lists. I also had endless links on another doc that was easy to reference. When they started taking chapter section forms, I moved them into Word (through Office365). Finally, I used Grammarly just when I was editting: before turning in a draft or the final stages. Grammarly plus Word, though, were very buggy, and Grammarly couldn’t support extensive docs (and neither could my CPU). Notion’s web app and Grammarly’s browser extension were probably smoother.
+Initially, I wrote everything in a few notebooks by hand and usually at my usual coffee shops. The outline I originally submitted for my proposal and random paragraphs were in my notebooks. Then the pandemic hit. For ideas, I wrote in [Notion](notion.so/). I like writing in Notion generally and find the clean UI helpful in staying focused on ideas. Plus, it’s on my phone, too, so I could jot down ideas and make to-do lists while walking my dog. I also had endless links on another Notion doc that was easy to reference. When they started taking chapter section forms, I moved them into Word (through Office365). Finally, I used here and there [Grammarly](grammarly.com) just when I was editting: before turning in a draft or the final stages. Grammarly plus Word, though, were very buggy, and Grammarly couldn’t support extensive docs (and neither could my CPU). Notion’s web app and Grammarly’s browser extension were probably smoother.
 
 ## Separate building and editting
 
