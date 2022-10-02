@@ -7,7 +7,7 @@ tags:
   - design
   - travel
   - the-iron-yard
-cover-image: img/posts/draplin.gif
+cover-image: draplin.gif
 ---
 
 Hugs with Draplin!

@@ -7,7 +7,7 @@ tags:
 - announcements
 - teaching
 
-cover-image: img/posts/laptop.jpg
+cover-image: laptop.jpg
 ---
 
 For the past six years, I've been teaching topics in [Communication Design at Texas State University](https://www.finearts.txstate.edu/Art/) and getting my MFA for the first three years. As I finished [writing and designing my thesis](https://digital.library.txstate.edu/handle/10877/4271), which was brand, web-site, and content strategy redesign for a student-run and internationally recognized [online literary journal](https://frontporchjournal.com/), I was asked to stay on full-time for one year. That one year turned into three, and during that time, I worked an [exceptional colleague](https://www.twitter.com/grayscaleTX) to build out the web courses that needed some serious updates. I was given full freedom to replace the "flash class" and explore a topic I was very interested in—Responsive Web Design—and have been teaching it ever since. The course went from having one section of 15 students to three sections of 20 each in three years, and the students have spoken to [Ethan Marcotte](https://www.responsivewebdesign.com), designers from [Happy Cog](https://www.happycog.com), [Big Spaceship](https://www.bigspaceship.com), and [Paravel](https://www.paravelinc.com) about RWD. It amazes me that the course has grown as much as it has, and that it is a topic students _want_ to learn.

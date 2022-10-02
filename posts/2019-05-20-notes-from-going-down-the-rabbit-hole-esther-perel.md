@@ -1,7 +1,7 @@
 ---
 title: 'Notes from going down the rabbit hole: Esther Perel'
 date: 2019-05-20 00:00:00 -5
-cover-image: img/posts/samkap.png
+cover-image: samkap.png
 tags:
 - psychology
 - selfcare

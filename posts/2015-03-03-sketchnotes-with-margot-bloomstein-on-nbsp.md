@@ -9,7 +9,7 @@ tags:
   - design
   - process
   - education
-cover-image: img/posts/margotsketches.jpg
+cover-image: margotsketches.jpg
 ---
 
 Check out [audio](https://goodstuff.fm/nbsp) and sketchnotes (below) from an NBSP chat with content strategist, Margot Bloomstein!

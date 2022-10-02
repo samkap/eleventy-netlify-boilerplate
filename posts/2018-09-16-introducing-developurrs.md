@@ -8,7 +8,7 @@ tags:
 - design
 - development
 - diversity
-cover-image: img/posts/developurrs.png
+cover-image: developurrs.png
 
 ---
 

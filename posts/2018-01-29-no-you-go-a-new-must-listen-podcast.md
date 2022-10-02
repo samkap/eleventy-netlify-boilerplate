@@ -18,7 +18,7 @@ tags:
 - design
 - development
 - diversity
-cover-image: img/posts/developurrs.png
+cover-image: developurrs.png
 
 ---
 Last week, a new podcast launched called [No, You Go](https://www.noyougoshow.com/), hosted by three AMAZING people, [Jenn Lukas](https://twitter.com/jennlukas), [Katel Ledû](https://twitter.com/theledu), and [Sara Wachter-Boettcher](https://twitter.com/sara_ann_marie). I am beyond honored that they reached out and asked me to contribute a clip for the first episode, which I gladly did. (*Note: They did not ask me to write about their podcast, but I'm going to because I'm really appreciate their message so far*). I shared tidbits below without spoiling anything, because you're going to have to pour yourself a glass of wine or tea, and enjoy the episodes on your own.
