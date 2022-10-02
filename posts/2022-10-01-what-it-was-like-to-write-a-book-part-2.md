@@ -1,5 +1,6 @@
 ---
 title: What it was like to write a book (part 2)
+cover-image: /static/img/charlie.gif
 date: 2022-10-01T22:56:37.142Z
 tags:
   - post
@@ -8,7 +9,6 @@ tags:
   - inclusive-design-communities
   - inclusion
   - abookapart
-cover-image: https://media.giphy.com/media/l0IylOPCNkiqOgMyA/giphy-downsized.gif  
 ---
 **Note:** This is part 2 of a [short series](https://samkapila.com/2022/09/27/what-it-was-like-to-write-a-book-(part-1)/) about the experience of writing my book, [Inclusive Design Communities](https://abookapart.com/products/inclusive-design-communities), out on October 4th.
 
