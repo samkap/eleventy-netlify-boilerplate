@@ -9,7 +9,7 @@ tags:
   - equality
   - students
   - teaching
-cover-image: diversitycouncil-tiy.png
+cover: /posts/diversitycouncil-tiy.png
 
 ---
 

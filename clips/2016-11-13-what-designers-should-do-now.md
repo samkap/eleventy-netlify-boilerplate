@@ -4,7 +4,7 @@ date: 2016-11-12 18:00:00 -06:00
 tags:
 - clips
 layout: layouts/clip.njk
-cover-image: 
+cover: /posts/
 ---
 
 [What Designers Should Do Now](https://www.fastcodesign.com/3065502/what-designers-should-do-now) via FastCoDesign.

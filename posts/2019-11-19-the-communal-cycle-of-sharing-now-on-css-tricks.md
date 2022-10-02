@@ -1,7 +1,7 @@
 ---
 title: The Communal Cycle of Sharing, now on CSS-Tricks
 date: 2019-11-19T06:00:00.000Z
-cover-image: ""
+cover: 
 tags:
   - writing
   - css
