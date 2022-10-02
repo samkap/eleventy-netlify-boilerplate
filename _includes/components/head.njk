@@ -16,17 +16,18 @@
   <link rel="alternate" href="feed.xml" type="application/atom+xml" title="Sam Kapila's writing">
 
   <!-- og tags -->
-<meta property="og:site_name" content="{{ site.name }}">
-<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-<meta property="og:locale" content="en_US">  {% if page.cover-image %}
-<meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/static/img/posts/{{ page.cover-image }}"> {% else %}
-<meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/static/img/samkap,w_200.png"> {% endif %}
+<meta property="og:site_name" content="{{ metadata.title }}">
+<meta property="og:title" content="{{ renderData.title or title or metadata.title }} » Sameera Kapila">
+<meta property="og:locale" content="en_US">  
+{% if page.cover-image %}
+<meta property="og:image" content="{{ metadata.url }}/static/img/posts/{{ page.cover-image }}"> {% else %}
+<meta property="og:image" content="{{ metadata.url }}/static/img/samkap,w_200.jpg"> {% endif %}
 <meta property="og:type" content="website">
-<meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
+<meta property="og:url" content="{{ metadata.url }}{{ page.url }}">
 <meta property="og:description" content="{{ metaDescription or renderData.metaDescription or metadata.description }}">
   <meta name="twitter:creator" content="@samkap" />
- <meta property="twitter:image" content="{{ site.url }}{{ site.baseurl }}/static/img/samkap,w_200.png">
+ <meta property="twitter:image" content="{{ metadata.url }}/static/img/samkap,w_200.jpg">
   <meta name="twitter:site" content="@samkap" />
-  <meta property="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
+  <meta property="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ metadata.title }}{% endif %}" />
 <meta name="twitter:card" content="summary" />
 </head>

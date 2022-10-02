@@ -19,9 +19,10 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Cover Image", name: "cover-image", widget: "image" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Tags", name: "tags", widget: "list", default: ["post"] }
-      - { label: "Body", name: "body", widget: "markdown" }
   # Our clips
   - name: "clips" # Used in routes, e.g., /admin/collections/blog
     label: "Clips" # Used in the UI
@@ -30,8 +31,8 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "layout", name: "layout", widget: "markdown", default: layouts/clip.njk }
       - {label: "ogtype", name: "ogtype", widget: "markdown", default: article}
       - { label: "Tags", name: "tags", widget: "list", default: ["clips"] } 
