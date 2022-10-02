@@ -568,13 +568,13 @@ object {
     grid-template-columns: 32.677% 32.677% 32.677%;
   }
 }
-.cover-image-container img {
+.cover-container img {
   max-height: 100px;
   max-width: 100%;
   margin: 0 auto;
 }
 
-.Speaking .cover-image-container {
+.Speaking .cover-container {
   background-image: url("/static/img/speaking.jpg");
   background-size: cover;
   -webkit-filter: grayscale(1) brightness(0.75) contrast(1.05);
@@ -766,7 +766,7 @@ object {
   }
 }
 .book-container .book-cover {
-  background: url(./static/img/idc-book-cover.jpg) no-repeat;
+  background: url(./static/img/posts/idc-book-cover.jpg) no-repeat;
   background-size: cover;
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
   height: 464.4px;

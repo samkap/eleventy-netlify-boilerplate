@@ -5,7 +5,7 @@ tags:
 - clips
 layout: layouts/clip.njk
 crosspost_to_medium: true
-cover-image: 
+cover: /posts/
 ---
 
 From [MetaFissy's blog](https://metafizzy.co/blog/rgb-schemes-logo/)

@@ -6,7 +6,7 @@ tags:
 - design
 - awards
 - competitions
-cover-image: netawardscategories.png
+cover: /posts/netawardscategories.png
 ---
 
 Nominations are now open over at [the net awards](https://thenetawards.com/). I had a blast judging last year, and look forward to seeing the best of the best nominated. Run over and nominate for any or all of the following tags:

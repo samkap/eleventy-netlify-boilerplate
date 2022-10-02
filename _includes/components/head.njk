@@ -20,13 +20,14 @@
 <meta property="og:title" content="{{ renderData.title or title or metadata.title }} » Sameera Kapila">
 <meta property="og:locale" content="en_US">  
 
-<meta property="og:image" content="{% if cover-image %}{{ metadata.url }}/static/img/posts/{{ cover-image }}{% else %}{{ metadata.url }}/static/img/samkap,w_200.jpg" {% endif %}"> 
+<meta property="og:image" content="/static/img/{{ cover }}">
+<meta property="og:image:alt" content="/static/img/{{ metadata.image }}">
 <meta property="og:type" content="website">
 <meta property="og:url" content="{{ metadata.url }}{{ page.url }}">
 <meta property="og:description" content="{{ metaDescription or renderData.metaDescription or metadata.description }}">
   <meta name="twitter:creator" content="@samkap" />
- <meta property="twitter:image" content="{{ metadata.url }}/static/img/samkap,w_200.jpg">
+ <meta property="twitter:image" content="{{ cover }}">
   <meta name="twitter:site" content="@samkap" />
-  <meta property="twitter:title" content="{% if post.title %}{{ post.title }}{% else %}{{ metadata.title }}{% endif %}" />
+  <meta property="twitter:title" content="{{ renderData.title or title or metadata.title }} » Sameera Kapila" />
 <meta name="twitter:card" content="summary" />
 </head>

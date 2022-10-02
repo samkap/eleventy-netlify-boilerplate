@@ -5,7 +5,7 @@ backend:
 # Uncomment below to enable drafts
 publish_mode: editorial_workflow
 
-media_folder: "static/img" # Media files will be stored in the repo under images/uploads
+media_folder: "static/img/posts" # Media files will be stored in the repo under images/uploads
 
 site_url: https://samkapila.com
 display_url: https://samkapila.com
@@ -20,7 +20,7 @@ collections:
     fields: # The fields for each document, usually in front matter
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
-      - { label: "Cover Image", name: "cover-image", widget: "image" }
+      - { label: "Cover Image", name: "cover", widget: "image" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Tags", name: "tags", widget: "list", default: ["post"] }
   # Our clips

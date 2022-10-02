@@ -1,7 +1,7 @@
 ---
 title: iOS linking
 date: 2020-01-21T06:01:00.000Z
-cover-image: patio-e-pepe.jpg
+cover: /posts/patio-e-pepe.jpg
 author: sk
 summary: a post about linking in iOS
 tags:
