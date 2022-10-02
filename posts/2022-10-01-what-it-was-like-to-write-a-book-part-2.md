@@ -26,5 +26,11 @@ I asked a small number of authors I knew or admired what it was like for them. A
 
 I read two books in particular that helped me understand the process:
 
-* [Before and After The Book Deal: A Writer's Guide to Finishing, Publishing, Promoting, and Surviving Your First Book](https://bookshop.org/books/before-and-after-the-book-deal-a-writer-s-guide-to-finishing-publishing-promoting-and-surviving-your-first-book-67a64da2-29cb-480b-9142-1355f857c3b2/9781948226400) by Courtney Maum
-* [You Should Write A Book](https://abookapart.com/products/you-should-write-a-book) by Katel Lêdu and Lisa Maria Marquis, both at A Book Apart and such brilliant people to work with on this process.
+* [Before and After The Book Deal: A Writer's Guide to Finishing, Publishing, Promoting, and Surviving Your First Book](https://bookshop.org/books/before-and-after-the-book-deal-a-writer-s-guide-to-finishing-publishing-promoting-and-surviving-your-first-book-67a64da2-29cb-480b-9142-1355f857c3b2/9781948226400) by Courtney Maum. I read Maum's book very early in the process and it helped outline a lot of what's commonly expected. I found the bookends of the process most fascinating since I didn't know much about book deals and promoting books.
+* [You Should Write A Book](https://abookapart.com/products/you-should-write-a-book) by Katel Ledû and Lisa Maria Marquis, both at A Book Apart and such brilliant people to work with on this process. I read Katel and Lisa Maria's book once I was already getting into the editting, or copy stage, of A Book Apart's process. What was so clear is how much they care about their authors and they focused a lot on the common things authors feel through the process. There were endless times I felt like giving up or that I wasn't good enough and these two kept me going. Their work in the book is as supportive as they are in person/remotely.
+
+
+
+## Software
+
+For ideas, I wrote in Notion. I like writing in notion generally and find the clean UI helpful in staying focused on ideas. Plus, it's on my phone, too, so I could jot down ideas and make to-do lists. I also had a bunch of links in there so it was all easy to reference. When they started taking chapter section forms, I moved them into Word (through Office365). Finally, I used Grammarly just when I was editting: before turning in a draft or in the final stages. Grammarly plus Word, though, were very buggy, and Grammarly can't support large docks (and neither could my CPU). Notion's web app and Grammarly's browser extension were probably smoother.
