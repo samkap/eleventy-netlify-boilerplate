@@ -4,6 +4,16 @@ cover: /static/img/posts/buttonconfbanner.png
 date: 2022-10-08T18:50:33.152Z
 tags:
   - post
+  - book
+  - idc
+  - inclusive-design-communities
+  - design
+  - writing
+  - conferences
+  - speaking
+  - content
+  - abookapart
+  - inclusion
 ---
 I’m so excited to join [Button’s](https://twitter.com/ButtonConf) book club on Monday, October 10th, to talk about Inclusive Design Communities, the book I wrote with [A Book Apart](https://twitter.com/abookapart). I’ll be joining the Button Book Club segment remotely. Other books and authors featured include:
 
