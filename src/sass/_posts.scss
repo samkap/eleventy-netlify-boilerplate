@@ -1,122 +1,123 @@
 body.writing {
-  background: $color1;
-
-  nav {
-    a {
-      color: $white;
-
-      &:hover {
-        color: $color4;
-        text-decoration: solid underline $color4 1px;
-      }
-
-      &[data-current="current item"] {
-        color: $white;
-        text-decoration: solid underline $color4 1px;
-      }
-    }
-  }
-
-  article a {
-    color: $white !important;
-    text-decoration-color: $white;
-    text-decoration-thickness: 1px;
-
-    span {
-      color: $color3;
-    }
-  }
 
   h1 {
-    color: $color3;
+    color: $green-seafoam;
   }
 
   .post-list {
-    article {
-      margin-top: 2rem;
+    max-width: $max-w-base;
+    li {
+      margin-top: 3rem;
       @media screen and (min-width: $max-w-base) {
         align-items: center;
         display: grid;
         column-gap: $base-spacing;
-        grid-template-columns: 1fr 5fr;
+        grid-template-columns: 1fr 7fr;
         grid-template-rows: 1fr;
       } 
 
       & > span {
-        color: $color3;
+        color: $green-seafoam;
         font-size: $xs-font-size;
-        justify-self: end;
         line-height: 1;
         @media screen and (max-width: $max-w-base) {
           justify-self: start;
         } 
       }
 
-      a {
-        text-decoration-color: $white;
-        text-decoration: solid underline $color4 1px;
+      h2 {
+        margin-top: 0;
       }
+      a {
+        text-decoration-color: $green-seafoam;
+        text-decoration: solid underline $gold 2px;
+      }
+      
     }
   }
 }
 
 // Post
 .post {
-  background-color: $white;
 
   article {
-    max-width: 50rem;
+    max-width: 55rem;
+    margin: 0 auto;
   }
 
   h1 {
-    color: $color4;
+    color: $gold;
+  }
+
+  h2 {
+    font-size: $medium-font-size;
+    margin-top: $large-spacing;
+  }
+
+  time {
+    display: block;
+    color: $green-seafoam;
+  }
+
+  li {
+    line-height: $base-line-height;
+    margin-bottom: $small-spacing;
+  }
+
+  ul, iframe, img {
+    margin: $base-spacing auto;
+  }
+
+  a {
+    background-image: none;
+    color: $green-seafoam;
+    font-family: $sans;
+    font-size: $s-font-size;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  .tags {
+    display: block;
+    margin: $large-spacing auto $base-spacing auto;
+  }
+
+  a[rel="tag"],
+  a[rel="tag"]:visited {
+    background-color: $green-jungle;
+    color: $green-seafoam;
+    border: 2px solid lighten( $green-jungle, 20% );
+    display: inline-block;
+    letter-spacing: .1em;
+    line-height: .9;
+    margin: 0 .5em .5em 0;
+    border-radius: .6rem;
+    font-family: $sans;
+    font-size: .8rem;
+    font-weight: 563;
+    padding: .3rem .5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+  a[rel="tag"]:hover {
+
+      background-color: $green-seafoam;
+    color: $green-jungle;
+
+  }
+
+  a[rel="tag"]:last-child {
+    margin-right: 0;
   }
 }
 
 
 // Post meta
-.tags {
-  display: block;
-  margin-top: $medium-spacing;
-}
-
-a[rel="tag"],
-a[rel="tag"]:visited {
-	background-color: $color3;
-  border: 1px solid lighten( $color1, 15% );
-	color: $color1;
-	display: inline-block;
-	letter-spacing: .1em;
-	line-height: .9;
-	margin: 0 .5em .5em 0;
-  border-radius: .6rem;
-  font-family: $sans;
-  font-size: .8rem;
-  padding: .3rem .5rem .2rem .5rem;
-  text-decoration: none;
-  text-transform: uppercase;
-}
-
-a[rel="tag"]:hover {
-	background-color: $color4;
-	color: $white;
-}
-
-a[rel="tag"]:last-child {
-	margin-right: 0;
-}
-
-.pagination {
-  color: $color4;
-  font-family: $sans;
-  margin-top: $base-spacing;
 
 
-  a {
-    background-image: none;
-    text-transform: none;
-  }
-}
+
+
 
 #disqus_thread {
   margin-bottom: 50px;
@@ -124,33 +125,17 @@ a[rel="tag"]:last-child {
   max-width: $max-w-base;
 }
 
+
+
 // Clips
 
-.clip-list {
-  article {
-    margin-top: 2rem;
-    display: grid;
-    grid-template-columns: 1fr 5fr;
-    column-gap: 10px;
-    align-items: flex-start;
-    justify-content:flex-start;
-  }
-
-  h3 {
-    font-family: $text;
-    font-size: $base-font-size;
-  }
-
-  & > span {
-      justify-self: end;
-  }
-
-  a {
-    text-decoration-thickness: 1px;
-  }
+.clip {
+  background-color: $green-jungle;
 }
 
 .clips-header {
+  color: $green-seafoam;
   font-family: $display-bold;
   font-size: $base-font-size;
+  text-align: center;
 }

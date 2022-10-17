@@ -1,6 +1,8 @@
-<h2> Recently bookmarked </h2>
-<section class="clip-list">
+<h2 class="clips-header"> Recently bookmarked </h2>
+<section class="recent-clips">
+	<ul>
 	{% for clip in clipslist | reverse %}
+	<li>
 		<article{% if clip.url == url %} data-current="current item"{% endif %} >
 						<span>
 				<time datetime="{{ clip.date | machineDate }}">
@@ -19,5 +21,7 @@
 			</h3>
 			</div>
 		</article>
+		</li>
 	{% endfor %}
+	</ul>
 </section>

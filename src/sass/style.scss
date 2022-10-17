@@ -1,18 +1,29 @@
 /* ********************global********************* */
 
-$color1: rgb(11, 53, 44);
-$color2: rgb(74, 125, 31);
-$color3: rgb(219, 232, 232);
-$color4: rgb(184,138,71);
-$color5: rgb(255, 177, 233);
-$white: #ffffff;
+$green-jungle: rgb(11, 53, 44);
+$green-palm: rgb(74, 125, 31);
+$green-palm2: rgb(140, 238, 59);
+$green-seafoam: rgb(219, 232, 232);
+
+$flamingo: rgb(255, 177, 233);
+$flamingo-light: rgb(255, 201, 236);
+$flamingopink:#e8b2ad;
+$flamingo-lighest: lighten($flamingo, 15%);
+
+
 $teracotta: rgb(171,72,47);
-$color15: rgb(255, 201, 236);
 
 
 $aqua: rgb(59,117,124);
-$aqualight: rgb(157, 208, 199);
-// $color14: rgb(233, 253, 249);
+$aqua-light:lighten( $aqua, 15% );
+
+$gold: rgb(184,138,71);
+$gold-bright: lighten( $gold, 20%);
+$gold-other: #ebbfa2;
+
+
+
+// $green-jungle4: rgb(233, 253, 249);
 // $color6: rgb(209, 251, 242);
 
 $shadow: 0 0 3px rgba(0, 0, 0, 0.2);
@@ -21,17 +32,17 @@ $display-bold: SilvaDisplay-Bold;
 $display-bold-italic: SilvaDisplay-BoldItalic;
 $text: SilvaText-Book;
 $text-italic: SilvaText-BookItalic;
-$sans: RozanovaHUM-Light;
+$sans: PlusJakartaSans-Variable;
 
 $max-w-base: 50rem;
 $xs-font-size: .9rem;
 $s-font-size: 1rem;
 $alt-base-font-size: 1.2rem;
-$base-font-size: 1.45rem;
+$base-font-size: 1.5rem;
 $medium-font-size: 1.9rem;
 $large-font-size: 2.5rem;
 
-$base-line-height: 1.6;
+$base-line-height: 1.7;
 $display-line-height: 1.3;
 $base-spacing: $base-line-height * 1rem;
 $x-small-spacing: .4rem;
@@ -50,4 +61,5 @@ $xxx-large-spacing: $base-spacing * 5;
 @import "posts";
 @import "about";
 @import "fonts";
-// @import "inclusion_books"; 
+@import "book"; 
+@import "inclusion_books"; 

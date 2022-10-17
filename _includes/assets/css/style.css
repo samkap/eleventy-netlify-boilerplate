@@ -61,14 +61,15 @@ table {
 }
 
 body {
+  background-color: rgb(11, 53, 44);
   -webkit-font-smoothing: antialiased;
-  color: rgb(11, 53, 44);
+  color: rgb(219, 232, 232);
   font-display: auto;
   font-family: SilvaText-Book;
-  font-size: 1.45rem;
-  font-weight: 400;
+  font-size: 1.5rem;
+  font-weight: 500;
   height: 100%;
-  line-height: 1.6;
+  line-height: 1.7;
   word-wrap: break-word;
 }
 
@@ -91,22 +92,22 @@ header {
   align-content: space-between;
   display: flex;
   flex-direction: row;
-  font-family: RozanovaHUM-Light;
+  font-family: PlusJakartaSans-Variable;
   justify-content: space-between;
   margin: 0 auto;
-  padding: 1.6rem 2% 0 2%;
+  padding: 1.7rem 2% 0 2%;
   position: relative;
 }
 @media screen and (min-width: 48em) {
   header {
-    padding: 1.6rem;
+    padding: 1.7rem;
   }
 }
 .home header {
   background: rgb(11, 53, 44);
 }
 .home header a {
-  color: #ffffff;
+  color: rgb(219, 232, 232);
 }
 .home header span {
   display: none;
@@ -119,19 +120,16 @@ header {
   margin-right: 20px;
   display: inline-block;
   vertical-align: middle;
-  fill: rgb(11, 53, 44);
-}
-.home .ampersam, .writing .ampersam {
-  fill: white;
+  fill: rgb(219, 232, 232);
 }
 .ampersam:hover {
-  fill: rgb(184, 138, 71);
+  fill: rgb(140, 238, 59);
 }
 
 .logo-container {
   display: flex;
   flex-direction: row;
-  margin-bottom: 1.6rem;
+  margin-bottom: 1.7rem;
 }
 @media screen and (min-width: 48em) {
   .logo-container {
@@ -141,18 +139,20 @@ header {
 
 hr {
   border: none;
-  background-color: rgb(74, 125, 31);
-  width: 30%;
+  background-color: rgb(140, 238, 59);
+  margin: 2em auto;
+  width: 40%;
   height: 3px;
 }
 
 nav ul {
   align-items: flex-start;
-  padding: 0;
   display: flex;
   flex-direction: row;
+  gap: 1rem;
   justify-content: flex-start;
   margin: 0;
+  padding: 0;
 }
 nav li {
   display: inline;
@@ -161,29 +161,30 @@ nav li {
 }
 nav a {
   border-radius: 4px;
-  color: rgb(11, 53, 44);
-  font-size: 0.9rem;
-  font-weight: 900;
+  color: rgb(219, 232, 232);
+  font-size: 1rem;
+  font-weight: 700;
   letter-spacing: 1px;
   overflow: hidden;
-  padding: 5px;
   position: relative;
   text-decoration: none;
   text-transform: uppercase;
 }
 nav a:hover {
-  color: rgb(184, 138, 71);
-  text-decoration: solid underline rgb(184, 138, 71) 1px;
+  color: rgb(140, 238, 59);
+  text-decoration: solid underline rgb(140, 238, 59) 2px;
 }
 nav a[data-current="current item"] {
-  color: rgb(11, 53, 44);
-  text-decoration: solid underline rgb(184, 138, 71) 1px;
+  color: rgb(219, 232, 232);
+  text-decoration: solid underline rgb(140, 238, 59) 2px;
 }
 
 footer {
-  background: rgb(157, 208, 199);
+  background: rgb(219, 232, 232);
   color: rgb(11, 53, 44);
+  font-family: PlusJakartaSans-Variable;
   font-size: 1rem;
+  font-weight: 600;
   text-align: center;
   position: relative;
 }
@@ -194,8 +195,8 @@ footer::after {
   height: 7px;
   width: 100%;
   margin: 0 auto;
-  background: rgb(157, 208, 199);
-  background: repeating-linear-gradient(-45deg, rgb(157, 208, 199), rgb(157, 208, 199) 4px, transparent 2px, transparent 7px);
+  background: rgb(219, 232, 232);
+  background: repeating-linear-gradient(-45deg, rgb(219, 232, 232), rgb(219, 232, 232) 4px, transparent 2px, transparent 7px);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   border-bottom: 0;
@@ -203,7 +204,7 @@ footer::after {
 footer .inner {
   margin: 0 auto;
   max-width: 50rem;
-  padding: 3.2rem;
+  padding: 3.4rem;
 }
 footer a {
   color: rgb(11, 53, 44);
@@ -213,7 +214,7 @@ footer a {
 ::-moz-selection,
 ::selection {
   background: rgba(59, 117, 124, 0.9);
-  color: #ffffff;
+  color: rgb(219, 232, 232);
 }
 
 .bold,
@@ -247,10 +248,16 @@ a {
   text-decoration-color: rgb(184, 138, 71);
   text-decoration-skip: auto;
   -webkit-text-decoration-skip: auto;
+  text-decoration-thickness: 2px;
 }
 
 time {
-  font-family: RozanovaHUM-Light;
+  color: rgb(184, 138, 71);
+  font-family: PlusJakartaSans-Variable;
+  font-weight: 500;
+}
+.writing time {
+  color: rgb(219, 232, 232);
 }
 
 main a,
@@ -272,7 +279,7 @@ h5,
 h6 {
   font-display: auto;
   font-family: SilvaDisplay-Bold;
-  font-weight: 500;
+  font-weight: 900;
   line-height: 1.2;
   letter-spacing: normal;
   word-spacing: normal;
@@ -288,34 +295,44 @@ article h1 {
 
 h2 {
   font-size: 1.9rem;
-  margin-top: 1.6rem;
+  margin-top: 1.7rem;
 }
 
 h3 {
-  font-size: 1.45rem;
+  font-size: 1.5rem;
 }
 
 .post h1,
 .post h2,
 .post h3,
+.post h4,
+.post h5,
+.post h6,
 .post blockquote,
 .post p,
+.post small,
 .post span,
 .post ul,
-.post ol,
+.post ol, .post time,
 .post .pagination,
 .post .tags,
 .pages h1,
 .pages h2,
 .pages h3,
+.pages h4,
+.pages h5,
+.pages h6,
 .pages blockquote,
 .pages p,
+.pages small,
 .pages span,
 .pages ul,
 .pages ol,
+.pages time,
 .pages .pagination,
 .pages .tags {
   max-width: 50rem;
+  margin: 0 auto;
 }
 
 .meta {
@@ -396,7 +413,7 @@ pre code {
 }
 
 small {
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 
 small a {
@@ -439,9 +456,6 @@ header::after {
   }
   blockquote p {
     margin: 0;
-  }
-  hr {
-    margin: 1em auto;
   }
 }
 h4 a {
@@ -498,7 +512,7 @@ li {
   border: 0;
 }
 .listing-posts .post-container {
-  background: #ffffff;
+  background: rgb(219, 232, 232);
   max-width: 50rem;
 }
 @media screen and (min-width: 1080px) {
@@ -607,7 +621,7 @@ object {
 
 .limit {
   max-width: 50rem;
-  margin: 3.2rem 0;
+  margin: 3.4rem 0;
 }
 
 .home {
@@ -615,122 +629,185 @@ object {
 }
 .home main {
   padding: 0;
-  max-width: 100%;
 }
 .home .greeting h1 {
   color: rgb(219, 232, 232);
   font-family: SilvaDisplay-Bold;
   font-size: 1.9rem;
   line-height: 1.3;
-  margin-bottom: 1.6rem;
+  margin-bottom: 1.7rem;
   margin: 0 auto;
   max-width: 61rem;
-  padding: 1.6rem;
+  padding: 1.7rem;
 }
 @media screen and (min-width: 50rem) {
   .home .greeting h1 {
-    font-size: 3.2rem;
-    margin: 0 auto 6.4rem auto;
-    padding: 6.4rem 1.6rem;
+    font-size: 3.4rem;
+    margin: 0 auto 6.8rem auto;
+    padding: 6.8rem 1.7rem;
   }
-}
-.home h1 {
-  margin-bottom: 0;
 }
 
-.recent-container {
-  background-color: #ffffff;
-  column-gap: 1.6rem;
-  display: grid;
-  grid-template-areas: "book" "posts";
-  grid-template-columns: 1fr;
-  grid-template-rows: auto;
-}
-.recent-container::before {
-  content: "";
-  position: absolute;
-  display: block;
-  height: 7px;
-  width: 100%;
-  background: rgb(11, 53, 44);
-  background: repeating-linear-gradient(-45deg, rgb(11, 53, 44), rgb(11, 53, 44) 4px, transparent 2px, transparent 7px);
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  border-bottom: 0;
-}
-@media screen and (min-width: 50rem) {
-  .recent-container {
-    grid-template-areas: "book posts" "book posts" "book posts" "book posts";
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-.recent-container .recent-posts {
-  background-color: #ffffff;
-  grid-area: posts;
-  max-width: 50rem;
-  padding: 1.6rem;
+.recent-posts {
+  padding: 1.7rem;
 }
 @media screen and (min-width: 1060px) {
-  .recent-container .recent-posts {
-    padding: 1.6rem 6.4rem;
+  .recent-posts {
+    padding: 6.8rem;
   }
 }
-.recent-container .recent-posts ul, .recent-container .recent-posts ol {
+.recent-posts h2 {
+  color: rgb(219, 232, 232);
+  font-family: PlusJakartaSans-Variable;
+  font-size: 1rem;
+  font-weight: 800;
+  letter-spacing: 2px;
+  line-height: 1.3;
+  margin: 3.4rem 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+.recent-posts ul, .recent-posts ol {
+  display: grid;
+  grid-template-columns: 1fr;
   list-style-type: none;
   margin: 0;
   padding: 0;
+  gap: 50px;
 }
-.recent-container .recent-posts h2 {
-  color: rgb(11, 53, 44);
-  font-family: RozanovaHUM-Light;
-  font-size: 1rem;
-  font-weight: 900;
-  line-height: 1.3;
-  margin: 0.4rem 0 1.6rem;
-}
-.recent-container .recent-other {
-  background-color: #ffffff;
-  grid-area: book;
-  padding: 0 1.6rem;
-  position: relative;
-  z-index: 2;
-}
-@media screen and (min-width: 1060px) {
-  .recent-container .recent-other {
-    margin-top: -6.4rem;
+@media screen and (min-width: 50rem) {
+  .recent-posts ul, .recent-posts ol {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
-.recent-container article {
-  margin-bottom: 1.6rem;
+@media screen and (min-width: 1060px) {
+  .recent-posts ul, .recent-posts ol {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
-.recent-container article h3 {
+.recent-posts ul li, .recent-posts ol li {
+  color: rgb(219, 232, 232);
+}
+.recent-posts ul article, .recent-posts ol article {
+  margin-bottom: 1.7rem;
+}
+.recent-posts ul article h3, .recent-posts ol article h3 {
   font-family: SilvaDisplay-Bold;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   line-height: 1.3;
+  margin: 0.6rem 0;
   word-spacing: 2px;
 }
-.recent-container article p {
+.recent-posts ul article p, .recent-posts ol article p {
   font-family: SilvaText-Book;
   font-size: 1rem;
   margin: 0;
 }
+.recent-posts ul article time, .recent-posts ol article time {
+  color: rgb(219, 232, 232);
+  display: block;
+  font-size: 1rem;
+}
+.recent-posts ul article a, .recent-posts ol article a {
+  text-decoration-color: rgb(184, 138, 71);
+}
+.recent-posts ul article a:hover, .recent-posts ol article a:hover {
+  color: rgb(184, 138, 71);
+}
 
-.book-container {
-  margin: 4.8rem auto 2rem auto;
-  position: relative;
-  width: 300px;
+.recent-clips, .clips {
+  padding: 1.7rem;
 }
-.book-container .book-caption {
-  line-height: 1;
-  font-size: 1.2rem;
-  margin-top: 0.4rem;
-}
-@media screen and (min-width: 50rem) {
-  .book-container {
-    margin: 5em auto;
+@media screen and (min-width: 1060px) {
+  .recent-clips, .clips {
+    padding: 6.8rem;
   }
 }
-.book-container .sticker-container {
+.recent-clips h2, .clips h2 {
+  color: rgb(219, 232, 232);
+  font-family: PlusJakartaSans-Variable;
+  font-size: 1rem;
+  font-weight: 800;
+  letter-spacing: 2px;
+  line-height: 1.3;
+  margin: 3.4rem 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+.recent-clips ul, .recent-clips ol, .clips ul, .clips ol {
+  display: grid;
+  grid-template-columns: 1fr;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  gap: 50px;
+}
+@media screen and (min-width: 50rem) {
+  .recent-clips ul, .recent-clips ol, .clips ul, .clips ol {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (min-width: 1060px) {
+  .recent-clips ul, .recent-clips ol, .clips ul, .clips ol {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+.recent-clips ul li, .recent-clips ol li, .clips ul li, .clips ol li {
+  color: rgb(219, 232, 232);
+}
+.recent-clips ul article, .recent-clips ol article, .clips ul article, .clips ol article {
+  margin-bottom: 1.7rem;
+}
+.recent-clips ul article h3, .recent-clips ol article h3, .clips ul article h3, .clips ol article h3 {
+  font-family: SilvaDisplay-Bold;
+  font-size: 1.5rem;
+  line-height: 1.3;
+  margin: 0.6rem 0;
+  word-spacing: 2px;
+}
+.recent-clips ul article p, .recent-clips ol article p, .clips ul article p, .clips ol article p {
+  font-family: SilvaText-Book;
+  font-size: 1rem;
+  margin: 0;
+}
+.recent-clips ul article time, .recent-clips ol article time, .clips ul article time, .clips ol article time {
+  color: rgb(140, 238, 59);
+  display: block;
+  font-size: 1rem;
+}
+.recent-clips ul article a, .recent-clips ol article a, .clips ul article a, .clips ol article a {
+  text-decoration-color: rgb(140, 238, 59);
+}
+.recent-clips ul article a:hover, .recent-clips ol article a:hover, .clips ul article a:hover, .clips ol article a:hover {
+  color: rgb(140, 238, 59);
+}
+
+.book-main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: space-between;
+  padding: 5rem 0;
+  position: relative;
+}
+@media screen and (min-width: 50rem) {
+  .book-main {
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+.book-main .book-container {
+  position: relative;
+  width: 300px;
+  margin: 0 auto;
+}
+@media screen and (min-width: 50rem) {
+  .book-main .book-container {
+    margin: 0;
+  }
+}
+.book-main .book-container .sticker-container {
   height: 105px;
   left: -20px;
   position: absolute;
@@ -738,7 +815,7 @@ object {
   width: 105px;
   z-index: 3;
 }
-.book-container .book-sticker {
+.book-main .book-container .book-sticker {
   animation: sticker 20s linear infinite;
   background-position: center;
   background: url(./static/img/sticker.svg) no-repeat;
@@ -751,21 +828,22 @@ object {
     transform: rotate(1turn);
   }
 }
-.book-container .book-sticker__text {
-  color: #ffffff;
+.book-main .book-container .book-sticker__text {
+  color: rgb(219, 232, 232);
   font-family: SilvaDisplay-Bold;
-  position: absolute;
-  top: -4px;
-  text-align: center;
-  width: 105px;
   line-height: 1;
+  padding: 31.5px 0;
+  position: absolute;
+  text-align: center;
+  top: -4px;
+  width: 105px;
 }
 @media screen and (min-width: 678px) {
-  .book-container .book-sticker__text {
+  .book-main .book-container .book-sticker__text {
     padding: 13.5px 0;
   }
 }
-.book-container .book-cover {
+.book-main .book-container .book-cover {
   background: url(./static/img/posts/idc-book-cover.jpg) no-repeat;
   background-size: cover;
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
@@ -773,122 +851,106 @@ object {
   max-width: 100%;
   width: 300px;
 }
-.book-container .book-cover span {
-  color: transparent;
-  display: block;
-  font-size: 1.2rem;
-  padding-top: 55%;
-  text-align: center;
-}
-.book-container .book-cover:hover {
-  background: rgb(59, 117, 124);
-}
-.book-container .book-cover:hover span {
-  color: #ffffff;
+.book-main .book-caption {
+  color: rgb(219, 232, 232);
+  font-size: 1.9rem;
+  margin-top: 0.4rem;
+  max-width: 500px;
 }
 
-body.writing {
-  background: rgb(11, 53, 44);
-}
-body.writing nav a {
-  color: #ffffff;
-}
-body.writing nav a:hover {
-  color: rgb(184, 138, 71);
-  text-decoration: solid underline rgb(184, 138, 71) 1px;
-}
-body.writing nav a[data-current="current item"] {
-  color: #ffffff;
-  text-decoration: solid underline rgb(184, 138, 71) 1px;
-}
-body.writing article a {
-  color: #ffffff !important;
-  text-decoration-color: #ffffff;
-  text-decoration-thickness: 1px;
-}
-body.writing article a span {
-  color: rgb(219, 232, 232);
-}
 body.writing h1 {
   color: rgb(219, 232, 232);
 }
-body.writing .post-list article {
-  margin-top: 2rem;
+body.writing .post-list {
+  max-width: 50rem;
+}
+body.writing .post-list li {
+  margin-top: 3rem;
 }
 @media screen and (min-width: 50rem) {
-  body.writing .post-list article {
+  body.writing .post-list li {
     align-items: center;
     display: grid;
-    column-gap: 1.6rem;
-    grid-template-columns: 1fr 5fr;
+    column-gap: 1.7rem;
+    grid-template-columns: 1fr 7fr;
     grid-template-rows: 1fr;
   }
 }
-body.writing .post-list article > span {
+body.writing .post-list li > span {
   color: rgb(219, 232, 232);
   font-size: 0.9rem;
-  justify-self: end;
   line-height: 1;
 }
 @media screen and (max-width: 50rem) {
-  body.writing .post-list article > span {
+  body.writing .post-list li > span {
     justify-self: start;
   }
 }
-body.writing .post-list article a {
-  text-decoration-color: #ffffff;
-  text-decoration: solid underline rgb(184, 138, 71) 1px;
+body.writing .post-list li h2 {
+  margin-top: 0;
+}
+body.writing .post-list li a {
+  text-decoration-color: rgb(219, 232, 232);
+  text-decoration: solid underline rgb(184, 138, 71) 2px;
 }
 
-.post {
-  background-color: #ffffff;
-}
 .post article {
-  max-width: 50rem;
+  max-width: 55rem;
+  margin: 0 auto;
 }
 .post h1 {
   color: rgb(184, 138, 71);
 }
-
-.tags {
-  display: block;
-  margin-top: 2rem;
+.post h2 {
+  font-size: 1.9rem;
+  margin-top: 3.4rem;
 }
-
-a[rel=tag],
-a[rel=tag]:visited {
-  background-color: rgb(219, 232, 232);
-  border: 1px solid #187461;
-  color: rgb(11, 53, 44);
+.post time {
+  display: block;
+  color: rgb(219, 232, 232);
+}
+.post li {
+  line-height: 1.7;
+  margin-bottom: 0.6rem;
+}
+.post ul, .post iframe, .post img {
+  margin: 1.7rem auto;
+}
+.post a {
+  background-image: none;
+  color: rgb(219, 232, 232);
+  font-family: PlusJakartaSans-Variable;
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.post .tags {
+  display: block;
+  margin: 3.4rem auto 1.7rem auto;
+}
+.post a[rel=tag],
+.post a[rel=tag]:visited {
+  background-color: rgb(11, 53, 44);
+  color: rgb(219, 232, 232);
+  border: 2px solid #1d8972;
   display: inline-block;
   letter-spacing: 0.1em;
   line-height: 0.9;
   margin: 0 0.5em 0.5em 0;
   border-radius: 0.6rem;
-  font-family: RozanovaHUM-Light;
+  font-family: PlusJakartaSans-Variable;
   font-size: 0.8rem;
-  padding: 0.3rem 0.5rem 0.2rem 0.5rem;
+  font-weight: 563;
+  padding: 0.3rem 0.5rem;
   text-decoration: none;
   text-transform: uppercase;
 }
-
-a[rel=tag]:hover {
-  background-color: rgb(184, 138, 71);
-  color: #ffffff;
+.post a[rel=tag]:hover {
+  background-color: rgb(219, 232, 232);
+  color: rgb(11, 53, 44);
 }
-
-a[rel=tag]:last-child {
+.post a[rel=tag]:last-child {
   margin-right: 0;
-}
-
-.pagination {
-  color: rgb(184, 138, 71);
-  font-family: RozanovaHUM-Light;
-  margin-top: 1.6rem;
-}
-.pagination a {
-  background-image: none;
-  text-transform: none;
 }
 
 #disqus_thread {
@@ -897,35 +959,23 @@ a[rel=tag]:last-child {
   max-width: 50rem;
 }
 
-.clip-list article {
-  margin-top: 2rem;
-  display: grid;
-  grid-template-columns: 1fr 5fr;
-  column-gap: 10px;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-.clip-list h3 {
-  font-family: SilvaText-Book;
-  font-size: 1.45rem;
-}
-.clip-list > span {
-  justify-self: end;
-}
-.clip-list a {
-  text-decoration-thickness: 1px;
+.clip {
+  background-color: rgb(11, 53, 44);
 }
 
 .clips-header {
+  color: rgb(219, 232, 232);
   font-family: SilvaDisplay-Bold;
-  font-size: 1.45rem;
+  font-size: 1.5rem;
+  text-align: center;
 }
 
 .about {
-  background-color: rgb(219, 232, 232);
+  background-color: rgb(11, 53, 44);
 }
 .about h2 {
   font-family: SilvaDisplay-BoldItalic;
+  color: rgb(219, 232, 232);
 }
 
 .about-container {
@@ -936,16 +986,17 @@ a[rel=tag]:last-child {
     align-items: center;
     display: flex;
     flex-direction: row;
-    gap: 3.2rem;
+    gap: 3.4rem;
+    color: rgb(219, 232, 232);
   }
 }
 .about-container p {
-  font-size: 1.45rem;
+  font-size: 1.5rem;
 }
 @media screen and (max-width: 50rem) {
   .about-container h1 {
     font-size: 1.9rem;
-    margin: 1.45rem 0;
+    margin: 1.5rem 0;
   }
 }
 
@@ -965,26 +1016,30 @@ a[rel=tag]:last-child {
 
 #select-works {
   color: rgb(184, 138, 71);
-  margin-bottom: 1.6rem;
-  padding-top: 1.6rem;
+  margin-bottom: 1.7rem;
+  padding-top: 1.7rem;
 }
 
 .about-select ul {
   margin-top: 1rem;
   padding-left: 0;
+  color: rgb(219, 232, 232);
 }
 .about-select li {
   list-style-type: none;
+  font-family: PlusJakartaSans-Variable;
   font-size: 1rem;
+  margin-bottom: 1.7rem;
 }
-.about-select a {
+.about-select li a {
   font-family: SilvaDisplay-Bold;
+  font-size: 1.2rem;
 }
 @media screen and (min-width: 50rem) {
   .about-select {
     display: grid;
-    gap: 1.6rem;
-    grid-template-columns: repeat(4, 1fr);
+    gap: 1.7rem;
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 .about-select div {
@@ -1007,9 +1062,11 @@ a[rel=tag]:last-child {
  *
 /* @import must be at top of file, otherwise CSS will not work */
 @font-face {
-  font-family: "RozanovaHUM-Light";
-  src: url("/static/webfonts/3ADA1C_15_0.eot");
-  src: url("/static/webfonts/3ADA1C_15_0.eot?#iefix") format("embedded-opentype"), url("/static/webfonts/3ADA1C_15_0.woff2") format("woff2"), url("/static/webfonts/3ADA1C_15_0.woff") format("woff");
+  font-family: "PlusJakartaSans-Variable";
+  src: url("/static/webfonts/PlusJakartaSans-Variable.woff2") format("woff2"), url("/static/webfonts/PlusJakartaSans-Variable.woff") format("woff"), url("/static/webfonts/PlusJakartaSans-Variable.ttf") format("truetype"), url("/static/webfonts/PlusJakartaSans-Variable.eot") format("truetype");
+  font-weight: 200 800;
+  font-display: swap;
+  font-style: normal;
 }
 @font-face {
   font-family: "SilvaText-Book";
@@ -1030,6 +1087,39 @@ a[rel=tag]:last-child {
   font-family: "SilvaDisplay-BoldItalic";
   src: url("/static/webfonts/SilvaDisplay-BoldItalic.eot");
   src: url("/static/webfonts/SilvaDisplay-BoldItalic.eot?#iefix") format("embedded-opentype"), url("/static/webfonts/SilvaDisplay-BoldItalic.woff2") format("woff2"), url("/static/webfonts/SilvaDisplay-BoldItalic.woff") format("woff");
+}
+.book {
+  font-family: PlusJakartaSans-Variable;
+}
+
+.gr_grid_container {
+  display: grid;
+  width: 100%;
+  padding: 1.7rem 0;
+  margin: 0 auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 1.7rem;
+  grid-row-gap: 1.7rem;
+  align-items: end;
+}
+
+.gr_grid_book_container img {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.shell {
+  padding: 3.4rem 5%;
+  background: rgb(11, 53, 44);
+}
+.shell h3 {
+  color: white;
+}
+
+@media screen and (min-width: 50em) {
+  .gr_grid_container {
+    grid-template-columns: repeat(9, 1fr);
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
