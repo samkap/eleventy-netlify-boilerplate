@@ -11,11 +11,11 @@ tags:
   - inclusion
   - ""
 ---
-*I'm sharing what I learned in the process. This is not legal advice about how to get a visa.*
+*I’m sharing what I learned in the process. This is not legal advice about how to get a visa.*
 
 Immigration can make working in design or development a lot more stressful. In the US, there are generally two work visa categories: temporary and permanent workers. Some designers and developers start in one category and end in the other. Others may be able to get permanent worker visas. Temporary work visas, like the H1-B, have time limits, and in some cases, have a limit to how many can be awarded a year and requirements like having a master’s degree or higher from a US institution. A fairly common one is the OPT (Optional Practical Training), which typically starts around or after completing a degree program and requires students to get a job in the area they studied to continue their education. It does not, however, require the employer to hire you after the first year. Permanent worker visas also have their own set of restrictions and sometimes have more requirements to prove that a foreign worker has the qualifications to be a permanent worker.
 
-Additionally, there’s so much cognitive load, extra worrying, and huge life-changing worry that exists when they're to work as an immigrant. There’s so much that can go wrong in the scary and jarring process and it’s almost like you’re punished if you don’t have the privilege to have things in place throughout the process. It absolutely breaks my heart that it's not an option for so many people. Even with privilege it still takes work.
+Additionally, there’s so much cognitive load, extra worrying, and huge life-changing worry that exists when they’re to work as an immigrant. There’s so much that can go wrong in the scary and jarring process and it’s almost like you’re punished if you don’t have the privilege to have things in place throughout the process. It absolutely breaks my heart that it's not an option for so many people. Even with privilege, it still takes work and is extremely draining but not as hard as it is for so many other scenarios outside of tech and without available resources to get through the process.
 
 Here’s a few things I learned.
 
