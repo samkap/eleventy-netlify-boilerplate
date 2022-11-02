@@ -57,6 +57,7 @@ body.writing {
   time {
     display: block;
     color: $green-seafoam;
+    margin: $base-spacing auto;
   }
 
   li {
@@ -68,14 +69,14 @@ body.writing {
     margin: $base-spacing auto;
   }
 
-  a {
+/*   a {
     background-image: none;
     color: $green-seafoam;
     font-family: $sans;
     font-size: $s-font-size;
     font-weight: 700;
     text-transform: uppercase;
-  }
+  } */
 
   .tags {
     display: block;

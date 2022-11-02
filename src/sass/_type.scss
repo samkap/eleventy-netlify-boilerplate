@@ -140,30 +140,28 @@ ol {
 }
 
 blockquote {
-  background-color: white;
-  border: 1px solid $green-palm;
+  border-left: 5px solid $green-palm;
   border-radius: 4px;
+  display: block;
   font-family: $text-italic;
   font-weight: 500;
-  margin: 20px 0 20px 15px;
+  margin: 2rem 0 !important;
   overflow: hidden;
-  padding: 50px;
+  padding: 0px 32px;
 
   p {
     margin: 0;
 
-    &:first-of-type::before {
+/*     &:first-of-type::before {
       content: "“";
-      font-size: 1em;
       margin-left: -15px;
       margin-right: 10px;
     }
 
     &:first-of-type::after {
       content: "”";
-      font-size: 1em;
       margin-right: -15px;
-    }
+    } */
   }
 }
 
@@ -247,7 +245,6 @@ small a {
   }
 
   blockquote {
-    font-size: 1.3rem;
 
     p {
       margin: 0;

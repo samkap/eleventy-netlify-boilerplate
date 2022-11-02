@@ -356,28 +356,27 @@ ol {
 }
 
 blockquote {
-  background-color: white;
-  border: 1px solid rgb(74, 125, 31);
+  border-left: 5px solid rgb(74, 125, 31);
   border-radius: 4px;
+  display: block;
   font-family: SilvaText-BookItalic;
   font-weight: 500;
-  margin: 20px 0 20px 15px;
+  margin: 2rem 0 !important;
   overflow: hidden;
-  padding: 50px;
+  padding: 0px 32px;
 }
 blockquote p {
   margin: 0;
-}
-blockquote p:first-of-type::before {
-  content: "“";
-  font-size: 1em;
-  margin-left: -15px;
-  margin-right: 10px;
-}
-blockquote p:first-of-type::after {
-  content: "”";
-  font-size: 1em;
-  margin-right: -15px;
+  /*     &:first-of-type::before {
+        content: "“";
+        margin-left: -15px;
+        margin-right: 10px;
+      }
+
+      &:first-of-type::after {
+        content: "”";
+        margin-right: -15px;
+      } */
 }
 
 code {
@@ -450,9 +449,6 @@ ul {
   article::after,
 header::after {
     margin: 70px;
-  }
-  blockquote {
-    font-size: 1.3rem;
   }
   blockquote p {
     margin: 0;
@@ -896,6 +892,16 @@ body.writing .post-list li a {
   text-decoration: solid underline rgb(184, 138, 71) 2px;
 }
 
+.post {
+  /*   a {
+      background-image: none;
+      color: $green-seafoam;
+      font-family: $sans;
+      font-size: $s-font-size;
+      font-weight: 700;
+      text-transform: uppercase;
+    } */
+}
 .post article {
   max-width: 55rem;
   margin: 0 auto;
@@ -910,6 +916,7 @@ body.writing .post-list li a {
 .post time {
   display: block;
   color: rgb(219, 232, 232);
+  margin: 1.7rem auto;
 }
 .post li {
   line-height: 1.7;
@@ -917,14 +924,6 @@ body.writing .post-list li a {
 }
 .post ul, .post iframe, .post img {
   margin: 1.7rem auto;
-}
-.post a {
-  background-image: none;
-  color: rgb(219, 232, 232);
-  font-family: PlusJakartaSans-Variable;
-  font-size: 1rem;
-  font-weight: 700;
-  text-transform: uppercase;
 }
 .post .tags {
   display: block;
