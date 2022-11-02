@@ -858,6 +858,7 @@ object {
 @media screen and (min-width: 50rem) {
   .book-main .book-caption {
     font-size: 1.9rem;
+    padding: 0;
   }
 }
 
