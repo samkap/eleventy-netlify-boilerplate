@@ -7,13 +7,16 @@ body.writing {
   .post-list {
     max-width: $max-w-base;
     li {
-      margin-top: 3rem;
+      list-style-type: none;
+      margin-top: $base-spacing;
       @media screen and (min-width: $max-w-base) {
         align-items: center;
         display: grid;
         column-gap: $base-spacing;
         grid-template-columns: 1fr 7fr;
         grid-template-rows: 1fr;
+        margin-top: 3rem;
+
       } 
 
       & > span {
@@ -26,10 +29,13 @@ body.writing {
       }
 
       h2 {
+        font-size: $base-font-size;
         margin-top: 0;
+        @media screen and (min-width: $max-w-base) {
+          font-size: $medium-font-size;
+        }
       }
       a {
-        text-decoration-color: $green-seafoam;
         text-decoration: solid underline $gold 2px;
       }
       

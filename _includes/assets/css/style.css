@@ -669,7 +669,7 @@ object {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  gap: 90px;
+  gap: 20px 90px;
 }
 @media screen and (min-width: 50rem) {
   .recent-posts ul, .recent-posts ol {
@@ -851,9 +851,15 @@ object {
 }
 .book-main .book-caption {
   color: rgb(219, 232, 232);
-  font-size: 1.9rem;
+  font-size: 1.5rem;
   margin-top: 0.4rem;
   max-width: 500px;
+  padding: 1.7rem;
+}
+@media screen and (min-width: 50rem) {
+  .book-main .book-caption {
+    font-size: 1.9rem;
+  }
 }
 
 body.writing h1 {
@@ -863,7 +869,8 @@ body.writing .post-list {
   max-width: 50rem;
 }
 body.writing .post-list li {
-  margin-top: 3rem;
+  list-style-type: none;
+  margin-top: 1.7rem;
 }
 @media screen and (min-width: 50rem) {
   body.writing .post-list li {
@@ -872,6 +879,7 @@ body.writing .post-list li {
     column-gap: 1.7rem;
     grid-template-columns: 1fr 7fr;
     grid-template-rows: 1fr;
+    margin-top: 3rem;
   }
 }
 body.writing .post-list li > span {
@@ -885,10 +893,15 @@ body.writing .post-list li > span {
   }
 }
 body.writing .post-list li h2 {
+  font-size: 1.5rem;
   margin-top: 0;
 }
+@media screen and (min-width: 50rem) {
+  body.writing .post-list li h2 {
+    font-size: 1.9rem;
+  }
+}
 body.writing .post-list li a {
-  text-decoration-color: rgb(219, 232, 232);
   text-decoration: solid underline rgb(184, 138, 71) 2px;
 }
 
