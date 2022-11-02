@@ -49,14 +49,14 @@
       list-style-type: none;
       margin: 0;
       padding: 0;
-      gap: 50px;
+      gap: 90px;
   
    @media screen and (min-width: $max-w-base) {
       grid-template-columns: repeat(2, 1fr);
     }
 
     @media screen and (min-width: 1060px) {
-      grid-template-columns: repeat(4, 1fr);
+      grid-template-columns: repeat(3, 1fr);
     }
 
     li {

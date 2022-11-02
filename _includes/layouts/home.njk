@@ -19,14 +19,18 @@ section: home
 			</a>
 			<div class="book-cover"></div>
 		</div>
+		<div>
 		<p class="book-caption">I wrote a book with my dream publisher about environments within the design community that we can make more inclusive to all types of identities. Released October 4th, 2022.</p>
+
+		<p><a href="https://abookapart.com/products/inclusive-design-communities">Order the paperback or ebook now!</a></p>
+		</div>
 	</section>
 </div>
 	<div class="recent-posts">
 		<h2>Recent posts</h2>
 		<ul>
 		{%- for post in collections.post | reverse -%}
-			{% if loop.index0 < 4 %}
+			{% if loop.index0 < 6 %}
 			<li>
 				<article>
 					<time datetime="{{ post.date | machineDate }}">

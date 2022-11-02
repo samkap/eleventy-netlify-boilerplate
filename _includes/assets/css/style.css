@@ -673,7 +673,7 @@ object {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  gap: 50px;
+  gap: 90px;
 }
 @media screen and (min-width: 50rem) {
   .recent-posts ul, .recent-posts ol {
@@ -682,7 +682,7 @@ object {
 }
 @media screen and (min-width: 1060px) {
   .recent-posts ul, .recent-posts ol {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 .recent-posts ul li, .recent-posts ol li {
