@@ -218,11 +218,11 @@ footer a {
 
 .bold,
 strong {
-  font-family: SilvaDisplay-Bold;
+  font-family: SilvaDisplay-Black;
 }
 blockquote .bold,
 blockquote strong {
-  font-family: SilvaDisplay-BoldItalic;
+  font-family: SilvaDisplay-BlackItalic;
 }
 
 em,
@@ -277,7 +277,7 @@ h4,
 h5,
 h6 {
   font-display: auto;
-  font-family: SilvaDisplay-Bold;
+  font-family: SilvaDisplay-Black;
   font-weight: 900;
   line-height: 1.2;
   letter-spacing: normal;
@@ -336,7 +336,7 @@ h3 {
 
 .meta {
   display: block;
-  font-family: SilvaDisplay-Bold;
+  font-family: SilvaDisplay-Black;
   font-size: 0.75em;
 }
 
@@ -485,7 +485,7 @@ li {
   grid-template-columns: 1fr;
 }
 .listing-posts h2 {
-  font-family: SilvaDisplay-Bold;
+  font-family: SilvaDisplay-Black;
   font-size: 1.2em;
   line-height: 1.3;
   margin: 10px 0;
@@ -627,7 +627,7 @@ object {
 }
 .home .greeting h1 {
   color: rgb(219, 232, 232);
-  font-family: SilvaDisplay-Bold;
+  font-family: SilvaDisplay-Black;
   font-size: 1.9rem;
   line-height: 1.3;
   margin-bottom: 1.7rem;
@@ -687,7 +687,7 @@ object {
   margin-bottom: 1.7rem;
 }
 .recent-posts ul article h3, .recent-posts ol article h3 {
-  font-family: SilvaDisplay-Bold;
+  font-family: SilvaDisplay-Black;
   font-size: 1.5rem;
   line-height: 1.3;
   margin: 0.6rem 0;
@@ -754,7 +754,7 @@ object {
   margin-bottom: 1.7rem;
 }
 .recent-clips ul article h3, .recent-clips ol article h3, .clips ul article h3, .clips ol article h3 {
-  font-family: SilvaDisplay-Bold;
+  font-family: SilvaDisplay-Black;
   font-size: 1.5rem;
   line-height: 1.3;
   margin: 0.6rem 0;
@@ -827,7 +827,7 @@ object {
 }
 .book-main .book-container .book-sticker__text {
   color: rgb(219, 232, 232);
-  font-family: SilvaDisplay-Bold;
+  font-family: SilvaDisplay-Black;
   line-height: 1;
   padding: 31.5px 0;
   position: absolute;
@@ -978,7 +978,7 @@ body.writing .post-list li a {
 
 .clips-header {
   color: rgb(219, 232, 232);
-  font-family: SilvaDisplay-Bold;
+  font-family: SilvaDisplay-Black;
   font-size: 1.5rem;
   text-align: center;
 }
@@ -987,7 +987,7 @@ body.writing .post-list li a {
   background-color: rgb(11, 53, 44);
 }
 .about h2 {
-  font-family: SilvaDisplay-BoldItalic;
+  font-family: SilvaDisplay-BlackItalic;
   color: rgb(219, 232, 232);
 }
 
@@ -1045,7 +1045,7 @@ body.writing .post-list li a {
   margin-bottom: 1.7rem;
 }
 .about-select li a {
-  font-family: SilvaDisplay-Bold;
+  font-family: SilvaDisplay-Black;
   font-size: 1.2rem;
 }
 @media screen and (min-width: 50rem) {
@@ -1092,14 +1092,14 @@ body.writing .post-list li a {
   src: url("/static/webfonts/SilvaText-BookItalic.eot?#iefix") format("embedded-opentype"), url("/static/webfonts/SilvaText-BookItalic.woff2") format("woff2"), url("/static/webfonts/SilvaText-BookItalic.woff") format("woff");
 }
 @font-face {
-  font-family: "SilvaDisplay-Bold";
-  src: url("/static/webfonts/SilvaDisplay-Bold.eot");
-  src: url("/static/webfonts/SilvaDisplay-Bold.eot?#iefix") format("embedded-opentype"), url("/static/webfonts/SilvaDisplay-Bold.woff2") format("woff2"), url("/static/webfonts/SilvaDisplay-Bold.woff") format("woff");
+  font-family: "SilvaDisplay-Black";
+  src: url("/static/webfonts/SilvaDisplay-Black.eot");
+  src: url("/static/webfonts/SilvaDisplay-Black.eot?#iefix") format("embedded-opentype"), url("/static/webfonts/SilvaDisplay-Black.woff2") format("woff2"), url("/static/webfonts/SilvaDisplay-Black.woff") format("woff");
 }
 @font-face {
-  font-family: "SilvaDisplay-BoldItalic";
-  src: url("/static/webfonts/SilvaDisplay-BoldItalic.eot");
-  src: url("/static/webfonts/SilvaDisplay-BoldItalic.eot?#iefix") format("embedded-opentype"), url("/static/webfonts/SilvaDisplay-BoldItalic.woff2") format("woff2"), url("/static/webfonts/SilvaDisplay-BoldItalic.woff") format("woff");
+  font-family: "SilvaDisplay-BlackItalic";
+  src: url("/static/webfonts/SilvaDisplay-BlackItalic.eot");
+  src: url("/static/webfonts/SilvaDisplay-BlackItalic.eot?#iefix") format("embedded-opentype"), url("/static/webfonts/SilvaDisplay-BlackItalic.woff2") format("woff2"), url("/static/webfonts/SilvaDisplay-BlackItalic.woff") format("woff");
 }
 .book {
   font-family: PlusJakartaSans-Variable;
