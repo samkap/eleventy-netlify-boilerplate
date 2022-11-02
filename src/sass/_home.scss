@@ -1,13 +1,12 @@
 .home {
-    background-color: $color1;
+    background-color: $green-jungle;
 
   main {
     padding: 0;
-    max-width: 100%;
   }
 
   .greeting h1 {
-    color: $color3;
+    color: $green-seafoam;
     font-family: $display-bold;
     font-size: $medium-font-size;
     line-height: 1.3;
@@ -23,178 +22,262 @@
     }
   }
 
-  h1 {
-    margin-bottom: 0;
-  }
 }
 
-.recent-container {
-  background-color: $white;
-  column-gap: $base-spacing;
-  display: grid;
-  grid-template-areas:
-    "book"
-    "posts";
-  grid-template-columns: 1fr;
-  grid-template-rows: auto;
-
-  &::before {
-    content: '';
-      position: absolute;
-      display: block;
-      height: 7px;
-      width: 100%;
-
-      background: $color1;
-      background: repeating-linear-gradient(
-        -45deg,
-        $color1,
-        $color1 4px,
-        transparent 2px,
-        transparent 7px
-      );
-      -webkit-backface-visibility: hidden;
-      backface-visibility: hidden;
-      border-bottom: 0;
-  }
-
-    @media screen and (min-width: $max-w-base) {
-      grid-template-areas: 
-        "book posts"
-        "book posts"
-        "book posts"
-        "book posts";
-    grid-template-columns: repeat(2, 1fr);
-  }
-
   .recent-posts {
-    background-color: $white;
-    grid-area: posts;
-    max-width: 50rem;
     padding: $base-spacing;
 
     @media screen and (min-width: 1060px) {
-      padding: $base-spacing $xx-large-spacing;
-    }
-
-    ul, ol {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
+      padding: $xx-large-spacing;
     }
 
     h2 {
-      color: $color1;
+      color: $green-seafoam;
       font-family: $sans;
       font-size: $s-font-size;
-      font-weight: 900;
+      font-weight: 800;
+      letter-spacing: 2px;
       line-height: $display-line-height;
-      margin: $x-small-spacing 0 $base-spacing;
+      margin: $large-spacing 0;
+      text-align: center;
+      text-transform: uppercase;
    }
-  }
 
-  .recent-other {
-    background-color: $white;
-    grid-area: book;
-    padding: 0 $base-spacing;
-    position: relative;
-    z-index: 2;
-    @media screen and (min-width: 1060px) {
-      margin-top: -$xx-large-spacing;
+    ul, ol {
+      display: grid;
+      grid-template-columns: 1fr;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      gap: 20px 90px;
+  
+   @media screen and (min-width: $max-w-base) {
+      grid-template-columns: repeat(2, 1fr);
     }
 
-  }
+    @media screen and (min-width: 1060px) {
+      grid-template-columns: repeat(3, 1fr);
+    }
 
-  article {
+    li {
+        color: $green-seafoam;
+    }
+
+   article {
     margin-bottom: $base-spacing;
     
     h3 {
       font-family: $display-bold;
-      font-size: 1.3rem;
+      font-size: $base-font-size;
       line-height: 1.3;
+      margin: $small-spacing 0;
       word-spacing: 2px;
     }
 
     p {
       font-family: $text;
-      font-size: $s-font-size;
+      font-size: 1rem;
       margin: 0;
     }
-  } 
-}
 
-.book-container {
-  margin: $x-large-spacing auto $medium-spacing auto;
-  position: relative;
-  width: 300px;
-
-  .book-caption {
-    line-height: 1;
-    font-size: $alt-base-font-size;
-    margin-top: $x-small-spacing;
-  }
-
-  @media screen and (min-width: $max-w-base) {
-    margin: 5em auto;
-  }
-
-  .sticker-container {
-    height:105px;
-    left: -20px;
-    position: absolute;
-    top: -65px;
-    width:105px;
-    z-index: 3;
-  }
-  .book-sticker {
-    animation: sticker 20s linear infinite;
-    background-position: center;
-    background: url(./static/img/sticker.svg) no-repeat;
-    height:105px;
-    position: absolute;
-    width:105px;
-    }
-    
-  @keyframes sticker {
-   100% {transform: rotate(1turn); }
-  }
-
-  .book-sticker__text {
-    color: $white;
-    font-family: $display-bold;
-    position: absolute;
-    top: -4px;
-    text-align: center;
-    width:105px;
-    line-height: 1;
-
-    @media screen and (min-width: 678px) {
-      padding:13.5px 0;
-    }
-  }
-
-  .book-cover {
-    background: url(./static/img/posts/idc-book-cover.jpg) no-repeat;
-    background-size: cover;
-    box-shadow: $shadow;
-    height: 464.4px;
-    max-width: 100%;
-    width: 300px;
-
-    span {
-      color: transparent;
-      display:block;
-      font-size: $alt-base-font-size;
-      padding-top: 55%;
-      text-align: center;
+    time {
+      color: $green-seafoam;
+      display: block;
+      font-size: $s-font-size;
     }
 
-    &:hover {
-      background: $aqua;
-
-      span {
-        color: $white;
+    a {
+      text-decoration-color: $gold;
+      &:hover {
+        color: $gold;
       }
     }
+  } 
+  }
+  }
+
+  .recent-clips, .clips {
+    padding: $base-spacing;
+
+    @media screen and (min-width: 1060px) {
+      padding: $xx-large-spacing;
+    }
+
+    h2 {
+      color: $green-seafoam;
+      font-family: $sans;
+      font-size: $s-font-size;
+      font-weight: 800;
+      letter-spacing: 2px;
+      line-height: $display-line-height;
+      margin: $large-spacing 0;
+      text-align: center;
+      text-transform: uppercase;
+   }
+
+    ul, ol {
+      display: grid;
+      grid-template-columns: 1fr;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      gap: 50px;
+  
+   @media screen and (min-width: $max-w-base) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media screen and (min-width: 1060px) {
+      grid-template-columns: repeat(4, 1fr);
+    }
+
+    li {
+        color: $green-seafoam;
+      // &:nth-child(2){
+      //   background-color: white;
+      //   color: $green-jungle;
+      // }
+    }
+
+   article {
+    margin-bottom: $base-spacing;
+    
+    h3 {
+      font-family: $display-bold;
+      font-size: $base-font-size;
+      line-height: 1.3;
+      margin: $small-spacing 0;
+      word-spacing: 2px;
+    }
+
+    p {
+      font-family: $text;
+      font-size: 1rem;
+      margin: 0;
+    }
+
+    time {
+      color: $green-palm2;
+      display: block;
+      font-size: $s-font-size;
+    }
+
+    a {
+      text-decoration-color: $green-palm2;
+      &:hover {
+        color: $green-palm2;
+      }
+    }
+  } 
+  }
+  }
+
+.book-main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: space-between;
+  padding: 5rem 0;
+  position: relative;
+  margin: 0 auto;
+    max-width: 1000px;
+
+  @media screen and (min-width: $max-w-base) {
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .book-container {
+    position: relative;
+    width: 300px;
+    margin: 0 auto;
+
+    @media screen and (min-width: $max-w-base) {
+      margin: 0;  
+    }
+
+    .sticker-container {
+      height:105px;
+      left: -20px;
+      position: absolute;
+      top: -65px;
+      width:105px;
+      z-index: 3;
+    }
+
+    .book-sticker {
+      animation: sticker 20s linear infinite;
+      background-position: center;
+      background: url(./static/img/sticker.svg) no-repeat;
+      height:105px;
+      position: absolute;
+      width:105px;
+    }
+      
+    @keyframes sticker {
+      100% {transform: rotate(1turn); }
+    }
+
+    .book-sticker__text {
+      color: $green-seafoam;
+      font-family: $display-bold;
+      line-height: 1;
+      padding:31.5px 0;
+      position: absolute;
+      text-align: center;
+      top: -4px;
+      width:105px;
+
+      @media screen and (min-width: 678px) {
+        padding:13.5px 0;
+      }
+    }
+
+    .book-cover {
+      background: url(./static/img/posts/idc-book-cover.jpg) no-repeat;
+      background-size: cover;
+      box-shadow: $shadow;
+      height: 464.4px;
+      max-width: 100%;
+      width: 300px;
+    }
+  }
+
+  .book-caption {
+    color: $green-seafoam;
+    font-size: $base-font-size;
+    margin-top: $x-small-spacing;
+    max-width: 500px;
+    padding: $base-spacing;
+
+    @media screen and (min-width: $max-w-base) {
+      font-size: $medium-font-size;
+
+    }
+
   }
 }
+
+  
+
+
+  // &::before {
+  //   content: '';
+  //     position: absolute;
+  //     display: block;
+  //     height: 7px;
+  //     width: 100%;
+
+  //     background: $green-jungle;
+  //     background: repeating-linear-gradient(
+  //       -45deg,
+  //       $green-jungle,
+  //       $green-jungle 4px,
+  //       transparent 2px,
+  //       transparent 7px
+  //     );
+  //     -webkit-backface-visibility: hidden;
+  //     backface-visibility: hidden;
+  //     border-bottom: 0;
+  // }

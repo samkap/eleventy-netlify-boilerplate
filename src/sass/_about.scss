@@ -1,8 +1,9 @@
 .about {
-  background-color: $color3;
+  background-color: $green-jungle;
 
   h2 {
     font-family: $display-bold-italic;
+    color: $green-seafoam;
   }
 }
 
@@ -13,6 +14,7 @@
     display: flex;
     flex-direction: row;
     gap: $large-spacing;
+    color: $green-seafoam;
   }
 
   p {
@@ -49,7 +51,7 @@
   }
 }
 #select-works {
-  color: $color4;
+  color: $gold;
   margin-bottom: $base-spacing;
   padding-top: $base-spacing;
 
@@ -58,21 +60,29 @@
   ul {
     margin-top: $s-font-size;
     padding-left: 0;
+    color: $green-seafoam;
   }
 
   li {
     list-style-type: none;
-    font-size: $s-font-size;
+    font-family: $sans;
+      font-size: $s-font-size; 
+
+    margin-bottom: $base-spacing;
+
+    a {
+      font-family: $display-bold;
+    font-size: $alt-base-font-size; 
+
+    }
   }
 
-  a {
-    font-family: $display-bold;
-  }
+
 
   @media screen and (min-width: $max-w-base) {
     display: grid;
     gap: $base-spacing;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 
   div {

@@ -5,12 +5,13 @@
 }
 
 body {
+  background-color: $green-jungle;
   -webkit-font-smoothing: antialiased;
-  color: $color1;
+  color: $green-seafoam;
   font-display: auto;
   font-family: $text;
   font-size: $base-font-size;
-  font-weight: 400;
+  font-weight: 500;
   height: 100%;
   line-height: $base-line-height;
   word-wrap: break-word;
@@ -47,9 +48,9 @@ header {
   }
 
   .home & {
-    background: $color1;
+    background: $green-jungle;
     a {
-      color: $white;
+      color: $green-seafoam;
     }
 
     span {
@@ -66,14 +67,10 @@ header {
   margin-right: 20px;
   display: inline-block;
   vertical-align: middle;
-  fill: $color1;
-
-  .home &, .writing & {
-    fill: white;
-  }
+  fill: $green-seafoam;
 
   &:hover {
-    fill: $color4;
+    fill: $green-palm2;
   }
 }
 
@@ -89,19 +86,21 @@ header {
 
 hr {
   border: none;
-  background-color: $color2;
-  width: 30%;
+  background-color: $green-palm2;
+    margin: 2em auto;
+  width: 40%;
   height: 3px;
 }
 
 nav {
   ul {
     align-items: flex-start;
-    padding: 0;
     display: flex;
     flex-direction: row;
+    gap: $s-font-size;
     justify-content: flex-start;
     margin: 0;
+    padding: 0;
   }
 
   li {
@@ -109,34 +108,36 @@ nav {
     line-height: 1;
     margin: 0;
   }
+
   a {
     border-radius: 4px;
-    color: $color1;
-    font-size: $xs-font-size;
-    font-weight: 900;
+    color: $green-seafoam;
+    font-size: $s-font-size;
+    font-weight: 700;
     letter-spacing: 1px;
     overflow: hidden;
-    padding: 5px;
     position: relative;
     text-decoration: none;
     text-transform: uppercase;
 
     &:hover {
-      color: $color4;
-      text-decoration: solid underline $color4 1px;
+      color: $green-palm2;
+      text-decoration: solid underline $green-palm2 2px;
     }
 
     &[data-current="current item"] {
-      color: $color1;
-      text-decoration: solid underline $color4 1px;
+      color: $green-seafoam;
+      text-decoration: solid underline $green-palm2 2px;
     }
   }
 }
 
 footer {
-  background: $aqualight;
-  color: $color1;
+  background: $green-seafoam;
+  color: $green-jungle;
+  font-family: $sans;
   font-size: 1rem;
+  font-weight: 600;
   text-align: center;
   position: relative;
 
@@ -147,11 +148,11 @@ footer {
     height: 7px;
     width: 100%;
     margin: 0 auto;
-    background: $aqualight;
+    background: $green-seafoam;
     background: repeating-linear-gradient(
       -45deg,
-      $aqualight,
-      $aqualight 4px,
+      $green-seafoam,
+      $green-seafoam 4px,
       transparent 2px,
       transparent 7px
     );
@@ -167,7 +168,7 @@ footer {
   }
 
   a {
-    color: $color1;
-    text-decoration-color: $color1;
+    color: $green-jungle;
+    text-decoration-color: $green-jungle;
   }
 }

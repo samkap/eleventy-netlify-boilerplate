@@ -9,7 +9,6 @@ tags:
   - tech
   - idc
   - inclusion
-  - ""
 ---
 *I'm sharing what I learned in the process. This is not legal advice about how to get a visa.*
 
