@@ -1,15 +1,20 @@
 [build]
-  publish = "_site"
-  command = "eleventy"
+publish = "_site"
+command = "eleventy"
 
 # REDIRECT and HEADERS examples
 
 # Redirect rule example
 # For more information see:- https://www.netlify.com/docs/netlify-toml-reference/
 
-#[[redirects]]
-#  from = "/*"
-#  to = "/blog/:splat"
+[[redirects]]
+from = "/2014/08/03/speaking-up.html"
+to = "/2014/08/04/speaking-up/"
+
+[[redirects]]
+from = "/journal/speaking-up"
+to = "/2014/08/04/speaking-up/"
+
 
 # The default HTTP status code is 301, but you can define a different one e.g.
 # status = 302
