@@ -4,6 +4,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ renderData.title or title or metadata.title }} » Sameera Kapila </title>
   <meta name="description" content="{{ metaDescription or renderData.metaDescription or metadata.description }}">
+  <meta name="image" content="https://samkapila.com/static/img/posts/samkap.png">
   <script async src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   {% set css %}
     {% include "assets/css/style.css" %}
@@ -15,19 +16,27 @@
   <script>{{ js | jsmin | safe }}</script>
   <link rel="alternate" href="feed.xml" type="application/atom+xml" title="Sam Kapila's writing">
 
-<!-- og tags -->
-<meta property="og:site_name" content="{{ metadata.title }}">
+<!-- Open Graph general -->
 <meta property="og:title" content="{{ renderData.title or title or metadata.title }} » Sameera Kapila">
-<meta property="og:locale" content="en_US">  
-
+<meta property="og:description" content="{{ metaDescription or renderData.metaDescription or metadata.description }}">
 <meta property="og:image" content="{{ metadata.url }}{{ cover }}">
 <meta property="og:image:alt" content="{{ metadata.url }}{{ metadata.image }}">
-<meta property="og:type" content="website">
 <meta property="og:url" content="{{ metadata.url }}{{ page.url }}">
-<meta property="og:description" content="{{ metaDescription or renderData.metaDescription or metadata.description }}">
-  <meta name="twitter:creator" content="@samkap" />
- <meta property="twitter:image" content="{{ metadata.url }}{{ cover }}">
-  <meta name="twitter:site" content="@samkap" />
-  <meta property="twitter:title" content="{{ renderData.title or title or metadata.title }} » Sameera Kapila" />
+<meta property="og:site_name" content="{{ metadata.title }}">
+<meta name="og:locale" content="en_US">
+<meta name="og:type" content="website">
+<!-- Schema.org for Google -->
+<meta itemprop="name" content="Sameera Kapila">
+<meta itemprop="description" content="Sameera Kapila is a Senior Product Designer at Netlify, speaker, author of Inclusive Design Communities, and always cooking.">
+<meta itemprop="image" content="https://samkapila.com/static/img/posts/samkap.png">
+<!-- Twitter -->
 <meta name="twitter:card" content="summary" />
+<meta name="twitter:creator" content="@samkap" />
+<meta name="twitter:site" content="@samkap" />
+<meta property="twitter:image:src" content="{{ metadata.url }}{{ cover }}">
+<meta property="twitter:title" content="{{ renderData.title or title or metadata.title }} » Sameera Kapila" />
+<meta name="twitter:description" content="Sameera Kapila is a Senior Product Designer at Netlify, speaker, author of Inclusive Design Communities, and always cooking.">
+
+
+
 </head>

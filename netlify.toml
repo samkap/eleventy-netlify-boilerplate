@@ -15,6 +15,9 @@ to = "/2014/08/04/speaking-up/"
 from = "/journal/speaking-up"
 to = "/2014/08/04/speaking-up/"
 
+[[redirects]]
+from = "/journal/*"
+to = "/writing/"
 
 # The default HTTP status code is 301, but you can define a different one e.g.
 # status = 302
