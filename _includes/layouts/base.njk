@@ -1,12 +1,6 @@
 <!doctype html>
+
 <html {% if section %} data-current="{{ section }}"{% endif %} lang="en">
-
-	{% include "components/head.njk" %}
-
-
-
-	<body class="{{ section }}">
-
 		{% set socialImage %}
 {%- resoc
       template = "default",
@@ -18,6 +12,11 @@
 -%}
 {% endset %}
 
+	{% include "components/head.njk" %}
+
+
+
+	<body class="{{ section }}">
 		<header>
 		<div class="logo-container">
 			<div class="logo">
