@@ -1,4 +1,15 @@
 <!doctype html>
+{% set socialImage %}
+{%- resoc
+      template = "default",
+      slug = (title or metadata.title) | slug,
+      values = {
+        title: title or metadata.title,
+        description: description or metadata.description
+      }
+-%}
+{% endset %}
+
 <html {% if section %} data-current="{{ section }}"{% endif %} lang="en">
 
 	{% include "components/head.njk" %}

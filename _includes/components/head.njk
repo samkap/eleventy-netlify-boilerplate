@@ -19,7 +19,7 @@
 <!-- Open Graph general -->
 <meta property="og:title" content="{{ renderData.title or title or metadata.title }} » Sameera Kapila">
 <meta property="og:description" content="{{ metaDescription or renderData.metaDescription or metadata.description }}">
-<meta property="og:image" content="{{ metadata.url }}{{ cover }}">
+<meta property="og:image" content="{{ metadata.url }}{{ socialImage }}">
 <meta property="og:image:alt" content="{{ metadata.url }}{{ metadata.image }}">
 <meta property="og:url" content="{{ metadata.url }}{{ page.url }}">
 <meta property="og:site_name" content="{{ metadata.title }}">
@@ -33,7 +33,7 @@
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="@samkap" />
 <meta name="twitter:site" content="@samkap" />
-<meta property="twitter:image:src" content="{{ metadata.url }}{{ cover }}">
+<meta property="twitter:image:src" content="{{ metadata.url }}{{ socialImage }}">
 <meta property="twitter:title" content="{{ renderData.title or title or metadata.title }} » Sameera Kapila" />
 <meta name="twitter:description" content="Sameera Kapila is a Senior Product Designer at Netlify, speaker, author of Inclusive Design Communities, and always cooking.">
 
