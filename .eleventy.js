@@ -85,19 +85,7 @@ module.exports = function (eleventyConfig) {
     return minified.code;
   });
 
-  eleventyConfig.addPlugin(pluginResoc, {
-    // The directory of the Resoc templates
-    templatesDir: 'resoc-templates',
 
-    // The path when social images will be served, eg. /social-images/homepage.jpg
-    openGraphBasePath: '/social-images',
-
-    // A file which maps pages to templates and parameters
-    slugToImageDataMappingFile: 'resoc-image-data.json',
-
-    // Ask the plugin to configure netlify.toml accordingly
-    patchNetlifyToml: true
-  });
 
   // Minify HTML output
   eleventyConfig.addTransform("htmlmin", function (content, outputPath) {
@@ -161,4 +149,22 @@ module.exports = function (eleventyConfig) {
       output: "_site"
     }
   };
+};
+
+const pluginResoc = require("@resoc/eleventy-plugin-social-image");
+
+module.exports = function (eleventyConfig) {
+  eleventyConfig.addPlugin(pluginResoc, {
+    // The directory of the Resoc templates
+    templatesDir: 'resoc-templates',
+
+    // The path when social images will be served, eg. /social-images/homepage.jpg
+    openGraphBasePath: '/social-images',
+
+    // A file which maps pages to templates and parameters
+    slugToImageDataMappingFile: 'resoc-image-data.json',
+
+    // Ask the plugin to configure netlify.toml accordingly
+    patchNetlifyToml: true
+  });
 };
