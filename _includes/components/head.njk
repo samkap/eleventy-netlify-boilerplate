@@ -16,6 +16,14 @@
   <script>{{ js | jsmin | safe }}</script>
   <link rel="alternate" href="feed.xml" type="application/atom+xml" title="Sam Kapila's writing">
 
+{% set socialImage %}
+{%- resoc
+      template = "default",
+      slug = (title or metadata.title) | slug,
+      values = {
+        title: title or metadata.title      }
+-%}
+{% endset %}
 <!-- Open Graph general -->
 <meta property="og:title" content="{{ renderData.title or title or metadata.title }} » Sameera Kapila">
 <meta property="og:description" content="{{ metaDescription or renderData.metaDescription or metadata.description }}">
