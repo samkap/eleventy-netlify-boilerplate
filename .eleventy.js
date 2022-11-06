@@ -105,6 +105,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addWatchTarget("./src/sass");
   eleventyConfig.addPassthroughCopy("./assets/css");
   eleventyConfig.addPassthroughCopy("static/webfonts");
+  eleventyConfig.addPassthroughCopy("static/img/social-images");
 
   // Excerpt
   eleventyConfig.addFilter("excerpt", (post) => {
@@ -118,7 +119,7 @@ module.exports = function (eleventyConfig) {
     templatesDir: 'resoc-templates',
 
     // The path when social images will be served, eg. /social-images/homepage.jpg
-    openGraphBasePath: '/social-images',
+    openGraphBasePath: '/static/img/social-images',
 
     // A file which maps pages to templates and parameters
     slugToImageDataMappingFile: 'resoc-image-data.json',

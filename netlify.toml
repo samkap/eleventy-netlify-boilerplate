@@ -23,7 +23,7 @@ to = "/writing/"
 package = "@resoc/netlify-plugin-social-image"
 [plugins.inputs]
 templates_dir = "resoc-templates"
-open_graph_base_path = "/social-images"
+open_graph_base_path = "/static/img/social-images"
 slug_to_image_data_mapping_file = "resoc-image-data.json"
 
 # The default HTTP status code is 301, but you can define a different one e.g.
