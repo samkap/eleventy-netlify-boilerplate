@@ -4,9 +4,7 @@
       template = "default",
       slug = (title or metadata.title) | slug,
       values = {
-        title: title or metadata.title,
-        description: description or metadata.description
-      }
+        title: title or metadata.title      }
 -%}
 {% endset %}
 

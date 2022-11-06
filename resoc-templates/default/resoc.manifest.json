@@ -8,11 +8,6 @@
       "name": "title",
       "type": "text",
       "demoValue": "A picture is worth a thousand words"
-    },
-    {
-      "name": "description",
-      "type": "text",
-      "demoValue": "And so much to say!"
     }
   ]
 }
