@@ -3,3 +3,5 @@ node_modules/
 package-lock.json
 .DS_Store
 .netlify
+# Resoc image data mapping file
+resoc-image-data.json

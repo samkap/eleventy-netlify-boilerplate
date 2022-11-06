@@ -4,7 +4,7 @@ const UglifyJS = require("uglify-js");
 const htmlmin = require("html-minifier");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
-
+const pluginResoc = require("@resoc/eleventy-plugin-social-image");
 
 module.exports = function (eleventyConfig) {
   // Filter source file names using a glob
@@ -83,6 +83,20 @@ module.exports = function (eleventyConfig) {
       return code;
     }
     return minified.code;
+  });
+
+  eleventyConfig.addPlugin(pluginResoc, {
+    // The directory of the Resoc templates
+    templatesDir: 'resoc-templates',
+
+    // The path when social images will be served, eg. /social-images/homepage.jpg
+    openGraphBasePath: '/social-images',
+
+    // A file which maps pages to templates and parameters
+    slugToImageDataMappingFile: 'resoc-image-data.json',
+
+    // Ask the plugin to configure netlify.toml accordingly
+    patchNetlifyToml: true
   });
 
   // Minify HTML output
