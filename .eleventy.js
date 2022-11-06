@@ -124,8 +124,6 @@ module.exports = function (eleventyConfig) {
     // A file which maps pages to templates and parameters
     slugToImageDataMappingFile: 'resoc-image-data.json',
 
-    // Ask the plugin to configure netlify.toml accordingly
-    patchNetlifyToml: true
   });
 
   /* Markdown Plugins */
