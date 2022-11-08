@@ -1011,6 +1011,9 @@ body.writing .post-list li a {
   }
 }
 
+.select-container {
+  padding-top: 1.7rem;
+}
 .select-container::before {
   content: "";
   position: absolute;
@@ -1039,12 +1042,8 @@ body.writing .post-list li a {
 .about-select li {
   list-style-type: none;
   font-family: PlusJakartaSans-Variable;
-  font-size: 1rem;
-  margin-bottom: 1.7rem;
-}
-.about-select li a {
-  font-family: SilvaDisplay-Black;
   font-size: 1.2rem;
+  margin-bottom: 1.7rem;
 }
 @media screen and (min-width: 50rem) {
   .about-select {
@@ -1055,6 +1054,7 @@ body.writing .post-list li a {
 }
 .about-select div {
   max-width: 25rem;
+  margin-top: 3.4rem;
 }
 
 /**

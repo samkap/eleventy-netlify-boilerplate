@@ -8,11 +8,10 @@ eleventyNavigation:
   order: 4
 ---
 
-## Select works 
 <section class="about-select">
 <div>
 
-### Speaking
+## Speaking
 
 * [Clarity 2020](https://youtu.be/hcqed7cIhj4), Oct 2020, remote, “Designing for Happiness”
 * [Austin Design Week](https://austindesignweek.org/schedule/making-design-for-good-a-part-of-your-career), Nov 2017, Moderator, Austin, TX “Making Design for Good a Part of Your Career”
@@ -25,7 +24,7 @@ eleventyNavigation:
 
 <div>
 
-### Writing
+## Writing
 
 * [The Communal Cycle of Sharing](https://css-tricks.com/the-communal-cycle-of-sharing/), CSS Tricks, December 2019
 * [Get up to speed with CSS Grid](https://www.creativebloq.com/features/get-up-to-speed-with-css-grid), net Magazine, January 2017 issue and online
@@ -42,7 +41,7 @@ eleventyNavigation:
 
 <div>
 
-### Interviews
+## Interviews
 
 * [Leading inclusively, with Sameera Kapila » Things Worth Learning](https://youtu.be/eiV6_3pZFc0), Sept 2021
 * [How to think like a front end developer](https://shoptalkshow.com/335/), Shop Talk Show #335
