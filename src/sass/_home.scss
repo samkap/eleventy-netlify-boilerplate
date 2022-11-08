@@ -1,10 +1,6 @@
 .home {
     background-color: $green-jungle;
 
-  main {
-    padding: 0;
-  }
-
   .greeting h1 {
     color: $green-seafoam;
     font-family: $display-bold;
@@ -25,7 +21,7 @@
 }
 
   .recent-posts {
-    padding: $base-spacing;
+    padding: $base-spacing 0;
 
     @media screen and (min-width: 1060px) {
       padding: $xx-large-spacing;
@@ -247,7 +243,7 @@
   .book-caption {
     color: $green-seafoam;
     font-size: $base-font-size;
-    margin-top: $x-small-spacing;
+    margin: $x-small-spacing auto 0 auto;
     max-width: 500px;
     padding: $base-spacing;
 
