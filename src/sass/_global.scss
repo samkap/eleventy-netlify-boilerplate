@@ -20,7 +20,7 @@ body {
 main {
   min-height: 60vh;
   max-width: 110rem;
-  padding: 2em 5%;
+  padding: 2em 4%;
 }
 
 .clearfix:after {
@@ -39,11 +39,12 @@ header {
   font-family: $sans;
   justify-content: space-between;
   margin: 0 auto;
-  padding: $base-spacing 2% 0 2%;
+  max-width: 110rem;
+  padding: $base-spacing 4% 0 4%;
   position: relative;
+  
 
    @media screen and (min-width:48em) {
-    padding: $base-spacing;
 
   }
 
@@ -61,8 +62,8 @@ header {
 
 
 .ampersam {
-  width: 50px;
-  height: 52.222px;
+  width: 60px;
+  height: 62.666664px;
   max-width: 100%;
   margin-right: 20px;
   display: inline-block;
@@ -164,11 +165,16 @@ footer {
   .inner {
     margin: 0 auto;
     max-width: $max-w-base;
-    padding: $large-spacing;
+    padding: $large-spacing 0 $medium-spacing;
   }
 
   a {
     color: $green-jungle;
     text-decoration-color: $green-jungle;
+  }
+
+  span {
+    display: block;
+    margin-bottom: $small-spacing;  
   }
 }
