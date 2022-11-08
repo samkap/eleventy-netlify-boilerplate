@@ -199,7 +199,7 @@ footer::after {
 footer .inner {
   margin: 0 auto;
   max-width: 50rem;
-  padding: 3.4rem 0 2.125rem;
+  padding: 3.4rem 4% 2.125rem 4%;
 }
 footer a {
   color: rgb(11, 53, 44);
