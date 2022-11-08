@@ -49,6 +49,8 @@
     backface-visibility: hidden;
     border-bottom: 0;
   }
+
+  padding-top: $base-spacing;
 }
 #select-works {
   color: $gold;
@@ -66,15 +68,9 @@
   li {
     list-style-type: none;
     font-family: $sans;
-      font-size: $s-font-size; 
+      font-size: $alt-base-font-size; 
 
     margin-bottom: $base-spacing;
-
-    a {
-      font-family: $display-bold;
-    font-size: $alt-base-font-size; 
-
-    }
   }
 
 
@@ -87,5 +83,7 @@
 
   div {
     max-width: 25rem;
+    margin-top: $large-spacing;
+
   }
 }
