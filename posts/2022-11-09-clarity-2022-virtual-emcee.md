@@ -4,6 +4,9 @@ cover: /static/img/posts/clarity22-cover.jpeg
 date: 2022-11-09T22:58:55.223Z
 tags:
   - post
+  - design
+  - conferences
+  - speaking
 ---
 It’s once again time for [Clarity](https://www.clarityconf.com/)! This conference has become my favorite every year, whether remote or in-person, or if I attend as an attendee, speaker, and now virtual emcee! Clarity is THE design systems conference, run by [Jina](https://twitter.com/jina) and a [fantastic team of producers](https://twitter.com/kickassconf).
 
