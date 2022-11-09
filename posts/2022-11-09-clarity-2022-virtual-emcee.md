@@ -1,5 +1,5 @@
 ---
-title: "Clarity 2022: Virtual Emcee"
+title: Clarity 2022 Virtual Emcee
 cover: /static/img/posts/clarity22-cover.jpeg
 date: 2022-11-09T22:58:55.223Z
 tags:
