@@ -12,14 +12,11 @@
     accessibility = 0.9
     best-practices = 0.9
     seo = 0.9
-    pwa = 0.1
+    pwa = 0.3
 
   # optional, deploy the lighthouse report to a path under your site
   [plugins.inputs]
     output_path = "reports/lighthouse.html"
-
-
-
 
 
 # REDIRECT and HEADERS examples
