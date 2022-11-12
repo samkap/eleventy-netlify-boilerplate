@@ -18,14 +18,6 @@
   [plugins.inputs]
     output_path = "reports/lighthouse.html"
 
-  # to audit a sub path of the build directory
-  # route1 audit will use the top level thresholds
-  [[plugins.inputs.audits]]
-    path = "about"
-
-  [[plugins.inputs.audits]]
-    path = "writing"
-
 
 
 
