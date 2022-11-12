@@ -231,7 +231,7 @@
     }
 
     .book-cover {
-      background: url(./static/img/posts/idc-book-cover.jpg) no-repeat;
+      background: url(./static/img/pages/idc-book-cover.webp) no-repeat;
       background-size: cover;
       box-shadow: $shadow;
       height: 464.4px;
@@ -249,6 +249,7 @@
 
     @media screen and (min-width: $max-w-base) {
       font-size: $medium-font-size;
+      margin: 0;
       padding: 0;
 
     }

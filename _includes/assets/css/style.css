@@ -838,7 +838,7 @@ object {
   }
 }
 .book-main .book-container .book-cover {
-  background: url(./static/img/posts/idc-book-cover.jpg) no-repeat;
+  background: url(./static/img/pages/idc-book-cover.webp) no-repeat;
   background-size: cover;
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
   height: 464.4px;
@@ -855,6 +855,7 @@ object {
 @media screen and (min-width: 50rem) {
   .book-main .book-caption {
     font-size: 1.9rem;
+    margin: 0;
     padding: 0;
   }
 }
