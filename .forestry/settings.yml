@@ -13,9 +13,9 @@ sections:
 - type: directory
   path: posts
   label: Posts
-  create: all
+  create: documents
   match: "**/*"
-  new_doc_ext: md
+  new_doc_ext: ".md"
 - type: directory
   path: clips
   label: Clips
