@@ -5,6 +5,12 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: directory
+  path: pages
+  label: Pages
+  create: all
+  match: "**/*"
+  new_doc_ext: ".md"
+- type: directory
   path: posts
   label: Posts
   create: all
@@ -15,6 +21,7 @@ sections:
   label: Clips
   create: all
   match: "**/*"
+  new_doc_ext: ".md"
 upload_dir: static/img/posts
 public_path: "/static/img/posts"
 front_matter_path: ''
