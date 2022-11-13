@@ -838,7 +838,7 @@ object {
   }
 }
 .book-main .book-container .book-cover {
-  background: url(./static/img/posts/idc-book-cover.jpg) no-repeat;
+  background: url(./static/img/pages/idc-book-cover.webp) no-repeat;
   background-size: cover;
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
   height: 464.4px;
@@ -855,6 +855,7 @@ object {
 @media screen and (min-width: 50rem) {
   .book-main .book-caption {
     font-size: 1.9rem;
+    margin: 0;
     padding: 0;
   }
 }
@@ -1083,21 +1084,25 @@ body.writing .post-list li a {
   font-family: "SilvaText-Book";
   src: url("/static/webfonts/SilvaText-Book.eot");
   src: url("/static/webfonts/SilvaText-Book.eot?#iefix") format("embedded-opentype"), url("/static/webfonts/SilvaText-Book.woff2") format("woff2"), url("/static/webfonts/SilvaText-Book.woff") format("woff");
+  font-display: swap;
 }
 @font-face {
   font-family: "SilvaText-BookItalic";
   src: url("/static/webfonts/SilvaText-BookItalic.eot");
   src: url("/static/webfonts/SilvaText-BookItalic.eot?#iefix") format("embedded-opentype"), url("/static/webfonts/SilvaText-BookItalic.woff2") format("woff2"), url("/static/webfonts/SilvaText-BookItalic.woff") format("woff");
+  font-display: swap;
 }
 @font-face {
   font-family: "SilvaDisplay-Black";
   src: url("/static/webfonts/SilvaDisplay-Black.eot");
   src: url("/static/webfonts/SilvaDisplay-Black.eot?#iefix") format("embedded-opentype"), url("/static/webfonts/SilvaDisplay-Black.woff2") format("woff2"), url("/static/webfonts/SilvaDisplay-Black.woff") format("woff");
+  font-display: swap;
 }
 @font-face {
   font-family: "SilvaDisplay-BlackItalic";
   src: url("/static/webfonts/SilvaDisplay-BlackItalic.eot");
   src: url("/static/webfonts/SilvaDisplay-BlackItalic.eot?#iefix") format("embedded-opentype"), url("/static/webfonts/SilvaDisplay-BlackItalic.woff2") format("woff2"), url("/static/webfonts/SilvaDisplay-BlackItalic.woff") format("woff");
+  font-display: swap;
 }
 .book {
   font-family: PlusJakartaSans-Variable;
