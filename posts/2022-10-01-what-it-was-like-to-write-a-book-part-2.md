@@ -1,6 +1,6 @@
 ---
 title: What it was like to write a book (part 2)
-cover: posts/charlie.gif
+cover: posts/charlie.jpg
 date: 2022-10-01T22:56:37.142Z
 tags:
   - post
