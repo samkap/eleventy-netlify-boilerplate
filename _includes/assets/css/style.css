@@ -1137,5 +1137,63 @@ body.writing .post-list li a {
     grid-template-columns: repeat(9, 1fr);
   }
 }
+.links header {
+  margin: 0 auto;
+  display: block;
+}
+.links header .logo {
+  margin: 0 auto;
+  width: 80px;
+}
+.links .alt-main {
+  max-width: 35rem;
+  margin: 0 auto;
+}
+.links .alt-main h1 {
+  color: rgb(184, 138, 71);
+  font-family: SilvaText-BookItalic;
+  font-size: 1.9rem;
+  text-align: center;
+}
+.links .alt-main h2 {
+  font-family: PlusJakartaSans-Variable;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.links ul {
+  list-style-type: none;
+  list-style-position: inside;
+  padding-left: 0;
+}
+.links a, .links a:visited {
+  background-color: rgb(11, 53, 44);
+  color: rgb(219, 232, 232);
+  border: 2px solid #1d8972;
+  display: inline-block;
+  font-size: 1rem;
+  letter-spacing: 0.1em;
+  line-height: 1;
+  margin: 0 0.5em 0.5em 0;
+  border-radius: 0.6rem;
+  font-family: PlusJakartaSans-Variable;
+  font-weight: 563;
+  padding: 0.8rem 0.5rem;
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+}
+.links a:hover, .links a:visited:hover {
+  background-color: rgb(219, 232, 232);
+  color: rgb(11, 53, 44);
+  border: 2px solid white;
+}
+.links #other + ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.links #other + ul li {
+  width: 48%;
+}
 
 /*# sourceMappingURL=style.css.map */
