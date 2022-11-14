@@ -3,7 +3,7 @@ layout: layouts/base-noheader.njk
 title: Links
 section: links
 date: 2022-11-14T14:00:00.000Z
-permalink: "https://links.samkapila.com"
+permalink: "/links/"
 ---
 
 # Links for @samkap
