@@ -1143,7 +1143,10 @@ body.writing .post-list li a {
 }
 .links header .logo {
   margin: 0 auto;
-  width: 80px;
+  width: 60px;
+}
+.links header .ampersam {
+  margin-right: 0;
 }
 .links .alt-main {
   max-width: 35rem;
@@ -1177,7 +1180,7 @@ body.writing .post-list li a {
   border-radius: 0.6rem;
   font-family: PlusJakartaSans-Variable;
   font-weight: 563;
-  padding: 0.8rem 0.5rem;
+  padding: 1rem 0;
   text-align: center;
   text-decoration: none;
   width: 100%;

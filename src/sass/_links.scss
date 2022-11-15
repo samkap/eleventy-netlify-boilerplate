@@ -6,7 +6,11 @@
 
     .logo {
       margin: 0 auto;
-      width: 80px;
+      width: 60px;
+    }
+
+    .ampersam {
+      margin-right: 0;
     }
   }
 
@@ -48,7 +52,7 @@
     border-radius: .6rem;
     font-family: $sans;
     font-weight: 563;
-    padding: .8rem .5rem;
+    padding: 1rem 0;
     text-align: center;
     text-decoration: none;
     width: 100%;
