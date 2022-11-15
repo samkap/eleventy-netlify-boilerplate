@@ -3,7 +3,13 @@ title: An interview with Indeed's Design team, A conversation about building inc
   spaces through everyday allyship
 date: 2022-11-14T20:44:00-06:00
 cover: "/static/img/posts/indeed-design-illus.webp"
-tags: []
+tags:
+- interview
+- design
+- inclusion
+- idcbook
+- inclusive-design-communities
+- book
 
 ---
 Recently, @indeeddesign interviewed me about Inclusive Design Communities, my new book with @abookapart. The interview is called “Sam Kapila: Small acts can invite more voices into design communities.”
