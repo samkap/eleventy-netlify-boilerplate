@@ -7,7 +7,6 @@ tags:
 - interview
 - design
 - inclusion
-- idcbook
 - inclusive-design-communities
 - book
 
