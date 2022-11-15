@@ -37,8 +37,18 @@ from = "/journal/*"
 to = "/writing/"
 
 [[redirects]]
-from = "/links"
-to = "https://links.samkapila.com"
+from = "https://samkapila.com/thoughts/the-hard-truth-about-soft-skills"
+to = "https://samkapila.com/2014/04/20/the-hard-truth-about-soft-skills/"
+
+[[redirects]]
+from = "https://samkapila.com/sharing/mcweek/"
+to = "https://samkapila.com/2012/11/03/design-1-up-a-panel-at-mass-comm-week//"
+
+[[redirects]]
+from = "https://samkapila.com/2022/11/02/good-intentions-in-diversity-and-inclusion-work/feed.xml"
+to = "https://samkapila.com/2022/11/02/good-intentions-in-diversity-and-inclusion-work/"
+
+
 
 # The default HTTP status code is 301, but you can define a different one e.g.
 # status = 302

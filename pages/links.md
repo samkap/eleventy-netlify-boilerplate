@@ -17,7 +17,7 @@ permalink: "/links/"
 ## Other 
 - [Blog](https://www.samkapila.com)
 - [RSS](https://samkapila.com/feed.xml)
-- [Mastodon](https://front-end.social/@samkap)
+- <a rel="me" href="https://front-end.social/@samkap">Mastodon</a>
 - [Food IG](https://instagram.com/the_tableaux)
 
 
