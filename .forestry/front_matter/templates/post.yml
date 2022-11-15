@@ -14,5 +14,3 @@ fields:
 - type: list
   name: tags
   label: tags
-pages:
-- posts/an-interview-with-indeed-s-design-team-a-conversation-about-building-inclusive-spaces-through-everyday-allyship.md

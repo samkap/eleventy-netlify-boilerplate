@@ -1,8 +1,8 @@
 ---
 title: A conversation about building inclusive spaces through everyday allyship with
   Indeed’s design team
-date: 2022-11-14T20:44:00-06:00
-cover: /static/img/posts/indeed-design-illus.webp
+date: 2022-11-14T20:44:00.000-06:00
+cover: "/static/img/posts/indeed-design-illus.webp"
 tags:
 - interview
 - design
@@ -11,14 +11,14 @@ tags:
 - book
 
 ---
-Recently, @indeeddesign interviewed me about Inclusive Design Communities, my new book with @abookapart. The interview is called “Sam Kapila: Small acts can invite more voices into design communities.”
+Recently, Indeed's Design team interviewed me about Inclusive Design Communities, my new book with @abookapart. The interview is called “Sam Kapila: Small acts can invite more voices into design communities.”
 
 In the interview, the Indeed design team and I spoke about inclusion in many different ways including:
 
-* Trying to balance going back and forth on wanting to talk or educate on marginalization and wanting to shut down, especially when I was feeling it myself,
-* why thinking or requiring a design degree as the only viable form of design education is harm for everyone,
-* if systemic changes feel overwhelming, start with one small step is a great way to start making an impact,
-* how over the last view years, marginalized have had to comfort dominant identities (and our having to comfort or own their burden),
+* Trying to balance going back and forth between wanting to talk or educate on marginalization and wanting to shut down, especially when I was feeling it myself,
+* why thinking or requiring a design degree as the only viable form of design education is harmful to everyone,
+* if systemic changes feel overwhelming, starting with one small step is a great way to start making an impact,
+* how over the last few years, marginalized have had to comfort dominant identities (and our having to comfort or own their burden),
 * characteristics of inclusive leaders,
 * and, dealing with grief
 
