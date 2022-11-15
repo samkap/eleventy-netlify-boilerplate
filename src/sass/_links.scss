@@ -64,12 +64,16 @@
     }
   }
 
-  #%F0%9F%92%83%F0%9F%8F%BD-other + ul {
+ .other-list {
+  ul {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    li {
-      width: 48%;
-    }
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  li {
+    width: 48%;
+  }
   }
 }

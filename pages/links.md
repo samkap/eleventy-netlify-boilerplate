@@ -16,7 +16,11 @@ permalink: "/links/"
 - [Rate or review on Goodreads](https://www.goodreads.com/book/show/62985337-inclusive-design-communities)
 
 ## 💃🏽 Other 
+<div class="other-list">
+
 - [Blog](https://www.samkapila.com)
 - [RSS](https://samkapila.com/feed.xml)
 - <a rel="me" href="https://front-end.social/@samkap">Mastodon</a>
 - [Food IG](https://instagram.com/the_tableaux)
+  
+</div>
