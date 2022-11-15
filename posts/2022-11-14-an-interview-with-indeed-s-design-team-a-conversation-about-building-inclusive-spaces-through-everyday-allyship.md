@@ -2,7 +2,7 @@
 title: A conversation about building inclusive spaces through everyday allyship with
   Indeed’s design team
 date: 2022-11-14T20:44:00-06:00
-cover: "/static/img/posts/indeed-design-illus.webp"
+cover: /static/img/posts/indeed-design-illus.webp
 tags:
 - interview
 - design
