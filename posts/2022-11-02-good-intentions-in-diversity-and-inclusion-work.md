@@ -12,7 +12,7 @@ tags:
   - inclusive-design-communities
   - allyship
 ---
-In [Inclusive Design Communities](https://abookapart.com/products/inclusive-design-communities), I address how intent and impact are two different things. No matter how good our intent is, the harm caused can be much, much worse. I recently talked to some people about the myth of good intentions and finally came across a blog post that I think covers it well: “”[How ‘Good Intent’ Undermines Diversity and Inclusion](https://thebias.com/2017/09/26/how-good-intent-undermines-diversity-and-inclusion/)” by Annalee, a safety consultant.
+In [Inclusive Design Communities](https://abookapart.com/products/inclusive-design-communities), I address how intent and impact are two different things. No matter how good our intent is, the harm caused can be much, much worse. I recently talked to some people about the myth of good intentions and finally came across a blog post that I think covers it well: “[How ‘Good Intent’ Undermines Diversity and Inclusion](https://thebias.com/2017/09/26/how-good-intent-undermines-diversity-and-inclusion/)” by Annalee, a safety consultant.
 
 The things that Annalee talks about in this work are what I’ve seen regularly:
 
