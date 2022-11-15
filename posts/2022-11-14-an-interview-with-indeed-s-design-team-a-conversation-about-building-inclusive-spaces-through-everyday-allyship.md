@@ -11,7 +11,7 @@ tags:
 - book
 
 ---
-Recently, Indeed's Design team interviewed me about Inclusive Design Communities, my new book with @abookapart. The interview is called “Sam Kapila: Small acts can invite more voices into design communities.”
+Recently, Indeed's Design team interviewed me about Inclusive Design Communities, my new book with A Book Apart. The interview is called “Sam Kapila: Small acts can invite more voices into design communities.”
 
 In the interview, the Indeed design team and I spoke about inclusion in many different ways including:
 
