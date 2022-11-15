@@ -23,3 +23,5 @@ In the interview, the Indeed design team and I spoke about inclusion in many dif
 * and, dealing with grief
 
 I’m so grateful to Bet and Amy for including me, Katel for the introduction, and Sean for this incredible illustration. [Check it out!]()
+
+![](/static/img/posts/indeed-design-illus.webp)
