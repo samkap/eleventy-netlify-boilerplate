@@ -1,10 +1,9 @@
 ---
 title: Speaking, Writing, Interviews, and Community
 date: 2022-06-07
-permalink: /speaking-writing
+permalink: "/speaking-writing"
+
 ---
-
-
 ## Speaking
 
 * [Clarity 2020](https://youtu.be/hcqed7cIhj4), Oct 2020, remote, "Designing for Happiness"
@@ -33,7 +32,11 @@ permalink: /speaking-writing
 
 ### Interviews
 
-* [Leading inclusively, with Sameera Kapila * Things worth learning](https://youtu.be/eiV6_3pZFc0), Sept 2021
+* [Small Acts Can Invite More Voices into Design Communities ](https://indeed.design/article/sam-kapila-small-acts-can-invite-more-voices-into-design-communities)with Indeed‘s Design team, Nov 2022
+* [Inclusive Design Communities](https://shoptalkshow.com/539/) on ShopTalk Show, Oct 2022
+* [Code & Pixels](https://youtu.be/BfByZk3jS_A), Oct 2022
+* [Design to Be](https://open.spotify.com/episode/0FCYPuMDJTsmyQvFn3N5pO?si=dadf1a47d9034248&nd=1): Creative Inclusive Spaces within the Design Community, October 2022
+* [Leading inclusively, with Sameera Kapila: Things worth learning](https://youtu.be/eiV6_3pZFc0), Sept 2021
 * [NPR (KUT): Coding Boot Camps Aim To Help Solve Diversity Problem In Tech Sector](https://kut.org/post/coding-boot-camps-aim-help-solve-diversity-problem-tech-sector), Mar 2017
 * [Switchup: Introducing the #YesWeCode Fund](https://www.switchup.org/blog/introducing-the-yeswecode-fund), Mar 2017
 * [Switchup: Three questions for three (awesome) women leaders at The Iron Yard](https://www.switchup.org/blog/three-questions-for-three-awesome-women-leaders-at-the-iron-yard), June 2016
@@ -79,6 +82,7 @@ permalink: /speaking-writing
 * [net Awards 2014](https://thenetawards.com), 2014, UK-based, International
 
 #### Elsewhere on the web
+
 * [Spotify playlists](https://open.spotify.com/user/hamtequila)
 * [Experimenting on Codepen](https://codepen.io/samkap)
 * [Sketching on Dribbble](https://www.dribbble.com/samkap)
