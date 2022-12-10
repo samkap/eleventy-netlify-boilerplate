@@ -1,6 +1,6 @@
 ---
 title: Recent podcasts about Inclusive Design Communities
-cover: ""
+cover: "/static/img/posts/leading-inclusively.jpeg"
 date: 2022-12-10T19:00:47.169Z
 tags:
   - interview
