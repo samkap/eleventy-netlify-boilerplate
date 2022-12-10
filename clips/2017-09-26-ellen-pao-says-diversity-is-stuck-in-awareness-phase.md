@@ -6,7 +6,7 @@ tags:
 - diversity
 - inclusion
 - tech
-- women in tech
+- women
 layout: layouts/clip.njk
 ---
 

@@ -5,7 +5,6 @@ tags:
 - clips
 - television
 - women
-- women in tech
 - inclusion
 - equality
 - ally

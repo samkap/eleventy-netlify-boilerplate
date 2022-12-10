@@ -102,8 +102,8 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("favicon.ico");
   eleventyConfig.addPassthroughCopy("static/img");
   eleventyConfig.addPassthroughCopy("admin");
-  eleventyConfig.addWatchTarget("./src/sass");
-  eleventyConfig.addPassthroughCopy("./assets/css");
+  eleventyConfig.addWatchTarget("./_includes/sass");
+  eleventyConfig.addPassthroughCopy("./static/style");
   eleventyConfig.addPassthroughCopy("static/webfonts");
 
   // Excerpt

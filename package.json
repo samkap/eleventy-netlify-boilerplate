@@ -5,8 +5,8 @@
   "scripts": {
     "watch:eleventy": "eleventy --serve",
     "build:eleventy": "eleventy",
-    "watch:sass": "sass --watch src/sass:_includes/assets/css",
-    "build:sass": "sass src/sass:_includes/assets/css",
+    "watch:sass": "sass --watch _includes/sass:static/style",
+    "build:sass": "sass _includes/sass:static/style",
     "start": "npm-run-all build:sass --parallel watch:*",
     "build": "npm-run-all build:*"
   },
@@ -36,7 +36,6 @@
   },
   "dependencies": {
     "@11ty/eleventy-navigation": "^0.1.6",
-    "clean-css": "^4.2.1",
     "html-minifier": "^4.0.0",
     "uglify-js": "^3.14.2"
   }
