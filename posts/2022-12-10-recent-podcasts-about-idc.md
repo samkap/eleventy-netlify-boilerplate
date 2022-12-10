@@ -13,7 +13,7 @@ tags:
 In addition to writing about inclusion, I've been finally getting back to talking about it. My last talk about it was about a year ago when I spoke to my friend from college Matt Stauffer and was still writing the book. The rest of the episodes are from when I was close to finishing the book. Check them out:
 
 ## Talking about inclusion and leadership on Stuff Worth Learning
-I speak to my college bud, Matt, about design, development, and leadership, and what inclusion-led leadership can really look like.
+I speak to my college bud, Matt, about design, development, and leadership, and what inclusion-led leadership can really look like. Catch the audio below or [watch the video](https://www.youtube.com/watch?v=eiV6_3pZFc0&list=PLgJIx0-UaB9RvRKbdcRbs05Gl0D1GiCCk&index=3).
 
 <iframe height="200px" width="100%" frameborder="no" scrolling="no" seamless src="https://player.simplecast.com/23f9cda3-958a-43fe-8b86-e418e9f9ed4b?dark=false"></iframe>
 
