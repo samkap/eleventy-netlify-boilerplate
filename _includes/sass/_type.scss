@@ -171,13 +171,14 @@ code {
 }
 
 p code {
-  font-size: 1em;
+  font-size: calc($base-font-size - .2rem);
   display: inline-block;
   border-radius: 2px;
   background-color: $green-seafoam;
-  border-radius: 4px;
+  color: $green-jungle;
   box-shadow: 0 1px 1px rgba(122, 130, 136, 0.25);
-  padding: 0 3px;
+  line-height: 1.2;
+  padding: 0 10px;
 }
 
 pre {
@@ -185,7 +186,7 @@ pre {
   background-color: rgba(0, 0, 0, 0.8);
   overflow-y: hidden;
   overflow-x: auto;
-  font-size: 14px;
+  font-size: 12px;
   padding: 15px;
   border-radius: 4px;
   color: #f8f8f2;
