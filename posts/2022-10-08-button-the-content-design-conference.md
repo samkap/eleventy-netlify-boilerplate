@@ -4,7 +4,7 @@ cover: /static/img/posts/buttonconfbanner.png
 date: 2022-10-08T18:50:33.152Z
 tags:
   - post
-  - book
+  - books
   - idc
   - inclusive-design-communities
   - design

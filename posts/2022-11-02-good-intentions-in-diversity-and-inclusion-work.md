@@ -7,7 +7,7 @@ tags:
   - inclusion
   - diversity
   - writing
-  - book
+  - books
   - idc
   - inclusive-design-communities
   - allyship

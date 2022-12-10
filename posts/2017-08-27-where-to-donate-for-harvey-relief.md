@@ -6,8 +6,6 @@ tags:
 - disaster
 - relief
 - texas
-- houston
-- corpus-christi
 
 ---
 

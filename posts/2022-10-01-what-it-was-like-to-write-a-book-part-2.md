@@ -4,7 +4,7 @@ cover: posts/charlie.jpg
 date: 2022-10-01T22:56:37.142Z
 tags:
   - post
-  - book
+  - books
   - idc
   - inclusive-design-communities
   - inclusion

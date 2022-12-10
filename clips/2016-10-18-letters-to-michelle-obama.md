@@ -3,7 +3,6 @@ title: To the First Lady, with Love
 date: 2016-10-17 19:00:00 -05:00
 tags:
 - clips
-- michelle
 layout: layouts/clip.njk
 crosspost_to_medium: true
 cover: /posts/

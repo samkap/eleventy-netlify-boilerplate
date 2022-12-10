@@ -1,6 +1,6 @@
 ---
-title:  "‘Tech Opportunity Fund’ Launched to Award $100 Million in Code School Diversity Scholarships"
-date:   2016-09-09
+title: Tech Opportunity Fund Launched to Award $100 Million in Code School Diversity Scholarships
+date: 2016-09-09
 tags:
 - press 
 - diversity 

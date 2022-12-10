@@ -7,7 +7,7 @@ tags:
   - design
   - inclusion
   - inclusive-design-communities
-  - book
+  - books
 ---
 
 In addition to writing about inclusion, I've been finally getting back to talking about it. My last talk about it was about a year ago when I spoke to my friend from college Matt Stauffer and was still writing the book. The rest of the episodes are from when I was close to finishing the book. Check them out:

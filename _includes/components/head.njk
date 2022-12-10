@@ -6,10 +6,7 @@
   <meta name="description" content="{{ metaDescription or renderData.metaDescription or metadata.description }}">
   <meta name="image" content="https://samkapila.com/static/img/posts/samkap.png">
   <script async src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-  {% set css %}
-    {% include "assets/css/style.css" %}
-  {% endset %}
-  <style>{{ css | cssmin | safe }}</style>
+  <link rel="stylesheet" href="/assets/css/style.css" > 
   {% set js %}
     {% include "assets/js/inline.js" %}
   {% endset %}
