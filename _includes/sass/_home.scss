@@ -205,7 +205,7 @@
     .book-sticker {
       animation: sticker 20s linear infinite;
       background-position: center;
-      background: url(./static/img/sticker.svg) no-repeat;
+      background: url(/static/img/sticker.svg) no-repeat;
       height:105px;
       position: absolute;
       width:105px;
@@ -231,7 +231,7 @@
     }
 
     .book-cover {
-      background: url(./static/img/pages/idc-book-cover.webp) no-repeat;
+      background: url(/static/img/pages/idc-book-cover.webp) no-repeat;
       background-size: cover;
       box-shadow: $shadow;
       height: 464.4px;
