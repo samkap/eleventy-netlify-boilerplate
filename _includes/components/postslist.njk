@@ -1,6 +1,6 @@
 <section class="post-list">
 <ul>
-	{% for post in collections.post | reverse %}
+	{% for post in collections.posts | reverse %}
 	<li>
 			<span>
 				<time datetime="{{ post.date | machineDate }}">

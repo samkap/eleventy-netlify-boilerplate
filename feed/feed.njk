@@ -1,21 +1,10 @@
----json
-{
-  "permalink": "feed.xml",
-  "eleventyExcludeFromCollections": true,
-  "metadata": {
-    "title": "Writing - Sam Kapila ",
-    "subtitle": "Blog posts from Sam Kapila that range in topic from design, inclusion, code, and personal interests.",
-    "language": "en",
-    "url": "https://samkapila.com",
-    "feedUrl": "https://samkapila.com/feed.xml",
-    "author": {
-      "name": "Sam Kapila"
-    }
-  }
-}
+---
+# Metadata comes from _data/metadata.json
+permalink: "{{ metadata.feed.path }}"
+eleventyExcludeFromCollections: true
 ---
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
+<feed xmlns="https://www.w3.org/2005/Atom">
 	<title>{{ metadata.title }}</title>
 	<subtitle>{{ metadata.feed.subtitle }}</subtitle>
 	{% set absoluteUrl %}{{ metadata.feed.path | url | absoluteUrl(metadata.url) }}{% endset %}
