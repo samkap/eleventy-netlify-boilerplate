@@ -1,8 +1,23 @@
 {
   "title": "Sameera Kapila",
+  "url": "https://samkapila.com/",
+  "language": "en",
   "description": "Sameera Kapila is a Senior Product Designer at Netlify, speaker, author of Inclusive Design Communities, and always cooking.",
-  "url": "https://samkapila.com",
   "image": "/static/img/posts/samkap.png",
   "repo": "samkap/samkap-11ty",
-  "branch": "main"
+  "branch": "main",
+  "feed": {
+    "subtitle": "Sameera Kapila is a Senior Product Designer at Netlify, speaker, author of Inclusive Design Communities, and always cooking.",
+    "filename": "feed.xml",
+    "path": "/feed.xml",
+    "id": "https://samkapila.com/"
+  },
+  "jsonfeed": {
+    "path": "/feed/feed.json",
+    "url": "https://example.com/feed/feed.json"
+  },
+  "author": {
+    "name": "Sameera Kapila",
+    "url": "https://samkapila.com/about/"
+  }
 }
