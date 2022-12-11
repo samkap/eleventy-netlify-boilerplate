@@ -5,13 +5,8 @@
   <title>{{ renderData.title or title or metadata.title }} » Sameera Kapila </title>
   <meta name="description" content="{{ metaDescription or renderData.metaDescription or metadata.description }}">
   <meta name="image" content="https://samkapila.com/static/img/posts/samkap.png">
-  <script async src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
   <link rel="stylesheet" href="{{ '/static/style/style.css' | url }}">
-  {% set js %}
-    {% include "assets/js/inline.js" %}
-  {% endset %}
-  <script>{{ js | jsmin | safe }}</script>
   <link rel="alternate" href="feed.xml" type="application/atom+xml" title="Sam Kapila's writing">
 
 <!-- Open Graph general -->
