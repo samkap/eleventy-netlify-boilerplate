@@ -6,4 +6,4 @@ ogtype: article
 tags:
   - clips
 ---
-[6 women on the pressure of being the eldest kid of immigrants](https://www.refinery29.com/en-us/second-gen-women-on-pressure-eldest-children-immigrants) via Kristina Perdida's newsletter from [In Bold Company](https://www.inboldcompany.com/)
+[6 women on the pressure of being the eldest kid of immigrants](https://www.refinery29.com/en-us/second-gen-women-on-pressure-eldest-children-immigrants) via Kristina Perdida’s newsletter from [In Bold Company](https://www.inboldcompany.com/)

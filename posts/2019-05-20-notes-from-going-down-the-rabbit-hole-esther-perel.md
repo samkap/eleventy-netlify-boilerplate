@@ -11,13 +11,13 @@ tags:
 
 
 ---
-I've gone down a really good rabbit hole. Today, I was catching up with a friend and even bookmarked some things we talked about on my site bookmarks list.
+I’ve gone down a really good rabbit hole. Today, I was catching up with a friend and even bookmarked some things we talked about on my site bookmarks list.
 
-We talked about Esther Perel being on [Dax Shepard's Armchair Expert podcast](https://armchairexpertpod.com/pods/esther-perel). From there I immediately got on the audiobook loan list at my library, and watched not one, but two long features of her talks.
+We talked about Esther Perel being on [Dax Shepard’s Armchair Expert podcast](https://armchairexpertpod.com/pods/esther-perel). From there I immediately got on the audiobook loan list at my library, and watched not one, but two long features of her talks.
 
-She's a therapist and author to works with and writes about relationships, infidelity, trust, and more. Some romantic, some self. A whole lot of growth-related topics.
+She’s a therapist and author to works with and writes about relationships, infidelity, trust, and more. Some romantic, some self. A whole lot of growth-related topics.
 
-I didn't take notes for all of this, as I was also [making dinner](https://www.instagram.com/p/BxtYDnMFGAY/?igshid=psgflf9suu4h) but thought I'd share what I gathered while watching and listening from at least one of her talks.
+I didn't take notes for all of this, as I was also [making dinner](https://www.instagram.com/p/BxtYDnMFGAY/?igshid=psgflf9suu4h) but thought I’d share what I gathered while watching and listening from at least one of her talks.
 
 <div class="limit">
 <div class='embed-container'><iframe src='https://www.youtube.com/embed//5iu9_8Vsmtk' frameborder='0' allowfullscreen></iframe></div>
@@ -27,7 +27,7 @@ I didn't take notes for all of this, as I was also [making dinner](https://www.i
 ## Notes
 
 * What you did is what your \[parent\] did
-* We have unprecedented freedom yet we have to negotiate **everything.** Who's picking up the baby? Who should I date?
+* We have unprecedented freedom yet we have to negotiate **everything.** Who’s picking up the baby? Who should I date?
 * Every (American/Western-raised) person wants a solution, but rather it demands the understanding of the past
 * In community we got a lot of continuity, consistence, and were never alone. Now we look to our partners for the existential aloneness to be solved.
 
@@ -40,7 +40,7 @@ I didn't take notes for all of this, as I was also [making dinner](https://www.i
 * In the swiping culture, "when I find you, I no longer think I can do better." And, **"When I find you, I will delete my app"**
 * Too many options, more uncertainty and more self-doubt
 * Sex was for reproduction, and now its for wanting. There are a lot of conditions to fill now. There is a lot more pressure
-* Patriarchy dismantles men's vulnerability, makes them less likely to live long, and not be the best partners. For women, we know a lot of what it does. **If we have a paradigm change then we can leave this binary gender construct.**
+* Patriarchy dismantles men’s vulnerability, makes them less likely to live long, and not be the best partners. For women, we know a lot of what it does. **If we have a paradigm change then we can leave this binary gender construct.**
 * In the village you could hear every fight and every fuck. The walls were porous. Her podcast works to react the village in a virtual sence.
 * When we listen deeply to other people, we reach deep into their humanity... ...We get to listen to their **otherness**.
 * When we listen deeply to other people, we end up standing in front of ourselves in the mirror

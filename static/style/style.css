@@ -275,19 +275,20 @@ h5,
 h6 {
   font-display: auto;
   font-family: Fraunces;
-  font-variation-settings: "opsz" 72;
-  font-weight: 900;
+  font-weight: 500;
   line-height: 1.2;
   letter-spacing: normal;
   word-spacing: normal;
   word-wrap: break-word;
+  font-variation-settings: "WONK" 1;
 }
 
 h1 {
-  font-size: 3rem;
-}
-article h1 {
-  margin-bottom: 0.5em;
+  font-family: Fraunces;
+  font-variation-settings: "opsz" 72;
+  font-weight: 200;
+  font-size: 3.5rem;
+  margin-top: 1.7rem;
 }
 
 h2 {
@@ -341,7 +342,7 @@ h3 {
 ol,
 ul {
   margin: 30px auto;
-  padding-left: 15px;
+  padding-left: 22px;
 }
 
 ul {
@@ -625,15 +626,15 @@ object {
 .home .greeting h1 {
   color: rgb(219, 232, 232);
   font-family: Fraunces;
+  font-size: 1.9rem;
   font-variation-settings: "opsz" 72;
   font-weight: 200;
-  font-size: 1.9rem;
   line-height: 1.3;
   margin-bottom: 1.7rem;
   margin: 0 auto;
   max-width: 61rem;
-  text-align: center;
   padding: 1.7rem;
+  text-align: center;
 }
 @media screen and (min-width: 50rem) {
   .home .greeting h1 {
@@ -692,6 +693,9 @@ object {
   line-height: 1.3;
   margin: 0.6rem 0;
   word-spacing: 2px;
+  font-weight: 400;
+  font-style: italic;
+  font-variation-settings: "opsz" 50;
 }
 .recent-posts ul article p, .recent-posts ol article p {
   font-family: Fraunces;
@@ -710,15 +714,15 @@ object {
   color: rgb(184, 138, 71);
 }
 
-.recent-clips, .clips {
+.recent-clips {
   padding: 1.7rem;
 }
 @media screen and (min-width: 1060px) {
-  .recent-clips, .clips {
+  .recent-clips {
     padding: 6.8rem;
   }
 }
-.recent-clips h2, .clips h2 {
+.recent-clips h2 {
   color: rgb(219, 232, 232);
   font-family: PlusJakartaSans-Variable;
   font-size: 1rem;
@@ -729,7 +733,7 @@ object {
   text-align: center;
   text-transform: uppercase;
 }
-.recent-clips ul, .recent-clips ol, .clips ul, .clips ol {
+.recent-clips ul, .recent-clips ol {
   display: grid;
   grid-template-columns: 1fr;
   list-style-type: none;
@@ -738,42 +742,42 @@ object {
   gap: 50px;
 }
 @media screen and (min-width: 50rem) {
-  .recent-clips ul, .recent-clips ol, .clips ul, .clips ol {
+  .recent-clips ul, .recent-clips ol {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 @media screen and (min-width: 1060px) {
-  .recent-clips ul, .recent-clips ol, .clips ul, .clips ol {
+  .recent-clips ul, .recent-clips ol {
     grid-template-columns: repeat(4, 1fr);
   }
 }
-.recent-clips ul li, .recent-clips ol li, .clips ul li, .clips ol li {
+.recent-clips ul li, .recent-clips ol li {
   color: rgb(219, 232, 232);
 }
-.recent-clips ul article, .recent-clips ol article, .clips ul article, .clips ol article {
+.recent-clips ul article, .recent-clips ol article {
   margin-bottom: 1.7rem;
 }
-.recent-clips ul article h3, .recent-clips ol article h3, .clips ul article h3, .clips ol article h3 {
+.recent-clips ul article h3, .recent-clips ol article h3 {
   font-family: Fraunces;
   font-size: 1.5rem;
   line-height: 1.3;
   margin: 0.6rem 0;
   word-spacing: 2px;
 }
-.recent-clips ul article p, .recent-clips ol article p, .clips ul article p, .clips ol article p {
+.recent-clips ul article p, .recent-clips ol article p {
   font-family: Fraunces;
   font-size: 1rem;
   margin: 0;
 }
-.recent-clips ul article time, .recent-clips ol article time, .clips ul article time, .clips ol article time {
+.recent-clips ul article time, .recent-clips ol article time {
   color: rgb(140, 238, 59);
   display: block;
   font-size: 1rem;
 }
-.recent-clips ul article a, .recent-clips ol article a, .clips ul article a, .clips ol article a {
+.recent-clips ul article a, .recent-clips ol article a {
   text-decoration-color: rgb(140, 238, 59);
 }
-.recent-clips ul article a:hover, .recent-clips ol article a:hover, .clips ul article a:hover, .clips ol article a:hover {
+.recent-clips ul article a:hover, .recent-clips ol article a:hover {
   color: rgb(140, 238, 59);
 }
 
@@ -830,7 +834,7 @@ object {
   color: rgb(219, 232, 232);
   font-family: Fraunces;
   font-size: 1.5rem;
-  font-weight: 900;
+  font-weight: 700;
   line-height: 1;
   padding: 31.5px 0;
   position: absolute;
@@ -866,9 +870,6 @@ object {
   }
 }
 
-body.writing h1 {
-  color: rgb(219, 232, 232);
-}
 body.writing .post-list {
   max-width: 50rem;
 }
@@ -899,6 +900,8 @@ body.writing .post-list li > span {
 body.writing .post-list li h2 {
   font-size: 1.5rem;
   margin-top: 0;
+  font-style: italic;
+  font-variation-settings: "opsz" 72;
 }
 @media screen and (min-width: 50rem) {
   body.writing .post-list li h2 {
@@ -925,11 +928,17 @@ body.writing .post-list li a {
 }
 .post h1 {
   color: rgb(184, 138, 71);
-  font-weight: 700;
+  font-weight: 500;
+  font-size: 3.5orem;
+  font-style: italic;
+  margin-bottom: 0.5em;
 }
 .post h2 {
   font-size: 1.9rem;
   margin-top: 3.4rem;
+  margin-bottom: 0.6rem;
+  font-weight: 600;
+  font-variation-settings: "opsz" 72;
 }
 .post time {
   display: block;
@@ -1014,31 +1023,11 @@ body.writing .post-list li a {
   font-size: 1.5rem;
 }
 .about-container h1 {
-  font-family: Fraunces;
-  font-weight: 300;
   margin: 1.5rem 0;
-}
-@media screen and (max-width: 50rem) {
-  .about-container h1 {
-    font-size: 1.9rem;
-  }
 }
 
 .select-container {
   padding-top: 1.7rem;
-}
-.select-container::before {
-  content: "";
-  position: absolute;
-  display: block;
-  height: 7px;
-  width: 68%;
-  margin: 0 auto;
-  background: rgb(59, 117, 124);
-  background: repeating-linear-gradient(-45deg, rgb(59, 117, 124), rgb(59, 117, 124) 4px, transparent 2px, transparent 7px);
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  border-bottom: 0;
 }
 
 #select-works {
@@ -1048,16 +1037,16 @@ body.writing .post-list li a {
 }
 
 .about-select ul {
+  color: rgb(219, 232, 232);
   margin-top: 1rem;
   padding-left: 0;
-  color: rgb(219, 232, 232);
 }
 .about-select li {
+  font-family: PlusJakartaSans-Variable;
+  font-size: 1.2rem;
+  font-weight: 200;
   line-height: 1.5;
   list-style-type: none;
-  font-family: PlusJakartaSans-Variable;
-  font-weight: 200;
-  font-size: 1.2rem;
   margin-bottom: 1.7rem;
 }
 .about-select li a {
@@ -1071,8 +1060,8 @@ body.writing .post-list li a {
   }
 }
 .about-select div {
-  max-width: 25rem;
   margin-top: 3.4rem;
+  max-width: 25rem;
 }
 
 @font-face {
@@ -1146,15 +1135,19 @@ body.writing .post-list li a {
   margin: 0 auto;
 }
 .links .alt-main h1 {
-  color: rgb(184, 138, 71);
+  color: rgb(219, 232, 232);
   font-family: Fraunces;
-  font-size: 1.9rem;
+  font-size: 2.5rem;
+  font-style: italic;
+  font-variation-settings: "WONK" 1;
+  font-weight: 250;
   text-align: center;
 }
 .links .alt-main h2 {
   font-family: PlusJakartaSans-Variable;
   font-size: 1.5rem;
   text-align: center;
+  font-weight: 250;
 }
 .links ul {
   list-style-type: none;
@@ -1172,7 +1165,7 @@ body.writing .post-list li a {
   margin: 0 0.5em 0.5em 0;
   border-radius: 0.6rem;
   font-family: PlusJakartaSans-Variable;
-  font-weight: 563;
+  font-weight: 400;
   padding: 1rem 0;
   text-align: center;
   text-decoration: none;

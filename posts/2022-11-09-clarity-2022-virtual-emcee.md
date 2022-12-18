@@ -14,4 +14,4 @@ I look forward to it every year, and I’m excited to be the virtual emcee who�
 
 There are a LOT of great topics this year and if you can't attend there is an option to receive all of the recordings. Find out more at [clarityconf.com](https://www.clarityconf.com/)
 
-![Graphic of clarity conference's website and hashtag and my name (Sam Kapila) and photo](/static/img/posts/clarity22-cover.jpeg "Clarity 2022 Graphic")
+![Graphic of clarity conference’s website and hashtag and my name (Sam Kapila) and photo](/static/img/posts/clarity22-cover.jpeg "Clarity 2022 Graphic")

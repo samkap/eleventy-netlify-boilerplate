@@ -8,41 +8,41 @@ tags:
 cover: /posts/desktop-01-start.png
 ---
 
-I'm sitting at home, with a sore throat and an almost-gone fever. I loathe feeling unproductive. And, with Firefox's new blazing fast, Quantum, I can't help but feel level more sick and tired. In order to cheer myself up and feel mildly productive, I thought I'd pick apart my site with a few performance speed tools, but briefly. I know better than to get too deep into code when not in a focused state of mind. So, I'll keep this brief and write I go through each step. The following are the steps I took:
+I’m sitting at home, with a sore throat and an almost-gone fever. I loathe feeling unproductive. And, with Firefox’s new blazing fast, Quantum, I can't help but feel level more sick and tired. In order to cheer myself up and feel mildly productive, I thought I’d pick apart my site with a few performance speed tools, but briefly. I know better than to get too deep into code when not in a focused state of mind. So, I’ll keep this brief and write I go through each step. The following are the steps I took:
 
-## 1. First, re-read Dave's posts on RWD Bloats.
+## 1. First, re-read Dave’s posts on RWD Bloats.
 
-Dave's posts are [one](daverupert.com/2014/07/rwd-bloat/) and [two](https://daverupert.com/2014/07/rwd-bloat-part-ii/) on RWD bloat. I don't fully suspect RWD being the main culprit, but let's see. Based on Dave's advice, check my grades with quick tests from [Google PageSpeed](https://developers.google.com/speed/pagespeed/insights/) and [WebPageTest](https://www.webpagetest.org/).
+Dave’s posts are [one](daverupert.com/2014/07/rwd-bloat/) and [two](https://daverupert.com/2014/07/rwd-bloat-part-ii/) on RWD bloat. I don't fully suspect RWD being the main culprit, but let’s see. Based on Dave’s advice, check my grades with quick tests from [Google PageSpeed](https://developers.google.com/speed/pagespeed/insights/) and [WebPageTest](https://www.webpagetest.org/).
 
 ### Google PageSpeed
 
 ![Google PageSpeed when I started, showing two suggestions](/static/img/posts/desktop-01-start.png)
 
 
-Both Mobile and Desktop have the same issues. According to Google, two important things to fix are: "Eliminate render-blocking JavaScript and CSS in above-the-fold content" that can be broken up into a few steps, and "Leverage browser caching", which I have no idea how to do, yet. So, this, friends, I will not be doing at this time. I would hate to misread something while sick and make a big mistake. So I'll return to this later.
+Both Mobile and Desktop have the same issues. According to Google, two important things to fix are: "Eliminate render-blocking JavaScript and CSS in above-the-fold content" that can be broken up into a few steps, and "Leverage browser caching", which I have no idea how to do, yet. So, this, friends, I will not be doing at this time. I would hate to misread something while sick and make a big mistake. So I’ll return to this later.
 
 ![Google PageSpeed when I started, showing what was optimized ](/static/img/posts/desktop-02-start.png)
 
 
-These are things I'm not being lazy about, at least on this page, but I'm glad that images are optimized (yay [ImageOptim](https://imageoptim.com/) but if you know of a great Jekyll plug-in that could do this, let me know!
+These are things I’m not being lazy about, at least on this page, but I’m glad that images are optimized (yay [ImageOptim](https://imageoptim.com/) but if you know of a great Jekyll plug-in that could do this, let me know!
 
 ### WebPageTest
 
 ![webpagetest-start.png](/static/img/posts/webpagetest-start.png)
 
 
-Yay! Only one F! This is **just** like school all over again. Kidding. But according to this Typekit is out of control, making up over 54-point-freaking-7-percent (54.7%) of my site's bytes. That seems like a lot and I don't like. Also, I have six images on home, and I don't quite see why until favicons have anything to do with it. Now armed with knowledge, let's see what we can do about it. Here goes!
+Yay! Only one F! This is **just** like school all over again. Kidding. But according to this Typekit is out of control, making up over 54-point-freaking-7-percent (54.7%) of my site’s bytes. That seems like a lot and I don't like. Also, I have six images on home, and I don't quite see why until favicons have anything to do with it. Now armed with knowledge, let’s see what we can do about it. Here goes!
 
 ## 1. Moved Typekit to below my content
 
-So, before you get mad at me, know that I'm mad at me. I do know better, I was being lazy for a long time. So now my Typekit codes, live in a `scripts` includes file that is included after my `</body>` tag.
+So, before you get mad at me, know that I’m mad at me. I do know better, I was being lazy for a long time. So now my Typekit codes, live in a `scripts` includes file that is included after my `</body>` tag.
 
 ## 2. Mess with Typekit Settings
 
 ![typekit-01.png](/static/img/posts/typekit-01.png)
 
 
-Log into Typekit and see if I'm missing any optimization settings there. My kit is 64k, 54k if I don't keep the OpenType feature. For now, I will keep it on and maybe come back to this later.
+Log into Typekit and see if I’m missing any optimization settings there. My kit is 64k, 54k if I don't keep the OpenType feature. For now, I will keep it on and maybe come back to this later.
 
 ![typekit-02.png](/static/img/posts/typekit-02.png)
 
@@ -55,13 +55,13 @@ This is interesting and I don't need to change my fonts anytime soon, so I check
 
 ## 3. Now, this six image thing
 
-Okay, so it is favicons. I don't need six. I should only have three, I think. One favicon, that photo of me, and my logo. The other three are coming, mainly for the purpose of serving as icons on mobile devices. I don't know about anyone else, but I don't even have my own site on my home screen. I feel like this is unnecessary to keep, so I take it out of my `head` includes, and in the process, clean up spaces and unused code in six other includes. I feel better about it, but I'm not sure if it's actually helping yet.
+Okay, so it is favicons. I don't need six. I should only have three, I think. One favicon, that photo of me, and my logo. The other three are coming, mainly for the purpose of serving as icons on mobile devices. I don't know about anyone else, but I don't even have my own site on my home screen. I feel like this is unnecessary to keep, so I take it out of my `head` includes, and in the process, clean up spaces and unused code in six other includes. I feel better about it, but I’m not sure if it’s actually helping yet.
 
 I also, re-optimized my logo (7k, no change) and the photo at the bottom of me (15.8k to 14.3k).
 
 ## Quick Results
 
-After taking maybe 45-90min with a few random breaks and about six commits, here's how the page did:
+After taking maybe 45-90min with a few random breaks and about six commits, here’s how the page did:
 
 ### Google PageSpeed Results
 

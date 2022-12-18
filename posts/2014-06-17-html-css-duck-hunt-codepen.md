@@ -14,5 +14,5 @@ This [Codepen](https://codepen.io/vaielab/pen/yoKEF/) is the most amazing use of
 <script async src="//codepen.io/assets/embed/ei.js"></script>
 
 <p class="caption">
-Just a note: it works a lot better (read: ducks are easier to hit) when it's not embedded into a responsive layout like mine. Load up the [full CodePen](https://codepen.io/vaielab/full/yoKEF/), instead.
+Just a note: it works a lot better (read: ducks are easier to hit) when it’s not embedded into a responsive layout like mine. Load up the [full CodePen](https://codepen.io/vaielab/full/yoKEF/), instead.
 </p>

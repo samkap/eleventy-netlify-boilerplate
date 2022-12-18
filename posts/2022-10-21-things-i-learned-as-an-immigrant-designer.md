@@ -10,11 +10,11 @@ tags:
   - idc
   - inclusion
 ---
-*I'm sharing what I learned in the process. This is not legal advice about how to get a visa.*
+*I’m sharing what I learned in the process. This is not legal advice about how to get a visa.*
 
 Immigration can make working in design or development a lot more stressful. In the US, there are generally two work visa categories: temporary and permanent workers. Some designers and developers start in one category and end in the other. Others may be able to get permanent worker visas. Temporary work visas, like the H1-B, have time limits, and in some cases, have a limit to how many can be awarded a year and requirements like having a master’s degree or higher from a US institution. A fairly common one is the OPT (Optional Practical Training), which typically starts around or after completing a degree program and requires students to get a job in the area they studied to continue their education. It does not, however, require the employer to hire you after the first year. Permanent worker visas also have their own set of restrictions and sometimes have more requirements to prove that a foreign worker has the qualifications to be a permanent worker.
 
-Additionally, there’s so much cognitive load, extra worrying, and huge life-changing worry that exists when they're to work as an immigrant. There’s so much that can go wrong in the scary and jarring process and it’s almost like you’re punished if you don’t have the privilege to have things in place throughout the process. It absolutely breaks my heart that it's not an option for so many people. Even with privilege it still takes work.
+Additionally, there’s so much cognitive load, extra worrying, and huge life-changing worry that exists when they're to work as an immigrant. There’s so much that can go wrong in the scary and jarring process and it’s almost like you’re punished if you don’t have the privilege to have things in place throughout the process. It absolutely breaks my heart that it’s not an option for so many people. Even with privilege it still takes work.
 
 Here’s a few things I learned.
 
@@ -24,7 +24,7 @@ No matter what the immigration process is, in a lot of cases, it takes time, a l
 
 ## **Understand the financials**
 
-Seeking immigration is a pretty expensive thing for both the immigrant and the companies that sponsor them. Immigrants may accrue costs for applications, biometrics, legal fees, passport photos, photocopies, notaries, transportation to interview(s) costs, and, in some cases, vaccinations and medical exams. Companies may accrue legal fees, costs related to government compliance requirements, notaries, photocopies, and more. It isn't cheap for any party involved. It's important to have a plan for your financials if you're a part of the immigration process. If you're the applicant, save as much as you can, and if able, ask what fees and costs you and your potential employer may accrue. It's also important to understand that it takes time for companies who may have never hired an immigrant before, to understand how to navigate the process and see if it is financially feasible to hire you. If you're the company, budgeting immigration fees into quarterly and yearly budgets can be a huge help for current and future hires.
+Seeking immigration is a pretty expensive thing for both the immigrant and the companies that sponsor them. Immigrants may accrue costs for applications, biometrics, legal fees, passport photos, photocopies, notaries, transportation to interview(s) costs, and, in some cases, vaccinations and medical exams. Companies may accrue legal fees, costs related to government compliance requirements, notaries, photocopies, and more. It isn't cheap for any party involved. It’s important to have a plan for your financials if you're a part of the immigration process. If you're the applicant, save as much as you can, and if able, ask what fees and costs you and your potential employer may accrue. It’s also important to understand that it takes time for companies who may have never hired an immigrant before, to understand how to navigate the process and see if it is financially feasible to hire you. If you're the company, budgeting immigration fees into quarterly and yearly budgets can be a huge help for current and future hires.
 
 ## **Writing and speaking helps**
 

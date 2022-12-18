@@ -65,23 +65,22 @@ h5,
 h6 {
   font-display: auto;
   font-family: $serif;
-  font-variation-settings: "opsz" 72;
-  font-weight: 900;
+  font-weight: 500;
   line-height: 1.2;
   letter-spacing: normal;
   word-spacing: normal;
   word-wrap: break-word;
+  font-variation-settings: "WONK" 1;
 }
 
 h1 {
-  font-size: 3rem;
+  font-family: $serif;
+  font-variation-settings: "opsz" 72;
+  font-weight: 200;
+  font-size: 3.5rem;
+  margin-top: $base-spacing;
 
-
-  article & {
-    margin-bottom: 0.5em;
-  }
 }
-
 h2 {
   font-size: $medium-font-size;
   margin-top: $base-spacing;
@@ -125,7 +124,7 @@ h3 {
 ol,
 ul {
   margin: 30px auto;
-  padding-left: 15px;
+  padding-left: 22px;
 }
 
 ul {

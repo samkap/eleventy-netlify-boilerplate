@@ -1,5 +1,5 @@
 ---
-title: Conference notes from a roundtable about SendGrid's values
+title: Conference notes from a roundtable about SendGrid’s values
 date: 2017-12-10 12:20:00 -06:00
 tags:
   - conferences
@@ -22,7 +22,7 @@ While **Happy** isn't easy to measure, company leaders should commit to it as a 
 
 The value of **Honest** is not the same transparency, as many tech CEOs oversimplify it. For any leader and team member, it reads as being honest not only with each other but with ourselves. Honesty on the work, challenges, and missteps along the way. For example, acknowledging a scope creep delay or saying a project isn't doable. Honesty is about asking for help.
 
-We’ve heard Steve Jobs’ [famous quote](https://www.washingtonpost.com/blogs/answer-sheet/post/steve-jobs-told-students-stay-hungry-stay-foolish/2011/10/05/gIQA1qVjOL_blog.html) about hunger before. It reads as always needing a challenge If we’re coasting through the same thing, what are we learning or solving? **Hungry** is an underestimated value. We talk about hiring and pipelines, have yet to improve retention. We lose handfuls of tech employees within 2-3 years. I learned as a manager that so many are looking for challenges and learning more in a different way. It's crucial for managers and companies to encourage employees who seek new roles, teams, and challenges.
+We’ve heard Steve Jobs’ [famous quote](https://www.washingtonpost.com/blogs/answer-sheet/post/steve-jobs-told-students-stay-hungry-stay-foolish/2011/10/05/gIQA1qVjOL_blog.html) about hunger before. It reads as always needing a challenge If we’re coasting through the same thing, what are we learning or solving? **Hungry** is an underestimated value. We talk about hiring and pipelines, have yet to improve retention. We lose handfuls of tech employees within 2-3 years. I learned as a manager that so many are looking for challenges and learning more in a different way. It’s crucial for managers and companies to encourage employees who seek new roles, teams, and challenges.
 
 **Humble** is my favorite value. It ties a lot of the others into one. Humility and being honest with ourselves can lead to people to accept who they are and dream of who they can be. It can be humbling to realize you’re not an expert at something and then be hungry learn more about it. A humble team, or its members, aren’t driven by self-praise. Instead, they're driven by reaching an ideal outcome with a splash of having humility as a gut check.
 

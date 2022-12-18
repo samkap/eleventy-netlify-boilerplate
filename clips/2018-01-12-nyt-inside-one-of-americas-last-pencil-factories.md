@@ -10,7 +10,7 @@ tags:
 layout: layouts/clip.njk
 ---
 
-I am gawking at these [photos of a pencil factory](https://www.nytimes.com/2018/01/12/magazine/inside-one-of-americas-last-pencil-factories.html) in NYT from this week (via my friend, David, who shared this on FB). This looks like the most stunning version of *How It's Made*. Also, who knew that **ferrules** are the name of the metal bands around the tops of pencils?
+I am gawking at these [photos of a pencil factory](https://www.nytimes.com/2018/01/12/magazine/inside-one-of-americas-last-pencil-factories.html) in NYT from this week (via my friend, David, who shared this on FB). This looks like the most stunning version of *How It’s Made*. Also, who knew that **ferrules** are the name of the metal bands around the tops of pencils?
 
 All photos below are by Christopher Payne for the New York Times.
 

@@ -9,7 +9,7 @@ tags:
 layout: layouts/clip.njk
 ---
 
-Just finished reading Pao's [Reset](https://www.amazon.com/Reset-Fight-Inclusion-Lasting-Change/dp/039959101X/ref=tmm_hrd_swatch_0?_encoding=UTF8&qid=&sr=). It's a needed book for the tech industry at this time, and I wanted to share her interview with Trevor Noah.
+Just finished reading Pao’s [Reset](https://www.amazon.com/Reset-Fight-Inclusion-Lasting-Change/dp/039959101X/ref=tmm_hrd_swatch_0?_encoding=UTF8&qid=&sr=). It’s a needed book for the tech industry at this time, and I wanted to share her interview with Trevor Noah.
 
 .
 .
