@@ -9,9 +9,10 @@ body {
   -webkit-font-smoothing: antialiased;
   color: $green-seafoam;
   font-display: auto;
-  font-family: $text;
+  font-family: $serif;
   font-size: $base-font-size;
-  font-weight: 500;
+  font-variation-settings: "opsz" 9;
+  font-weight: 300;
   height: 100%;
   line-height: $base-line-height;
   word-wrap: break-word;
@@ -113,9 +114,9 @@ nav {
   a {
     border-radius: 4px;
     color: $green-seafoam;
-    font-size: $s-font-size;
-    font-weight: 700;
-    letter-spacing: 1px;
+    font-size: $xs-font-size;
+    font-weight: 400;
+    letter-spacing: 2px;
     overflow: hidden;
     position: relative;
     text-decoration: none;

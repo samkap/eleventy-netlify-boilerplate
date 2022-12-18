@@ -24,4 +24,5 @@ In the interview, the Indeed design team and I spoke about inclusion in many dif
 
 I’m so grateful to Bet and Amy for including me, Katel for the introduction, and Sean for this incredible illustration. [Check it out!](https://indeed.design/article/sam-kapila-small-acts-can-invite-more-voices-into-design-communities)
 
-![Illustration by Sean Loose](/static/img/posts/indeed-design-illus.webp)
+</p>  
+<img src="/static/img/posts/indeed-design-illus.webp" alt="Illustration by Sean Loose">

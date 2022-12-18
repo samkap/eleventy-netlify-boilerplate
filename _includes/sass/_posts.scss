@@ -53,6 +53,7 @@ body.writing {
 
   h1 {
     color: $gold;
+    font-weight: 700;
   }
 
   h2 {
@@ -117,6 +118,10 @@ body.writing {
   a[rel="tag"]:last-child {
     margin-right: 0;
   }
+
+  p {
+    
+  }
 }
 
 
@@ -142,7 +147,7 @@ body.writing {
 
 .clips-header {
   color: $green-seafoam;
-  font-family: $display-bold;
+  font-family: $serif;
   font-size: $base-font-size;
   text-align: center;
 }

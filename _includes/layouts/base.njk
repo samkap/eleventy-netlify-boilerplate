@@ -3,7 +3,7 @@
 
 	{% include "components/head.njk" %}
 
-	<body class="{{ section }}">
+	<body {% if section %} class="{{ section }}" {% endif %}>
 
 		<header>
 		<div class="logo-container">
