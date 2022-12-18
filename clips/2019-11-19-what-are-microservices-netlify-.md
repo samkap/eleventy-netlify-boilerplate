@@ -8,4 +8,4 @@ link: https://www.netlify.com/blog/2019/11/18/what-are-microservices/?utm_source
 ogtype: article 
 ---
 [What are Microservices? | Netlify  ](https://www.netlify.com/blog/2019/11/18/what-are-microservices/?utm_source=twitter&utm_medium=microservice-sad&utm_campaign=devex) 
-Have you, like me, always wondered what microservices are? Well, lucky for us, Sarah Drasner wrote a bit about it on Netlify's blog. Check it out.
+Have you, like me, always wondered what microservices are? Well, lucky for us, Sarah Drasner wrote a bit about it on Netlify’s blog. Check it out.

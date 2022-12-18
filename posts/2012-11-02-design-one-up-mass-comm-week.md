@@ -10,7 +10,7 @@ tags:
 Date: 2012-11-02 19:00:00 -05:00
 ---
 
-I was recently invited by Professor Cindy Royal, from Texas State University's Department of Mass Communication and Journalism, to moderate a panel at Mass Communication Week. I invited two extremely talented and experienced friends to be a part of the panel, Anthony Armendariz and Courtney Buie.
+I was recently invited by Professor Cindy Royal, from Texas State University’s Department of Mass Communication and Journalism, to moderate a panel at Mass Communication Week. I invited two extremely talented and experienced friends to be a part of the panel, Anthony Armendariz and Courtney Buie.
 The panel was on Halloween and we really enjoyed it and were asked some great questions by students.
 You can watch the whole panel called <a href="https://www.txstatemcweek.com/2012/10/video-design-1-up.html" target="_blank">Design 1-Up</a> and follow along with our topics on our <a href="https://www.samkapila.com/sharing/mcweek/" target="_blank">panel notes</a> that include links to more details about what we discussed!
 

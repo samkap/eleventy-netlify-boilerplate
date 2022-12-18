@@ -9,7 +9,7 @@ tags:
 
 ---
 
- I'm seeing a lot of great tweets about where to donate, so I thought I'd share a list here of what I've come across or donated to thus far. **Last Updated: Tuesday, 29th of August, at 10:31pm, Texas Standard Time (CDT)**
+ I’m seeing a lot of great tweets about where to donate, so I thought I’d share a list here of what I’ve come across or donated to thus far. **Last Updated: Tuesday, 29th of August, at 10:31pm, Texas Standard Time (CDT)**
 
 ## General
 - [The Rebuild Texas Fund](https://www.rebuildtx.org/)
@@ -23,7 +23,7 @@ tags:
 - **[Americares](https://secure.americares.org/site/Donation2?df_id=22188&mfc_pref=T&22188.donation=form1&_ga=2.27797372.1946876975.1503855566-771809081.1503855566)**
 - **[Greater Houston Community Foundation](https://ghcf.org/hurricane-relief/)**
 - **[UnitedWay Victoria, TX](unitedwayvictoria.org/help )**
-- **[American Red Cross](https://www.redcross.org/donate/hurricane-harvey?campname=Harvey&campmedium=aspot).** I know there are some articles on Twitter going around about this, but in Texas we're seeing them feed displaced families and individuals. Please help. It's easy.
+- **[American Red Cross](https://www.redcross.org/donate/hurricane-harvey?campname=Harvey&campmedium=aspot).** I know there are some articles on Twitter going around about this, but in Texas we're seeing them feed displaced families and individuals. Please help. It’s easy.
 - [Lazarus Brewing](https://www.lazarusbrewing.com/) in Austin is taking vans over with donated items. 
 - **[Church Project](https://www.churchproject.org/hurricaneharveyresponse)**
 
@@ -31,12 +31,12 @@ tags:
 
 ## Support for the LGBTQ community
 - **[Casa de Ana y Organizacion Latina de Trans en Texas](https://www.latinatranstexas.org/)** are helping house trans communities members. They need monetary or physical goods like mattresses
-- **[Montrose Center](https://my.reason2race.com/DNicol/HurricaneHarveyLGBTQDisasterReliefFund2017)** started a LGBTQ Disaster Relief Fund which includes housing, counseling, and so much more. (Yes I know it's listed twice).
+- **[Montrose Center](https://my.reason2race.com/DNicol/HurricaneHarveyLGBTQDisasterReliefFund2017)** started a LGBTQ Disaster Relief Fund which includes housing, counseling, and so much more. (Yes I know it’s listed twice).
 - **[Trans Foundation of America
 ](https://www.tfahouston.com/all-catagories/news/trans-relief-fund/)**
-- **[St. Edward's in Austin](https://www.stedwards.edu/campus-living/housing/housing-services)** is collecting the following items by Friday 9/1 in their Residence Life Office: water, non-perishable food, non-prescription drugs, hygiene products, feminine products, baby products
+- **[St. Edward’s in Austin](https://www.stedwards.edu/campus-living/housing/housing-services)** is collecting the following items by Friday 9/1 in their Residence Life Office: water, non-perishable food, non-prescription drugs, hygiene products, feminine products, baby products
 
-## Food, Diaper, Woman's Health, and Blood Banks
+## Food, Diaper, Woman’s Health, and Blood Banks
 - **[Texas Diaper Bank](texasdiaperbank.org/)**
 - **[Houston Food Bank](https://www.houstonfoodbank.org/donate/donate-money/)**
 - **[Corpus Christi Food Bank](https://www.foodbankcc.com/)**
@@ -47,11 +47,11 @@ tags:
 - Latest updates from **[H-E-B and where they're open](https://www.heb.com/static-page/Disaster-Relief)**
 - [The Homeless PERIOD Project ATX](https://www.youcaring.com/frontstepshomelessshelter-785947)
 
-## Children's Hospitals
-- **[Driscoll Children's Hospital](https://co.clickandpledge.com/advanced/default.aspx?wid=45664)**
+## Children’s Hospitals
+- **[Driscoll Children’s Hospital](https://co.clickandpledge.com/advanced/default.aspx?wid=45664)**
 
 ## Helping Schools and Students
-- **[Donor's Choose](https://www.donorschoose.org/hurricane-harvey)**
+- **[Donor’s Choose](https://www.donorschoose.org/hurricane-harvey)**
 - **[Houston Independent School District Family Support](https://www.houstonisd.org/Page/164281)**
 
 ## Shelter
@@ -96,7 +96,7 @@ Note: Attorneys will be needed because officials in Texas changed the laws on ho
 - **[Cotton Bureau](https://www.cottonbureau.com)** has a few tees up with designer proceeds going to Texas **[here](https://cottonbureau.com/products/texas-4)** and **[here](https://cottonbureau.com/products/lets-do-it-for-texas-yall)**
 
 ## Scams to be aware of
-- Info from NPR's [Marketplace](https://www.marketplace.org/2017/08/29/life/hurricane-harvey-flooding-dredges-scams-and-hoaxes)
+- Info from NPR’s [Marketplace](https://www.marketplace.org/2017/08/29/life/hurricane-harvey-flooding-dredges-scams-and-hoaxes)
 - Info from **[BuzzFeed about scams and actual fake news](https://www.buzzfeed.com/mbvd/false-information-about-texas-storm?utm_term=.lw2r7A4lV#.btx8xAWlX)**
 
 ### Additional Resources

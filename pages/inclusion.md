@@ -15,7 +15,7 @@ This page is a growing resource of thoughts and resources around Equity and Incl
 
 ## Inclusion, in my words
 
-* [Creative Morning's Equality talk](https://youtu.be/5pj8E-XbRzE) : From when I spoke in July 2017.
+* [Creative Morning’s Equality talk](https://youtu.be/5pj8E-XbRzE) : From when I spoke in July 2017.
 * [My experiences with starting and running diversity councils, part 1](https://samkapila.com/2018/02/07/creating-an-internal-diversity-council), and [part 2](https://samkapila.com/2018/02/26/the-year-of-the-diversity-council), https://creativemornings.com/talks/sam-kapila.
 * [Leading Inclusively](https://thingsworthlearning.show/episodes/leading-inclusively-with-sameera-kapila/transcript) on Things Worth Learning.
 
@@ -55,7 +55,7 @@ This page is a growing resource of thoughts and resources around Equity and Incl
 * [MDN checklist](https://developer.mozilla.org/en-US/docs/Web/Accessibility/Mobile_accessibility_checklist) Mozilla Accessibility Checklists
 * [MDN Semantic HTML](https://developer.mozilla.org/en-US/docs/Web/HTML/Element) : Writing HTML that supports
 * [NPR](https://thin.npr.org/) has a text only version of their site. How cool. How browser and user-friendly.
-* [Microsoft's Inclusive Toolkit](https://www.microsoft.com/en-us/design/inclusive)
+* [Microsoft’s Inclusive Toolkit](https://www.microsoft.com/en-us/design/inclusive)
 * [Pa11y](https://github.com/pa11y/pa11y) : Command line tool
 * [Wave](https://wave.webaim.org/) : Chrome plug-in
 * [WCAG 2.0 Checklist](https://webaim.org/standards/wcag/checklist)
@@ -71,11 +71,11 @@ This page is a growing resource of thoughts and resources around Equity and Incl
 <div class="gr_grid_book_container"><a title="Dear Ijeawele, or a Feminist Manifesto in Fifteen Suggestions" rel="nofollow" href="https://www.goodreads.com/book/show/33585392-dear-ijeawele-or-a-feminist-manifesto-in-fifteen-suggestions"><img alt="Dear Ijeawele, or a Feminist Manifesto in Fifteen Suggestions" border="0" src="https://images.gr-assets.com/books/1493035257m/33585392.jpg" /></a></div>
 <div class="gr_grid_book_container"><a title="Eloquent Rage: A Black Feminist Discovers Her Superpower" rel="nofollow" href="https://www.goodreads.com/book/show/33574165-eloquent-rage"><img alt="Eloquent Rage: A Black Feminist Discovers Her Superpower" border="0" src="https://images.gr-assets.com/books/1498834108m/33574165.jpg" /></a></div>
 <div class="gr_grid_book_container"><a title="Freedom Is a Constant Struggle: Ferguson, Palestine, and the Foundations of a Movement" rel="nofollow" href="https://www.goodreads.com/book/show/25330108-freedom-is-a-constant-struggle"><img alt="Freedom Is a Constant Struggle: Ferguson, Palestine, and the Foundations of a Movement" border="0" src="https://images.gr-assets.com/books/1447140494m/25330108.jpg" /></a></div>
-<div class="gr_grid_book_container"><a title="Good and Mad: The Revolutionary Power of Women's Anger" rel="nofollow" href="https://www.goodreads.com/book/show/40032288-good-and-mad"><img alt="Good and Mad: The Revolutionary Power of Women's Anger" border="0" src="https://images.gr-assets.com/books/1535470655m/40032288.jpg" /></a></div>
+<div class="gr_grid_book_container"><a title="Good and Mad: The Revolutionary Power of Women’s Anger" rel="nofollow" href="https://www.goodreads.com/book/show/40032288-good-and-mad"><img alt="Good and Mad: The Revolutionary Power of Women’s Anger" border="0" src="https://images.gr-assets.com/books/1535470655m/40032288.jpg" /></a></div>
 <div class="gr_grid_book_container"><a title="The Hate U Give" rel="nofollow" href="https://www.goodreads.com/book/show/32075671-the-hate-u-give"><img alt="The Hate U Give" border="0" src="https://images.gr-assets.com/books/1535002553m/32075671.jpg" /></a></div>
 <div class="gr_grid_book_container"><a title="Hidden Figures: The American Dream and the Untold Story of the Black Women Mathematicians Who Helped Win the Space Race" rel="nofollow" href="https://www.goodreads.com/book/show/25953369-hidden-figures"><img alt="Hidden Figures: The American Dream and the Untold Story of the Black Women Mathematicians Who Helped Win the Space Race" border="0" src="https://images.gr-assets.com/books/1481844518m/25953369.jpg" /></a></div>
 <div class="gr_grid_book_container"><a title="I Am Malala: The Story of the Girl Who Stood Up for Education and Was Shot by the Taliban" rel="nofollow" href="https://www.goodreads.com/book/show/17851885-i-am-malala"><img alt="I Am Malala: The Story of the Girl Who Stood Up for Education and Was Shot by the Taliban" border="0" src="https://images.gr-assets.com/books/1375414895m/17851885.jpg" /></a></div>
-<div class="gr_grid_book_container"><a title="I'm Still Here: Black Dignity in a World Made for Whiteness" rel="nofollow" href="https://www.goodreads.com/book/show/35883430-i-m-still-here"><img alt="I'm Still Here: Black Dignity in a World Made for Whiteness" border="0" src="https://images.gr-assets.com/books/1510037868m/35883430.jpg" /></a></div>
+<div class="gr_grid_book_container"><a title="I’m Still Here: Black Dignity in a World Made for Whiteness" rel="nofollow" href="https://www.goodreads.com/book/show/35883430-i-m-still-here"><img alt="I’m Still Here: Black Dignity in a World Made for Whiteness" border="0" src="https://images.gr-assets.com/books/1510037868m/35883430.jpg" /></a></div>
 <div class="gr_grid_book_container"><a title="Inclusion: Diversity, the New Workplace & the Will to Change" rel="nofollow" href="https://www.goodreads.com/book/show/32170805-inclusion"><img alt="Inclusion: Diversity, the New Workplace & the Will to Change" border="0" src="https://images.gr-assets.com/books/1475222114m/32170805.jpg" /></a></div>
 <div class="gr_grid_book_container"><a title="The Madame Curie Complex: The Hidden History of Women in Science" rel="nofollow" href="https://www.goodreads.com/book/show/6472839-the-madame-curie-complex"><img alt="The Madame Curie Complex: The Hidden History of Women in Science" border="0" src="https://images.gr-assets.com/books/1267818940m/6472839.jpg" /></a></div>
 <div class="gr_grid_book_container"><a title="Men Explain Things to Me" rel="nofollow" href="https://www.goodreads.com/book/show/18528190-men-explain-things-to-me"><img alt="Men Explain Things to Me" border="0" src="https://images.gr-assets.com/books/1393447237m/18528190.jpg" /></a></div>

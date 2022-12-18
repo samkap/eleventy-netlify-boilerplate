@@ -24,65 +24,39 @@
   }
 
   h1 {
-    font-family: $serif;
-    font-weight: 300;
     margin: $base-font-size 0;
-    @media screen and (max-width: $max-w-base) {
-      font-size: $medium-font-size;
-    }
   }
 }
 
 .select-container {
-  &::before {
-    content: '';
-    position: absolute;
-    display: block;
-    height: 7px;
-    width: 68%;
-    margin: 0 auto;
-    background: $aqua;
-    background: repeating-linear-gradient(
-      -45deg,
-      $aqua,
-      $aqua 4px,
-      transparent 2px,
-      transparent 7px
-    );
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    border-bottom: 0;
-  }
-
   padding-top: $base-spacing;
 }
+
 #select-works {
   color: $gold;
   margin-bottom: $base-spacing;
   padding-top: $base-spacing;
-
 }
+
 .about-select{
   ul {
+    color: $green-seafoam;
     margin-top: $s-font-size;
     padding-left: 0;
-    color: $green-seafoam;
   }
 
   li {
+    font-family: $sans;
+    font-size: $alt-base-font-size; 
+    font-weight: 200;
     line-height: 1.5;
     list-style-type: none;
-    font-family: $sans;
-    font-weight: 200;
-    font-size: $alt-base-font-size; 
     margin-bottom: $base-spacing;
 
     a{
-    font-weight: 200;
+      font-weight: 200;
     }
   }
-
-
 
   @media screen and (min-width: $max-w-base) {
     display: grid;
@@ -91,8 +65,7 @@
   }
 
   div {
-    max-width: 25rem;
     margin-top: $large-spacing;
-
+    max-width: 25rem;
   }
 }

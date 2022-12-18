@@ -8,4 +8,4 @@ link: https://designsprintx.com/articles/
 ogtype: article
 ---
 [Design Sprint X  —  Articles](https://designsprintx.com/articles/)
-Via Devin at work including a crazy 8's timer.
+Via Devin at work including a crazy 8’s timer.

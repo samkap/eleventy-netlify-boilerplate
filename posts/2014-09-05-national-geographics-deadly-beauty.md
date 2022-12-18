@@ -1,5 +1,5 @@
 ---
-title: National Geographic's Deadly Beauty
+title: National Geographic’s Deadly Beauty
 date: 2014-09-05 19:00:00 -05:00
 tags:
   - photography

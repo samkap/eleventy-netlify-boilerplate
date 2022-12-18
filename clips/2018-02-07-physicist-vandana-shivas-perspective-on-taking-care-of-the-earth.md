@@ -1,5 +1,5 @@
 ---
-title: Physicist Vandana Shiva's perspective on taking care of the earth
+title: Physicist Vandana Shiva’s perspective on taking care of the earth
 date: 2018-02-07 10:12:00 -06:00
 tags:
 - clips

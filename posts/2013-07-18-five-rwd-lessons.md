@@ -7,7 +7,7 @@ tags:
 - writing
 
 desc: I wrote an article about teaching Responsive Web Design for .net Magazine. It
-  covers what I've learned the last two years of teaching RWD to college students.
+  covers what I’ve learned the last two years of teaching RWD to college students.
 ---
 
 I wrote an article for .net Magazine about 5 lessons learned in a Responsive Web Design classroom, that go beyond technical processes in RWD. This was my first published article and it was fun to write. <a href="https://www.netmagazine.com/opinions/5-lessons-responsive-web-design-classroom" target="_blank">Check it out</a>!

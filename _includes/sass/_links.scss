@@ -15,21 +15,26 @@
   }
 
  .alt-main {
-
     max-width: 35rem;
     margin: 0 auto;
 
     h1 {
-      color: $gold;
+      color: $green-seafoam;
       font-family: $serif;
-      font-size: $medium-font-size;
+      font-size: $large-font-size;
+      font-style: italic;
+      font-variation-settings: "WONK" 1;
+      font-weight: 250;
       text-align: center;
+      
     }
 
     h2 {
       font-family: $sans;
       font-size: $base-font-size;
       text-align: center;
+      font-weight: 250;
+
 
     }
   }
@@ -51,7 +56,7 @@
     margin: 0 .5em .5em 0;
     border-radius: .6rem;
     font-family: $sans;
-    font-weight: 563;
+    font-weight: 400;
     padding: 1rem 0;
     text-align: center;
     text-decoration: none;

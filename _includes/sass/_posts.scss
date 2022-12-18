@@ -1,9 +1,5 @@
 body.writing {
 
-  h1 {
-    color: $green-seafoam;
-  }
-
   .post-list {
     max-width: $max-w-base;
     li {
@@ -27,10 +23,13 @@ body.writing {
           justify-self: start;
         } 
       }
+    
 
       h2 {
         font-size: $base-font-size;
         margin-top: 0;
+        font-style: italic;
+        font-variation-settings: "opsz" 72;
         @media screen and (min-width: $max-w-base) {
           font-size: $medium-font-size;
         }
@@ -53,12 +52,19 @@ body.writing {
 
   h1 {
     color: $gold;
-    font-weight: 700;
+    font-weight: 500;
+    font-size: 3.5orem;
+    font-style: italic;
+    margin-bottom: 0.5em;
   }
 
   h2 {
     font-size: $medium-font-size;
-    margin-top: $large-spacing;
+    margin-top: $large-spacing; 
+    margin-bottom: $small-spacing;
+    font-weight: 600;
+    font-variation-settings: "opsz" 72;
+
   }
 
   time {

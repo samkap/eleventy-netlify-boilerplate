@@ -8,6 +8,6 @@ crosspost_to_medium: true
 cover: /posts/
 ---
 
-From [MetaFissy's blog](https://metafizzy.co/blog/rgb-schemes-logo/)
+From [MetaFissy’s blog](https://metafizzy.co/blog/rgb-schemes-logo/)
 
 ![Ideas for red-green0-blue logos](https://i.imgur.com/1tRedUl.png)

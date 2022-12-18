@@ -26,7 +26,7 @@ I was invited to speak at [ConvergeSE](https://www.convergese.com) about the cur
 There were a ton of great talks at [Artifact](https://www.artifactconf.com). I got to spend some quality time with my good friends, [Bushra](https://www.twitter.com/goatsandbacon and [Jeremy](https://www.twitter.com/adactio). Here are some things that stood out at the conference:
 - Your animations need to make sense with your message/content. ([@vlh](https://www.twitter.com/vlh))
 - Animations, through CSS, give us a chance to add an element of delight, and can subtly inform the user on how something works. ([@vlh](https://www.twitter.com/vlh))
-- Clients don't have lunchtime discussions about web font kerning. That's our job. ([@webmeadow](https://www.twitter.com/webmeadow))
+- Clients don't have lunchtime discussions about web font kerning. That’s our job. ([@webmeadow](https://www.twitter.com/webmeadow))
 - “Photoshop. That’s where you make a picture of exactly what the website will never look like.”([@stephenhay](https://www.twitter.com/stephenhay))
 - Austin’s design and web community is filled with great people who all help, support, and genuinely care for each other. Here’s a shot by [Annie Ray](https://www.annieray.net/photobooth_viewer.php?id=39026464&key=67Xvzd) of so many Austinites that make living in this town so much fun!
 ![Austin Web Design community]({{site.url}}/static/img/posts/artifact.jpg)
