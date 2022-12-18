@@ -1,6 +1,5 @@
 @charset "UTF-8";
-/* ********************global********************* */
-/* https://meyerweb.com/eric/tools/css/reset/
+/* ********************global********************* */ /* https://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -67,7 +66,8 @@ body {
   font-display: auto;
   font-family: Fraunces;
   font-size: 1.5rem;
-  font-weight: 500;
+  font-variation-settings: "opsz" 9;
+  font-weight: 300;
   height: 100%;
   line-height: 1.7;
   word-wrap: break-word;
@@ -259,7 +259,7 @@ time {
 main a,
 main a:visited {
   color: currentColor;
-  font-weight: 500;
+  font-weight: 400;
 }
 main a:focus, main a:hover,
 main a:visited:focus,
@@ -275,6 +275,7 @@ h5,
 h6 {
   font-display: auto;
   font-family: Fraunces;
+  font-variation-settings: "opsz" 72;
   font-weight: 900;
   line-height: 1.2;
   letter-spacing: normal;
@@ -441,16 +442,13 @@ pre,
 ul {
     margin: 20px 0;
   }
-
   .Posts p {
     margin-top: 0;
   }
-
   article::after,
 header::after {
     margin: 70px;
   }
-
   blockquote p {
     margin: 0;
   }
@@ -570,7 +568,6 @@ object {
   .img-only {
     margin: 0 -30px;
   }
-
   .img-only-source {
     margin: 0 -30px;
   }
@@ -832,7 +829,7 @@ object {
 .book-main .book-container .book-sticker__text {
   color: rgb(219, 232, 232);
   font-family: Fraunces;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-weight: 900;
   line-height: 1;
   padding: 31.5px 0;
@@ -857,7 +854,7 @@ object {
 .book-main .book-caption {
   color: rgb(219, 232, 232);
   font-weight: 300;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   margin: 0.4rem auto 0 auto;
   max-width: 500px;
   padding: 1.7rem;
@@ -928,6 +925,7 @@ body.writing .post-list li a {
 }
 .post h1 {
   color: rgb(184, 138, 71);
+  font-weight: 700;
 }
 .post h2 {
   font-size: 1.9rem;
@@ -973,7 +971,6 @@ body.writing .post-list li a {
 .post a[rel=tag]:last-child {
   margin-right: 0;
 }
-
 #disqus_thread {
   margin-bottom: 50px;
   margin-top: 50px;
@@ -995,9 +992,10 @@ body.writing .post-list li a {
   background-color: rgb(11, 53, 44);
 }
 .about h2 {
-  font-family: Fraunces;
   color: rgb(219, 232, 232);
+  font-family: Fraunces;
   font-style: italic;
+  font-weight: 300;
 }
 
 .about-container {
@@ -1015,10 +1013,14 @@ body.writing .post-list li a {
 .about-container p {
   font-size: 1.5rem;
 }
+.about-container h1 {
+  font-family: Fraunces;
+  font-weight: 300;
+  margin: 1.5rem 0;
+}
 @media screen and (max-width: 50rem) {
   .about-container h1 {
     font-size: 1.9rem;
-    margin: 1.5rem 0;
   }
 }
 
@@ -1051,10 +1053,15 @@ body.writing .post-list li a {
   color: rgb(219, 232, 232);
 }
 .about-select li {
+  line-height: 1.5;
   list-style-type: none;
   font-family: PlusJakartaSans-Variable;
+  font-weight: 200;
   font-size: 1.2rem;
   margin-bottom: 1.7rem;
+}
+.about-select li a {
+  font-weight: 200;
 }
 @media screen and (min-width: 50rem) {
   .about-select {

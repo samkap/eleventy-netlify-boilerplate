@@ -48,7 +48,7 @@ main {
   a,
   a:visited {
     color: currentColor;
-    font-weight: 500;
+    font-weight: 400;
 
     &:focus,
     &:hover {
@@ -65,6 +65,7 @@ h5,
 h6 {
   font-display: auto;
   font-family: $serif;
+  font-variation-settings: "opsz" 72;
   font-weight: 900;
   line-height: 1.2;
   letter-spacing: normal;
@@ -145,7 +146,6 @@ blockquote {
   margin: 2rem 0 !important;
   overflow: hidden;
   padding: 0px 24px;
-
 
   p {
     margin: 0;
