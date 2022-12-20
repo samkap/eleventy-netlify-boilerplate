@@ -56,7 +56,7 @@ permalink: "/bookmark.html"
 				</div>
 			</div>
 		</form>
-		<p>Drag this link to your bookmarks, to post from any webpage: <a href="#">post to GitHub</a></p>
+		<p>Drag this link to your bookmarks, to post from any webpage: <a href="javascript:(function(){ var title = document.getElementsByTagName('title')[0].innerHTML; title = encodeURIComponent(title) ; var selection = ''; if (window.getSelection) { selection = window.getSelection().toString(); } else if (document.selection &amp;&amp; document.selection.type != 'Control') { selection = document.selection.createRange().text; } selection = encodeURIComponent(selection); new_window=window.open('{{ "http://www.samkapila.com/bookmark.html" }}?title='+title+'&amp;selection='+selection+'&amp;url='+encodeURIComponent(document.location.href),'JekyllPopup','resizable,scrollbars,status=0,toolbar=0,menubar=0,titlebar=0,width=640,height=600,location=0'); })();">post to GitHub</a></p>
 	</div>
 	<script>
 		function get_query(){
@@ -108,7 +108,7 @@ permalink: "/bookmark.html"
 
 			var p_body = '---\n' ;
 			p_body = p_body + 'layouts/clip.njk \n' ;
-			p_body = p_body + 'tags: clips \n' ;
+			p_body = p_body + 'tags: \n - clips \n' ;
 			p_body = p_body + 'published: true \n';
 			p_body = p_body + 'title: ' + title +' \n';
 			p_body = p_body + 'date: '+ post_date() +' \n' ;
