@@ -9,4 +9,3 @@ link: https://beautifulwebtype.com/fraunces/
 ogtype: article 
 ---
 [Complete Guide to Fraunces • Beautiful Web Type](https://beautifulwebtype.com/fraunces/) 
-[Complete Guide to Fraunces • Beautiful Web Type](https://beautifulwebtype.com/fraunces/)

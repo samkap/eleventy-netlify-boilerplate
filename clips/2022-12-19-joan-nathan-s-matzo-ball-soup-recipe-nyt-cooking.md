@@ -9,4 +9,3 @@ link: https://cooking.nytimes.com/recipes/12348-joan-nathans-matzo-ball-soup?act
 ogtype: article 
 ---
 [Joan Nathan’s Matzo Ball Soup Recipe - NYT Cooking](https://cooking.nytimes.com/recipes/12348-joan-nathans-matzo-ball-soup?action=click&module=Collection%20Page%20Recipe%20Card&region=Matzo%20Recipes%20for%20Passover&pgType=collection&rank=1) 
-[Joan Nathan’s Matzo Ball Soup Recipe - NYT Cooking](https://cooking.nytimes.com/recipes/12348-joan-nathans-matzo-ball-soup?action=click&module=Collection%20Page%20Recipe%20Card&region=Matzo%20Recipes%20for%20Passover&pgType=collection&rank=1)
