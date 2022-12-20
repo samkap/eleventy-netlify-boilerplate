@@ -107,8 +107,8 @@ permalink: "/bookmark.html"
 			var link = $('#p_link').val() ;
 
 			var p_body = '---\n' ;
-			p_body = p_body + 'layouts/clip.njk \n' ;
-			p_body = p_body + 'tags: \n - clips \n' ;
+			p_body = p_body + 'layout: layouts/clip.njk \n' ;
+			p_body = p_body + 'tags:\n - clips \n' ;
 			p_body = p_body + 'published: true \n';
 			p_body = p_body + 'title: ' + title +' \n';
 			p_body = p_body + 'date: '+ post_date() +' \n' ;

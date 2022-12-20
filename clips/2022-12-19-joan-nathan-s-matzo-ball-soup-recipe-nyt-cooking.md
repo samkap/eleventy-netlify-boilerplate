@@ -1,6 +1,7 @@
 ---
-layouts/clip.njk 
-tags: clips 
+layout: layouts/clip.njk 
+tags: 
+- clips 
 published: true 
 title: Joan Nathan’s Matzo Ball Soup Recipe - NYT Cooking 
 date: 2022-12-20T04:11:24.386Z 
