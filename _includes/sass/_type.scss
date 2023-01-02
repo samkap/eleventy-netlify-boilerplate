@@ -6,12 +6,12 @@
 
 .bold,
 strong {
-  font-family: $serif;
+  font-weight: 600;
 }
 
 em,
 i {
-  font-family: $serif;
+  font-style: italic;
 }
 
 sub,
@@ -83,7 +83,7 @@ h1 {
 }
 h2 {
   font-size: $medium-font-size;
-  margin-top: $base-spacing;
+  margin-top: $large-spacing;
 }
 
 h3 {
@@ -133,6 +133,11 @@ ul {
 
 ol {
   list-style-type: decimal;
+}
+
+li {
+  line-height: 1.4;
+  margin-bottom: 21px;
 }
 
 blockquote {
@@ -253,11 +258,6 @@ small a {
 
 h4 a {
   border: 0;
-}
-
-li {
-  line-height: 1.4;
-  margin-bottom: 10px;
 }
 
 .Speaking,
