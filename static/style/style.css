@@ -92,7 +92,7 @@ header {
   align-content: space-between;
   display: flex;
   flex-direction: row;
-  font-family: PlusJakartaSans-Variable;
+  font-family: Manrope;
   justify-content: space-between;
   margin: 0 auto;
   max-width: 110rem;
@@ -178,7 +178,7 @@ nav a[data-current="current item"] {
 footer {
   background: rgb(219, 232, 232);
   color: rgb(11, 53, 44);
-  font-family: PlusJakartaSans-Variable;
+  font-family: Manrope;
   font-size: 1rem;
   font-weight: 600;
   text-align: center;
@@ -249,7 +249,7 @@ a {
 
 time {
   color: rgb(184, 138, 71);
-  font-family: PlusJakartaSans-Variable;
+  font-family: Manrope;
   font-weight: 500;
 }
 .writing time {
@@ -659,7 +659,7 @@ object {
 }
 .recent-posts h2 {
   color: rgb(219, 232, 232);
-  font-family: PlusJakartaSans-Variable;
+  font-family: Manrope;
   font-size: 1rem;
   font-weight: 800;
   letter-spacing: 2px;
@@ -729,7 +729,7 @@ object {
 }
 .recent-clips h2 {
   color: rgb(219, 232, 232);
-  font-family: PlusJakartaSans-Variable;
+  font-family: Manrope;
   font-size: 1rem;
   font-weight: 800;
   letter-spacing: 2px;
@@ -971,7 +971,7 @@ body.writing .post-list li a {
   line-height: 0.9;
   margin: 0 0.5em 0.5em 0;
   border-radius: 0.6rem;
-  font-family: PlusJakartaSans-Variable;
+  font-family: Manrope;
   font-size: 0.8rem;
   font-weight: 563;
   padding: 0.3rem 0.5rem;
@@ -1047,7 +1047,7 @@ body.writing .post-list li a {
   padding-left: 0;
 }
 .about-select li {
-  font-family: PlusJakartaSans-Variable;
+  font-family: Manrope;
   font-size: 1.2rem;
   font-weight: 200;
   line-height: 1.5;
@@ -1070,9 +1070,9 @@ body.writing .post-list li a {
 }
 
 @font-face {
-  font-family: "PlusJakartaSans-Variable";
-  src: url("/static/webfonts/PlusJakartaSans-Variable.woff2") format("woff2"), url("/static/webfonts/PlusJakartaSans-Variable.woff") format("woff"), url("/static/webfonts/PlusJakartaSans-Variable.ttf") format("truetype"), url("/static/webfonts/PlusJakartaSans-Variable.eot") format("truetype");
-  font-weight: 200 700;
+  font-family: "Manrope";
+  src: url("/static/webfonts/Manrope[wght].woff2") format("woff2"), url("/static/webfonts/Manrope[wght].ttf") format("truetype");
+  font-weight: 200 900;
   font-display: swap;
   font-style: normal;
 }
@@ -1152,7 +1152,7 @@ body.writing .post-list li a {
   text-align: center;
 }
 .links .alt-main h2 {
-  font-family: PlusJakartaSans-Variable;
+  font-family: Manrope;
   font-size: 1.5rem;
   text-align: center;
   font-weight: 250;
@@ -1172,7 +1172,7 @@ body.writing .post-list li a {
   line-height: 1;
   margin: 0 0.5em 0.5em 0;
   border-radius: 0.6rem;
-  font-family: PlusJakartaSans-Variable;
+  font-family: Manrope;
   font-weight: 400;
   padding: 1rem 0;
   text-align: center;
