@@ -2,7 +2,10 @@
 title: Inclusive Design Communities, the book
 date: 2022-08-20T00:25:36.464Z
 layout: layouts/book.njk
-permalink: /book/
+permalink: /idc-book/
+eleventyNavigation:
+  key: Book
+  order: "2"
 ---
 
 ## Table of Contents

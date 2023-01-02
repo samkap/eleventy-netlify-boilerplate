@@ -330,7 +330,12 @@ h3 {
 .pages .pagination,
 .pages .tags {
   max-width: 50rem;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p {
+  margin-bottom: 3.4rem;
 }
 
 .meta {

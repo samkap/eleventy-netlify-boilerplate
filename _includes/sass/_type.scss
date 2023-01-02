@@ -108,11 +108,15 @@ h3 {
   .pagination,
   .tags {
     max-width: $max-w-base;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
   }
 
 }
 
+p {
+  margin-bottom: $large-spacing;
+}
 
 .meta {
   display: block;
