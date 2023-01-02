@@ -110,8 +110,10 @@ permalink: "/bookmark.html"
 			p_body = p_body + 'layout: layouts/clip.njk \n' ;
 			p_body = p_body + 'tags:\n - clips \n' ;
 			p_body = p_body + 'published: true \n';
+			p_body = p_body + 'cover: /static/img/posts/samkap.png \n';
 			p_body = p_body + 'title: ' + title +' \n';
 			p_body = p_body + 'date: '+ post_date() +' \n' ;
+			
 			if( link !== '' ){
 				p_body = p_body + 'link: '+ link +' \n' ;
 			}
