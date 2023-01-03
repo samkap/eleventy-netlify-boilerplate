@@ -27,7 +27,7 @@ module.exports = function (eleventyConfig) {
 
   // Webmentions
   eleventyConfig.addPlugin(Webmentions, {
-    domain: "samkapila.com",
+    domain: "https://samkapila.com",
     token: "iiDewMbmSRMzxPN9Yh0o4w",
   });
 
