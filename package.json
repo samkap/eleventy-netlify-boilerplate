@@ -28,6 +28,7 @@
     "@11ty/eleventy": "^0.12.1",
     "@11ty/eleventy-plugin-rss": "^1.1.2",
     "@netlify/plugin-lighthouse": "^4.0.2",
+    "eleventy-plugin-webmentions": "^1.2.0",
     "luxon": "^1.25.0",
     "markdown-it": "^10.0.0",
     "markdown-it-anchor": "^5.3.0",

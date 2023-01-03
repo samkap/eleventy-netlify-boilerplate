@@ -4,6 +4,7 @@ const UglifyJS = require("uglify-js");
 const htmlmin = require("html-minifier");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
+const Webmentions = require("eleventy-plugin-webmentions");
 
 
 module.exports = function (eleventyConfig) {
@@ -22,6 +23,12 @@ module.exports = function (eleventyConfig) {
   // Watch CSS files for changes
   eleventyConfig.setBrowserSyncConfig({
     files: './assets/css/*.css'
+  });
+
+  // Webmentions
+  eleventyConfig.addPlugin(Webmentions, {
+    domain: "samkapila.com",
+    token: "iiDewMbmSRMzxPN9Yh0o4w",
   });
 
   eleventyConfig.addPlugin(pluginRss, {
