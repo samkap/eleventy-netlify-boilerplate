@@ -290,6 +290,11 @@ h1 {
   font-size: 3.5rem;
   margin-top: 1.7rem;
 }
+@media screen and (max-width: 40rem) {
+  h1 {
+    font-size: 2.5rem;
+  }
+}
 
 h2 {
   font-size: 1.9rem;
@@ -1098,6 +1103,11 @@ body.writing .post-list li a {
 }
 .writing .inner {
   max-width: 52rem;
+}
+@media screen and (max-width: 40rem) {
+  .inner {
+    padding: 0;
+  }
 }
 
 .gr_grid_container {

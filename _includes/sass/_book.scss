@@ -7,4 +7,9 @@
   .writing & {
     max-width: $max-w-base;
   }
+
+  @media screen and (max-width: 40rem) {
+    padding: 0;
+  }
 }
+
