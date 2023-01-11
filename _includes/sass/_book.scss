@@ -1,6 +1,10 @@
-.inner-book {
+.inner {
   margin: 0 auto;
-  max-width: 1000px;
+  max-width: $inner;
   padding: 5rem 0;
   position: relative;
+
+  .writing & {
+    max-width: $max-w-base;
+  }
 }

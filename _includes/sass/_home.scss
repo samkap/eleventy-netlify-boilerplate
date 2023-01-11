@@ -10,14 +10,13 @@
     line-height: 1.3;
     margin-bottom: $base-spacing;
     margin: 0 auto;
-    max-width: 61rem;
+    max-width: $inner;
     padding: $base-spacing;
     text-align: center;
 
     @media screen and (min-width: $max-w-base) {
       font-size: $large-spacing;
-      margin: 0 auto $xx-large-spacing auto;
-      padding: $xx-large-spacing $base-spacing;
+      padding: $x-large-spacing $base-spacing;
     }
   }
 }
@@ -26,7 +25,7 @@
     padding: $base-spacing 0;
 
     @media screen and (min-width: 1060px) {
-      padding: $xx-large-spacing;
+      padding: $base-spacing $xx-large-spacing;
     }
 
     h2 {

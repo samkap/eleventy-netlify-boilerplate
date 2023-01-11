@@ -8,14 +8,6 @@ eleventyNavigation:
   order: "2"
 ---
 
-## Table of Contents
-1. **Understanding Inclusion**: Covers concepts around identity, marginalization, allyship
-2. **Exampanding Mind and Action**: A chapter about recalibrating how we learn, grow, address bias and take action
-3. **Revisiting Design Education**: A deep-dive into traditional and untraditional design education and what we need to address what and how design is taught and learned.
-4. **Transforming Hiring Practices**: Advice for intentional recruiting, interviewing, and hiring practices.
-5. **Leading Inclusively in the Workplace**: Action items for managers, individual contributors, and anyone who wants to lead moving towards safer and welcoming work environment.
-6. **Broadening the Community**: An analysis of what meetups, conferences, design clubs, and other events can be like.
-
 ## Where to buy Inclusive Design Communities
 
 - From [A Book Apart](https://abookapart.com/products/inclusive-design-communities) (Printed or ebook)
@@ -33,8 +25,3 @@ eleventyNavigation:
 - [Indeed Design interview](https://indeed.design/article/sam-kapila-small-acts-can-invite-more-voices-into-design-communities)
 - [Code And Pixels](https://www.youtube.com/embed/BfByZk3jS_A)
 - [Within Twitter Spaces](https://twitter.com/mialoira/status/1585441833902956544) (note: this link goes to Twitter)
-  
-## Recommended Books to continue your inclusion journey
-
-
-
