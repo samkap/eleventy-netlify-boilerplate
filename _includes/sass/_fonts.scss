@@ -1,10 +1,8 @@
 @font-face {
-  font-family: 'PlusJakartaSans-Variable';
-  src: url('/static/webfonts/PlusJakartaSans-Variable.woff2') format('woff2'),
-       url('/static/webfonts/PlusJakartaSans-Variable.woff') format('woff'),
-       url('/static/webfonts/PlusJakartaSans-Variable.ttf') format('truetype'),
-       url('/static/webfonts/PlusJakartaSans-Variable.eot') format('truetype');
-       font-weight: 200 700;
+  font-family: 'Manrope';
+  src: url('/static/webfonts/Manrope[wght].woff2') format('woff2'),
+       url('/static/webfonts/Manrope[wght].ttf') format('truetype');
+       font-weight: 200 900;
        font-display: swap;
        font-style: normal;
 }
