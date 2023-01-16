@@ -3,7 +3,7 @@ layout: layouts/clip.njk
 tags:
  - clips 
 published: true 
-title: Apache® Appropriation 
+title: Apache Appropriation 
 date: 2023-01-11T01:32:59.394Z 
 link: https://blog.nativesintech.org/apache-appropriation/ 
 ogtype: article 
