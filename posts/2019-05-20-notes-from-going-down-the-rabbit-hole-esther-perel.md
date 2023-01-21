@@ -1,12 +1,15 @@
-title: "Notes from going down the rabbit hole: Esther Perel"
+---
+title: 'Notes from going down the rabbit hole: Esther Perel'
+date: 2019-05-20 00:00:00 -5
 cover: /static/img/posts/samkap.png
-date: 2019-05-20T17:00:00.000Z
 tags:
-  - psychology
-  - selfcare
-  - speaking
-  - sxsw
-  - podcasts
+- psychology
+- selfcare
+- speaking
+- sxsw
+- podcasts
+
+
 ---
 I’ve gone down a really good rabbit hole. Today, I was catching up with a friend and even bookmarked some things we talked about on my site bookmarks list.
 
