@@ -1,15 +1,14 @@
 ---
 title: Introducing Developurrs
-date: 2018-09-16 00:00:00 -5
-tags:
-- cats
-- dogs
-- interviews
-- design
-- development
-- diversity
 cover: /posts/developurrs.png
-
+date: 2018-09-16T05:00:00.000Z
+tags:
+  - cats
+  - dogs
+  - interviews
+  - design
+  - development
+  - diversity
 ---
 
 Earlier this week, my web friend, [Andy](https://hankchizljaw.io/), interviewed me for his new project, [Developur.rs](https://developur.rs/), a series of interviews about people making the web and their pets. It was so enjoyable to be a part of and also to read the other interviews.
