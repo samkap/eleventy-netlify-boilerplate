@@ -1,11 +1,10 @@
----
-title: 'Watching “No Passport Required”'
-date: 2018-09-17T06:00:00.000Z
-tags: 
+title: Watching “No Passport Required”
+date: 2018-09-17T05:00:00.000Z
+tags:
   - tv
   - culture
 images: []
-
+cover: /static/img/posts/samkap.png
 ---
 
 I just wrapped up listening to the [audiobook of Chef Samuelsson](https://www.amazon.com/Yes-Chef-Memoir-Marcus-Samuelsson/dp/0385342616)’s memoir yesterday, where he talks so much of his third culture kid/adult life. When you've been raised in multiple cultures like him and I have, you can't help but chase food stories and geography/world history because of the will to learn about people.
