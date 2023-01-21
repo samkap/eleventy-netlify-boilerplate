@@ -1,6 +1,6 @@
 ---
 title: Global Diversity CFP Day — Austin edition
-date: 2018-02-05 18:46:00 -06:00
+date: 2018-02-05T06:00:00.000Z
 tags:
   - diversity
   - conferences

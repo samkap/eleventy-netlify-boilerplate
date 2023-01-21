@@ -1,6 +1,6 @@
 ---
 title: "Shop Talk Show: How to think like a front-end developer"
-date: 2018-11-02
+date: 2018-11-02T06:00:00.000Z
 tags:
   - podcasts
   - interviews

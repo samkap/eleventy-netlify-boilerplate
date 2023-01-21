@@ -1,7 +1,8 @@
 ---
-title: Watching “No Passport Required”
-date: 2018-09-17T05:00:00.000Z
-tags:
+title: 'Watching “No Passport Required”'
+
+date: 2018-09-17 00:00:00 -5
+tags: 
   - tv
   - culture
 images: []

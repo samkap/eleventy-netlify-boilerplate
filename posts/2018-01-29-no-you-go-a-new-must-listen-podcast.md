@@ -1,6 +1,6 @@
 ---
 title: No, You Go!: A new must-listen podcast
-date: 2018-01-29 00:00:00 -5
+date: 2018-01-29T06:00:00.000Z
 tags:
 - podcasts
 - productivity
