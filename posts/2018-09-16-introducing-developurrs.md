@@ -1,6 +1,6 @@
 ---
 title: Introducing Developurrs
-date: 2018-09-16 00:00:00 -5
+date: 2018-09-16T06:00:00.000Z
 tags:
 - cats
 - dogs

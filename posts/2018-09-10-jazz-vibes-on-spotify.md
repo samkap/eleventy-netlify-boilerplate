@@ -1,6 +1,6 @@
 ---
 title: Jazz Vibes on Spotify
-date: 2018-08-20
+date: 2018-08-20T06:00:00.000Z
 tags:
 - music
 - code

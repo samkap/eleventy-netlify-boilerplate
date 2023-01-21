@@ -1,6 +1,6 @@
 ---
 title: 'Notes from going down the rabbit hole: Esther Perel'
-date: 2019-05-20 00:00:00 -5
+date: 2019-05-20T06:00:00.000Z
 cover: /static/img/posts/samkap.png
 tags:
 - psychology

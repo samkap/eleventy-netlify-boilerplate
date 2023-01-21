@@ -1,6 +1,6 @@
 ---
 title: The new Austin Central Library
-date: 2018-01-11 10:36:00 -06:00
+date: 2018-01-11T06:00:00.000Z
 tags:
 - code
 - CSS

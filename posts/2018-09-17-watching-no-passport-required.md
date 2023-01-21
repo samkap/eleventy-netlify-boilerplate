@@ -1,7 +1,6 @@
 ---
 title: 'Watching “No Passport Required”'
-
-date: 2018-09-17 00:00:00 -5
+date: 2018-09-17T06:00:00.000Z
 tags: 
   - tv
   - culture

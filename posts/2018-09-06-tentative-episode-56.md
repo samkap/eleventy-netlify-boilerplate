@@ -1,6 +1,6 @@
 ---
 title: Tentative Episode 56
-date: 2018-09-06
+date: 2018-09-06T06:00:00.000Z
 tags:
 - podcasts
 - design

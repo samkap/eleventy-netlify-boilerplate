@@ -1,6 +1,6 @@
 ---
 title: The Year of The Diversity Council
-date: 2018-02-26 15:07:00
+date: 2018-02-26T06:00:00.000Z
 tags:
 - diversity
 - inclusion
