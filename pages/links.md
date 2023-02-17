@@ -14,6 +14,8 @@ permalink: "/links/"
 - [Indeed Design interview](https://indeed.design/article/sam-kapila-small-acts-can-invite-more-voices-into-design-communities)
 - [Nathan Smith’s review](https://sonspring.com/journal/inclusive-design-communities/)
 - [Rate or review on Goodreads](https://www.goodreads.com/book/show/62985337-inclusive-design-communities)
+- [I Live Here I Give Here Magazine](https://www.austinmonthly.com/i-live-here-i-give-here-2023/)
+- [I Live Here I Give Here Magazine Interview (video)](https://www.youtube.com/watch?v=zHobO6vAEt8)
 
 ## 💃🏽 Other 
 <div class="other-list">

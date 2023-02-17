@@ -1,5 +1,6 @@
 @charset "UTF-8";
-/* ********************global********************* */ /* https://meyerweb.com/eric/tools/css/reset/
+/* ********************global********************* */
+/* https://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -458,13 +459,16 @@ pre,
 ul {
     margin: 20px 0;
   }
+
   .Posts p {
     margin-top: 0;
   }
+
   article::after,
 header::after {
     margin: 70px;
   }
+
   blockquote p {
     margin: 0;
   }
@@ -579,6 +583,7 @@ object {
   .img-only {
     margin: 0 -30px;
   }
+
   .img-only-source {
     margin: 0 -30px;
   }
