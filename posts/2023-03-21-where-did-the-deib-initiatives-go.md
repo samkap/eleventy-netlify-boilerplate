@@ -8,7 +8,6 @@ tags:
   - books
   - leadership
   - inclusion
-  - ""
 ---
 I wrote this on LinkedIn earlier today, and should probably save this post for ye olde blog. Check it out:
 
