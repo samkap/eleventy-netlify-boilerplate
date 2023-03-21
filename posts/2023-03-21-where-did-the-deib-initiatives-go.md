@@ -1,7 +1,7 @@
 ---
 title: Where did the DEIB initiatives go?
 cover: /static/img/posts/aba-cover-42_358x-2x.jpg
-date: 2023-01-25T03:12:29.466Z
+date: 2023-03-21T02:02:40.197Z
 tags:
   - post
   - inclusive-design-communities
