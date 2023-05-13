@@ -3,10 +3,11 @@ title: Creative Mornings Austin — Equality talk
 date: 2017-08-06 23:02:00 -05:00
 tags:
 - conferences
-- talks
+- speaking
 - sketch
 - austin
 - community
+- inclusion
 
 cover: /posts/tumblr_ottry9Mh1U1s5q8eso4_1280.jpg
 ---
