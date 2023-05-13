@@ -3,8 +3,7 @@ title: CSS Grid Garden
 date: 2017-09-20 15:18:00 -05:00
 tags:
 - clips
-- css
-- html
+- development
 - gardening
 layout: layouts/clip.njk
 ---

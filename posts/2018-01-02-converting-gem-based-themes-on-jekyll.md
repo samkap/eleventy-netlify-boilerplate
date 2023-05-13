@@ -3,7 +3,7 @@ title: Converting Gem-based themes on Jekyll
 date: 2018-01-02 20:12:00 -06:00
 tags:
 - jekyll
-- code
+- development
 - productivity
 
 ---

@@ -10,7 +10,6 @@ tags:
 - the-iron-yard
 - teaching
 - education
-- florida
 - productivity
 ---
 

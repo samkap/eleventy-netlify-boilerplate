@@ -3,7 +3,7 @@ title: Ira Glass on Storytelling
 date: 2013-11-24 18:00:00 -06:00
 tags:
 - clips
-- video
+
 - process
 - typography
 layout: layouts/clip.njk

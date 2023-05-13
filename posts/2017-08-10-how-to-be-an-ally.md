@@ -4,8 +4,8 @@ date: 2017-08-10 00:28:00 -05:00
 tags:
 - diversity
 - inclusion
-- ally
-- talks
+- allyship
+- speaking
 - culture
 
 ---

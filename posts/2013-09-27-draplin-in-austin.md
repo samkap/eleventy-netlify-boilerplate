@@ -5,7 +5,7 @@ tags:
 - austin
 - books
 - lecture
-- video
+
 
 desc: Recap of the notebook workshop and lectures by thickline logo slingin' and kind-hearted
   Draplin.

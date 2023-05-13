@@ -2,7 +2,7 @@
 title: Design 1-Up, A Panel at Mass Comm Week
 date: 2012-11-02 19:00:00 -05:00
 tags:
-  - video
+  
   - speaking
   - texas-state
   - conferences

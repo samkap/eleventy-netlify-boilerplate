@@ -5,7 +5,7 @@ tags:
   - post
   - inclusion
   - history
-  - video
+  
 ---
 Clint Smith, author of [How The World Has Passed](https://www.littlebrown.com/titles/clint-smith/how-the-word-is-passed/9780316492935/), hosts a series of videos on [Black American history on Crash Course](https://youtu.be/xPx5aRuWCtc) including: the transatlantic slave trade, slavery, Elizabeth Key, slave codes, the Germantown Petition Against Slavery, The Stono Rebellion, Phyllis Wheatley, and so much more in 44 short lessons. Everything is explained in great detail and are an invaluable resource. 
 

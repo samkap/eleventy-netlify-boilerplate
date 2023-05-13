@@ -8,7 +8,6 @@ tags:
   - diversity
   - writing
   - books
-  - idc
   - inclusive-design-communities
   - allyship
 ---

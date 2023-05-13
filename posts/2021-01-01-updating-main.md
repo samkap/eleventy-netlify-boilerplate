@@ -3,7 +3,7 @@ title: New year site tweaks
 date: 2021-01-01T21:15:00.000Z
 tags:
   - writing
-  - code
+  - development
 ---
 
 Happy new year!

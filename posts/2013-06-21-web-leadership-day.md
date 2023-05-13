@@ -2,7 +2,7 @@
 title: Web Leadership Day
 date: 2013-06-21 19:00:00 -05:00
 tags:
-  - video
+  
   - speaking
   - austin
   - rwd

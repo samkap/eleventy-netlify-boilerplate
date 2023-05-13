@@ -5,7 +5,7 @@ desc:
 tags:
 - community
 - share
-- video
+
 - education
 
 ---
