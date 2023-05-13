@@ -5,7 +5,7 @@ date: 2014-08-03 19:00:00 -05:00
 tags:
   - conferences
   - speaking
-  - articles
+  
   - writing
   - education
 ---

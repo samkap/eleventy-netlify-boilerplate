@@ -1,13 +1,11 @@
 ---
 title: Design, Dinner, and A Show
 date: 2015-08-13 19:00:00 -05:00
-
 desc: Whenever I worked on design projects, I always used to get stuck. I’d become
   nervous, vulnerable, and incapable, questioning the project, comparing my work to
   others, and beating myself up. I’d do what a lot of fresh out of school designers
   would do, which was something that we were taught. In art school, I remember
 tags:
-- articles
 - writing
 - music
 - process

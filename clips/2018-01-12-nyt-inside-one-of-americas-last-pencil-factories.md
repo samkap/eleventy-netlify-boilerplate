@@ -5,7 +5,7 @@ tags:
 - clips
 - design
 - inspiration
-- interesting
+
 - process
 layout: layouts/clip.njk
 ---

@@ -2,12 +2,10 @@
 title: Creating an Internal Diversity Council
 date: 2018-02-07T06:00:00.000Z
 tags:
-  - diversity
   - inclusion
   - the-iron-yard
   - leadership
   - equality
-  - students
   - teaching
 cover: /posts/diversitycouncil-tiy.png
 

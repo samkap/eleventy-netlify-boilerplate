@@ -6,7 +6,7 @@ desc:
 tags:
 - austin
 - design
-- student-work
+- teaching
 - teaching
 - process
 ---

@@ -2,7 +2,8 @@
 title: "CODE: Next Steps in Debugging"
 date: 2017-04-17 23:42:00 -05
 tags:
-- diversity 
+- inclusion
+
 ---
 
 Originally posted on [The Iron Yard Blog](https://blog.theironyard.com/2017/04/17/code-next-steps-debugging/).

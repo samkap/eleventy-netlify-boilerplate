@@ -3,7 +3,7 @@ title: PosterForTomorrow Results Announced
 date: 2012-10-12 13:00:00 -05
 tags:
 - awards
-- student-work
+- teaching
 - texas-state
 
 desc: After months of waiting, we got GREAT news regarding my poster class' submissions

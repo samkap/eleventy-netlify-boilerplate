@@ -1,13 +1,10 @@
 ---
 title: Advice on soft skills
 date: 2014-04-20 19:00:00 -05:00
-
 tags:
-- articles
 - writing
 - design
 - speaking
-- students
 ---
 
 Wanting my students to hear more from the industry about what they need to know, I asked my twitter feed about what advice they’d give recent design graduates. Here is what they shared.

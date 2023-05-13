@@ -3,7 +3,7 @@ title:  "Tech Point: $100 million fund launched for code school diversity schola
 date: 2016-09-14 
 tags:
 - press 
-- diversity 
+- inclusion
 - scholarship
 ---
 

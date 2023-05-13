@@ -5,6 +5,6 @@ layout: layouts/clip.njk
 ogtype: article
 tags:
   - clips
-  - recipes
+  - food
 ---
 [Spicy Roasted Carrot Salad with Tahini and Lentils](https://www.occasionallyeggs.com/spicy-roasted-carrots-with-tahini-lentil-salad/?mc_cid=44832a25d3&mc_eid=f6e6214158)

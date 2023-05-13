@@ -3,7 +3,6 @@ title: Ellen Pao says diversity is stuck in awareness phase
 date: 2017-09-26 19:14:00 -05:00
 tags:
 - clips
-- diversity
 - inclusion
 - tech
 - women

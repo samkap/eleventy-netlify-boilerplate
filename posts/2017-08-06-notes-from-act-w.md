@@ -4,7 +4,6 @@ date: 2017-08-06 11:42:00 -05:00
 tags:
   - conferences
   - women
-  - diversity
   - equality
   - inclusion
   - meditation

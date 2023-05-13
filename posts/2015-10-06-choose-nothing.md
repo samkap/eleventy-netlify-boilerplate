@@ -3,7 +3,7 @@ title: Choosing Nothing - Be Kind, Please Unwind
 date: 2015-10-06 19:00:00 -5
 
 tags:
-- articles
+
 - writing
 - music
 - process

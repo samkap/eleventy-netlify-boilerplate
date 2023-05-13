@@ -3,7 +3,7 @@ title: Poster for Tomorrow Announcement
 date: 2012-10-17 20:23:00 -05:00
 tags:
 - texas-state
-- student-work
+- teaching
 - awards
 
 ---

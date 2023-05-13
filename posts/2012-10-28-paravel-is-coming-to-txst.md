@@ -2,10 +2,9 @@
 title: Paravel Inc is coming to Texas State!
 date: 2012-10-28 19:00:00 -05:00
 tags:
-- lecture
 - texas-state
 - austin
-- rwd
+- responsive-web-design
 
 Date: 2012-10-29 12:00
 Desc: Lecture annoucement for Austin’s very own leaders in Responsive Web Design,

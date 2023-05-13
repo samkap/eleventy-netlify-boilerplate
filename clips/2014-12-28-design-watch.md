@@ -6,7 +6,7 @@ tags:
 - clips
 
 - inspiration
-- interesting
+
 - design
 - process
 - typography

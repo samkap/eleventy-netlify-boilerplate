@@ -5,7 +5,7 @@ tags:
   
   - speaking
   - austin
-  - rwd
+  - responsive-web-design
   - conferences
 
 desc:

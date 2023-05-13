@@ -5,7 +5,6 @@ date: 2022-11-02T01:25:54.528Z
 tags:
   - post
   - inclusion
-  - diversity
   - writing
   - books
   - inclusive-design-communities

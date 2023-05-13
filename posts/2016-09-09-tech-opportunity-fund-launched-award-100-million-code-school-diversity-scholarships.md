@@ -3,7 +3,7 @@ title: Tech Opportunity Fund Launched to Award $100 Million in Code School Diver
 date: 2016-09-09
 tags:
 - press 
-- diversity 
+- inclusion
 - scholarship
 ---
 

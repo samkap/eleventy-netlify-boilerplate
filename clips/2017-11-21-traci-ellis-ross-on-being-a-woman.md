@@ -5,7 +5,7 @@ tags:
 - clips
 - women
 - women
-- advice
+- quotes
 - equality
 layout: layouts/clip.njk
 ---

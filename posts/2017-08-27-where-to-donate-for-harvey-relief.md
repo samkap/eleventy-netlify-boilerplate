@@ -2,10 +2,8 @@
 title: Where to Donate for Harvey Relief
 date: 2017-08-27 18:24:00 -05:00
 tags:
+- community
 - support
-- disaster
-- relief
-- texas
 
 ---
 

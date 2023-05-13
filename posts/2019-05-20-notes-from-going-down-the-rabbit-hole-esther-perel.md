@@ -3,10 +3,7 @@ title: 'Notes from going down the rabbit hole: Esther Perel'
 date: 2019-05-20 00:00:00 -5
 cover: /static/img/posts/samkap.png
 tags:
-- psychology
-- selfcare
-- speaking
-- sxsw
+- conferences
 - podcasts
 
 

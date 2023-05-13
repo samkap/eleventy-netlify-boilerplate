@@ -5,7 +5,6 @@ tags:
 - podcasts
 - design
 - business
-- emojis
 - thoughtbot
 cover: /posts/tentative.jpg
 ---

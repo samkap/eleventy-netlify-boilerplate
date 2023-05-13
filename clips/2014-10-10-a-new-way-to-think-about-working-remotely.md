@@ -4,8 +4,8 @@ date: 2014-10-09 19:00:00 -05:00
 tags:
 - clips
 - inspiration
-- interesting
-- share
+
+
 - design
 - process
 - productivity

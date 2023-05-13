@@ -2,9 +2,8 @@
 title: Five Lessons from the RWD Classroom
 date: 2013-09-19 19:00:00 -05:00
 tags:
-  - rwd
+  - responsive-web-design
   - writing
-  - students
   - texas-state
   - teaching
 

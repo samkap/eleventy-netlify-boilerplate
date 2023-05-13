@@ -8,7 +8,6 @@ tags:
   - mobile
   - development
   - design
-  - ux
 ---
 I’m working on a native iOS app at work. It’s been an incredible awesome project for so many reasons. One of the reasons it’s so fascinating is because it’s given me a chance to understand more about how apps are put together on the backend and native development. Working mostly on web apps, React Native apps (which feel so webby in process), and websites, I mostly understood where front end and back end meet in the middle. In working with iOS developers, I’m learning a lot more about where back end and native meet, and where design needs to be in that conversation, specifically the user experience side.
 

@@ -3,7 +3,7 @@ title:  "The hidden history of NASA’s black female scientists"
 date:   2017-02-05
 tags:
 - press 
-- diversity 
+- inclusion
 - scholarship
 ---
 

@@ -4,7 +4,6 @@ date: 2016-09-09 19:00:00 -05:00
 tags:
 - white-house
 - opportunity
-- diversity
 - inclusion
 - scholarship
 - the-iron-yard

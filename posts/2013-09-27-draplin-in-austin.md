@@ -4,7 +4,6 @@ date: 2013-09-27 19:00:00 -05:00
 tags:
 - austin
 - books
-- lecture
 
 
 desc: Recap of the notebook workshop and lectures by thickline logo slingin' and kind-hearted

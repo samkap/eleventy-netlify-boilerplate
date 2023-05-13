@@ -3,7 +3,7 @@ title: The Lion Whisperer and a GoPro
 date: 2013-01-11 18:00:00 -06:00
 tags:
 - clips
-- interesting
+
 
 layout: layouts/clip.njk
 desc: A touching video of Kevin Richardson, called the “Lion Whisperer” wears a GoPro

@@ -4,7 +4,7 @@ date: 2013-01-06 18:00:00 -06:00
 tags:
 - clips
 
-- interesting
+
 layout: layouts/clip.njk
 desc: Finally got around to posting the Pantene Philippines ad that takes on the gender
   labels many of us deal with everyday!

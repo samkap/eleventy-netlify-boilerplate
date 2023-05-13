@@ -3,7 +3,7 @@ title:  "Announcing the Tech Opportunity Fund"
 date: 2016-09-09 00:00:00 -5
 tags:
 - press 
-- diversity 
+- inclusion 
 - scholarship
 ---
 

@@ -5,7 +5,7 @@ Title: Systems in Design [full article]
 
 Date: 2014-07-21 19:00:00 -05:00
 tags:
-- articles
+
 - writing
 - design
 ---

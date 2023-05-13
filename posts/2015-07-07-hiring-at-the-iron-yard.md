@@ -4,7 +4,6 @@ date: 2015-07-07 19:00:00 -05:00
 
 desc: 
 tags:
-- jobs
 - the-iron-yard
 ---
 

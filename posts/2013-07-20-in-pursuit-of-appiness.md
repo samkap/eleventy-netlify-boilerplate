@@ -3,7 +3,7 @@ title: In the Pursuit of Appiness
 date: 2013-07-20 11:02:00 -05:00
 tags:
 - productivity
-- articles
+
 - writing
 - process
 - coffee

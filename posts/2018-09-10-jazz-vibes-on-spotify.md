@@ -4,7 +4,6 @@ date: 2018-08-20T06:00:00.000Z
 tags:
 - music
 - development
-- self-care
 
 ---
 

@@ -3,7 +3,7 @@ title: 'Watching “No Passport Required”'
 
 date: 2018-09-17 00:00:00 -5
 tags: 
-  - tv
+  - television
   - culture
 images: []
 cover: /static/img/posts/samkap.png

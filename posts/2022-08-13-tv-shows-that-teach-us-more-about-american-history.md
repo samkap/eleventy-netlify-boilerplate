@@ -6,7 +6,7 @@ tags:
   - food
   - culture
   - history
-  - tv
+  - television
 ---
 I genuinely miss Anthony Bourdain’s [Parts Unknown](https://www.cnn.com/shows/anthony-bourdain-parts-unknown/). A show on CNN showed up parts of the world many of us didn’t get the chance to know or visit in our lifetimes. His passing left a big hole in what we could learn about the world. As someone who didn’t grow up in the US, it also taught me about where I live.
 
