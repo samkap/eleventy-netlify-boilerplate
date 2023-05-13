@@ -10,12 +10,11 @@ pagination:
     - bookmarks
 permalink: /tags/{{ tag }}/
 layout: layouts/base.njk
-renderData:
-  title: "Tagged “{{ tag }}”"
-  metaDescription: "All posts from the Blog tagged with “{{ tag }}”"
+title: "Tagged “{{ tag }}”"
+metaDescription: "All posts from the Blog tagged with “{{ tag or eleventyComputed.title }}”"
 ---
 
-<h1>Tagged “{{ tag }}”</h1>
+<h1>Tagged “{{ tag or eleventyComputed.title}}”</h1>
 
 {% set postslist = collections[tag] %}
 

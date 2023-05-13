@@ -4,6 +4,8 @@ const UglifyJS = require("uglify-js");
 const htmlmin = require("html-minifier");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
+const UpgradeHelper = require("@11ty/eleventy-upgrade-help");
+
 
 
 module.exports = function (eleventyConfig) {
@@ -45,6 +47,9 @@ module.exports = function (eleventyConfig) {
   // Add support for maintenance-free post authors
   // Adds an authors collection using the author key in our post frontmatter
   // Thanks to @pdehaan: https://github.com/pdehaan
+
+  eleventyConfig.addPlugin(UpgradeHelper);
+    
   eleventyConfig.addCollection("authors", collection => {
     const blogs = collection.getFilteredByGlob("posts/*.md");
     return blogs.reduce((coll, post) => {
