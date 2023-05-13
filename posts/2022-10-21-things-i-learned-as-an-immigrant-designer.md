@@ -7,7 +7,7 @@ tags:
   - immigration
   - design
   - tech
-  - idc
+  - inclusive-design-communities
   - inclusion
 ---
 *I’m sharing what I learned in the process. This is not legal advice about how to get a visa.*

@@ -2,7 +2,7 @@
 title: Like Knows Like - James Victore
 date: 2014-06-08 19:00:00 -05:00
 tags:
-  - video
+  
   - inspiration
 
 desc: Cool short documentaries of creative people

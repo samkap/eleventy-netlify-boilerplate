@@ -7,7 +7,6 @@ tags:
   - speaking
   - women
   - community
-  - global
 
 cover:
 ---

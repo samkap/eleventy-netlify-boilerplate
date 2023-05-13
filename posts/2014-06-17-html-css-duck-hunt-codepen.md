@@ -2,7 +2,7 @@
 title: HTML/CSS Duck Hunt CodePen
 date: 2014-06-17 19:00:00 -05:00
 tags:
-  - interesting
+  
   - gaming
 
 desc: Someone took the time to make a function version of Duck Hunt using HTML/CSS

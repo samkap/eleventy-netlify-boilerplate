@@ -3,7 +3,6 @@ title: Ozark Country Blues
 date: 2014-05-26 19:00:00 -05:00
 tags:
   - music
-  - share
 
 desc: One of my favorite songs and music videos
 ---

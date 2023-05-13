@@ -4,8 +4,6 @@ date: 2014-11-15 18:00:00 -5
 layout: layouts/clip.njk
 tags:
 - inspiration
-- interesting
-- share
 - design
 - process
 - productivity

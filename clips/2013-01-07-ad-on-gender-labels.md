@@ -3,8 +3,7 @@ title: Pantene ad looks into gender labels
 date: 2013-01-06 18:00:00 -06:00
 tags:
 - clips
-- video
-- interesting
+
 layout: layouts/clip.njk
 desc: Finally got around to posting the Pantene Philippines ad that takes on the gender
   labels many of us deal with everyday!

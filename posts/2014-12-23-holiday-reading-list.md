@@ -10,11 +10,10 @@ tags:
 - the-iron-yard
 - teaching
 - education
-- florida
 - productivity
 ---
 
-I just returned to Austin, TX after three months of working in Greenville, South Carolina at my awesome job at [The Iron Yard](https://www.theironyard.com) as a Web Design Instructor (more on this later!). During my brief time in SC, I’ve read in the green, green grass next to gushing waterfalls and pleasant rivers, gone on conference talk and day long vacation trips to Austin, the border where the Carolinas meet, Charleston and Columbia, SC, Louisville, KY, Memphis, TN, Atlanta, GA,  Jacksonville, FL, and New Orleans, LA. I’ve seen parts of the country I’ve never seen before and been in airports I *actually* wish I had more time in (I’m looking at you, Detroit Metro). And in this time on (airport terminal) trains, planes, and automobiles, I read and listened to quite a few awesome books. I’ve knocked out 2.5 books in the last 5 days and they’ve all been amazing.
+I just returned to Austin, TX after three months of working in Greenville, South Carolina at my awesome job at [The Iron Yard](https://www.theironyard.com) as a Web Design Instructor (more on this later!). During my brief time in SC, I’ve read in the green, green grass next to gushing waterfalls and pleasant rivers, gone on conference talks and a day long trips to Austin, the border where the Carolinas meet, Charleston and Columbia, SC, Louisville, KY, Memphis, TN, Atlanta, GA,  Jacksonville, FL, and New Orleans, LA. I’ve seen parts of the country I’ve never seen before and been in airports I *actually* wish I had more time in (I’m looking at you, Detroit Metro). And in this time on (airport terminal) trains, planes, and automobiles, I read and listened to quite a few awesome books. I’ve knocked out 2.5 books in the last 5 days and they’ve all been amazing.
 
 In April, I wrote that [I wanted to read more and shared a list of books](https://samkapila.com/journal/read-more) that were recommended to me. This year, I’m glad to say that I’ve travelled more than ever, and hence, have read more than ever. I do spent a lot of time in my car, and it’s a lot easy to drive with a book to listen to. Both of these things make me extremely happy. Here’s what I’ve been reading since in case you're looking for some holiday reading:
 

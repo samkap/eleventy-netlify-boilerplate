@@ -5,7 +5,6 @@ date: 2022-10-08T18:50:33.152Z
 tags:
   - post
   - books
-  - idc
   - inclusive-design-communities
   - design
   - writing

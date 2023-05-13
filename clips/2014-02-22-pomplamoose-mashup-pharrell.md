@@ -5,7 +5,7 @@ layout: layouts/clip.njk
 desc: Not only does the mash-up cover sound amazing, but it’s recorded as a single
   shot, funky music video.
 tags: 
-- video
+
 - music
 - inspiration
 - clips

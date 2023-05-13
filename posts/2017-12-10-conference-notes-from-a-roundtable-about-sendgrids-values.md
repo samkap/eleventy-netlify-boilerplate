@@ -7,7 +7,6 @@ tags:
   - tech
   - management
   - productivity
-  - performance
 
 ---
 

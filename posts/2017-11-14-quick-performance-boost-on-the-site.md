@@ -2,8 +2,8 @@
 title: Quick performance boost on the site
 date: 2017-11-14 19:16:00 -06:00
 tags:
-  - code
-  - performance
+  - development
+
 
 cover: /posts/desktop-01-start.png
 ---

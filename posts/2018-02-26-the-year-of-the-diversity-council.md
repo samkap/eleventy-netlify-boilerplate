@@ -6,7 +6,6 @@ tags:
 - inclusion
 - leadership
 - equality
-- students
 - teaching
 cover: /posts/yeswecodeannouncement.jpg
 ---

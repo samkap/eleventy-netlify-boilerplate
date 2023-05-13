@@ -3,7 +3,7 @@ title: 5 Lessons from a RWD Classroom
 date: 2013-07-18 19:00:00 -05:00
 tags:
 - articles
-- rwd
+- responsive-web-design
 - writing
 
 desc: I wrote an article about teaching Responsive Web Design for .net Magazine. It

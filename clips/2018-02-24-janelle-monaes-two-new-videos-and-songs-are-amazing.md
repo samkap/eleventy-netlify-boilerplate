@@ -4,7 +4,6 @@ date: 2018-02-24 12:25:00 -06:00
 tags:
 - clips
 - music
-- share
 layout: layouts/clip.njk
 ---
 

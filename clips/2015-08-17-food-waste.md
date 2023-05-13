@@ -8,7 +8,7 @@ tags:
 - food
 - community
 - process
-- video
+
 ---
 
 John Oliver’s Food Waster bit on LWT is something everyone should see!

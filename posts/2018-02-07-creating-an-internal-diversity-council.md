@@ -7,7 +7,6 @@ tags:
   - the-iron-yard
   - leadership
   - equality
-  - students
   - teaching
 cover: /posts/diversitycouncil-tiy.png
 

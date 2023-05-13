@@ -5,7 +5,7 @@ layout: layouts/clip.njk
 tags:
 - clips
 - gender
-- video
+
 - design
 - tech
 - education

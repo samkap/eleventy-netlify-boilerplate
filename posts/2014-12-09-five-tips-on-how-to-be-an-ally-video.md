@@ -4,8 +4,6 @@ date: 2014-12-09 18:00:00 -06:00
 desc:
 tags:
 - community
-- share
-- video
 - education
 
 ---

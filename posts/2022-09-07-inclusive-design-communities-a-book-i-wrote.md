@@ -4,7 +4,6 @@ date: 2022-09-07T22:45:26.834Z
 tags:
   - post
   - books
-  - idc
   - inclusive-design-communities
   - inclusion
   - abookapart

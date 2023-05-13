@@ -2,7 +2,6 @@
 title: Dan Rather Lecture at UT
 date: 2017-10-09 14:27:00 -05:00
 tags:
-- lecture
 - news
 - politics
 ---

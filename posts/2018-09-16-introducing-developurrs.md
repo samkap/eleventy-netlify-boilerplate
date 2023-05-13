@@ -3,8 +3,6 @@ title: Introducing Developurrs
 cover: /posts/developurrs.png
 date: 2018-09-16T05:00:00.000Z
 tags:
-  - cats
-  - dogs
   - interviews
   - design
   - development

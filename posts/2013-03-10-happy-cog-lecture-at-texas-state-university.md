@@ -2,8 +2,7 @@
 title: Happy Cog Lecture at Texas State University
 date: 2013-03-10 19:00:00 -05:00
 tags:
-- lecture
-- rwd
+- responsive-web-design
 - austin
 - texas-state
 

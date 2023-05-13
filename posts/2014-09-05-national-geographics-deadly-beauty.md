@@ -4,7 +4,6 @@ date: 2014-09-05 19:00:00 -05:00
 tags:
   - photography
   - inspiration
-  - florida
 
 ---
 

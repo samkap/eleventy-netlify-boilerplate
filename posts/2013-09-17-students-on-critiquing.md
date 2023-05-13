@@ -2,9 +2,8 @@
 title: Students on Critiquing
 date: 2013-09-17 19:00:00 -05:00
 tags:
-  - rwd
+  - responsive-web-design
   - writing
-  - students
   - texas-state
   - teaching
 
