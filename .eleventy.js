@@ -45,6 +45,8 @@ module.exports = function (eleventyConfig) {
   // Add support for maintenance-free post authors
   // Adds an authors collection using the author key in our post frontmatter
   // Thanks to @pdehaan: https://github.com/pdehaan
+
+    
   eleventyConfig.addCollection("authors", collection => {
     const blogs = collection.getFilteredByGlob("posts/*.md");
     return blogs.reduce((coll, post) => {
