@@ -29,5 +29,3 @@ eleventyNavigation:
 * [ShopTalk Show episode](https://shoptalkshow.com/539/)
 * [Indeed Design interview](https://indeed.design/article/sam-kapila-small-acts-can-invite-more-voices-into-design-communities)
 * [Code And Pixels](https://www.youtube.com/embed/BfByZk3jS_A)
-*
-* [Within Twitter Spaces](https://twitter.com/mialoira/status/1585441833902956544) (note: this link goes to Twitter)
