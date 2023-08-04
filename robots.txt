@@ -3,7 +3,6 @@ Sitemap: https://www.samkapila.com/sitemap.xml
 User-agent: *
 Disallow:
 
-User-agent: Twitterbot
-Disallow: *
+
 
 Allow: /static/img
