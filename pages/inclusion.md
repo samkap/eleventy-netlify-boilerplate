@@ -77,6 +77,11 @@ data-affiliate-id="94581"
 data-sku="9780465060689"></script>
   
 
+<script src="https://bookshop.org/widgets.js"
+data-type="book_button" 
+data-affiliate-id="94581" 
+data-sku="9780465060689"></script>      
+  
 <div id="gr_grid_widget_1552156979">
   <!-- Show static html as a placeholder in case js is not enabled - javascript include will override this if things work -->
     <div class="gr_grid_container">
