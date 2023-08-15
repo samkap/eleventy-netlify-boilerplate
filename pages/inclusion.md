@@ -64,23 +64,7 @@ This page is a growing resource of thoughts and resources around Equity and Incl
 * [WCAG 2.0 Checklist](https://webaim.org/standards/wcag/checklist)
 * [WebAIM](https://webaim.org/) 
 
-## Recommended Books
-
-<script src="https://bookshop.org/widgets.js" data-type="book" data-affiliate-id="94581" data-sku="9780465060689"></script>      
-
-
-<script
-src="https://bookshop.org/widgets.js"
-data-type="featured"
-data-full-info="true"
-data-affiliate-id="94581"
-data-sku="9780465060689"></script>
-  
-
-<script src="https://bookshop.org/widgets.js"
-data-type="book_button" 
-data-affiliate-id="94581" 
-data-sku="9780465060689"></script>      
+## Recommended Books    
   
 <div id="gr_grid_widget_1552156979">
   <!-- Show static html as a placeholder in case js is not enabled - javascript include will override this if things work -->
