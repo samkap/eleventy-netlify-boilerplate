@@ -20,7 +20,7 @@ collections:
     fields: # The fields for each document, usually in front matter
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
-      - { label: "Cover Image", name: "cover", widget: "image" }
+      - { label: "Cover Image", name: "cover", widget: "image", required: "false" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Tags", name: "tags", widget: "list", default: ["post"] }
   # Our clips
@@ -34,8 +34,8 @@ collections:
       - { label: "Body", name: "body", widget: "markdown" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "layout", name: "layout", widget: "markdown", default: layouts/clip.njk }
-      - {label: "ogtype", name: "ogtype", widget: "markdown", default: article}
-      - { label: "Tags", name: "tags", widget: "list", default: ["clips"] } 
+      - {label: "ogtype", name: "ogtype", widget: "markdown", default: article, required: "false"}
+      - { label: "Tags", name: "tags", widget: "list", default: ["clips"], required: "false" } 
     
 
   # Our pages e.g. About
@@ -52,7 +52,7 @@ collections:
         name: "eleventyNavigation"
         widget: "object"
         fields:
-          - { label: "Key", name: "key", widget: "string" }
-          - { label: "Order", name: "order", widget: "number", default: 0 }
+          - { label: "Key", name: "key", widget: "string", required: "false" }
+          - { label: "Order", name: "order", widget: "number", default: 0 , required: "false"}
       - { label: "Body", name: "body", widget: "markdown" }
 
