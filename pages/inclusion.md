@@ -3,8 +3,8 @@ title: Equity & Inclusion
 date: 2022-06-03T00:25:36.464Z
 permalink: /inclusion/
 eleventyNavigation:
-  order: 0
-  key: "0"
+  order:
+  key: 
 ---
 <section class="inclusion-list pages">
 
