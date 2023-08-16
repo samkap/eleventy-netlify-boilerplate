@@ -3,8 +3,8 @@ title: Equity & Inclusion
 date: 2022-06-03T00:25:36.464Z
 permalink: /inclusion/
 eleventyNavigation:
-  order:
-  key: 
+  ? order
+  ? key
 ---
 <section class="inclusion-list pages">
 
@@ -28,7 +28,7 @@ This page is a growing resource of thoughts and resources around Equity and Incl
 * [Imbalance of Culture Fits](https://alistapart.com/article/the-imbalance-of-culture-fit) by my friend, Matt Griffin
 * [Textio](https://textio.com/) : Job posting gender leaning test
 * Bookshop’s [Key Books for the Inclusive Leader](https://bookshop.org/lists/key-books-for-the-inclusive-leader)
-* Harvard Business Review has a wide and selection of articles with actions to take related to the workplace, covering topics like assigning work fairly to marginalized team members (https://hbr.org/2018/03/for-women-and-minorities-to-get-ahead-managers-must-assign-work-fairly) and explaining how women of color get assigned more housework (https://hbr.org/2018/04/women-of-color-get-asked-to-do-more-office-housework-heres-how-they-can-say-no) and how to avoid it.
+* Harvard Business Review has a wide and selection of articles with actions to take related to the workplace, covering topics like [assigning work fairly to marginalized team members](https://hbr.org/2018/03/for-women-and-minorities-to-get-ahead-managers-must-assign-work-fairly) and explaining [how women of color get assigned more housework](https://hbr.org/2018/04/women-of-color-get-asked-to-do-more-office-housework-heres-how-they-can-say-no) and how to avoid it.
 
 ## Job boards for inclusive hiring
 
