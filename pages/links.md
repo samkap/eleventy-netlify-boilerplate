@@ -12,6 +12,7 @@ permalink: "/links/"
 - [Buy the book or ebook](https://abookapart.com/products/inclusive-design-communities)
 - [ShopTalk Show episode](https://shoptalkshow.com/539/)
 - [Indeed Design interview](https://indeed.design/article/sam-kapila-small-acts-can-invite-more-voices-into-design-communities)
+- [Work Appropriate 9/6/23](https://crooked.com/podcast/actually-following-through-on-dei-with-sameera-kapila/)
 - [Nathan Smith’s review](https://sonspring.com/journal/inclusive-design-communities/)
 - [Rate or review on Goodreads](https://www.goodreads.com/book/show/62985337-inclusive-design-communities)
 - [I Live Here I Give Here Magazine](https://www.austinmonthly.com/i-live-here-i-give-here-2023/)
