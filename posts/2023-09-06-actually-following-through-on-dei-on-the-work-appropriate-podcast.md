@@ -5,8 +5,9 @@ date: 2023-09-06T16:38:22.015Z
 tags:
   - post
   - inclusion
-  - podcast
-  - idcbook
+  - interviews
+  - inclusive-design-communities
+  - books
 ---
 On this week’s Crooked Media podcast, *Work Appropriate*, I join the incredible [Anne Helen Petersen](https://substack.com/@annehelen) in answering listener questions about actually following through on diversity and inclusion in the workplace. We talk about what action at an anti-racist workplace looks like, adjusting workload for DEI work, how I structured diversity councils under operations (not HR) to make them effective, the importance of external audits, and how senior leaders need to be actively doing the work instead of expecting marginalized employees to do it. These are challenging situations that I know so many are dealing with, so listen to [this episode](https://crooked.com/podcast/actually-following-through-on-dei-with-sameera-kapila/), share Anne’s podcast with others, and submit questions you have!
 
