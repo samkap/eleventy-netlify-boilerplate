@@ -111,7 +111,7 @@ permalink: "/bookmark.html"
 			p_body = p_body + 'tags:\n - clips \n' ;
 			p_body = p_body + 'published: true \n';
 			p_body = p_body + 'cover: /static/img/posts/samkap.png \n';
-			p_body = p_body + 'title: ' + title.replace(/\W+/g, '-') +' \n';
+			p_body = p_body + 'title: ' + title.replace(/[!"#$%&'()*+,-./:;<=>?@[\]^_`{|}~]/g, ' ') +' \n';
 			p_body = p_body + 'date: '+ post_date() +' \n' ;
 			
 			if( link !== '' ){
