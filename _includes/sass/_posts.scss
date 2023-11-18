@@ -16,7 +16,6 @@ body.writing {
       } 
 
       & > span {
-        color: $green-seafoam;
         font-size: $xs-font-size;
         line-height: 1;
         @media screen and (max-width: $max-w-base) {
@@ -69,7 +68,6 @@ body.writing {
 
   time {
     display: block;
-    color: $green-seafoam;
     margin: $base-spacing auto;
   }
 
@@ -98,18 +96,17 @@ body.writing {
 
   a[rel="tag"],
   a[rel="tag"]:visited {
-    background-color: $green-jungle;
-    color: $green-seafoam;
-    border: 2px solid lighten( $green-jungle, 20% );
+    background-color: $green-seafoam;
+    border: 1px solid $green-jungle;
     display: inline-block;
     letter-spacing: .1em;
     line-height: .9;
     margin: 0 .5em .5em 0;
-    border-radius: .6rem;
+    border-radius: .4rem;
     font-family: $sans;
-    font-size: .8rem;
+    font-size: .7rem;
     font-weight: 563;
-    padding: .3rem .5rem;
+    padding: .3rem .4rem;
     text-decoration: none;
     text-transform: uppercase;
   }
@@ -152,7 +149,6 @@ body.writing {
 }
 
 .clips-header {
-  color: $green-seafoam;
   font-family: $serif;
   font-size: $base-font-size;
   text-align: center;

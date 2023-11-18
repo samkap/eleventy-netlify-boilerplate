@@ -5,9 +5,9 @@
 }
 
 body {
-  background-color: $green-jungle;
+  background-color: $green-seafoam;
   -webkit-font-smoothing: antialiased;
-  color: $green-seafoam;
+  color: $green-jungle;
   font-display: auto;
   font-family: $serif;
   font-size: $base-font-size;
@@ -20,9 +20,12 @@ body {
 
 main {
   min-height: 60vh;
-  max-width: 110rem;
-  padding: 2em 4%;
+  max-width: 100rem;
+  padding: 2rem 4%;
   margin: 0 auto;
+  background: white;
+  border: 4px $green-jungle solid;
+
 }
 
 .clearfix:after {
@@ -42,35 +45,20 @@ header {
   justify-content: space-between;
   margin: 0 auto;
   max-width: 110rem;
-  padding: $base-spacing 4% 0 4%;
+  padding: $base-spacing 4%;
   position: relative;
-  
-
-   @media screen and (min-width:48em) {
-
-  }
-
-  .home & {
-    background: $green-jungle;
-    a {
-      color: $green-seafoam;
-    }
-
-    span {
-      display: none;
-    }
-  }
 }
 
 
 .ampersam {
-  width: 60px;
-  height: 62.666664px;
+  fill: $gold;
+  width: 100px;
   max-width: 100%;
   margin-right: 20px;
   display: inline-block;
-  vertical-align: middle;
-  fill: $green-seafoam;
+  vertical-align: bottom;
+  opacity: .92;
+  position: absolute;
 
   &:hover {
     fill: $green-palm2;
@@ -80,11 +68,7 @@ header {
 .logo-container {
   display: flex;
   flex-direction: row;
-  margin-bottom: $base-spacing;
-
-  @media screen and (min-width:48em) {
-    margin-bottom: 0;
-  }
+  margin-bottom: 0;
 }
 
 hr {
@@ -114,8 +98,9 @@ nav {
 
   a {
     border-radius: 4px;
-    color: $green-seafoam;
+    color: $green-jungle;
     font-size: $xs-font-size;
+    font-weight: 600;
     letter-spacing: 2px;
     overflow: hidden;
     position: relative;
@@ -135,33 +120,12 @@ nav {
 }
 
 footer {
-  background: $green-seafoam;
   color: $green-jungle;
   font-family: $sans;
   font-size: 1rem;
   font-weight: 600;
   text-align: center;
   position: relative;
-
-  &::after {
-    content: '';
-    position: absolute;
-    display: block;
-    height: 7px;
-    width: 100%;
-    margin: 0 auto;
-    background: $green-seafoam;
-    background: repeating-linear-gradient(
-      -45deg,
-      $green-seafoam,
-      $green-seafoam 4px,
-      transparent 2px,
-      transparent 7px
-    );
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    border-bottom: 0;
-  }
 
   .inner {
     margin: 0 auto;
@@ -171,7 +135,7 @@ footer {
 
   a {
     color: $green-jungle;
-    text-decoration-color: $green-jungle;
+    text-decoration-color: $gold;
   }
 
   span {

@@ -1,12 +1,11 @@
 .home {
-    background-color: $green-jungle;
+    
 
   .greeting h1 {
-    color: $green-seafoam;
     font-family: $serif;
     font-size: $medium-font-size;
     font-variation-settings: "opsz" 72;
-    font-weight: 200;
+    font-weight: 300;
     line-height: 1.3;
     margin-bottom: $base-spacing;
     margin: 0 auto;
@@ -29,7 +28,6 @@
     }
 
     h2 {
-      color: $green-seafoam;
       font-family: $sans;
       font-size: $s-font-size;
       font-weight: 800;
@@ -56,10 +54,6 @@
       grid-template-columns: repeat(3, 1fr);
     }
 
-    li {
-        color: $green-seafoam;
-    }
-
    article {
     margin-bottom: $base-spacing;
     
@@ -81,7 +75,6 @@
     }
 
     time {
-      color: $green-seafoam;
       display: block;
       font-size: $s-font-size;
     }
@@ -104,7 +97,6 @@
     }
 
     h2 {
-      color: $green-seafoam;
       font-family: $sans;
       font-size: $s-font-size;
       font-weight: 800;
@@ -132,7 +124,6 @@
     }
 
     li {
-        color: $green-seafoam;
       // &:nth-child(2){
       //   background-color: white;
       //   color: $green-jungle;
@@ -173,6 +164,7 @@
   }
 
 .book-main {
+  background-color: $aqua;
   display: flex;
   flex-direction: column;
   gap: 20px;

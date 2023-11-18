@@ -2,12 +2,12 @@
   "title": "Sameera Kapila",
   "url": "https://samkapila.com",
   "language": "en",
-  "description": "Sameera Kapila is a Staff Product Designer, speaker, author of Inclusive Design Communities.",
+  "description": "Sameera Kapila is a Staff Product Designer, speaker, and author of Inclusive Design Communities.",
   "image": "/static/img/posts/samkap.png",
   "repo": "samkap/samkap-11ty",
   "branch": "main",
   "feed": {
-    "subtitle": "Sameera Kapila is a Staff Product Designer, speaker, author of Inclusive Design Communities.",
+    "subtitle": "Sameera Kapila is a Staff Product Designer, speaker, and author of Inclusive Design Communities.",
     "filename": "feed.xml",
     "path": "/feed.xml",
     "id": "https://samkapila.com"

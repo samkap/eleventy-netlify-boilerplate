@@ -1,8 +1,6 @@
 .about {
-  background-color: $green-jungle;
 
   h2 {
-    color: $green-seafoam;
     font-family: $serif;
     font-style: italic;
     font-weight: 300;
@@ -16,7 +14,6 @@
     display: flex;
     flex-direction: row;
     gap: $large-spacing;
-    color: $green-seafoam;
   }
 
   p {
@@ -40,7 +37,6 @@
 
 .about-select{
   ul {
-    color: $green-seafoam;
     margin-top: $s-font-size;
     padding-left: 0;
   }
