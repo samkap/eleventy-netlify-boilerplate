@@ -85,7 +85,7 @@ permalink: "/bookmark.html"
 			if (!title) {
 				filename = filename + '-' + +d.getTime() ;
 			} else {
-				var slugified = title.toLowerCase().replace(/\W+/g, '-') ;
+				var slugified = title.toLowerCase().replace(/[\.,?!:|]/g, '-') ;
 				if (slugified!='-') {
 					filename = filename + '-' + slugified ;
 				} else {
