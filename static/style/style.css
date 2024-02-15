@@ -1,6 +1,5 @@
 @charset "UTF-8";
-/* ********************global********************* */
-/* https://meyerweb.com/eric/tools/css/reset/
+/* ********************global********************* */ /* https://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -79,8 +78,6 @@ main {
   max-width: 100rem;
   padding: 2rem 4%;
   margin: 0 auto;
-  background: white;
-  border: 4px rgb(11, 53, 44) solid;
 }
 
 .clearfix:after {
@@ -93,6 +90,9 @@ main {
 }
 
 header {
+  background: white;
+  border-bottom: 4px rgb(11, 53, 44) solid;
+  border-top: 4px rgb(11, 53, 44) solid;
   align-content: space-between;
   display: flex;
   flex-direction: row;
@@ -106,7 +106,7 @@ header {
 
 .ampersam {
   fill: rgb(184, 138, 71);
-  width: 100px;
+  width: 50px;
   max-width: 100%;
   margin-right: 20px;
   display: inline-block;
@@ -115,7 +115,7 @@ header {
   position: absolute;
 }
 .ampersam:hover {
-  fill: rgb(140, 238, 59);
+  fill: rgb(11, 53, 44);
 }
 
 .logo-container {
@@ -126,7 +126,7 @@ header {
 
 hr {
   border: none;
-  background-color: rgb(140, 238, 59);
+  background-color: rgb(184, 138, 71);
   margin: 2em auto;
   width: 40%;
   height: 3px;
@@ -157,13 +157,9 @@ nav a {
   text-decoration: none;
   text-transform: uppercase;
 }
-nav a:hover {
-  color: rgb(140, 238, 59);
-  text-decoration: solid underline rgb(140, 238, 59) 2px;
-}
-nav a[data-current="current item"] {
-  color: rgb(219, 232, 232);
-  text-decoration: solid underline rgb(140, 238, 59) 2px;
+nav a:hover, nav a[data-current="current item"] {
+  color: rgb(171, 72, 47);
+  text-decoration: solid underline rgb(171, 72, 47) 2px;
 }
 
 footer {
@@ -424,23 +420,20 @@ small a {
 
 @media all and (min-width: 680px) {
   .subtitle,
-form,
-ol,
-p,
-pre,
-ul {
+  form,
+  ol,
+  p,
+  pre,
+  ul {
     margin: 20px 0;
   }
-
   .Posts p {
     margin-top: 0;
   }
-
   article::after,
-header::after {
+  header::after {
     margin: 70px;
   }
-
   blockquote p {
     margin: 0;
   }
@@ -555,7 +548,6 @@ object {
   .img-only {
     margin: 0 -30px;
   }
-
   .img-only-source {
     margin: 0 -30px;
   }
@@ -627,11 +619,13 @@ object {
 }
 
 .recent-posts {
-  padding: 1.7rem 0;
+  background-color: white;
+  border: 4px rgb(11, 53, 44) solid;
+  padding: 1.7rem;
 }
 @media screen and (min-width: 1060px) {
   .recent-posts {
-    padding: 1.7rem 6.8rem;
+    padding: 1.7rem 3.4rem;
   }
 }
 .recent-posts h2 {
@@ -650,14 +644,14 @@ object {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  gap: 20px 90px;
+  gap: 0 40px;
 }
 @media screen and (min-width: 52rem) {
   .recent-posts ul, .recent-posts ol {
     grid-template-columns: repeat(2, 1fr);
   }
 }
-@media screen and (min-width: 1060px) {
+@media screen and (min-width: 1260px) {
   .recent-posts ul, .recent-posts ol {
     grid-template-columns: repeat(3, 1fr);
   }
@@ -755,7 +749,6 @@ object {
 }
 
 .book-main {
-  background-color: rgb(59, 117, 124);
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -830,7 +823,7 @@ object {
   width: 300px;
 }
 .book-main .book-caption {
-  color: rgb(219, 232, 232);
+  color: rgb(11, 53, 44);
   font-size: 1.5rem;
   margin: 0.4rem auto 0 auto;
   max-width: 500px;
@@ -1005,15 +998,11 @@ body.writing .post-list li a {
   padding-left: 0;
 }
 .about-select li {
-  font-family: Manrope;
   font-size: 1.2rem;
-  font-weight: 200;
+  font-weight: 300;
   line-height: 1.5;
   list-style-type: none;
   margin-bottom: 1.7rem;
-}
-.about-select li a {
-  font-weight: 200;
 }
 @media screen and (min-width: 52rem) {
   .about-select {

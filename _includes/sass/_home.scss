@@ -21,10 +21,12 @@
 }
 
   .recent-posts {
-    padding: $base-spacing 0;
+    background-color: white;
+    border: 4px $green-jungle solid;
+    padding: $base-spacing;
 
     @media screen and (min-width: 1060px) {
-      padding: $base-spacing $xx-large-spacing;
+      padding: $base-spacing $large-spacing;
     }
 
     h2 {
@@ -44,13 +46,13 @@
       list-style-type: none;
       margin: 0;
       padding: 0;
-      gap: 20px 90px;
+      gap: 0 40px;
   
    @media screen and (min-width: $max-w-base) {
       grid-template-columns: repeat(2, 1fr);
     }
 
-    @media screen and (min-width: 1060px) {
+    @media screen and (min-width: 1260px) {
       grid-template-columns: repeat(3, 1fr);
     }
 
@@ -164,7 +166,6 @@
   }
 
 .book-main {
-  background-color: $aqua;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -240,7 +241,7 @@
   }
 
   .book-caption {
-    color: $green-seafoam;
+    color: $green-jungle;
     font-size: $base-font-size;
     margin: $x-small-spacing auto 0 auto;
     max-width: 500px;
