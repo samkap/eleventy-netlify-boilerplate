@@ -2,17 +2,18 @@
 title: Inclusive Design Communities, the book
 date: 2022-08-20T00:25:36.464Z
 layout: layouts/book.njk
-permalink: /idc-book/
+permalink: /books/
 eleventyNavigation:
   key: Book
   order: "2"
 ---
 ## Where to buy Inclusive Design Communities
 
-* [A Book Apart](https://abookapart.com/products/inclusive-design-communities) (paperback or ebook
-* [Amazon](https://a.co/d/6MMG9iB) (paperback)
+* [Bookshop](https://bookshop.org/p/books/inclusive-design-communities-sameera-kapila/20097134?ean=9781952616150) (paperback, supports local bookstores and is preferred)
+* [Amazon](https://a.co/d/6MMG9iB) (paperback or Kindle)
 * [Apple Books](https://books.apple.com/us/book/inclusive-design-communities/id6443681832) (ebook)
 * [Barnes & Noble](https://www.barnesandnoble.com/w/inclusive-design-communities-sameera-kapila/1143509099?ean=9781952616150) (paperback)
+* 
 
 
 
