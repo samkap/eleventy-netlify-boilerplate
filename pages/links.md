@@ -9,7 +9,7 @@ permalink: "/links/"
 # Links for @samkap
 
 ## 📘 Inclusive Design Communities
-- [Buy the book or ebook](https://bookshop.org/p/books/inclusive-design-communities-sameera-kapila/20097134?ean=9781952616150)
+- [Buy the book or ebook](https://samkapila.com/books/)
 - [ShopTalk Show episode](https://shoptalkshow.com/539/)
 - [Indeed Design interview](https://indeed.design/article/sam-kapila-small-acts-can-invite-more-voices-into-design-communities)
 - [Work Appropriate 9/6/23](https://crooked.com/podcast/actually-following-through-on-dei-with-sameera-kapila/)
